@@ -1,0 +1,9 @@
+
+.outcome-dialog-out { animation: .3s forwards outcome-dialog-out; }
+.outcome-dialog-in { animation: .3s forwards outcome-dialog-in; }
+@keyframes outcome-dialog-out { from { transform: scaleY(1); } to { transform: scaleY(0); }}
+@keyframes outcome-dialog-in { from { transform: scaleY(0); } to { transform: scaleY(1); }}
+
+.outcome-dialog-button {
+    background-color: gold !important;
+}

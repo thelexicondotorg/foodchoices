@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",    
+    "lib": [
+      "dom",
+      "es6",
+      "es2017.object" // Object.values, Object.entries
+    ],  
+    "module": "commonjs", 
+    "jsx": "react",       
+    "sourceMap": true,    
+    "outDir": "dist",     
+    "rootDir": "src",     
+    "incremental": true,  
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

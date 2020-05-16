@@ -1,0 +1,2354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="35.277733mm"
+   height="21.081608mm"
+   viewBox="0 0 35.277733 21.08161"
+   version="1.1"
+   id="svg17401"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="4.svg">
+  <defs
+     id="defs17395">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5487">
+      <path
+         d="m 112.131,347.696 h 11.131 v -7.345 h -11.131 z"
+         id="path5485"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5471">
+      <path
+         d="m 123.403,341.897 h 0.903 v -1.163 h -0.903 z"
+         id="path5469"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5447">
+      <path
+         d="m 85.9383,337.107 h 11.131 v -7.345 h -11.131 z"
+         id="path5445"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5431">
+      <path
+         d="m 97.21,331.308 h 0.9027 v -1.163 H 97.21 Z"
+         id="path5429"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5403">
+      <path
+         d="m 105.114,339.614 h 3.261 v -2.875 h -3.261 z"
+         id="path5401"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5383">
+      <path
+         d="m 104.38,333.188 h 3.261 v -2.876 h -3.261 z"
+         id="path5381"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5363">
+      <path
+         d="m 94.9388,333.944 h 3.2614 v -2.875 h -3.2614 z"
+         id="path5361"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5343">
+      <path
+         d="m 90.0953,338.693 h 3.2614 v -2.875 h -3.2614 z"
+         id="path5341"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5323">
+      <path
+         d="m 85.6863,332.985 h 3.2614 v -2.876 h -3.2614 z"
+         id="path5321"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5303">
+      <path
+         d="m 81.061,335.906 h 3.2614 v -2.875 H 81.061 Z"
+         id="path5301"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5283">
+      <path
+         d="m 120.994,343.01 h 3.262 v -2.876 h -3.262 z"
+         id="path5281"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5263">
+      <path
+         d="m 97.4179,346.618 h 3.2611 v -2.876 h -3.2611 z"
+         id="path5261"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5183">
+      <path
+         d="m 88.28,341.033 h 38.007 V 328.56 H 88.28 Z"
+         id="path5181"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5115">
+      <path
+         d="M 96.9542,344.346 H 118.425 V 332.217 H 96.9542 Z"
+         id="path5113"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5091">
+      <path
+         d="m 111.526,350.956 h 10.443 v -6.161 h -10.443 z"
+         id="path5089"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5067">
+      <path
+         d="m 110.473,366.758 h 11.467 v -18.74 h -11.467 z"
+         id="path5065"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5043">
+      <path
+         d="m 117.245,357.481 h 19.198 v -11.326 h -19.198 z"
+         id="path5041"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12371">
+      <path
+         d="m 62.1685,191.508 h 3.706 v -8.634 h -3.706 z"
+         id="path12369"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12355">
+      <path
+         d="m 73.9758,186.955 h 5.3786 v -8.766 h -5.3786 z"
+         id="path12353"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12339">
+      <path
+         d="m 87.1267,185.599 h 4.8231 v -8.162 h -4.8231 z"
+         id="path12337"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12227">
+      <path
+         d="m 89.7983,202.017 h 3.7059 v -8.634 h -3.7059 z"
+         id="path12225"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12211">
+      <path
+         d="m 101.606,197.464 h 5.378 v -8.766 h -5.378 z"
+         id="path12209"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12195">
+      <path
+         d="m 114.756,196.108 h 4.824 v -8.162 h -4.824 z"
+         id="path12193"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6819">
+      <path
+         d="m 332.535,570.609 h 3.753 v -5.996 h -3.753 z"
+         id="path6817"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6799">
+      <path
+         d="m 320.575,571.905 h 0.643 v -5.624 h -0.643 z"
+         id="path6797"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath6775">
+      <path
+         d="m 320.901,573.048 h 15.387 v -2.632 h -15.387 z"
+         id="path6773"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8495">
+      <path
+         d="m 383.757,423.746 h 2.292 v -1.709 h -2.292 z"
+         id="path8493"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8479">
+      <path
+         d="m 386.117,422.783 h 0.436 v -0.561 h -0.436 z"
+         id="path8477"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8455">
+      <path
+         d="m 373.765,418.983 h 2.293 v -1.709 h -2.293 z"
+         id="path8453"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8439">
+      <path
+         d="m 376.126,418.02 h 0.436 v -0.562 h -0.436 z"
+         id="path8437"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8415">
+      <path
+         d="m 344.085,405.101 h 2.292 v -1.709 h -2.292 z"
+         id="path8413"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8399">
+      <path
+         d="m 343.581,404.138 h 0.436 v -0.561 h -0.436 z"
+         id="path8397"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8375">
+      <path
+         d="m 368.504,404.707 h 2.293 v -1.709 h -2.293 z"
+         id="path8373"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8359">
+      <path
+         d="m 368,403.744 h 0.436 v -0.562 H 368 Z"
+         id="path8357"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8335">
+      <path
+         d="m 338.407,417.838 h 2.293 v -1.709 h -2.293 z"
+         id="path8333"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8319">
+      <path
+         d="m 340.768,416.876 h 0.436 v -0.562 h -0.436 z"
+         id="path8317"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8247">
+      <path
+         d="m 352.955,423.847 h 6.591 v -8.608 h -6.591 z"
+         id="path8245"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8227">
+      <path
+         d="m 358.14,425.677 h 9.112 v -8.42 h -9.112 z"
+         id="path8225"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7955">
+      <path
+         d="m 319.156,433.512 h 70.342 v -31.627 h -70.342 z"
+         id="path7953"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7843">
+      <path
+         d="m 340.262,413.684 h 2.494 v -3.525 h -2.494 z"
+         id="path7841"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7711">
+      <path
+         d="m 314.393,438.577 h 84.798 v -34.228 h -84.798 z"
+         id="path7709"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7563">
+      <path
+         d="m 366.928,419.763 h 2.494 v -3.525 h -2.494 z"
+         id="path7561"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath7503">
+      <path
+         d="m 351.904,407.795 h 2.493 v -3.525 h -2.493 z"
+         id="path7501"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9539">
+      <path
+         d="m 330.169,333.642 h 6.591 v -8.608 h -6.591 z"
+         id="path9537"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9519">
+      <path
+         d="m 335.353,335.471 h 9.112 v -8.419 h -9.112 z"
+         id="path9517"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9499">
+      <path
+         d="m 357.954,316.306 h 6.591 v -8.608 h -6.591 z"
+         id="path9497"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9479">
+      <path
+         d="m 363.139,318.135 h 9.112 v -8.42 h -9.112 z"
+         id="path9477"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8891">
+      <path
+         d="m 314.469,324.096 h 82.063 v -29.549 h -82.063 z"
+         id="path8889"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8859">
+      <path
+         d="m 314.14,339.279 h 76.973 V 297.658 H 314.14 Z"
+         id="path8857"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8807">
+      <path
+         d="m 369.118,304.476 h 26.785 v -15.931 h -26.785 z"
+         id="path8805"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8771">
+      <path
+         d="m 363.427,294.236 h 8.13 v -3.977 h -8.13 z"
+         id="path8769"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8755">
+      <path
+         d="m 316.982,322.128 h 50.13 v -29.845 h -50.13 z"
+         id="path8753"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8735">
+      <path
+         d="m 311.077,318.252 h 86.445 v -35.021 h -86.445 z"
+         id="path8733"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8699">
+      <path
+         d="m 314.469,307.8 h 82.063 v -29.549 h -82.063 z"
+         id="path8697"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8547">
+      <path
+         d="m 316.149,314.215 h 50.13 V 284.37 h -50.13 z"
+         id="path8545"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8531">
+      <path
+         d="m 369.118,296.51 h 26.785 v -15.931 h -26.785 z"
+         id="path8529"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12707">
+      <path
+         d="m 345.252,189.514 h 1.198 v -1.134 h -1.198 z"
+         id="path12705"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12691">
+      <path
+         d="m 350.825,185.908 h 1.44 v -0.888 h -1.44 z"
+         id="path12689"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12675">
+      <path
+         d="m 355.846,183.2 h 0.729 v -1.503 h -0.729 z"
+         id="path12673"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12651">
+      <path
+         d="m 347.866,188.742 h 0.729 v -1.503 h -0.729 z"
+         id="path12649"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12611">
+      <path
+         d="m 365.119,185.536 h 1.436 v -1.031 h -1.436 z"
+         id="path12609"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12595">
+      <path
+         d="m 377.982,192.928 h 1.436 v -1.031 h -1.436 z"
+         id="path12593"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12579">
+      <path
+         d="m 384.413,196.496 h 1.272 v -1.011 h -1.272 z"
+         id="path12577"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12563">
+      <path
+         d="m 370.375,188.819 h 1.272 v -1.011 h -1.272 z"
+         id="path12561"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12547">
+      <path
+         d="m 360.454,183.951 h 0.994 v -1.46 h -0.994 z"
+         id="path12545"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12099">
+      <path
+         d="m 587.171,578.216 h 3.479 v -4.543 h -3.479 z"
+         id="path12097"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12079">
+      <path
+         d="m 589.908,579.182 h 4.809 v -4.444 h -4.809 z"
+         id="path12077"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12051">
+      <path
+         d="m 567.5,569.627 h 9.651 v -5.573 H 567.5 Z"
+         id="path12049"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath12023">
+      <path
+         d="m 567.404,572.664 h 9.651 v -5.573 h -9.651 z"
+         id="path12021"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11995">
+      <path
+         d="m 562.48,571.967 h 9.651 v -5.572 h -9.651 z"
+         id="path11993"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11835">
+      <path
+         d="m 584.204,591.501 h 18.863 v -9.149 h -18.863 z"
+         id="path11833"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11807">
+      <path
+         d="m 591.467,573.996 h 17.872 v -5.65 h -17.872 z"
+         id="path11805"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11771">
+      <path
+         d="m 586.97,577.093 h 16.785 v -11.69 H 586.97 Z"
+         id="path11769"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11727">
+      <path
+         d="m 588.593,489.805 h 4.598 V 483.8 h -4.598 z"
+         id="path11725"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath11707">
+      <path
+         d="m 592.21,491.082 h 6.356 v -5.874 h -6.356 z"
+         id="path11705"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16427">
+      <path
+         d="m 580.082,367.618 h 52.901 v -27.662 h -52.901 z"
+         id="path16425"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10347">
+      <path
+         d="m 569.766,252.646 h 6.591 v -8.608 h -6.591 z"
+         id="path10345"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10327">
+      <path
+         d="m 574.95,254.475 h 9.112 v -8.42 h -9.112 z"
+         id="path10325"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10135">
+      <path
+         d="m 555.15,241.068 h 15.215 V 229.106 H 555.15 Z"
+         id="path10133"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10111">
+      <path
+         d="m 573.649,257.522 h 9.428 v -6.221 h -9.428 z"
+         id="path10109"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10095">
+      <path
+         d="m 583.196,252.61 h 0.765 v -0.985 h -0.765 z"
+         id="path10093"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10071">
+      <path
+         d="m 563.823,228.026 h 9.428 v -6.221 h -9.428 z"
+         id="path10069"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath10055">
+      <path
+         d="m 573.37,223.114 h 0.765 v -0.986 h -0.765 z"
+         id="path10053"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9971">
+      <path
+         d="m 533.088,255.645 h 80.758 v -33.503 h -80.758 z"
+         id="path9969"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9919">
+      <path
+         d="M 562.185,249.579 H 605.62 V 233.002 H 562.185 Z"
+         id="path9917"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14943">
+      <path
+         d="M 69.0377,71.2108 H 124.466 V 25.7164 H 69.0377 Z"
+         id="path14941"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14743">
+      <path
+         d="m 127.536,64.1409 h 14.552 v -8.6792 h -14.552 z"
+         id="path14741"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14631">
+      <path
+         d="m 116.277,62.2568 h 21.666 V 49.7475 h -21.666 z"
+         id="path14629"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14535">
+      <path
+         d="M 92.9422,63.3729 H 113.378 V 51.3367 H 92.9422 Z"
+         id="path14533"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14447">
+      <path
+         d="m 100.148,60.6539 h 21.667 V 48.1445 h -21.667 z"
+         id="path14445"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14419">
+      <path
+         d="M 94.2606,71.2959 H 139.844 V 44.9782 H 94.2606 Z"
+         id="path14417"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14379">
+      <path
+         d="m 106.18,92.5789 h 55.297 V 47.0846 H 106.18 Z"
+         id="path14377"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14355">
+      <path
+         d="m 57.2182,117.695 h 6.8968 v -4.717 h -6.8968 z"
+         id="path14353"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14291">
+      <path
+         d="m 61.9615,82.4935 h 0.0467 v -0.0102 h -0.0467 z"
+         id="path14289"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14275">
+      <path
+         d="m 64.1147,83.0861 h 3e-4 v -1e-4 h -3e-4 z"
+         id="path14273"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14259">
+      <path
+         d="m 62.9992,82.791 h 0.1642 v -0.0469 h -0.1642 z"
+         id="path14257"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14243">
+      <path
+         d="m 61.9615,78.4798 h 0.0467 v -0.0102 h -0.0467 z"
+         id="path14241"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14227">
+      <path
+         d="M 59.7637,114.151 H 64.115 V 82.4833 h -4.3513 z"
+         id="path14225"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14211">
+      <path
+         d="m 64.1147,79.0724 h 3e-4 v -1e-4 h -3e-4 z"
+         id="path14209"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14195">
+      <path
+         d="m 62.9992,78.7774 h 0.1642 v -0.0469 h -0.1642 z"
+         id="path14193"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14175">
+      <path
+         d="m 41.4607,87.7847 h 30.05 v -9.9114 h -30.05 z"
+         id="path14173"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14159">
+      <path
+         d="M 41.4618,124.384 H 71.5097 V 112.657 H 41.4618 Z"
+         id="path14157"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14011">
+      <path
+         d="m 359.65,100.374 h 4.629 v -6.0469 h -4.629 z"
+         id="path14009"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13991">
+      <path
+         d="m 363.291,101.659 h 6.401 v -5.9146 h -6.401 z"
+         id="path13989"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13867">
+      <path
+         d="m 354.819,70.5437 h 3.754 v -5.9959 h -3.754 z"
+         id="path13865"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13847">
+      <path
+         d="m 342.86,71.8399 h 0.643 v -5.6246 h -0.643 z"
+         id="path13845"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13823">
+      <path
+         d="m 343.186,72.9825 h 15.387 v -2.6319 h -15.387 z"
+         id="path13821"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16275">
+      <path
+         d="m 550.356,131.039 h 55.229 v -21.874 h -55.229 z"
+         id="path16273"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16259">
+      <path
+         d="m 562.803,119.741 h 1.229 v -4.814 h -1.229 z"
+         id="path16257"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16243">
+      <path
+         d="m 582.222,126.649 h 1.534 v -5.692 h -1.534 z"
+         id="path16241"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16203">
+      <path
+         d="m 534.379,136.303 h 55.229 v -21.874 h -55.229 z"
+         id="path16201"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16187">
+      <path
+         d="m 575.932,125.006 h 1.228 v -4.815 h -1.228 z"
+         id="path16185"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16171">
+      <path
+         d="m 556.207,131.913 h 1.535 v -5.692 h -1.535 z"
+         id="path16169"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16055">
+      <path
+         d="m 635.322,91.7565 h 2.814 v -3.675 h -2.814 z"
+         id="path16053"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16035">
+      <path
+         d="m 637.535,92.5375 h 3.891 v -3.5946 h -3.891 z"
+         id="path16033"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15979">
+      <path
+         d="m 653.958,92.1208 h 1.808 V 89.564 h -1.808 z"
+         id="path15977"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15919">
+      <path
+         d="m 644.72,88.315 h 2.335 v -3.3008 h -2.335 z"
+         id="path15917"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15851">
+      <path
+         d="m 619.726,97.9223 h 2.933 v -2.4522 h -2.933 z"
+         id="path15849"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15831">
+      <path
+         d="m 616.209,89.5053 h 2.933 v -2.4522 h -2.933 z"
+         id="path15829"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15811">
+      <path
+         d="m 632.098,99.1857 h 2.932 v -2.4522 h -2.932 z"
+         id="path15809"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15791">
+      <path
+         d="m 644.431,98.6935 h 2.932 v -2.4522 h -2.932 z"
+         id="path15789"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15771">
+      <path
+         d="m 655.844,84.6167 h 2.932 v -2.4522 h -2.932 z"
+         id="path15769"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15751">
+      <path
+         d="m 656.479,93.3813 h 1.662 v -1.2397 h -1.662 z"
+         id="path15749"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15735">
+      <path
+         d="m 658.191,92.6831 h 0.316 v -0.4075 h -0.316 z"
+         id="path15733"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15711">
+      <path
+         d="m 649.231,89.9264 h 1.663 v -1.2397 h -1.663 z"
+         id="path15709"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15695">
+      <path
+         d="m 650.943,89.2282 h 0.317 v -0.4075 h -0.317 z"
+         id="path15693"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15671">
+      <path
+         d="m 627.703,79.8575 h 1.663 v -1.2397 h -1.663 z"
+         id="path15669"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15655">
+      <path
+         d="m 627.337,79.1593 h 0.317 v -0.4075 h -0.317 z"
+         id="path15653"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15631">
+      <path
+         d="m 645.415,79.5715 h 1.663 v -1.2397 h -1.663 z"
+         id="path15629"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15615">
+      <path
+         d="m 645.05,78.8733 h 0.316 v -0.4075 h -0.316 z"
+         id="path15613"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15591">
+      <path
+         d="m 623.585,89.0962 h 1.663 v -1.2397 h -1.663 z"
+         id="path15589"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15575">
+      <path
+         d="m 625.297,88.398 h 0.317 v -0.4075 h -0.317 z"
+         id="path15573"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15271">
+      <path
+         d="m 609.622,100.465 h 51.021 v -22.94 h -51.021 z"
+         id="path15269"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15183">
+      <path
+         d="m 624.931,86.083 h 1.808 v -2.5568 h -1.808 z"
+         id="path15181"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15131">
+      <path
+         d="m 606.167,104.139 h 61.507 V 79.3121 h -61.507 z"
+         id="path15129"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath15055">
+      <path
+         d="m 620.621,83.0166 h 1.734 v -2.4515 h -1.734 z"
+         id="path15053"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath14995">
+      <path
+         d="m 638.631,96.7218 h 1.809 V 94.165 h -1.809 z"
+         id="path14993"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38812">
+      <path
+         d="m 134.776,646.33 h 2.293 v -1.709 h -2.293 z"
+         id="path38810"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38796">
+      <path
+         d="m 137.137,645.367 h 0.436 v -0.562 h -0.436 z"
+         id="path38794"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38772">
+      <path
+         d="m 124.785,641.567 h 2.292 v -1.71 h -2.292 z"
+         id="path38770"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38756">
+      <path
+         d="m 127.145,640.604 h 0.436 v -0.562 h -0.436 z"
+         id="path38754"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38732">
+      <path
+         d="m 95.1043,627.685 h 2.2925 v -1.709 h -2.2925 z"
+         id="path38730"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38716">
+      <path
+         d="m 94.6002,626.722 h 0.4361 v -0.561 h -0.4361 z"
+         id="path38714"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38692">
+      <path
+         d="m 119.524,627.291 h 2.292 v -1.71 h -2.292 z"
+         id="path38690"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38676">
+      <path
+         d="m 119.02,626.328 h 0.436 v -0.562 h -0.436 z"
+         id="path38674"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38652">
+      <path
+         d="m 89.427,640.422 h 2.2925 v -1.709 H 89.427 Z"
+         id="path38650"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38636">
+      <path
+         d="m 91.7875,639.46 h 0.4361 v -0.562 h -0.4361 z"
+         id="path38634"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38584">
+      <path
+         d="m 103.975,646.431 h 6.591 v -8.608 h -6.591 z"
+         id="path38582"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38564">
+      <path
+         d="m 109.16,648.261 h 9.112 v -8.42 h -9.112 z"
+         id="path38562"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38292">
+      <path
+         d="M 70.1756,656.096 H 140.518 V 624.469 H 70.1756 Z"
+         id="path38290"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38204">
+      <path
+         d="m 91.2821,636.268 h 2.4935 v -3.525 h -2.4935 z"
+         id="path38202"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38152">
+      <path
+         d="M 65.4129,661.161 H 150.211 V 626.933 H 65.4129 Z"
+         id="path38150"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38076">
+      <path
+         d="m 109.449,638.701 h 3.872 v -5.473 h -3.872 z"
+         id="path38074"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38016">
+      <path
+         d="m 117.948,642.347 h 2.494 v -3.525 h -2.494 z"
+         id="path38014"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37956">
+      <path
+         d="m 102.923,630.379 h 2.494 v -3.525 h -2.494 z"
+         id="path37954"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37896">
+      <path
+         d="m 121.305,638.205 h 3.871 v -5.473 h -3.871 z"
+         id="path37894"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36824">
+      <path
+         d="m 104.581,545.61 h 2.006 v -0.931 h -2.006 z"
+         id="path36822"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36804">
+      <path
+         d="m 103.683,543.645 h 10.236 v -7.868 h -10.236 z"
+         id="path36802"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42876">
+      <path
+         d="m 142.256,382.986 h 27.835 v -15.724 h -27.835 z"
+         id="path42874"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39364">
+      <path
+         d="m 61.8895,422.273 h 3.1775 v -1.835 h -3.1775 z"
+         id="path39362"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39348">
+      <path
+         d="m 68.1255,425.167 h 3.1775 v -1.835 h -3.1775 z"
+         id="path39346"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39328">
+      <path
+         d="m 91.4025,428.918 h 2.2469 v -1.297 h -2.2469 z"
+         id="path39326"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39312">
+      <path
+         d="m 90.3038,405.8 h 3.1886 v -1.841 h -3.1886 z"
+         id="path39310"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39296">
+      <path
+         d="m 108.921,422.004 h 2.247 v -1.297 h -2.247 z"
+         id="path39294"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39280">
+      <path
+         d="m 85.3306,418.053 h 2.2469 v -1.297 h -2.2469 z"
+         id="path39278"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39264">
+      <path
+         d="m 68.1255,411.888 h 2.2468 v -1.297 h -2.2468 z"
+         id="path39262"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39248">
+      <path
+         d="m 83.4793,415.839 h 2.2468 v -1.297 h -2.2468 z"
+         id="path39246"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39232">
+      <path
+         d="m 89.2899,418.322 h 3.1775 v -1.835 h -3.1775 z"
+         id="path39230"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39124">
+      <path
+         d="m 87.7011,431.899 h 3.1775 v -1.835 h -3.1775 z"
+         id="path39122"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39108">
+      <path
+         d="m 86.5621,427.288 h 3.1775 v -1.834 h -3.1775 z"
+         id="path39106"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39092">
+      <path
+         d="m 99.1248,405.045 h 4.5092 v -2.603 h -4.5092 z"
+         id="path39090"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39076">
+      <path
+         d="m 105.03,418.322 h 3.178 v -1.835 h -3.178 z"
+         id="path39074"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39060">
+      <path
+         d="m 111.168,419.752 h 3.177 v -1.835 h -3.177 z"
+         id="path39058"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39044">
+      <path
+         d="m 69.2489,408.455 h 3.1775 v -1.835 h -3.1775 z"
+         id="path39042"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39024">
+      <path
+         d="m 100.332,423.923 h 19.425 v -11.215 h -19.425 z"
+         id="path39022"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39000">
+      <path
+         d="M 82.8443,433.081 H 102.269 V 421.866 H 82.8443 Z"
+         id="path38998"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38976">
+      <path
+         d="M 60.0019,427.61 H 79.4266 V 416.395 H 60.0019 Z"
+         id="path38974"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38952">
+      <path
+         d="M 63.0541,414.439 H 82.4789 V 403.224 H 63.0541 Z"
+         id="path38950"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38928">
+      <path
+         d="M 88.5898,410.487 H 108.014 V 399.272 H 88.5898 Z"
+         id="path38926"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38904">
+      <path
+         d="m 80.267,419.508 h 13.6875 v -7.903 H 80.267 Z"
+         id="path38902"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38884">
+      <path
+         d="m 54.723,435.875 h 65.683 V 397.493 H 54.723 Z"
+         id="path38882"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38868">
+      <path
+         d="m 54.723,435.875 h 65.683 V 397.493 H 54.723 Z"
+         id="path38866"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath38840">
+      <path
+         d="M 49.2348,437.01 H 127.067 V 392.074 H 49.2348 Z"
+         id="path38838"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36560">
+      <path
+         d="m 384.534,529.221 h 5.607 v -2.833 h -5.607 z"
+         id="path36558"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36536">
+      <path
+         d="m 388.212,531.635 h 5.578 v -3.101 h -5.578 z"
+         id="path36534"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36512">
+      <path
+         d="m 386.86,533.361 h 5.652 v -2.444 h -5.652 z"
+         id="path36510"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36488">
+      <path
+         d="m 375.545,531.83 h 5.578 v -3.101 h -5.578 z"
+         id="path36486"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36464">
+      <path
+         d="m 377.513,537.13 h 4.851 v -4.724 h -4.851 z"
+         id="path36462"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36440">
+      <path
+         d="m 381.123,532.407 h 4.852 v -4.723 h -4.852 z"
+         id="path36438"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36416">
+      <path
+         d="m 381.76,535.041 h 5.578 v -3.101 h -5.578 z"
+         id="path36414"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath36328">
+      <path
+         d="m 359.04,516.577 h 25.101 v -9.565 H 359.04 Z"
+         id="path36326"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath41128">
+      <path
+         d="m 347.716,416.548 h 1.306 v -1.445 h -1.306 z"
+         id="path41126"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath41100">
+      <path
+         d="m 322.004,427.5 h 1.307 v -1.445 h -1.307 z"
+         id="path41098"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath41072">
+      <path
+         d="m 341.352,430.35 h 1.306 v -1.445 h -1.306 z"
+         id="path41070"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath41044">
+      <path
+         d="m 321.865,422.261 h 2.418 v -2.675 h -2.418 z"
+         id="path41042"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40868">
+      <path
+         d="m 345.488,425.901 h 5.368 v -6.83 h -5.368 z"
+         id="path40866"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40808">
+      <path
+         d="m 345.734,422.939 h 7.297 v -4.454 h -7.297 z"
+         id="path40806"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40792">
+      <path
+         d="m 333.426,425.076 h 3.856 v -5.036 h -3.856 z"
+         id="path40790"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40772">
+      <path
+         d="m 336.459,426.146 h 5.331 v -4.926 h -5.331 z"
+         id="path40770"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40500">
+      <path
+         d="m 313.653,430.73 h 41.152 v -18.503 h -41.152 z"
+         id="path40498"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40444">
+      <path
+         d="m 310.867,433.693 h 49.608 v -20.024 h -49.608 z"
+         id="path40442"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40428">
+      <path
+         d="m 326.65,429.139 h 25.664 V 414.104 H 326.65 Z"
+         id="path40426"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40412">
+      <path
+         d="m 319.214,422.626 h 20.539 v -12.032 h -20.539 z"
+         id="path40410"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40396">
+      <path
+         d="M 332.964,420.227 H 347.5 v -8.515 h -14.536 z"
+         id="path40394"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40380">
+      <path
+         d="m 320.883,427.319 h 14.536 v -8.516 h -14.536 z"
+         id="path40378"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40344">
+      <path
+         d="m 374.264,398.719 h 27.213 V 382.36 h -27.213 z"
+         id="path40342"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40316">
+      <path
+         d="m 376.227,401.981 h 26.787 v -16.943 h -26.787 z"
+         id="path40314"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39924">
+      <path
+         d="m 585.368,672.643 h 4.63 v -6.047 h -4.63 z"
+         id="path39922"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39904">
+      <path
+         d="m 589.01,673.928 h 6.401 v -5.915 h -6.401 z"
+         id="path39902"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39816">
+      <path
+         d="m 618.312,682.02 h 14.087 v -8.133 h -14.087 z"
+         id="path39814"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39728">
+      <path
+         d="m 620.521,679.952 h 14.087 v -8.133 h -14.087 z"
+         id="path39726"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39640">
+      <path
+         d="m 622.894,678.497 h 14.087 v -8.133 h -14.087 z"
+         id="path39638"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39492">
+      <path
+         d="m 590.659,689.012 h 3.394 v -4.906 h -3.394 z"
+         id="path39490"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39472">
+      <path
+         d="m 590.406,690.008 h 6.976 v -3.115 h -6.976 z"
+         id="path39470"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39444">
+      <path
+         d="m 581.257,704.323 h 18.266 v -13.949 h -18.266 z"
+         id="path39442"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39424">
+      <path
+         d="M 598.408,700.134 H 618.35 V 686.992 H 598.408 Z"
+         id="path39422"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath39400">
+      <path
+         d="m 596.563,700.609 h 6.448 v -11.822 h -6.448 z"
+         id="path39398"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42636">
+      <path
+         d="m 636.866,515.439 h 4.693 v -2.723 h -4.693 z"
+         id="path42634"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42608">
+      <path
+         d="m 644.389,517.08 h 6.125 v -4.078 h -6.125 z"
+         id="path42606"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42580">
+      <path
+         d="m 635.414,528.058 h 6.128 v -3.828 h -6.128 z"
+         id="path42578"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42552">
+      <path
+         d="m 626.002,525.978 h 6.161 v -3.682 h -6.161 z"
+         id="path42550"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42524">
+      <path
+         d="m 643.033,524.331 h 6.124 v -4.078 h -6.124 z"
+         id="path42522"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42436">
+      <path
+         d="m 629.086,521.516 h 11.032 v -6.369 h -11.032 z"
+         id="path42434"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42304">
+      <path
+         d="m 632.785,521 h 4.916 v -2.298 h -4.916 z"
+         id="path42302"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42284">
+      <path
+         d="m 651.924,522.148 h 4.917 v -2.297 h -4.917 z"
+         id="path42282"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42264">
+      <path
+         d="m 639.901,522.751 h 4.917 v -2.297 h -4.917 z"
+         id="path42262"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42160">
+      <path
+         d="m 640.203,520.566 h 9.576 v -6.798 h -9.576 z"
+         id="path42158"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42140">
+      <path
+         d="m 641.573,531.865 h 18.378 v -9.336 h -18.378 z"
+         id="path42138"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42116">
+      <path
+         d="m 624.061,531.888 h 18.477 v -11.874 h -18.477 z"
+         id="path42114"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath42028">
+      <path
+         d="m 641.566,531.484 h 11.033 v -6.369 h -11.033 z"
+         id="path42026"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40224">
+      <path
+         d="m 554.253,507.368 h 4.63 v -6.047 h -4.63 z"
+         id="path40222"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40204">
+      <path
+         d="m 557.895,508.653 h 6.4 v -5.915 h -6.4 z"
+         id="path40202"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40004">
+      <path
+         d="m 546.301,511.881 h 25.324 v -14.862 h -25.324 z"
+         id="path40002"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37848">
+      <path
+         d="m 619.139,412.036 h 3.479 v -4.543 h -3.479 z"
+         id="path37846"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37828">
+      <path
+         d="m 621.876,413.001 h 4.808 v -4.444 h -4.808 z"
+         id="path37826"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37800">
+      <path
+         d="m 615.409,389.691 h 9.652 v -5.572 h -9.652 z"
+         id="path37798"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37772">
+      <path
+         d="m 613.375,387.901 h 9.652 v -5.573 h -9.652 z"
+         id="path37770"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37744">
+      <path
+         d="m 617.856,388.152 h 9.651 v -5.572 h -9.651 z"
+         id="path37742"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37716">
+      <path
+         d="m 611.761,386.654 h 9.651 v -5.573 h -9.651 z"
+         id="path37714"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37696">
+      <path
+         d="m 601.397,390.138 h 1.793 v -1.106 h -1.793 z"
+         id="path37694"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37680">
+      <path
+         d="m 594.513,390.965 h 11.551 v -6.625 h -11.551 z"
+         id="path37678"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37652">
+      <path
+         d="m 582.282,395.394 h 1.822 v -1.058 h -1.822 z"
+         id="path37650"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37636">
+      <path
+         d="m 575.882,395.051 h 11.738 v -5.775 h -11.738 z"
+         id="path37634"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37436">
+      <path
+         d="m 594.709,415.795 h 8.677 v -6.327 h -8.677 z"
+         id="path37434"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37348">
+      <path
+         d="m 603.575,416.651 h 8.677 v -6.327 h -8.677 z"
+         id="path37346"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37260">
+      <path
+         d="m 598.944,420.958 h 8.677 v -6.327 h -8.677 z"
+         id="path37258"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37172">
+      <path
+         d="m 593.06,423.327 h 5.756 v -8.562 h -5.756 z"
+         id="path37170"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath37084">
+      <path
+         d="m 597.54,427.962 h 5.756 V 419.4 h -5.756 z"
+         id="path37082"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath62164">
+      <path
+         d="M 78.6532,580.334 H 121.97 V 556.95 H 78.6532 Z"
+         id="path62162"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath61628">
+      <path
+         d="M 76.2701,582.357 H 131.232 V 553.428 H 76.2701 Z"
+         id="path61626"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath64592">
+      <path
+         d="m 83.1272,376.592 h 2.132 v -1.26 h -2.132 z"
+         id="path64590"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath64576">
+      <path
+         d="m 75.8205,376.437 h 13.733 v -7.214 h -13.733 z"
+         id="path64574"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="137.89561"
+     inkscape:cy="79.18896"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata17398">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-87.990821,-104.24418)">
+    <g
+       id="g64542"
+       transform="matrix(0.35277777,0,0,-0.35277777,118.1023,122.34314)">
+      <path
+         d="m 0,0 c -19.526,-11.273 -51.184,-11.273 -70.71,0 -19.527,11.273 -19.527,29.551 -0.001,40.825 19.526,11.273 51.185,11.273 70.711,0 C 19.526,29.551 19.526,11.273 0,0"
+         style="fill:#7d9bce;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64544"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64546"
+       transform="matrix(0.35277777,0,0,-0.35277777,118.1023,121.62898)">
+      <path
+         d="m 0,0 c -19.526,-11.273 -51.184,-11.273 -70.71,0 -19.527,11.273 -19.527,29.551 -0.001,40.825 19.526,11.273 51.185,11.273 70.711,0 C 19.526,29.551 19.526,11.273 0,0"
+         style="fill:#f2f5fa;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64548"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64550"
+       transform="matrix(0.35277777,0,0,-0.35277777,115.97028,120.39803)">
+      <path
+         d="m 0,0 c -16.188,-9.347 -42.435,-9.347 -58.623,0 -16.189,9.346 -16.189,24.5 -0.001,33.846 16.189,9.346 42.436,9.346 58.624,0 C 16.188,24.5 16.188,9.346 0,0"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64552"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64554"
+       transform="matrix(0.35277777,0,0,-0.35277777,95.289389,120.39803)">
+      <path
+         d="m 0,0 c -16.188,9.346 -16.188,24.5 0,33.846 16.188,9.346 42.435,9.346 58.623,0 7.935,-4.581 11.97,-10.558 12.126,-16.562 0.162,6.431 -3.946,12.893 -12.345,17.801 -16.481,9.63 -43.201,9.63 -59.681,0 -16.481,-9.629 -16.48,-25.243 0,-34.872 8.335,-4.87 19.289,-7.274 30.212,-7.218 C 18.452,-6.95 7.999,-4.618 0,0"
+         style="fill:#7d9bce;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64556"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64558"
+       transform="matrix(0.35277777,0,0,-0.35277777,92.812889,116.6944)">
+      <path
+         d="m 0,0 c 6.166,-2.542 19.144,-6.472 22.742,4.311 2.554,7.654 6.578,10.975 0.412,13.517 C 16.988,20.37 6.806,18.44 0.412,13.517 -5.981,8.594 -6.166,2.542 0,0"
+         style="fill:#f8dfa6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64560"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64562"
+       transform="matrix(0.35277777,0,0,-0.35277777,92.776699,116.42325)">
+      <path
+         d="m 0,0 c 6.166,-2.542 19.144,-6.472 22.742,4.311 2.554,7.654 6.578,10.975 0.412,13.517 C 16.988,20.37 6.806,18.44 0.412,13.517 -5.981,8.594 -6.166,2.542 0,0"
+         style="fill:#fefcf7;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64564"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64566"
+       transform="matrix(0.35277777,0,0,-0.35277777,95.826819,113.70302)">
+      <path
+         d="M 0,0 C 2.881,-1.187 7.218,-0.609 9.687,1.292 12.156,3.193 11.822,5.696 8.941,6.884 6.06,8.072 1.723,7.494 -0.746,5.593 -3.215,3.691 -2.881,1.187 0,0"
+         style="fill:#f1bb42;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64568"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,68.234196,244.17445)"
+       id="g64570">
+      <g
+         id="g64572" />
+      <g
+         id="g64584">
+        <g
+           clip-path="url(#clipPath64576)"
+           id="g64582"
+           style="opacity:0.5">
+          <g
+             transform="translate(76.9258,374.9531)"
+             id="g64580">
+            <path
+               d="m 0,0 c 1.144,-2.079 3.449,-3.353 5.908,-3.025 2.474,0.33 4.372,2.183 4.918,4.508 2.315,-1.27 2.436,-3.545 0.15,-5.304 C 8.507,-5.722 4.17,-6.3 1.29,-5.113 -1.355,-4.022 -1.846,-1.824 0,0"
+               style="fill:#f1bb42;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path64578"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,68.234196,244.17445)"
+       id="g64586">
+      <g
+         id="g64588" />
+      <g
+         id="g64600">
+        <g
+           clip-path="url(#clipPath64592)"
+           id="g64598"
+           style="opacity:0.60000598">
+          <g
+             transform="translate(83.4995,375.4282)"
+             id="g64596">
+            <path
+               d="M 0,0 C 0.447,-0.185 1.12,-0.095 1.503,0.2 1.886,0.495 1.834,0.884 1.387,1.068 0.94,1.252 0.268,1.163 -0.116,0.868 -0.499,0.573 -0.447,0.184 0,0"
+               style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               id="path64594"
+               inkscape:connector-curvature="0" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g64602"
+       transform="matrix(0.35277777,0,0,-0.35277777,95.075119,115.64037)">
+      <path
+         d="m 0,0 c -1.515,0.555 -1.594,2.05 -1.594,2.05 0,0 2.377,0.595 3.891,0.04 C 3.812,1.535 3.892,0.04 3.892,0.04 3.892,0.04 1.515,-0.555 0,0"
+         style="fill:#58a25b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64604"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64606"
+       transform="matrix(0.35277777,0,0,-0.35277777,119.41266,113.569)">
+      <path
+         d="m 0,0 c 0.04,0.126 0.081,0.252 0.104,0.386 0.2,1.136 -0.242,2.228 -1.054,2.931 0.603,0.089 1.015,0.289 1.049,0.569 0.059,0.481 -0.997,1.004 -2.357,1.168 -0.228,0.028 -0.446,0.039 -0.657,0.045 0.233,2.09 -0.448,3.955 -1.958,4.735 -0.684,0.354 -1.454,0.416 -2.237,0.279 -0.185,1.196 -0.907,2.246 -1.953,2.844 0.492,0.101 0.816,0.287 0.846,0.535 0.055,0.454 -0.888,0.942 -2.139,1.134 0.221,1.336 -0.437,2.611 -1.552,3.249 0.561,0.32 0.914,0.673 0.836,0.956 -0.118,0.425 -1.12,0.512 -2.299,0.248 -0.216,1.504 -1.095,2.747 -2.43,3.148 -1.728,0.518 -3.617,-0.54 -4.549,-2.422 -0.359,0.342 -0.788,0.603 -1.276,0.749 -1.253,0.376 -2.588,-0.08 -3.584,-1.075 -0.266,0.355 -0.602,0.627 -1.016,0.751 -1.061,0.318 -2.242,-0.36 -2.986,-1.578 -0.673,0.895 -1.61,1.385 -2.509,1.177 -0.985,-0.228 -1.613,-1.242 -1.752,-2.5 -0.469,0.71 -0.981,1.129 -1.3,0.987 -0.359,-0.16 -0.348,-0.974 -0.038,-1.941 -0.709,-0.292 -1.313,-0.809 -1.655,-1.519 -1.119,0.006 -2.136,-0.585 -2.701,-1.516 -0.947,0.695 -1.867,1.012 -2.144,0.679 -0.193,-0.234 -0.028,-0.717 0.381,-1.261 -1.533,0.032 -2.904,-1.045 -3.178,-2.601 -0.007,-0.041 -0.003,-0.08 -0.009,-0.121 -0.013,0.01 -0.027,0.016 -0.04,0.026 -0.113,-0.222 -0.434,-0.859 -0.812,-1.683 -0.005,0.001 -0.008,0.005 -0.013,0.006 -0.793,0.206 -1.604,-0.27 -1.81,-1.064 -0.138,-0.532 0.049,-1.057 0.415,-1.417 -0.495,-0.136 -0.914,-0.504 -1.052,-1.036 -0.039,-0.152 -0.032,-0.303 -0.024,-0.451 -0.092,0.04 -0.185,0.09 -0.267,0.067 -0.466,-0.128 -0.548,-1.304 -0.183,-2.624 0.033,-0.12 0.075,-0.226 0.114,-0.336 -0.332,0.117 -0.614,0.145 -0.753,0.002 -0.261,-0.27 0.006,-0.967 0.596,-1.712 -1.088,0.273 -1.994,0.206 -2.127,-0.192 -0.153,-0.459 0.777,-1.182 2.077,-1.615 0.127,-0.042 0.251,-0.076 0.375,-0.11 -0.01,-1.09 0.711,-2.09 1.815,-2.377 0.726,-0.188 1.455,-0.019 2.021,0.386 -0.161,-0.771 0.298,-1.541 1.068,-1.74 0.595,-0.155 1.178,0.094 1.529,0.555 0.028,-0.03 0.058,-0.059 0.087,-0.091 0.019,-0.38 0.069,-0.793 0.195,-1.25 0.365,-1.32 1.039,-2.286 1.505,-2.157 0.297,0.081 0.418,0.609 0.387,1.305 0.675,-0.44 1.497,-0.695 2.553,-0.47 0,0 0.628,0.099 1.456,0.199 0.027,-0.636 0.441,-1.209 1.088,-1.377 0.699,-0.181 1.386,0.184 1.687,0.811 0.379,-1.028 0.919,-1.741 1.318,-1.631 0.396,0.11 0.495,0.988 0.297,2.058 0.642,-0.098 1.705,0.059 2.651,0.224 0.132,-0.501 0.503,-0.926 1.041,-1.066 0.794,-0.206 1.604,0.27 1.81,1.064 0.793,-0.206 1.604,0.27 1.81,1.064 0.055,0.214 0.053,0.426 0.017,0.63 0.046,-0.013 0.089,-0.028 0.136,-0.04 1.326,-0.345 2.5,-0.244 2.621,0.224 0.023,0.089 0.001,0.184 -0.051,0.283 0.168,-0.015 0.343,-0.024 0.523,-0.026 0.691,-0.283 1.444,-0.609 2.267,-0.959 -1.072,-0.813 -1.712,-1.771 -1.427,-2.154 0.29,-0.387 1.414,-0.037 2.512,0.783 0.043,0.031 0.073,0.066 0.115,0.098 0.036,-0.218 0.069,-0.434 0.133,-0.665 0.366,-1.321 1.04,-2.287 1.506,-2.158 0.466,0.129 0.548,1.304 0.182,2.624 -0.036,0.132 -0.085,0.241 -0.127,0.364 1.649,-0.526 3.198,-0.768 4.214,-0.217 0.796,0.432 1.669,1.079 2.554,1.776 0.241,-0.039 0.493,-0.07 0.761,-0.083 1.369,-0.065 2.497,0.275 2.52,0.757 0.009,0.198 -0.184,0.385 -0.492,0.546 0.446,0.165 0.721,0.388 0.717,0.63 -0.002,0.1 -0.06,0.193 -0.148,0.28 0.497,-0.014 1.252,0.217 2.044,0.684 0.442,0.259 0.813,0.545 1.101,0.824 0.663,-0.352 1.232,-0.474 1.438,-0.226 0.158,0.19 0.076,0.547 -0.181,0.966 0.999,-0.217 1.81,-0.139 1.934,0.235 C 1.698,-1.024 1.022,-0.433 0,0"
+         style="fill:#fae7bd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64608"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64610"
+       transform="matrix(0.35277777,0,0,-0.35277777,102.46966,113.59172)">
+      <path
+         d="m 0,0 c -0.001,0.001 -0.003,0.002 -0.004,0.002 l 0.003,-0.004 C -0.001,-0.001 0,0 0,0"
+         style="fill:#f7d790;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64612"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64614"
+       transform="matrix(0.35277777,0,0,-0.35277777,104.1717,115.43794)">
+      <path
+         d="M 0,0 C -0.071,-0.033 -0.144,-0.052 -0.216,-0.082 -0.134,-0.173 -0.051,-0.259 0.053,-0.329 0.037,-0.218 0.005,-0.112 0,0"
+         style="fill:#f7d790;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64616"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64618"
+       transform="matrix(0.35277777,0,0,-0.35277777,119.41266,113.56882)">
+      <path
+         d="m 0,0 c 0.04,0.126 0.081,0.251 0.104,0.385 0.2,1.136 -0.242,2.228 -1.054,2.932 0.603,0.088 1.015,0.288 1.049,0.569 0.059,0.48 -0.997,1.003 -2.357,1.168 -0.228,0.027 -0.446,0.039 -0.657,0.044 0.233,2.091 -0.447,3.956 -1.958,4.736 -0.684,0.353 -1.454,0.416 -2.237,0.278 -0.185,1.197 -0.907,2.246 -1.953,2.845 0.492,0.101 0.816,0.287 0.846,0.535 0.055,0.453 -0.888,0.941 -2.139,1.133 0.221,1.337 -0.437,2.611 -1.552,3.25 0.561,0.319 0.914,0.673 0.836,0.955 -0.118,0.426 -1.12,0.512 -2.299,0.249 -0.216,1.503 -1.095,2.747 -2.43,3.147 -1.728,0.519 -3.617,-0.539 -4.549,-2.422 -0.359,0.343 -0.788,0.603 -1.276,0.75 -0.906,0.272 -1.852,0.097 -2.684,-0.39 0.718,-0.186 1.178,-0.491 1.137,-0.826 -0.062,-0.51 -1.257,-0.891 -2.678,-0.863 0.374,-0.839 0.713,-1.612 1.036,-2.307 0.137,-0.122 0.264,-0.245 0.382,-0.369 0.033,0.118 0.086,0.212 0.169,0.272 0.438,0.312 1.412,-0.381 2.178,-1.549 0.026,-0.041 0.048,-0.082 0.074,-0.123 0.121,0.195 0.277,0.374 0.476,0.517 0.741,0.53 1.713,0.393 2.171,-0.306 0.741,0.531 1.714,0.394 2.172,-0.305 0.31,-0.474 0.282,-1.076 0.016,-1.586 0.846,-0.487 1.779,-1.06 2.199,-1.567 0.634,1.029 1.355,1.701 1.74,1.531 0.387,-0.172 0.279,-1.128 -0.186,-2.244 0.692,0.329 1.487,0.18 1.89,-0.436 0.374,-0.57 0.271,-1.325 -0.176,-1.877 0.709,-0.464 1.264,-0.798 1.264,-0.798 0.976,-0.51 1.42,-1.269 1.614,-2.085 0.489,0.605 0.969,0.967 1.257,0.84 0.452,-0.201 0.26,-1.459 -0.43,-2.81 -0.239,-0.467 -0.504,-0.847 -0.769,-1.179 -0.001,-0.045 0,-0.09 10e-4,-0.134 0.607,0.155 1.238,-0.022 1.582,-0.546 0.444,-0.678 0.23,-1.629 -0.46,-2.169 0.733,-0.036 1.416,-0.376 1.836,-1.016 0.636,-0.971 0.455,-2.289 -0.354,-3.198 0.07,-0.111 0.141,-0.221 0.207,-0.341 0.121,-0.217 0.22,-0.433 0.309,-0.646 0.483,0.138 0.794,0.347 0.806,0.597 0.01,0.197 -0.184,0.384 -0.492,0.545 0.446,0.166 0.721,0.389 0.717,0.631 -0.002,0.099 -0.06,0.192 -0.148,0.28 0.497,-0.014 1.252,0.217 2.045,0.683 0.441,0.26 0.812,0.546 1.101,0.825 0.662,-0.352 1.231,-0.475 1.437,-0.227 0.158,0.19 0.076,0.547 -0.181,0.967 0.999,-0.218 1.81,-0.139 1.934,0.235 C 1.698,-1.024 1.022,-0.434 0,0"
+         style="fill:#f7d790;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64620"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64622"
+       transform="matrix(0.35277777,0,0,-0.35277777,116.04574,112.20181)">
+      <path
+         d="m 0,0 c 0,0.689 -0.559,1.248 -1.247,1.248 -0.283,0 -0.531,-0.111 -0.74,-0.27 C -2.34,1.642 -3.03,2.1 -3.835,2.1 -4.618,2.1 -5.293,1.666 -5.654,1.029 -6.208,1.511 -6.719,1.732 -6.973,1.541 -7.198,1.372 -7.148,0.909 -6.926,0.346 -7.949,0.531 -8.771,0.421 -8.882,0.038 c -0.134,-0.464 0.825,-1.149 2.141,-1.528 0.105,-0.031 0.206,-0.053 0.307,-0.077 0.111,-0.408 0.41,-0.725 0.81,-0.852 0.109,-0.727 0.709,-1.294 1.466,-1.294 0.355,0 0.666,0.141 0.924,0.346 0.267,-0.124 0.562,-0.197 0.876,-0.197 1.159,0 2.099,0.94 2.099,2.099 0,0.21 -0.039,0.407 -0.096,0.598 C -0.137,-0.643 0,-0.338 0,0"
+         style="fill:#fcf3dd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64624"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64626"
+       transform="matrix(0.35277777,0,0,-0.35277777,113.85175,110.76314)">
+      <path
+         d="m 0,0 c 0.049,0.033 0.096,0.062 0.145,0.094 -0.101,-0.01 -0.201,-0.02 -0.302,-0.04 -0.12,0.912 -0.617,1.709 -1.346,2.156 0.346,0.082 0.575,0.228 0.599,0.417 0.042,0.347 -0.616,0.712 -1.493,0.848 0.167,1.023 -0.284,1.991 -1.061,2.469 0.396,0.25 0.647,0.523 0.595,0.738 -0.079,0.324 -0.782,0.381 -1.612,0.17 -0.138,1.147 -0.745,2.089 -1.678,2.384 -1.209,0.381 -2.545,-0.444 -3.216,-1.891 -0.249,0.259 -0.548,0.454 -0.889,0.561 -0.877,0.277 -1.818,-0.083 -2.526,-0.852 -0.184,0.269 -0.418,0.473 -0.707,0.564 -0.742,0.235 -1.577,-0.295 -2.111,-1.232 -0.464,0.678 -1.118,1.044 -1.751,0.877 -0.693,-0.182 -1.143,-0.963 -1.251,-1.925 -0.324,0.538 -0.679,0.854 -0.905,0.742 -0.254,-0.125 -0.253,-0.747 -0.043,-1.484 -0.501,-0.228 -0.929,-0.629 -1.177,-1.175 -0.785,-0.005 -1.504,-0.466 -1.909,-1.182 -0.658,0.523 -1.302,0.757 -1.499,0.5 -0.138,-0.18 -0.027,-0.548 0.256,-0.96 -0.142,0.001 -0.282,-0.014 -0.418,-0.041 0.005,-0.063 0.004,-0.121 0.011,-0.186 0.123,-1.032 0.496,-1.823 0.832,-1.768 0.214,0.034 0.351,0.423 0.398,0.952 0.425,-0.395 0.97,-0.662 1.725,-0.588 0,0 0.446,0.018 1.031,0.019 -0.044,-0.483 0.186,-0.954 0.619,-1.14 0.467,-0.2 0.98,0.013 1.251,0.46 0.162,-0.812 0.466,-1.4 0.754,-1.353 0.286,0.047 0.441,0.702 0.409,1.529 0.436,-0.133 1.19,-0.11 1.862,-0.071 0.043,-0.391 0.259,-0.746 0.618,-0.901 0.531,-0.228 1.14,0.059 1.361,0.64 0.531,-0.227 1.14,0.059 1.362,0.64 0.059,0.156 0.079,0.317 0.074,0.474 0.031,-0.013 0.059,-0.029 0.09,-0.042 0.887,-0.381 1.711,-0.412 1.842,-0.069 0.047,0.124 -0.005,0.279 -0.129,0.444 0.551,-0.309 1.232,-0.761 1.961,-1.223 -0.825,-0.517 -1.363,-1.183 -1.203,-1.499 0.162,-0.319 0.978,-0.156 1.821,0.364 0.033,0.02 0.057,0.043 0.089,0.064 0.004,-0.168 0.006,-0.335 0.027,-0.515 0.123,-1.032 0.496,-1.823 0.832,-1.768 0.336,0.055 0.509,0.936 0.386,1.967 -0.012,0.103 -0.036,0.19 -0.053,0.287 1.093,-0.548 2.144,-0.872 2.904,-0.546 0.595,0.254 1.265,0.663 1.948,1.11 0.164,-0.052 0.336,-0.098 0.52,-0.132 0.944,-0.173 1.761,-0.02 1.825,0.343 C 0.913,-0.508 0.554,-0.212 0,0"
+         style="fill:#fcf3dd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64628"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64630"
+       transform="matrix(0.35277777,0,0,-0.35277777,104.2449,111.71519)">
+      <path
+         d="m 0,0 c -0.426,-0.229 -0.246,-1.393 0.402,-2.6 0.648,-1.208 1.519,-2.001 1.945,-1.772 0.426,0.229 0.246,1.393 -0.402,2.6 C 1.297,-0.564 0.426,0.229 0,0"
+         style="fill:#fcf3dd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64632"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64634"
+       transform="matrix(0.35277777,0,0,-0.35277777,108.34648,110.75711)">
+      <path
+         d="M 0,0 C -0.309,-0.372 0.295,-1.383 1.35,-2.258 2.404,-3.134 3.509,-3.542 3.818,-3.169 4.127,-2.797 3.522,-1.786 2.468,-0.911 1.414,-0.036 0.309,0.372 0,0"
+         style="fill:#fcf3dd;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64636"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64638"
+       transform="matrix(0.35277777,0,0,-0.35277777,111.36767,112.76216)">
+      <path
+         d="M 0,0 C -0.459,0.153 -1.183,-0.776 -1.616,-2.076 -2.05,-3.376 -2.029,-4.554 -1.57,-4.707 -1.112,-4.86 -0.388,-3.93 0.045,-2.63 0.479,-1.331 0.458,-0.153 0,0"
+         style="fill:#fefcf6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64640"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64642"
+       transform="matrix(0.35277777,0,0,-0.35277777,116.57611,114.26799)">
+      <path
+         d="m 0,0 c -0.261,0.407 -1.408,0.137 -2.561,-0.604 -1.153,-0.74 -1.876,-1.67 -1.615,-2.077 0.261,-0.407 1.408,-0.136 2.561,0.604 C -0.462,-1.337 0.261,-0.407 0,0"
+         style="fill:#f7d790;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64644"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64646"
+       transform="matrix(0.35277777,0,0,-0.35277777,108.78505,112.01353)">
+      <path
+         d="m 0,0 c -0.261,0.407 -1.408,0.137 -2.561,-0.604 -1.153,-0.74 -1.876,-1.669 -1.615,-2.077 0.261,-0.406 1.408,-0.136 2.561,0.604 C -0.461,-1.337 0.261,-0.407 0,0"
+         style="fill:#f7d790;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64648"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64650"
+       transform="matrix(0.35277777,0,0,-0.35277777,107.3727,109.31637)">
+      <path
+         d="m 0,0 c -0.169,-0.453 0.734,-1.209 2.018,-1.688 1.284,-0.479 2.461,-0.5 2.631,-0.047 0.169,0.453 -0.734,1.209 -2.018,1.688 C 1.347,0.432 0.169,0.453 0,0"
+         style="fill:#f7d790;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64652"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64654"
+       transform="matrix(0.35277777,0,0,-0.35277777,113.65211,112.59145)">
+      <path
+         d="M 0,0 C 0.162,-0.456 1.339,-0.454 2.631,0.005 3.922,0.463 4.838,1.204 4.676,1.66 4.514,2.116 3.336,2.114 2.045,1.655 0.754,1.197 -0.162,0.456 0,0"
+         style="fill:#f7d790;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64656"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64658"
+       transform="matrix(0.35277777,0,0,-0.35277777,112.79324,107.76503)">
+      <path
+         d="M 0,0 C 0.162,-0.456 1.34,-0.454 2.631,0.005 3.922,0.463 4.838,1.204 4.676,1.66 4.515,2.116 3.336,2.114 2.045,1.655 0.754,1.197 -0.162,0.456 0,0"
+         style="fill:#fefcf6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64660"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64662"
+       transform="matrix(0.35277777,0,0,-0.35277777,106.45718,113.90953)">
+      <path
+         d="M 0,0 C -0.265,-0.405 0.449,-1.341 1.595,-2.093 2.74,-2.844 3.884,-3.125 4.149,-2.721 4.415,-2.316 3.701,-1.379 2.555,-0.628 1.409,0.123 0.265,0.404 0,0"
+         style="fill:#f3c762;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64664"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64666"
+       transform="matrix(0.35277777,0,0,-0.35277777,117.58897,112.66811)">
+      <path
+         d="M 0,0 C -0.265,-0.404 0.449,-1.341 1.595,-2.092 2.741,-2.844 3.885,-3.125 4.15,-2.721 4.415,-2.316 3.701,-1.379 2.555,-0.628 1.409,0.124 0.265,0.405 0,0"
+         style="fill:#f1bb42;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64668"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64670"
+       transform="matrix(0.35277777,0,0,-0.35277777,111.99536,109.09331)">
+      <path
+         d="m 0,0 c 1.769,0.173 2.267,1.744 2.267,1.744 0,0 -2.37,1.292 -4.138,1.119 C -3.639,2.69 -4.137,1.119 -4.137,1.119 -4.137,1.119 -1.768,-0.173 0,0"
+         style="fill:#58a25b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64672"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g64674"
+       transform="matrix(0.35277777,0,0,-0.35277777,109.652,108.15573)">
+      <path
+         d="m 0,0 c -0.946,0.654 -0.732,1.7 -0.732,1.7 0,0 1.745,-0.016 2.69,-0.67 0.946,-0.654 0.733,-1.699 0.733,-1.699 0,0 -1.746,0.015 -2.691,0.669"
+         style="fill:#58a25b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path64676"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

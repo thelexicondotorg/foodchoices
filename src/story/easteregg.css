@@ -1,0 +1,27 @@
+
+.screen-shake {
+    animation: screen-shake .8s cubic-bezier(.36,.07,.19,.97) both
+}
+
+@keyframes screen-shake {
+    10%, 90% {
+      transform: translate(-4px, 0px);
+    }
+    
+    20%, 80% {
+      transform: translate(4px, 0px);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate(-8px, 0px);
+    }
+  
+    40%, 60% {
+      transform: translate(8px, 0px);
+    }
+}
+
+.appear { 
+    animation: .8s forwards appear;     
+}
+@keyframes appear { from { opacity: 0; } to { opacity: 1; }}

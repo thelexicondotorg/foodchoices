@@ -1,0 +1,23 @@
+
+.story-dot {   
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px rgb(41, 40, 40);
+}
+
+.story-dot-container {
+    display: flex;
+    justify-content: space-around;
+    width: 140px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-70px)
+}
+
+.story-dot-animate { 
+    animation: 1s forwards story-dot-animation;
+    animation-delay: 1s;
+}
+@keyframes story-dot-animation { from { background-color: white; } to { background-color: #CB3C34; }}

@@ -1,0 +1,55 @@
+
+.time-icon {
+    float: right;
+    margin-right: 20px;    
+}
+
+.mcq-icon {
+    float: left;
+    margin-left: 20px;    
+}
+
+.time-item1-slidein { animation: .7s forwards time-item1-slidein; }
+@keyframes time-item1-slidein { from { transform: translate(0px, 1000px); } to { transform: translate(-100px, 0px); }}
+.time-item2-slidein { animation: .8s forwards time-item2-slidein; }
+@keyframes time-item2-slidein { from { transform: translate(0px, 1000px); } to { transform: translate(-10px, 0px); }}
+.time-item3-slidein { animation: .9s forwards time-item3-slidein; }
+@keyframes time-item3-slidein { from { transform: translate(0px, 1000px); } to { transform: translate(-20px, 0px); }}
+.time-item4-slidein { animation: 1s forwards time-item4-slidein; }
+@keyframes time-item4-slidein { from { transform: translate(0px, 1000px); } to { transform: translate(-80px, 0px); }}
+
+.mcq-item-intro1-slide { animation: .7s forwards mcq-item1-slidein; }
+@keyframes mcq-item1-slidein { from { transform: translate(0px, 1000px); } to { transform: translate(80px, 0px); }}
+.mcq-item-intro2-slide { animation: .8s forwards mcq-item2-slidein;  }
+@keyframes mcq-item2-slidein { from { transform: translate(0px, 1000px); } to { transform: translate(10px, 0px); }}
+.mcq-item-intro3-slide { animation: .9s forwards mcq-item3-slidein; }
+@keyframes mcq-item3-slidein { from { transform: translate(0px, 1000px); } to { transform: translate(20px, 0px); }}
+.mcq-item-intro4-slide { animation: 1s forwards mcq-item4-slidein; }
+@keyframes mcq-item4-slidein { from { transform: translate(0px, 1000px); } to { transform: translate(60px, 0px); }}
+
+.mcq-item-outro1-slide { animation: .3s forwards mcq-item1-slideout; }
+@keyframes mcq-item1-slideout { from { transform: translate(80px, 0px); } to { transform: translate(80px, -1000px); }}
+.mcq-item-outro2-slide { animation: .4s forwards mcq-item2-slideout;  }
+@keyframes mcq-item2-slideout { from { transform: translate(10px, 0px); } to { transform: translate(10px, -1000px); }}
+.mcq-item-outro3-slide { animation: .5s forwards mcq-item3-slideout;  }
+@keyframes mcq-item3-slideout { from { transform: translate(20px, 0px); } to { transform: translate(20px, -1000px); }}
+.mcq-item-outro4-slide { animation: .6s forwards mcq-item4-slideout; }
+@keyframes mcq-item4-slideout { from { transform: translate(60px, 0px); } to { transform: translate(60px, -1000px); }}
+
+.mcq2-item-intro1 { animation: .7s forwards mcq2-item-intro1; }
+@keyframes mcq2-item-intro1 { from { transform: translate(0px, 1000px); } to { transform: translate(50px, 0px); }}
+.mcq2-item-intro2 { animation: .8s forwards mcq2-item-intro2; }
+@keyframes mcq2-item-intro2 { from { transform: translate(-100px, 1000px); } to { transform: translate(-20px, 0px); }}
+.mcq2-item-intro3 { animation: .9s forwards mcq2-item-intro3; }
+@keyframes mcq2-item-intro3 { from { transform: translate(0px, 1000px); } to { transform: translate(-50px, 0px); }}
+.mcq2-item-intro4 { animation: 1s forwards mcq2-item-intro4; }
+@keyframes mcq2-item-intro4 { from { transform: translate(100px, 1000px); } to { transform: translate(20px, 0px); }}
+
+.mcq2-item-outro1 { animation: .7s forwards mcq2-item-outro1; }
+@keyframes mcq2-item-outro1 { from { transform: translate(50px, 0px); } to { transform: translate(0px, -1000px); }}
+.mcq2-item-outro2 { animation: .8s forwards mcq2-item-outro2; }
+@keyframes mcq2-item-outro2 { from { transform: translate(-50px, 0px); } to { transform: translate(-100px, -1000px); }}
+.mcq2-item-outro3 { animation: .9s forwards mcq2-item-outro3; }
+@keyframes mcq2-item-outro3 { from { transform: translate(-50px, 0px); } to { transform: translate(0px, -1000px); }}
+.mcq2-item-outro4 { animation: 1s forwards mcq2-item-outro4; }
+@keyframes mcq2-item-outro4 { from { transform: translate(50px, 0px); } to { transform: translate(100px, -1000px); }}

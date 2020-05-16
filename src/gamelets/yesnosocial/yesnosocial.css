@@ -1,0 +1,14 @@
+
+.yesno-description { font-size: 18px; }
+.yesno-question { font-size: 24px; }
+
+@media (max-width: 1110px) { .yesno-description { font-size: 3vh; } }
+@media (max-width: 1110px) { .yesno-question { font-size: 4vh; } }
+
+.yesno-icon {
+    height: 40%;
+}
+
+@media (min-height: 496px) { .yesno-icon { height: 50%; } }
+@media (min-height: 607px) { .yesno-icon { height: 60%; } }
+@media (min-height: 752px) { .yesno-icon { height: 70%; } }

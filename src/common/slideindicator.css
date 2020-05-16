@@ -1,0 +1,14 @@
+
+.slide-bg {
+  width: 100%;
+  border-radius: 25px;
+  height: 3vh;
+}
+
+.width-transition {
+  transition: width 1s;
+}
+
+.left-transition {
+  transition: left 1s;
+}

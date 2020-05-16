@@ -1,0 +1,70 @@
+
+.gamelet {
+    height: 100%;
+}
+
+.unselectable { 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;   
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+.bg-color-transition {
+    transition: background-color 1s;
+}
+
+.svg-clickable { 
+    cursor: pointer; 
+    transition: opacity .5s, transform .5s, 
+    transform .25s; 
+}
+
+.svg-clickable:hover { 
+    opacity: .7; 
+    transform: scale(1.04) translate(-5px, -5px);    
+}
+
+.transform-transition {
+    transition: transform .5s;
+}
+
+.button {
+    min-width: 200px !important;
+}
+
+.enter-button {
+    transition: opacity 1s;
+}
+
+.header-link {
+    cursor: pointer;
+    color: #54595f;
+    transition: color .5s;
+}
+
+.header-link:hover {
+    color: #f5964f;
+}
+
+.selected {
+    filter: contrast(120%);    
+    transform: scale(1.1);
+    cursor: pointer;
+    animation: selected-anim 1s cubic-bezier(.36,.07,.19,.97) both
+}
+
+@keyframes selected-anim {
+    10%, 90% {
+        transform: scale(.95);
+    }
+    
+    20%, 80% {
+        transform: scale(1.1);
+    }
+  
+    40%, 60% {
+        transform: scale(1.05);
+    }
+}

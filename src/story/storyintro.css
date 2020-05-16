@@ -1,0 +1,14 @@
+
+.storyintro-message { font-size: 30px; }
+
+@media (max-width: 1110px) { .storyintro-message { font-size: 5vh; } }
+
+.storyintro-bounce1 { animation: storyintro-bounce 1.5s ease-in-out 0s infinite alternate; }
+.storyintro-bounce2 { animation: storyintro-bounce 1.5s ease-in-out .2s infinite alternate; }
+.storyintro-bounce3 { animation: storyintro-bounce 1.5s ease-in-out .4s infinite alternate; }
+
+@keyframes storyintro-bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5vh); }
+    100% { transform: translateY(0); }
+}

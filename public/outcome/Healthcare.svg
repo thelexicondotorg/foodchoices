@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="133.87672mm"
+   height="149.93056mm"
+   viewBox="0 0 133.87672 149.93056"
+   version="1.1"
+   id="svg1456"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Healthcare.svg">
+  <defs
+     id="defs1450" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="127.28111"
+     inkscape:cy="134.76191"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1453">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-21.508064,-54.213296)">
+    <path
+       d="M 75.290656,198.65251 H 50.238496 V 94.964773 h 25.05216 z"
+       style="fill:#d69e43;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       id="path866"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 125.67049,198.65251 H 100.61834 V 94.964773 h 25.05215 z"
+       style="fill:#d69e43;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       id="path868"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 100.95665,166.4693 H 75.90449 V 94.964773 h 25.05216 z"
+       style="fill:#d69e43;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       id="path870"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 122.66977,123.50062 h -19.05 v -19.05 h 19.05 z m 0,35.64643 h -19.05 v -19.05001 h 19.05 z m 0,35.306 h -19.05 v -19.05 h 19.05 z M 97.955571,123.50062 h -19.05 v -19.05 h 19.05 z m 0,35.64643 h -19.05 v -19.05001 h 19.05 z m -24.7142,-35.64643 h -19.05 v -19.05 h 19.05 z m 0,35.64643 h -19.05 v -19.05001 h 19.05 z m 0,35.306 h -19.05 v -19.05 h 19.05 z M 43.918836,65.542048 V 204.14385 h 36.080345 v -28.40037 h 16.86278 v 28.40037 H 132.9423 V 65.542048 Z"
+       style="fill:#c4d6f9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       id="path872"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 132.9423,54.213296 H 43.918836 v 5.6642 H 132.9423 Z"
+       style="fill:#d85041;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       id="path874"
+       inkscape:connector-curvature="0" />
+    <g
+       id="g876"
+       transform="matrix(0.35277777,0,0,-0.35277777,136.50377,114.69168)">
+      <path
+         d="m 0,0 v -21.739 h 27 v -54 H 0 v -55.924 h 27 v -54 H 0 v -67.902 H 53.521 V 0 Z"
+         style="fill:#d85041;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path878"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g880"
+       transform="matrix(0.35277777,0,0,-0.35277777,30.86373,180.1895)">
+      <path
+         d="m 0,0 v 54 h 27 v 55.924 H 0 v 54 h 27 v 21.739 H -26.52 V -67.902 H 27 V 0 Z"
+         style="fill:#d85041;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path882"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g884"
+       transform="matrix(0.35277777,0,0,-0.35277777,99.734275,77.880486)">
+      <path
+         d="M 0,0 H -22.529 V 22.529 H -41.555 V 0 h -22.529 v -19.025 h 22.529 v -22.53 h 19.026 v 22.53 H 0 Z"
+         style="fill:#d85041;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="path886"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

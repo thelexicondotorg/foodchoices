@@ -1,0 +1,40 @@
+{
+  "name": "foodskills-react",
+  "version": "1.0.0",
+  "description": "A minimalist template for starting projects with React, Typescript and Webpack.",
+  "author": "Amine Rehioui",
+  "license": "ISC",
+  "scripts": {
+    "start": "node backend/server.js",
+    "watch": "webpack --config=webpack/webpack.config.js --env=dev --watch",
+    "build-dev": "webpack --config=webpack/webpack.config.js --env=dev",
+    "build-prod": "webpack --config=webpack/webpack.config.js --env=prod"
+  },
+  "dependencies": {
+    "@google-cloud/datastore": "^4.3.0",
+    "@material-ui/core": "^4.4.2",
+    "@types/react-dom": "^16.8.4",
+    "@types/uuid": "^7.0.0",
+    "body-parser": "^1.19.0",
+    "compressible": "^2.0.17",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "serve-static": "^1.14.1",
+    "uuid": "^7.0.2",
+    "yes-https": "^1.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.1",
+    "tslint": "^5.16.0",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.7.5",
+    "webpack": "^4.32.1",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.4.1"
+  }
+}

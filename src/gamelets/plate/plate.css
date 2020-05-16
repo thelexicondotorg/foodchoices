@@ -1,0 +1,16 @@
+
+.plate-item-in { animation: 1s forwards plate-item-in; }
+@keyframes plate-item-in { from { transform: translate(-200px, 1000px); } to { transform: translate(0px, 0px); }}
+
+.plate-item-out { animation: 1s forwards plate-item-out; }
+@keyframes plate-item-out { from { transform: translate(0px, 0px); } to { transform: translate(-200px, 1000px); }}
+
+.plate-checkmark-appear { animation: .5s forwards ease-in-out plate-checkmark-appear; }
+@keyframes plate-checkmark-appear { from { transform: scale(0); } to { transform: scale(1); }}
+
+.plate-objective-flash { animation: plate-objective-flash .14s ease-in-out 0s 8 alternate; }
+.plate-objective-delayed-flash { animation: plate-objective-flash .14s ease-in-out 2s 8 alternate; }
+@keyframes plate-objective-flash { from { transform: scale(1); } to { transform: scale(1.2); }}
+
+.plate-objectives-appear { animation: .5s forwards ease-in-out 0.8s 1 plate-objectives-appear; }
+@keyframes plate-objectives-appear { from { transform: translate(500px, 0px); } to { transform: translate(0px, 0px); }}
