@@ -6,9 +6,9 @@
   "license": "ISC",
   "scripts": {
     "start": "node backend/server.js",
-    "watch": "webpack --config=webpack/webpack.config.js --env=dev --watch",
-    "build-dev": "webpack --config=webpack/webpack.config.js --env=dev",
-    "build-prod": "webpack --config=webpack/webpack.config.js --env=prod"
+    "watch": "webpack --config=webpack/webpack.config.dev.js --watch",
+    "build:dev": "webpack --config=webpack/webpack.config.dev.js",
+    "build:prod": "webpack --config=webpack/webpack.config.prod.js"
   },
   "dependencies": {
     "@google-cloud/datastore": "^4.3.0",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^4.3.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.0.0",
     "ts-loader": "^6.0.1",
@@ -35,6 +36,7 @@
     "typescript": "^3.7.5",
     "webpack": "^4.32.1",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.4.1"
+    "webpack-dev-server": "^3.4.1",
+    "webpack-merge": "^4.2.2"
   }
 }

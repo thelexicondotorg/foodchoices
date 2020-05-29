@@ -1,12 +1,9 @@
 const path = require("path");
-const webpack = require("webpack");
+const merge = require('webpack-merge');
 
-module.exports = {
-  entry: "./src/index.tsx",
+module.exports = merge(require('./webpack.config.common'), {
   output: {
-    path: path.resolve(__dirname, "../dist"),
-    filename: "bundle3.js",
-    publicPath: "/dist/"
+    path: path.resolve(__dirname, "../dist/dev"),
   },
   module: {
     rules: [
@@ -14,31 +11,10 @@ module.exports = {
         test: /\.tsx?$/,
         enforce: "pre",
         include: path.resolve(__dirname, "../src"),
-        loader: "tslint-loader",
-        options: {
-          typeCheck: false
-        }        
-      },
-      {
-        test: /\.tsx?$/,
-        enforce: "pre",        
-        include: path.resolve(__dirname, "../src"),
         use: "source-map-loader"
       },
-      {
-        test: /\.tsx?$/,
-        include: path.resolve(__dirname, "../src"),
-        loader: "ts-loader"
-      },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader']
-      }
     ]
-  },
-  resolve: {
-    extensions: [".js", ".ts", ".tsx"]
   },
   devtool: "inline-source-map",
   mode: "development"
-};
+});

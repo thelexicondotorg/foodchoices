@@ -18,7 +18,7 @@ namespace Private {
                 },
                 {
                     icon: "/public/gamelets/yesnosocial/table_sofa.svg",
-                    description: "Does the family eat dinner together with no distractions like TV or smartphones?"        
+                    description: "Does the family eat dinner together with no distractions like TV or smartphones?"
                 }
             ],
             // Esther
