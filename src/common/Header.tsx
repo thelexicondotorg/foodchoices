@@ -94,7 +94,9 @@ export class Header extends React.Component<IHeaderProps> {
                         } else {
                             return `Helping ${characterData.name} shop for groceries`;
                         }
-                    }                                      
+                    }              
+                case GameletType.GroceriesShopping:
+                    return `Help ${characterData.name} with ${characterData.possessivePronoun} shopping list`;
                 case GameletType.FruitShopping:
                     if (region === Region.Indonesia) {
                         if (character === IndonesiaCharacters.Wulandari) {

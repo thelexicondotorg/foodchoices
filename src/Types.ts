@@ -59,7 +59,8 @@ export enum GameletType {
     Plate,
     // Specific to certain regions
     FruitShopping,
-    LunchSnack
+    LunchSnack,
+    GroceriesShopping
 }
 
 export interface ICharacterData {
@@ -139,7 +140,7 @@ export interface IScoreData {
     icon?: string;
     // TODO implement
     screenText?: string | JSX.Element;
-    links?: string[];
+    link?: string;
     outcomeType?: OutcomeType;
     outcomeDesc?: string;
 }

@@ -136,7 +136,7 @@ namespace Private {
         [Region.Indonesia]: {
             [IndonesiaCharacters.Wulandari]: {
                 name: "Wulandari and Centia",
-                possessivePronoun: "her",
+                possessivePronoun: "their",
                 objectPronoun: "her",
                 subjectPronoun: "she",
                 selfPronoun: "herself",

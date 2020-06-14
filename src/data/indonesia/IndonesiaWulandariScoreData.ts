@@ -8,6 +8,7 @@ import { YesNoSocialData } from "../YesNoSocialData";
 import { IndonesiaWulandariPlateData } from "./IndonesiaWulandariPlateData";
 import { LunchSnackData } from "./LunchSnackData";
 import { FruitShoppingData } from "./FruitShoppingData";
+import { GroceriesShoppingData } from "./GroceriesShoppingData";
 
 // tslint:disable:object-literal-key-quotes
 // tslint:disable:max-line-length
@@ -239,6 +240,60 @@ namespace Private {
           "Climate": -1
         },
         icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[3].icon
+      }
+    ],
+    [IndonesiaQuestions.GroceriesShopping]: [
+      {
+        outcome: "By purchasing more expensive ingredients, she can only buy small portions for her large family and does not have enough extra money to buy fruit or other supplies",
+        scores: {
+          "Environment": -2,
+          "Health": -1,
+          "Healthcare": -1,
+          "Culture": 0,
+          "Climate": -2
+        },
+        outcomeType: OutcomeType.Culture,
+        outcomeDesc: "Food security",
+        link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/",
+        icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0].icon
+      },
+      // Easter egg
+      {
+        scores: {
+          "Environment": -2,
+          "Health": -1,
+          "Healthcare": -1,
+          "Culture": 0,
+          "Climate": -2
+        },
+      },
+      {        
+        outcome: "She purchases only a half portion of rice and sugar today but affords healthy protein and nutrients for her family",
+        scores: {
+          "Environment": -1,
+          "Health": 1,
+          "Healthcare": 0,
+          "Culture": 1,
+          "Climate": 0
+        },
+        outcomeType: OutcomeType.Health,
+        outcomeDesc: "Protein and growth",
+        link: "https://www.greenbrownblue.com/food-and-health-explained/protein-needs-in-children/",
+        icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[2].icon
+      },
+      {
+        outcome: "Good choice! By purchasing lower cost proteins and vegetables and skipping the sugar and rice, she can afford milk for Centia and have extra to spare!",
+        scores: {
+          "Environment": 0,
+          "Health": 1,
+          "Healthcare": 1,
+          "Culture": 1,
+          "Climate": 0
+        },
+        outcomeType: OutcomeType.Culture,
+        outcomeDesc: "Food Insecurity and health outcomes",
+        link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/",
+        icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[3].icon
       }
     ],
     [IndonesiaQuestions.FruitShopping]: [

@@ -1,4 +1,4 @@
-import { IScoreData, Region, IndonesiaCharacters } from "../../Types";
+import { IScoreData, Region, IndonesiaCharacters, OutcomeType } from "../../Types";
 import { IndonesiaQuestions } from "../../score/ScoreTypes";
 import { TimeData } from "../TimeData";
 import { MCQData } from "../MCQData";
@@ -8,6 +8,7 @@ import { YesNoSocialData } from "../YesNoSocialData";
 import { IndonesiaWulandariScoreData } from "./IndonesiaWulandariScoreData";
 import { IndonesiaHassanPlateData } from "./IndonesiaHassanPlateData";
 import { LunchSnackData } from "./LunchSnackData";
+import { GroceriesShoppingData } from "./GroceriesShoppingData";
 
 // tslint:disable:object-literal-key-quotes
 // tslint:disable:max-line-length
@@ -244,6 +245,60 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Hassan)[3].icon
             }
         ],
+        [IndonesiaQuestions.GroceriesShopping]: [
+            {
+              outcome: "Contains plenty of protein; however low in vegetables and dairy; sugar and rice lack micronutrients and along with animal products, rice contributes the bulk of GHG emissions from food In Indonesia.",
+              scores: {
+                "Environment": -1,
+                "Health": 0,
+                "Healthcare": 0,
+                "Culture": 1,
+                "Climate": -1
+              },
+              outcomeType: OutcomeType.Climate,
+              outcomeDesc: "Rice and Methane",
+              link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/",
+              icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Hassan)[0].icon
+            },
+            // Easter egg
+            {
+              scores: {
+                "Environment": -2,
+                "Health": -1,
+                "Healthcare": -1,
+                "Culture": 0,
+                "Climate": -2
+              },
+            },
+            {        
+              outcome: "Good Choice! He chose a variety of protein, dairy and vegetables and has enough leftover to buy some fruit; however rice as a staple lacks micronutrients and contributes the bulk of GHG emissions from food In Indonesia.",
+              scores: {
+                "Environment": 0,
+                "Health": 1,
+                "Healthcare": 1,
+                "Culture": 2,
+                "Climate": 0
+              },
+              outcomeType: OutcomeType.Health,
+              outcomeDesc: "Balanced Meal",
+              link: "https://www.greenbrownblue.com/food-and-health-explained/balanced-meal-importance/",
+              icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Hassan)[2].icon
+            },
+            {
+              outcome: "Most economical choice. He chose a variety of protein, dairy and vegetables and has enough leftover to buy extras however sugar and noodles provide very little nutrients.",
+              scores: {
+                "Environment": 1,
+                "Health": 1,
+                "Healthcare": 1,
+                "Culture": 1,
+                "Climate": 1
+              },
+              outcomeType: OutcomeType.Healthcare,
+              outcomeDesc: "Food Insecurity and health outcomes",
+              link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/",
+              icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Hassan)[3].icon
+            }
+          ],
         [IndonesiaQuestions.FruitShopping]: IndonesiaWulandariScoreData.get()[IndonesiaQuestions.FruitShopping],
         [IndonesiaQuestions.Dinner]: [
             {

@@ -53,6 +53,7 @@ export enum IndonesiaQuestions {
     Lunch1 = "Lunch1",
     Lunch1Drinks = "Lunch1Drinks",
     Groceries = "Groceries",
+    GroceriesShopping = "GroceriesShopping",
     FruitShopping = "FruitShopping",
     LunchSnack = "LunchSnack",
     Dinner = "Dinner",

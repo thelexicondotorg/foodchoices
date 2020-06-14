@@ -10,6 +10,7 @@ import { IndonesiaNisaPlateData } from "./IndonesiaNisaPlateData";
 import { IndonesiaWulandariScoreData } from "./IndonesiaWulandariScoreData";
 import { LunchSnackData } from "./LunchSnackData";
 import { FruitShoppingData } from "./FruitShoppingData";
+import { GroceriesShoppingData } from "./GroceriesShoppingData";
 
 // tslint:disable:object-literal-key-quotes
 // tslint:disable:max-line-length
@@ -247,6 +248,64 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Neesa)[3].icon
             }
         ],
+        [IndonesiaQuestions.GroceriesShopping]: [
+            {
+              outcome: "Contains plenty of protein; however low in vegetables and dairy; sugar and rice lack micronutrients and along with animal products, rice contributes the bulk of GHG emissions from food In Indonesia.",
+              scores: {
+                "Environment": -1,
+                "Health": 1,
+                "Healthcare": 0,
+                "Culture": 0,
+                "Climate": -1
+              },
+              outcomeType: OutcomeType.Climate,
+              outcomeDesc: "Chicken",
+              link: "https://www.greenbrownblue.com/food-and-climate-explained/chicken-beef/",
+              icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Neesa)[0].icon
+            },            
+            {
+                outcome: "Contains plenty of protein; however low in vegetables, and sugar and noodles lack micronutrients. Beef is expensive and also contributes more greenhouse gases than other meats.",
+                scores: {
+                  "Environment": -2,
+                  "Health": -1,
+                  "Healthcare": -1,
+                  "Culture": 0,
+                  "Climate": -2
+                },
+                outcomeType: OutcomeType.Climate,
+                outcomeDesc: "Meat",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/chicken-beef/",
+                icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Neesa)[0].icon
+            },
+            {        
+              outcome: "Good Choice! She chose a variety of protein, dairy and vegetables and has enough leftover to buy some fruit; however rice as a staple lacks micronutrients and contributes the bulk of GHG emissions from food In Indonesia.",
+              scores: {
+                "Environment": 0,
+                "Health": 1,
+                "Healthcare": 1,
+                "Culture": 2,
+                "Climate": 0
+              },
+              outcomeType: OutcomeType.Health,
+              outcomeDesc: "Balanced Meal",
+              link: "https://www.greenbrownblue.com/food-and-health-explained/balanced-meal-importance/",
+              icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Neesa)[2].icon
+            },
+            {
+              outcome: "Most economical choice. She chose a variety of protein, dairy and vegetables and has enough leftover to buy extras however sugar and noodles provide very little nutrients.",
+              scores: {
+                "Environment": 1,
+                "Health": 1,
+                "Healthcare": 1,
+                "Culture": 1,
+                "Climate": 1
+              },
+              outcomeType: OutcomeType.Health,
+              outcomeDesc: "Food Choices",
+              link: "https://www.greenbrownblue.com/food-choices-for-a-healthy-planet-explained/healthy-eating-pattern/",
+              icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Neesa)[3].icon
+            }
+          ],
         [IndonesiaQuestions.FruitShopping]: [
             {
               "outcome": "Good source of micronutrients; locally grown.",

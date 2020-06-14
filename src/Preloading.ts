@@ -12,6 +12,7 @@ import { PlateUtils } from "./gamelets/plate/PlateUtils";
 import { LunchSnackData } from "./data/indonesia/LunchSnackData";
 import { FruitShoppingData } from "./data/indonesia/FruitShoppingData";
 import { StoryData } from "./data/StoryData";
+import { GroceriesShoppingData } from "./data/indonesia/GroceriesShoppingData";
 
 export class Preloading {
     public static preload1() {        
@@ -96,15 +97,17 @@ export class Preloading {
                         return prev.concat(cur.map(c => c.icon));
                     },
                     [] as string[]
-                );
-    
+                );               
+
+                const groceryShopping = GroceriesShoppingData.getQuestions(character).map(c => c.icon);
+
                 const fruitShoppingData = FruitShoppingData.getQuestions(character).reduce(
                     (prev, cur) => {
                         return prev.concat(cur.map(c => c.icon));
                     },
                     [] as string[]
                 );
-                return [...lunchSnackData, ...fruitShoppingData];
+                return [...lunchSnackData, ...groceryShopping, ...fruitShoppingData];
             } else {
                 return [];
             }

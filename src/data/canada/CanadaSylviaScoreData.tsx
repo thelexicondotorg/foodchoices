@@ -26,7 +26,7 @@ namespace Private {
                 },
                 icon: TimeData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Climate,
-                outcomeDesc: "Green House Gas"                
+                outcomeDesc: "Green House Gas"
             },
             {
                 scores: {

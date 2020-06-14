@@ -63,7 +63,7 @@ export class App extends React.Component<{}, IAppState> {
                 fontsPreloaded: false,
                 section: types.Section.Story,
                 region: types.Region.Indonesia,                
-                character: types.IndonesiaCharacters.Wulandari,
+                character: types.IndonesiaCharacters.Neesa,
                 gamelet: types.GameletType.Slider,
                 gameletSection: 0,
                 gameletSectionIntro: false
@@ -522,20 +522,31 @@ export class App extends React.Component<{}, IAppState> {
                                             break;
                                         // Lunch
                                         case GameletType.Lunch:
-                                            this.setState({                                                
-                                                gamelet: GameletType.LunchSnack 
-                                            });
+                                            this.setState({ isPreloading: true });
+                                            Preloading.preload3(
+                                                this.state.region as types.Region,
+                                                this.state.character as types.IndonesiaCharacters
+                                            ).then(() => this.setState({
+                                                isPreloading: false,
+                                                gamelet: GameletType.LunchSnack
+                                            }));
                                             break;
                                         // Lunch snack
                                         case GameletType.LunchSnack:
                                             this.setState({
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: GameletType.Slider,
+                                                gamelet: GameletType.Slider
                                             });
                                             break;
                                         // Groceries
                                         case GameletType.Slider:
+                                            this.setState({
+                                                gamelet: GameletType.GroceriesShopping,
+                                            });
+                                            break;
+                                        // Groceries shopping
+                                        case GameletType.GroceriesShopping:
                                             this.setState({
                                                 gamelet: GameletType.FruitShopping,
                                             });
@@ -553,14 +564,9 @@ export class App extends React.Component<{}, IAppState> {
                                         // Plate
                                         // Stacking
                                         case GameletType.Stacking:
-                                            this.setState({ isPreloading: true });
-                                            Preloading.preload3(
-                                                this.state.region as types.Region,
-                                                this.state.character as types.CanadaCharacters
-                                            ).then(() => this.setState({
-                                                isPreloading: false,
+                                            this.setState({
                                                 gamelet: GameletType.Plate
-                                            }));
+                                            });
                                             break;
                                         case GameletType.Plate:
                                             this.setState({

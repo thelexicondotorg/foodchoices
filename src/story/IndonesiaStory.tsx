@@ -13,6 +13,7 @@ import { IndonesiaQuestions } from "../score/ScoreTypes";
 import { IStoryProps } from "./IStoryProps";
 import { FruitShoppingData } from "../data/indonesia/FruitShoppingData";
 import { LunchSnackData } from "../data/indonesia/LunchSnackData";
+import { GroceriesShoppingData } from "../data/indonesia/GroceriesShoppingData";
 
 export class IndonesiaStory extends React.Component<IStoryProps> {
     public render() {
@@ -89,6 +90,21 @@ export class IndonesiaStory extends React.Component<IStoryProps> {
                     region={region}
                     character={character}
                     onCompleted={i => onCompleted(IndonesiaQuestions.Groceries, i)}
+                />
+            ),
+            [types.GameletType.GroceriesShopping]: (
+                <Lunch
+                    region={region}
+                    character={character}
+                    onCompleted={onProgress}
+                    choiceMade={(question, answer) => {
+                        const id = [
+                            IndonesiaQuestions.GroceriesShopping
+                        ][question];
+                        Scores.register(id, answer);
+                    }}
+                    customQuestions={GroceriesShoppingData.getQuestions(character)}
+                    noTitle={true}
                 />
             ),
             [types.GameletType.FruitShopping]: (

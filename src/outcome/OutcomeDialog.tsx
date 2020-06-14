@@ -11,7 +11,7 @@ namespace Private {
 
 export interface IOutcomeDialogInfo {
     screenText: string | JSX.Element;
-    links: string[];
+    link?: string;
 }
 
 interface IOutcomeDialogProps {
@@ -42,7 +42,7 @@ export class OutcomeDialog extends React.Component<IOutcomeDialogProps, IOutcome
         if (!this._iframe) {
             // create
             this._iframe = document.createElement("iframe");
-            this._iframe.src = "https://www.greenbrownblue.com/biodiversity-explained/#stefano-padulosi";
+            this._iframe.src = this.props.info?.link ?? "https://www.greenbrownblue.com/biodiversity-explained/#stefano-padulosi";
             this._iframe.style.width = "100%";
             this._iframe.style.height = "100%";
             this._iframe.style.border = "0px";
@@ -94,7 +94,7 @@ export class OutcomeDialog extends React.Component<IOutcomeDialogProps, IOutcome
             return null;
         }
 
-        const { screenText, links } = info;
+        const { screenText } = info;
 
         return (
             <div

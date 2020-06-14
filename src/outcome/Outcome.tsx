@@ -45,7 +45,7 @@ interface IOutcome {
     id: string;
 
     screenText?: string | JSX.Element;
-    links?: string[];
+    link?: string;
     type?: OutcomeType;
     desc?: string;
 }
@@ -152,7 +152,7 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                     icon: s.data.icon as string,
                     id: s.id,
                     screenText: s.data.screenText,
-                    links: s.data.links
+                    link: s.data.link
                 } as IOutcome));
         };
 
@@ -188,7 +188,7 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                 icon: s.data.icon as string,
                 id: s.id,
                 screenText: s.data.screenText,
-                links: s.data.links,
+                link: s.data.link,
                 desc: s.data.outcomeDesc,
                 type: s.data.outcomeType
             } as IOutcome;
@@ -485,7 +485,8 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                                 onClicked={() => this.onOutcomeClicked(
                                     info.displayName ?? info.name,
                                     o.desc ?? random[1],
-                                    buttonClass
+                                    buttonClass,
+                                    o.link
                                 )}
                                 // tslint:disable-next-line
                                 outcomeIcon={`/public/outcome/${info.displayName ?? info.name}.svg`}
@@ -526,14 +527,14 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
         );
     }
 
-    private onOutcomeClicked(type: string, desc: string, buttonClass: string) {
+    private onOutcomeClicked(type: string, desc: string, buttonClass: string, link?: string) {
         Scores.addOutcomeClicked(
             `${type} ${desc}`
         );
         this.setState({
             dialogInfo: {
                 screenText: <div />,
-                links: []
+                link
             }
         });    
     }

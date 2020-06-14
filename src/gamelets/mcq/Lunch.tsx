@@ -4,7 +4,7 @@ import { Gamelet, IGameletProps } from "../Gamelet";
 import { LunchData } from "../../data/LunchData";
 import { MCQItem } from "./MCQItem";
 import { EasterEgg } from "../../story/EasterEgg";
-import { IEasterEgg } from "../../Types";
+import { IEasterEgg, IChoiceItem } from "../../Types";
 import { Objective } from "../../story/Objective";
 import { CharacterData } from "../../data/CharacterData";
 import "./lunch.css";
@@ -17,6 +17,8 @@ interface ILunchState {
 }
 
 interface ILunchProps {
+    customQuestions?: IChoiceItem[];
+    noTitle?: boolean;
     choiceMade: (question: number, answer: number) => void;
 }
 
@@ -33,9 +35,9 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
     }
 
     public render() {
-        const { region, character } = this.props;
+        const { region, character, customQuestions, noTitle } = this.props;
         const { question, easterEgg, animPrefix } = this.state;
-        const items = LunchData.getQuestions(region, character)[question];
+        const items = customQuestions ?? LunchData.getQuestions(region, character)[question];
         const characterData = CharacterData.get(region, character);
         return (
             <div>
@@ -46,7 +48,7 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                         position: "relative",
                         overflow: "hidden"
                     }}
-                >
+                >                    
                     <div
                         style={{
                             position: "absolute",
@@ -56,36 +58,42 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                             top: "15%"
                         }}
                     >
+                        {
+                            noTitle !== true
+                            &&
+                            (
+                                <div
+                                    style={{
+                                        fontSize: "4vh",
+                                        marginBottom: "20px"
+                                    }}
+                                >
+                                    {(() => {
+                                        if (question === 0) {
+                                            return `What lunch will ${characterData.name} get?`;
+                                        } else {
+                                            return `What drink will ${characterData.name} get with ${characterData.possessivePronoun} lunch?`;
+                                        }
+                                    })()}
+                                </div>
+                            )
+                        }                        
                         <div
                             style={{
-                                fontSize: "4vh",
-                                marginBottom: "20px"
+                                width: "40vw",
+                                maxWidth: "800px",
+                                margin: "0 auto"
                             }}
                         >
-                            {(() => {
-                                if (question === 0) {
-                                    return `What lunch will ${characterData.name} get?`;
-                                } else {
-                                    return `What drink will ${characterData.name} get with ${characterData.possessivePronoun} lunch?`;
-                                }
-                            })()}
+                            <img src={characterData.iconSecondary} />
                         </div>
-                    <div
-                        style={{
-                            width: "40vw",
-                            maxWidth: "800px",
-                            margin: "0 auto"
-                        }}
-                    >
-                        <img src={characterData.iconSecondary} />
-                    </div>
                     </div>
                     <div
                         style={{
                             position: "absolute",
                             width: "calc(100% - 80px)",
                             height: "80%",
-                            top: "20%",
+                            top: noTitle === true ? "15%" : "20%",
                             padding: "0px 40px 0px 40px"
                         }}
                     >
@@ -157,8 +165,8 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
 
     private tryComplete(index: number) {
         const { question } = this.state;
-        const { region, character } = this.props;
-        const allQuestions = LunchData.getQuestions(region, character);
+        const { region, character, customQuestions } = this.props;
+        const allQuestions = [customQuestions as IChoiceItem[]] ?? LunchData.getQuestions(region, character);
         const items = allQuestions[question];
         const item = items[index];
         if (item.easterEgg) {
