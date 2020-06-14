@@ -6,8 +6,11 @@ import { Utils } from "../../common/Utils";
 interface IMCQItemProps {
     icon: string;
     description: string;
+    descriptionElem?: JSX.Element;
     animClass: string;
     descStyle: object;
+    // tslint:disable-next-line
+    customStyle?: any;
     onClick: () => void;
 }
 
@@ -31,7 +34,7 @@ export class MCQItem extends React.Component<IMCQItemProps, IMCQItemState> {
     }
 
     public render() {
-        const { icon, description, animClass, descStyle } = this.props;
+        const { icon, description, descriptionElem, animClass, descStyle, customStyle } = this.props;
         const { selected } = this.state;
 
         return (
@@ -44,7 +47,7 @@ export class MCQItem extends React.Component<IMCQItemProps, IMCQItemState> {
             >
                 <div
                     style={{
-                        height: "65%",
+                        height: customStyle?.iconHeight ?? "65%",
                         position: "relative"
                     }}
                 >
@@ -66,14 +69,14 @@ export class MCQItem extends React.Component<IMCQItemProps, IMCQItemState> {
                 <div
                     className="lunch-description"
                     style={{
-                        height: "calc(35% - 20px)",
+                        height: customStyle?.textHeight ?? "35px",
                         maxWidth: "320px",
-                        padding: "10px",
                         overflow: "visible",
+                        padding: customStyle ? undefined : "10px",
                         ...descStyle
                     }}
                 >
-                    {Utils.sanitize(description)}
+                    {descriptionElem ?? Utils.sanitize(description)}
                 </div>
             </div>
         );

@@ -39,6 +39,11 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
         const { question, easterEgg, animPrefix } = this.state;
         const items = customQuestions ?? LunchData.getQuestions(region, character)[question];
         const characterData = CharacterData.get(region, character);
+
+        const customStyle = noTitle === true ? {
+            iconHeight: "50%",
+            textHeight: "50%"
+        } : undefined;
         return (
             <div>
                 <div
@@ -92,8 +97,8 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                         style={{
                             position: "absolute",
                             width: "calc(100% - 80px)",
-                            height: "80%",
-                            top: noTitle === true ? "15%" : "20%",
+                            height: noTitle === true ? "90%" : "80%",
+                            top: noTitle === true ? "10%" : "20%",
                             padding: "0px 40px 0px 40px"
                         }}
                     >
@@ -116,7 +121,9 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                                     onClick={() => this.tryComplete(0)}
                                     icon={items[0].icon}
                                     description={items[0].description}
+                                    descriptionElem={items[0].descriptionElem}
                                     descStyle={{ margin: "0px 0px 0px auto" }}
+                                    customStyle={customStyle}
                                 />
                                 <MCQItem
                                     ref={e => this._items[1] = e as MCQItem}
@@ -124,7 +131,9 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                                     onClick={() => this.tryComplete(1)}
                                     icon={items[1].icon}
                                     description={items[1].description}
+                                    descriptionElem={items[1].descriptionElem}
                                     descStyle={{ margin: "0px 0px 0px auto" }}
+                                    customStyle={customStyle}
                                 />
                             </div>
                             <div 
@@ -137,7 +146,9 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                                     onClick={() => this.tryComplete(2)}
                                     icon={items[2].icon}
                                     description={items[2].description}
+                                    descriptionElem={items[2].descriptionElem}
                                     descStyle={{}}
+                                    customStyle={customStyle}
                                 />
                                 <MCQItem
                                     ref={e => this._items[3] = e as MCQItem}
@@ -145,7 +156,9 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                                     onClick={() => this.tryComplete(3)}
                                     icon={items[3].icon}
                                     description={items[3].description}
+                                    descriptionElem={items[3].descriptionElem}
                                     descStyle={{}}
+                                    customStyle={customStyle}
                                 />
                             </div>
                         </div>
@@ -166,7 +179,9 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
     private tryComplete(index: number) {
         const { question } = this.state;
         const { region, character, customQuestions } = this.props;
-        const allQuestions = [customQuestions as IChoiceItem[]] ?? LunchData.getQuestions(region, character);
+        const allQuestions = customQuestions
+            ? [customQuestions as IChoiceItem[]]
+            : LunchData.getQuestions(region, character);
         const items = allQuestions[question];
         const item = items[index];
         if (item.easterEgg) {

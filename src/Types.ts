@@ -100,6 +100,7 @@ export interface IStoryData {
 export interface IChoiceItem {
     icon: string;
     description: string;
+    descriptionElem?: JSX.Element;
     easterEgg?: string;
     easterEggCanContinue?: boolean;
     score?: IScore;
