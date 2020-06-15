@@ -84,7 +84,17 @@ export class NordicsStory extends React.Component<IStoryProps> {
                         Scores.register(id, answer);
                     }}
                 />
-            ),
+            ),            
+            // <Stacking
+            //     region={region}
+            //     character={character}
+            //     onCompleted={i => onCompleted(NordicQuestions.Lunch2, i)}
+            // />,
+            // <Slider
+            //     region={region}
+            //     character={character}
+            //     onCompleted={i => onCompleted(NordicQuestions.Groceries, i)}
+            // />,
             [types.GameletType.YesNoSocial]: (
                 <YesNoSocial
                     region={region}

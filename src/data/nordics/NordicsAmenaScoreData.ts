@@ -150,7 +150,8 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][3].icon
             }
         ],
-        [NordicQuestions.Lunch2]: [
+        // Removed from game
+        /*[NordicQuestions.Lunch2]: [
             {
                 "outcome": "According to the Nordic Nutrition Recommendations, the average adult should drink between 1-1.5 L of water per day.",
                 "scores": {
@@ -195,7 +196,7 @@ namespace Private {
                 },
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[1][3].icon
             }
-        ],
+        ],*/
         /*[NordicQuestions.Groceries]: [
             {
                 scores: {

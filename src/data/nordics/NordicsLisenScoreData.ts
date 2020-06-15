@@ -150,6 +150,8 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Lisen)[0][3].icon
             }
         ],
+        // Removed from game
+        /*
         [NordicQuestions.Lunch2]: [
             {
                 "outcome": "Apple juice can often contain added sugar. Apples are naturally sweet, so rather than drinking the juice try eating one. This way you will also get the benefits of eating the whole fruit like dietary fiber",
@@ -195,7 +197,7 @@ namespace Private {
                 },
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Lisen)[1][3].icon
             }
-        ],
+        ],*/
         /*[NordicQuestions.Groceries]: [
             {
                 scores: {

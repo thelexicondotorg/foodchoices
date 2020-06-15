@@ -46,6 +46,18 @@ namespace Private {
             ]
         },
         [Region.Canada]: {
+            [CanadaCharacters.Sylvia]: [
+              "by herself in the lunchroom",
+              "with her colleagues in the lunchroom",
+              "by herself in front of her desk",
+              "Sylvia doesn’t have time for lunch today"
+            ],
+            [CanadaCharacters.Hardeep]: [
+                "By himself in the lunchroom",
+                "With his colleagues in the lunchroom",
+                "By himself in front of his desk reading the news",
+                "Today, Hardeep doesn’t have time for lunch"
+            ],
             [CanadaCharacters.Esther]: [
                 "She walks home and eats with her husband",
                 "She sits and visits with community members who are sharing a meal",
@@ -121,5 +133,9 @@ export class StackingData {
             }
         }
         return "How would ${name} eat lunch?";
+    }
+
+    public static getOutcomeIcon() {
+        return "/public/gamelets/stacking/stacking-outcome.png";
     }
 }

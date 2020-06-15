@@ -13,6 +13,7 @@ import { LunchSnackData } from "./data/indonesia/LunchSnackData";
 import { FruitShoppingData } from "./data/indonesia/FruitShoppingData";
 import { StoryData } from "./data/StoryData";
 import { GroceriesShoppingData } from "./data/indonesia/GroceriesShoppingData";
+import { StackingData } from "./gamelets/stacking/StackingData";
 
 export class Preloading {
     public static preload1() {        
@@ -83,7 +84,7 @@ export class Preloading {
                 (prev, cur) => prev.concat(cur.map(i => i.icon)),
                 [] as string[]
             ),
-            // Stacking
+            // Stacking            
             // No icons
         ]);
     }
@@ -145,7 +146,8 @@ export class Preloading {
             "/public/outcome/Environment.svg",
             "/public/outcome/Climate Change.svg",
             "/public/outcome/Culture.svg",
-            "/public/outcome/impacts.svg"
+            "/public/outcome/impacts.svg",
+            StackingData.getOutcomeIcon()
         ]);
     }
 }

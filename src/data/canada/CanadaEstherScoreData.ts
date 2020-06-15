@@ -6,6 +6,7 @@ import { LunchData } from "../LunchData";
 import { SliderData } from "../SliderData";
 import { YesNoSocialData } from "../YesNoSocialData";
 import { PlateDataCanada } from "./PlateDataCanada";
+import { CanadaSylviaScoreData } from "./CanadaSylviaScoreData";
 
 // tslint:disable:object-literal-key-quotes
 namespace Private {
@@ -228,48 +229,7 @@ namespace Private {
                 outcomeDesc: "Canada's Dietary Guidelines"
             }
         ],
-        [CanadaQuestions.Lunch2]: [
-            {
-                "outcome": "There is some evidence that taking breaks at work to socialize and relax has mental health benefits, and may contribute to mindful eating practices",
-                "scores": {
-                    "Environment": 0,
-                    "Health": 0,
-                    "Healthcare": 0,
-                    "Culture": 1,
-                    "Climate": 0
-                }
-            },
-            {
-                "outcome": "There is some evidence that taking breaks at work to socialize and relax has mental health benefits, and may contribute to mindful eating practices",
-                "scores": {
-                    "Environment": 0,
-                    "Health": 0,
-                    "Healthcare": 0,
-                    "Culture": 2,
-                    "Climate": 0
-                }
-            },
-            {
-                "outcome": "Taking time to eat with others can help support mindful eating habits, and help you to recognize your body's cues that you are hungry or full.",
-                "scores": {
-                    "Environment": 0,
-                    "Health": -1,
-                    "Healthcare": -1,
-                    "Culture": 0,
-                    "Climate": 0
-                }
-            },
-            {
-                "outcome": "Eating regular meals can help with blood sugar regulation, and can help from overeating at your next meal",
-                "scores": {
-                    "Environment": 0,
-                    "Health": -2,
-                    "Healthcare": -2,
-                    "Culture": -2,
-                    "Climate": 0
-                }
-            }
-        ],
+        [CanadaQuestions.Lunch2]: CanadaSylviaScoreData.get()[CanadaQuestions.Lunch2],
         [CanadaQuestions.Groceries]: [
             {
                 "outcome": "Esther doesn't have a car and can't get to the major grocery stores without walking along a major highway. Choose another option!",

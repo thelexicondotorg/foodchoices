@@ -8,6 +8,7 @@ import { LunchData } from "../LunchData";
 import { SliderData } from "../SliderData";
 import { YesNoSocialData } from "../YesNoSocialData";
 import { PlateDataCanada } from "./PlateDataCanada";
+import { StackingData } from "../../gamelets/stacking/StackingData";
 
 // tslint:disable:object-literal-key-quotes max-line-length
 namespace Private {
@@ -222,26 +223,35 @@ namespace Private {
                 outcomeDesc: "Canada's Dietary Guidelines"
             }
         ],
+        // Stacking
         [CanadaQuestions.Lunch2]: [
             {
-                "outcome": "There is some evidence that taking breaks at work to socialize and relax has mental health benefits, and may contribute to mindful eating practices",
+                "outcome": "There is some evidence that taking breaks at work to socialize and relax provides an array of mental health benefits, and may even contribute to more mindful eating practices",
                 "scores": {
                     "Environment": 0,
                     "Health": 0,
                     "Healthcare": 0,
                     "Culture": 1,
                     "Climate": 0
-                }
+                },
+                icon: StackingData.getOutcomeIcon(),
+                outcomeDesc: "Mindful Eating",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
             },
             {
-                "outcome": "There is some evidence that taking breaks at work to socialize and relax has mental health benefits, and may contribute to mindful eating practices",
+                "outcome": "There is some evidence that taking breaks at work to socialize and relax provides an array of mental health benefits, and may even contribute to more mindful eating practices",
                 "scores": {
                     "Environment": 0,
                     "Health": 0,
                     "Healthcare": 0,
                     "Culture": 2,
                     "Climate": 0
-                }
+                },
+                icon: StackingData.getOutcomeIcon(),
+                outcomeDesc: "Mindful Eating",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
             },
             {
                 "outcome": "Taking time to eat with others can help support mindful eating habits, and help you to recognize your body's cues that you are hungry or full.",
@@ -251,7 +261,11 @@ namespace Private {
                     "Healthcare": -1,
                     "Culture": 0,
                     "Climate": 0
-                }
+                },
+                icon: StackingData.getOutcomeIcon(),
+                outcomeDesc: "Eating with others",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/brazilians-eat-with-others/"
             },
             {
                 "outcome": "Eating regular meals can help with blood sugar regulation, and can help from overeating at your next meal",
@@ -261,7 +275,11 @@ namespace Private {
                     "Healthcare": -2,
                     "Culture": -2,
                     "Climate": 0
-                }
+                },
+                icon: StackingData.getOutcomeIcon(),
+                outcomeDesc: "Busy lifestyles",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/busy-lifestyles-impact/"
             }
         ],
         [CanadaQuestions.Groceries]: [

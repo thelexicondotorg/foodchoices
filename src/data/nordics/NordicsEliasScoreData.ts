@@ -152,7 +152,8 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][3].icon
             }
         ],
-        [NordicQuestions.Lunch2]: [
+        // Removed from game
+        /*[NordicQuestions.Lunch2]: [
             {
                 "outcome": "Only water and milk are served for school lunch in Elias's school, some schools also serve plant-based milk alternatives. This is a way to help reduce the intak of drinks high in sugars.",
                 "scores": {
@@ -197,7 +198,7 @@ namespace Private {
                 },
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1][3].icon
             }
-        ],
+        ],*/
         // Missing in the document
         /*[NordicQuestions.Groceries]: [
             {
