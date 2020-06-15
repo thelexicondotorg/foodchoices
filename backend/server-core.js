@@ -69,7 +69,8 @@ exports.start = function (port) {
   };
 
   const datastore = new Datastore(
-    {projectId: env.GOOGLE_CLOUD_PROJECT, keyFilename: env.GOOGLE_APPLICATION_CREDENTIALS}
+    // Only enable in dev!!
+    // {projectId: env.GOOGLE_CLOUD_PROJECT, keyFilename: env.GOOGLE_APPLICATION_CREDENTIALS}
   );
   app.locals.datastore = datastore;
   console.log(`Starting server..`)
