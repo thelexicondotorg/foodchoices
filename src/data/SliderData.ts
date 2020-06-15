@@ -7,15 +7,15 @@ namespace Private {
         // Canada
         [
             // Sylvia
-            [
+            [                
+                {
+                    icon: "/public/gamelets/slider/market.svg",
+                    description: "She waits until the weekend to shop at a local farmer’s market, where she knows the vendors and buys what's in season"
+                },
                 {
                     icon: "/public/gamelets/slider/bigbox.svg",
                     description: "${subjectPronoun} stops at a big box grocery store",
                     easterEgg: "${name}'s budget doesn't allow her to shop at big grocery stores on a regular basis"
-                },
-                {
-                    icon: "/public/gamelets/slider/market.svg",
-                    description: "${subjectPronoun} waits until the weekend to shop at a local farmer's market, where ${subjectPronoun} knows all of the vendors and stops to say hello."
                 },
                 {
                     icon: "/public/gamelets/slider/shop.svg",

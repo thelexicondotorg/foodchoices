@@ -22,20 +22,22 @@ namespace Private {
                     "Environment": -1,
                     "Health": -2,
                     "Healthcare": -2,
-                    "Culture": 1,
+                    "Culture": 2,
                     "Climate": -2
                 },
                 icon: TimeData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Climate,
-                outcomeDesc: "Green House Gas"
+                outcomeDesc: "Carbon Footprint",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
             },
+            // easter egg
             {
                 scores: {
-                    "Environment": -1,
-                    "Health": -2,
-                    "Healthcare": -2,
-                    "Culture": 1,
-                    "Climate": -2
+                    "Environment": 2,
+                    "Health": -1,
+                    "Healthcare": -1,
+                    "Culture": -1,
+                    "Climate": 0
                 }
             },
             {
@@ -49,10 +51,11 @@ namespace Private {
                 },
                 icon: TimeData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Oats"
+                outcomeDesc: "Blood sugar regulator",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/blood-sugar-levels/"
             },
             {
-                "outcome": "Historically, coffee production has been associated with deforestation and poor working conditions for coffee growers. Make sure your coffee is sustainably produced!",
+                "outcome": "In some global regions, coffee production has been associated with deforestation and poor working conditions. Make sure your coffee is sustainably produced!",
                 "scores": {
                     "Environment": -1,
                     "Health": -1,
@@ -62,12 +65,13 @@ namespace Private {
                 },
                 icon: TimeData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[3].icon,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Coffee Deforestation"
+                outcomeDesc: "Coffee Deforestation",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/coffee-impact/"
             }
         ],
         [CanadaQuestions.Snacks1]: [
             {
-                "outcome": "Ultra-processed potato chips, which are typically high in calories, fat and sodium, are considered 'other foods' thatshould be eaten less often and in smaller amounts.",
+                "outcome": "Ultra-processed potato chips are typically high in calories, fat and sodium. Both their portion sizes and the frequency of their consumption should be limited.",
                 "scores": {
                     "Environment": -1,
                     "Health": -2,
@@ -77,10 +81,11 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][0].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Portion Size"
+                outcomeDesc: "Food processing",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
             },
             {
-                "outcome": "While an excellent source of calcium, the animal-source dairy in a yogurt and granola parfait make this snack a less climate-friendly choice",
+                "outcome": "While yogurt in general is an excellent source of calcium, animal-sourced dairy yogurt might make a less climate-friendly snack choice.",
                 "scores": {
                     "Environment": 0,
                     "Health": 1,
@@ -90,10 +95,11 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][1].icon,
                 outcomeType: OutcomeType.Climate,
-                outcomeDesc: "Dairies"
+                outcomeDesc: "Dairy products",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/dairy-climate/"
             },
             {
-                "outcome": "Local food usually, but not always, has less impact on greenhouse gas emissions. Get to know the farmers in your area and learn more about the types of farming they support!",
+                "outcome": "While local food travels less to reach your table, generally resulting in a smaller carbon footprint and economic benefits for a local economy, strawberries are considered one of the 'Dirty Dozen' crops that are sprayed with the most pesticides. To learn more about the benefits of local food, get to know the farmers in your area to discover the types of farming practices they support!",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
@@ -103,10 +109,11 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][2].icon,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Pesticides"
+                outcomeDesc: "Pesticides",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/organic-vs-conventional/"
             },
             {
-                "outcome": "While not the largest contributor to greenhouse gas emissions, the 'food miles' on imported foods contributes upwards of 10% of the overall greenhouse gas emissions produced by foods. Buy local!",
+                "outcome": "While not the largest contributor to greenhouse gas emissions, the 'food miles' on imported foods contributes upwards of 10% of the overall greenhouse gas emissions produced by foods. Buying local might help reduce these emissions.",
                 "scores": {
                     "Environment": 1,
                     "Health": 2,
@@ -116,12 +123,13 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][3].icon,
                 outcomeType: OutcomeType.Climate,
-                outcomeDesc: "Food miles"
+                outcomeDesc: "Food miles",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/buy-local-climate/"
             }
         ],
         [CanadaQuestions.Snacks2]: [
             {
-                "outcome": "Sugary sodas are among the largest contributors to sugar intake in many countries globally, and higher consumption is associated with type 2 diabetes, weight gain, and tooth decay.",
+                "outcome": "Soft drinks often have up to 12 packets of processed sugar in a single can. Over-consumption of these drinks is associated with type 2 diabetes, weight gain, and tooth decay.",
                 "scores": {
                     "Environment": -1,
                     "Health": -2,
@@ -131,7 +139,8 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1][0].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Diet and Type II Diabetes"
+                outcomeDesc: "Sugary drinks",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
             },
             {
                 "outcome": "Most plastic water bottles are made from polyethylene terephthalate, which is comprised of non-renewable fossil fuels. Each year in the US alone, 38 billion water bottles end up in landfills. Reach for a reusable water bottle!",
@@ -144,10 +153,11 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1][1].icon,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Single-Use Plastic Bottles"
+                outcomeDesc: "Single-Use Plastic Bottles",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/plastic-waste/"
             },
             {
-                "outcome": "A glass of tap water is many times less expensive than bottled water, not to mention having vastly fewer environmental and climate impacts.",
+                "outcome": "In many areas where tap water can be safely consumed, it can be many times less expensive than bottled water alternatives, as well as having vastly fewer environmental and climate impacts.",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
@@ -157,10 +167,11 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1][2].icon,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Drinking Tap Water"
+                outcomeDesc: "Drinking Tap Water",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/safe-drinking-water/"
             },
             {
-                "outcome": "More than 200L of water are used to prepare a latte, not to mention the environmental impact of 'to-go' cups that are thrown in the garbage every day.",
+                "outcome": "It takes more than 200L of water to prepare a single caffe latte, not to mention the environmental impact of 'to-go' cups that end up in the garbage.",
                 "scores": {
                     "Environment": -2,
                     "Health": -1,
@@ -170,12 +181,13 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1][3].icon,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Water Usage and Consumer Waste"
+                outcomeDesc: "Water Usage and Consumer Waste",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/water-food-production/"
             }
         ],
         [CanadaQuestions.Lunch1]: [
             {
-                "outcome": "Consuming food from restaurants and fast food outlets is linked with higher intakes of calories and sodium and negative health outcomes like weight gain.",
+                "outcome": "A diet high in food consumed at restaurants and fast food outlets has been linked to the increased intake of calories and sodium; both can result in negative health outcomes, including increased weight.",
                 "scores": {
                     "Environment": -2,
                     "Health": -2,
@@ -185,10 +197,11 @@ namespace Private {
                 },
                 icon: LunchData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][0].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Diet and Obesity"
+                outcomeDesc: "Diet and Obesity",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/eating-fast-food/"
             },
             {
-                "outcome": "Whole grains typically have more fibre than refined grains like white flour, and may lower your risk of cardiovascular disease, type 2 diabetes, and some types of cancer.",
+                "outcome": "The retail environment in which we live and work can influence our food choices - bringing lunch from home can help!",
                 "scores": {
                     "Environment": -2,
                     "Health": 0,
@@ -197,9 +210,11 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: LunchData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][1].icon,
-                outcomeType: OutcomeType.Healthcare,
-                outcomeDesc: "Whole grains and diabetes"
+                outcomeType: OutcomeType.Culture,
+                outcomeDesc: "Retail environments",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
             },
+            // easter egg
             {
                 scores: {
                     "Environment": -1,
@@ -220,7 +235,8 @@ namespace Private {
                 },
                 icon: LunchData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][3].icon,
                 outcomeType: OutcomeType.Healthcare,
-                outcomeDesc: "Canada's Dietary Guidelines"
+                outcomeDesc: "Canada's Dietary Guidelines",
+                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-guide-canada/"
             }
         ],
         // Stacking
@@ -284,16 +300,7 @@ namespace Private {
         ],
         [CanadaQuestions.Groceries]: [
             {
-                scores: {
-                    "Environment": -1,
-                    "Health": -2,
-                    "Healthcare": -2,
-                    "Culture": 1,
-                    "Climate": -2
-                }
-            },
-            {
-                "outcome": "Community-supported agriculture is increasingly being used to link producers (farmers) to consumers (you!). This type of shopping will decrease the environmental and climate impact of fresh food purchases. Check out CSA efforts in your area!",
+                "outcome": "Community-supported agriculture (CSA) links local food producers (farmers) to consumers (you!). This type of shopping will decrease the environmental and climate impact of most fresh food purchases. Check out CSA efforts in your area!",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
@@ -303,10 +310,21 @@ namespace Private {
                 },
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1].icon,
                 outcomeType: OutcomeType.Culture,
-                outcomeDesc: "Community Supported Agriculture"
+                outcomeDesc: "Community Supported Agriculture",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/csas/"
+            },
+            // easter egg
+            {
+                scores: {
+                    "Environment": -1,
+                    "Health": -2,
+                    "Healthcare": -2,
+                    "Culture": 1,
+                    "Climate": -2
+                }
             },
             {
-                "outcome": "Food deserts, or areas where there is little access to healthy, unprocessed foods like vegetables, fruits and whole grains, are often found in low-income areas, and have been linked with poorer quality diets.",
+                "outcome": "Food deserts, or areas where there is little access to healthy, fresh or minimally processed foods like vegetables, fruits and whole grains, are often found in low-income areas, and have been linked with poorer quality diets and negative health outcomes",
                 "scores": {
                     "Environment": 0,
                     "Health": -1,
@@ -316,10 +334,11 @@ namespace Private {
                 },
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,
                 outcomeType: OutcomeType.Culture,
-                outcomeDesc: "Food Insecurity"
+                outcomeDesc: "Food Access",
+                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/"
             },
             {
-                "outcome": "1 in 5 Canadians have used a foodbank at some point in their lives, and almost 1 million use them every month, typically because they don't make enough money to cover their expenses. Almost 1/3 of food bank users are children.",
+                "outcome": "1 in 5 Canadians have used a foodbank at some point in their lives, and almost 1 million use them every month, typically because they don't make enough money to cover their monthly expenses. Almost 1/3 of food bank users are children.",
                 "scores": {
                     "Environment": -1,
                     "Health": -1,
@@ -329,7 +348,8 @@ namespace Private {
                 },
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[3].icon,
                 outcomeType: OutcomeType.Healthcare,
-                outcomeDesc: "Food Insecurity and Health Outcomesk"
+                outcomeDesc: "Food Insecurity and Health Outcomesk",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-banks/"
             }
         ],
         [CanadaQuestions.Dinner1]: [
@@ -344,7 +364,8 @@ namespace Private {
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Whole Foods"                
+                outcomeDesc: "Whole Foods",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-foods-meaning/"
             }
         ],
         [CanadaQuestions.Dinner2]: [
@@ -359,7 +380,8 @@ namespace Private {
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1].icon,
                 outcomeType: OutcomeType.Culture,
-                outcomeDesc: "Cooking Skills"                
+                outcomeDesc: "Cooking Skills",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
             }
         ],
         [CanadaQuestions.Dinner3]: [
@@ -374,12 +396,13 @@ namespace Private {
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Eating as a Family"
+                outcomeDesc: "Eating as a Family",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
             }
         ],
         [CanadaQuestions.DinnerProtein]: [
             {
-                "outcome": "Greater consumption of ultra-processed foods is linked with weight gain, poorer diet quality, and overall health. Eating whole, unprocessed foods with fewer additives is an important part of a healthy diet.",
+                "outcome": "Greater consumption of ultra-processed foods has been linked to poorer diet quality, weight gain, increased risk for chronic diseases, and decreased overall health. A diet based on fresh or minimally processed foods is an essential part of any healthy diet.",
                 "scores": {
                     "Environment": -2,
                     "Health": -1,
@@ -388,8 +411,9 @@ namespace Private {
                     "Climate": -1
                 },
                 icon: PlateDataCanada.getItems()[0][0].foodInfo.content,
-                outcomeType: OutcomeType.Health,
-                outcomeDesc: "Minimally Processed Foods"
+                outcomeType: OutcomeType.Environment,
+                outcomeDesc: "Seafood choices",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
             },
             {
                 "outcome": "Canada's Food Guide recommends plant-based proteins like beans and lentils as alternatives to animal-source proteins. These choices have benefits for health, the environment and the climate.",
@@ -402,7 +426,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[0][1].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Plant-based Diet"
+                outcomeDesc: "Plant-forward Diet",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/plant-forward-diet/"
             },
             {
                 "outcome": "Tofu is often used as a dairy-free alternative to animal-source proteins like beef, chicken and fish.",
@@ -415,7 +440,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[0][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Plant-based Diet"
+                outcomeDesc: "Plant-based Diet",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
             },
             {
                 "outcome": "While grass-fed beef can have a smaller climate impact than conventionally-raised grain fed beef, it depends on how the grasslands are managed. Grass-fed beef still has a higher climate impact than plant-based proteins.",
@@ -428,7 +454,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[0][3].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Grass-fed Beef"
+                outcomeDesc: "Grass-fed Beef",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/dairy-meat-environment/"
             },
             {
                 "outcome": "Ruminant meats like grain-fed cattle produce the highest levels of greenhouse gas emissions, with more than 10-times the impact of chicken, eggs or fish",
@@ -441,7 +468,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[0][4].foodInfo.content,
                 outcomeType: OutcomeType.Climate,
-                outcomeDesc: "Beef"
+                outcomeDesc: "Beef",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/beef-climate-change/"
             }
         ],
         [CanadaQuestions.DinnerGrains]: [
@@ -456,10 +484,11 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[1][0].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Brown vs. White Rice"
+                outcomeDesc: "Brown vs. White Rice",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
             },
             {
-                "outcome": "Rice is the world's most widely consumed staple food. White and brown rice are the same grain, but the most nutritious parts (the bran and germ) are removed from white rice. Try brown rice for a higher fibre grain!",
+                "outcome": "Despite coming from a plant, rice makes a huge contribution to greenhouse gas emissions globally",
                 "scores": {
                     "Environment": 0,
                     "Health": 0,
@@ -468,8 +497,9 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: PlateDataCanada.getItems()[1][1].foodInfo.content,
-                outcomeType: OutcomeType.Health,
-                outcomeDesc: "Brown vs. White Rice"
+                outcomeType: OutcomeType.Climate,
+                outcomeDesc: "Rice and Green House Gases",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
             },
             {
                 "outcome": "Ultra-processed rice dishes are often high in sodium. Check the nutrition label of products to help you identify healthier options!",
@@ -482,7 +512,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[1][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Ultra-processed Food"
+                outcomeDesc: "Ultra-processed Food",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"
             },
             {
                 "outcome": "Wild rice is actually a species of grass that is native to North America. With more fibre than brown rice, it is a healthy whole-grain alternative!",
@@ -495,7 +526,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[1][3].foodInfo.content,
                 outcomeType: OutcomeType.Culture,
-                outcomeDesc: "Indigenous Foods"
+                outcomeDesc: "Indigenous Foods",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/indigenous-food/"
             }
         ],
         [CanadaQuestions.DinnerVeggies]: [
@@ -510,7 +542,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[2][0].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Single-Use Plastics"
+                outcomeDesc: "Single-Use Plastics",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/food-processing-climate/"
             },
             {
                 "outcome": "Pre-packaged french fries are often made from palm oil, which is harmful to health and the environment.",
@@ -523,7 +556,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[2][1].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Palm Oil"
+                outcomeDesc: "Palm Oil",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/palm-oil/"
             },
             {
                 "outcome": "Only one-quarter of Canadians eat the recommended amount of fruits and vegetables, and leafy green consumption makes up only a small part despite its many nutritional benefits. Look for exciting types of dark greens varieties like spinach, kale, and arugula!",
@@ -536,10 +570,11 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[2][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Leafy Greens"
+                outcomeDesc: "Leafy Greens",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"
             },
             {
-                "outcome": "Cheese has a relatively large carbon footprint, as it usually comes from dairy milk which has all the same climate challenges as eating beef. Decreasing animal-source foods overall (not just meat but dairy and eggs too!) is likely to have a greater overall impact than vegetarian diets that eat milk and eggs!",
+                "outcome": "Cheese has a relatively large carbon footprint, as it is produced from dairy milk which has the same climate challenges as eating beef. Decreasing animal-source foods overall—not just meat but dairy and eggs too!—is likely to have a greater overall impact on reducing greenhosue gas emission than vegetarian diets that include milk and eggs!",
                 "scores": {
                     "Environment": 1,
                     "Health": 1,
@@ -549,7 +584,8 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[2][3].foodInfo.content,
                 outcomeType: OutcomeType.Climate,
-                outcomeDesc: "Carbon Footprint"
+                outcomeDesc: "Carbon Footprint",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
             }
         ]
     };

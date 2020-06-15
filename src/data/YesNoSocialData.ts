@@ -13,8 +13,7 @@ namespace Private {
                 },
                 {
                     icon: "/public/gamelets/yesnosocial/table_cooking.svg",
-                    description: "Do the kids help Sylvia make dinner?"
-        
+                    description: "Do the kids help Sylvia make dinner?"        
                 },
                 {
                     icon: "/public/gamelets/yesnosocial/table_sofa.svg",
