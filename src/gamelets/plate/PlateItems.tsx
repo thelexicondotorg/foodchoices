@@ -9,6 +9,7 @@ import { PlateUtils } from "./PlateUtils";
 import { Config } from "../../Config";
 
 export interface IPlateItemsProps {
+    extraSlot: boolean;
     onPressed: (x: number, y: number, item: PlateItem) => void;
 }
 
@@ -92,24 +93,59 @@ export class PlateItems extends React.Component<IPlateItemsProps> {
                             height={plateImage.height}
                             xlinkHref="/public/gamelets/plate/BigPlate.svg"
                         />
-                        <g
-                            ref={e => this._plateSlots[0] = { slot: e as SVGGElement }}
-                            transform="translate(180, 120)"
-                        />
-                        <g
-                            ref={e => this._plateSlots[1] = { slot: e as SVGGElement }}
-                            transform="translate(480, 124)"
-                        />
-                        <g
-                            ref={e => this._plateSlots[2] = { slot: e as SVGGElement }}
-                            transform="translate(350, 290)"
-                        />
+                        {
+                            (() => {
+                                if (this.props.extraSlot) {
+                                    return [
+                                        <g
+                                            key={0}
+                                            ref={e => this._plateSlots[0] = { slot: e as SVGGElement }}
+                                            transform="translate(180, 60)"
+                                        />,
+                                        <g
+                                            key={1}
+                                            ref={e => this._plateSlots[1] = { slot: e as SVGGElement }}
+                                            transform="translate(480, 100)"
+                                        />,
+                                        <g
+                                            key={2}
+                                            ref={e => this._plateSlots[2] = { slot: e as SVGGElement }}
+                                            transform={"translate(180, 220)"}
+                                        />,
+                                        <g
+                                            key={3}
+                                            ref={e => this._plateSlots[3] = { slot: e as SVGGElement }}
+                                            transform="translate(510, 260)"
+                                        />
+                                    ];
+                                } else {
+                                    return [
+                                        <g
+                                            key={0}
+                                            ref={e => this._plateSlots[0] = { slot: e as SVGGElement }}
+                                            transform="translate(180, 120)"
+                                        />,
+                                        <g
+                                            key={1}
+                                            ref={e => this._plateSlots[1] = { slot: e as SVGGElement }}
+                                            transform="translate(480, 124)"
+                                        />,
+                                        <g
+                                            key={2}
+                                            ref={e => this._plateSlots[2] = { slot: e as SVGGElement }}
+                                            transform="translate(350, 290)"
+                                        />,
+                                    ];
+                                }
+                            })()
+                        }                        
                     </g>
                     <g transform="translate(130, 22)" ref={e => this._slots[0] = e as SVGGElement} />
-                    <g transform="translate(22, 210)" ref={e => this._slots[1] = e as SVGGElement} />
+                    <g transform="translate(22, 222)" ref={e => this._slots[1] = e as SVGGElement} />
                     <g transform="translate(30, 425)" ref={e => this._slots[2] = e as SVGGElement} />
                     <g transform="translate(248, 585)" ref={e => this._slots[3] = e as SVGGElement} />
                     <g transform="translate(594, 585)" ref={e => this._slots[4] = e as SVGGElement} />
+                    <g transform="translate(900, 565)" ref={e => this._slots[5] = e as SVGGElement} />
                     <g ref={e => this._frontSlot = e as SVGGElement} />
                 </svg>
                 <canvas                     
@@ -137,16 +173,29 @@ export class PlateItems extends React.Component<IPlateItemsProps> {
         const items = PlateUtils.getData(region, character).getItems()[question];
 
         const slots = this._items;
-        const startingSlot = slots.length - items.length;
-        let currentItem = 0;
-        slots.forEach((slot, index) => {
-            if (index < startingSlot) {
-                slot.hide();
-                return;
+        let startingSlot = slots.length - items.length;
+        
+        // only use the last slot if there are 6 items
+        if (items.length < 6) {
+            startingSlot--;
+        }
+      
+        for (let i = 0; i < slots.length; ++i) {
+            const used = i >= startingSlot && ((i - startingSlot) < items.length);
+            if (!used) {
+                slots[i].hide();
+            } else {
+                const currentItem = i - startingSlot;
+                slots[i].transitionIn(items[currentItem], currentItem);
             }
-            slot.transitionIn(items[currentItem], currentItem);
-            ++currentItem;
-        });
+        }
+
+        // move 4th slot to a better position if more than 3 plates
+        if (items.length > 3) {
+            this._slots[3].setAttribute("transform", "translate(268, 600)");
+        } else {
+            this._slots[3].setAttribute("transform", "translate(248, 585)");
+        }
     }
 
     public transitionOut() {

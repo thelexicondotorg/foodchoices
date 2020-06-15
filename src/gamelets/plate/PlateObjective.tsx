@@ -12,11 +12,14 @@ interface IPlateObjectiveProps {
     item: string;
     state: PlateObjectiveState;
     delayedFlash?: boolean;
+    multiple?: boolean;
 }
 
 export class PlateObjective extends React.Component<IPlateObjectiveProps> {
+    private _text!: HTMLElement;
+
     public render() {
-        const { item, state, delayedFlash } = this.props;
+        const { item, state, delayedFlash, multiple } = this.props;
         const isCurrent = state === PlateObjectiveState.Current;
         const flashAnimation = delayedFlash ? "plate-objective-delayed-flash" : "plate-objective-flash";
         return (
@@ -58,6 +61,7 @@ export class PlateObjective extends React.Component<IPlateObjectiveProps> {
                     }
                 </div>
                 <div
+                    ref={e => this._text = e as HTMLElement}
                     className={isCurrent ? flashAnimation : ""}
                     style={{
                         fontSize: "20px",                        
@@ -65,9 +69,15 @@ export class PlateObjective extends React.Component<IPlateObjectiveProps> {
                         transition: "font-weight 1s"
                     }}
                 >
-                    Pick a {item}
+                    Pick {multiple ? "two" : "a"} {item}{multiple ? "s" : ""}
                 </div>
             </div>
         );
+    }
+
+    public animate() {
+        this._text.classList.remove("plate-objective-delayed-flash");
+        this._text.classList.remove("plate-objective-flash");
+        setTimeout(() => this._text.classList.add("plate-objective-flash"), 60);
     }
 }

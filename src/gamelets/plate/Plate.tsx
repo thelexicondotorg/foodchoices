@@ -3,7 +3,7 @@ import * as React from "react";
 import { Gamelet } from "../Gamelet";
 import { PlateItems } from "./PlateItems";
 import { PlateItem } from "./PlateItem";
-import { IPoint, Region } from "../../Types";
+import { IPoint, Region, IndonesiaCharacters } from "../../Types";
 import { Objective } from "../../story/Objective";
 import { PlateObjectives } from "./PlateObjectives";
 import { EasterEgg } from "../../story/EasterEgg";
@@ -24,6 +24,7 @@ export class Plate extends Gamelet<IPlateProps> {
     private _question = 0;
     private _objectives!: PlateObjectives;
     private _easterEggScreen!: EasterEgg;
+    private _firstProteinPicked = false;
 
     public componentDidMount() {
         this._items.transitionIn(this._question, this.props.region, this.props.character);
@@ -48,30 +49,21 @@ export class Plate extends Gamelet<IPlateProps> {
                 const data = PlateUtils.getData(region, character);
                 const items = data.getItems()[this._question];
                 const slots = this._items;
-                const firstSlot = slots.count - items.length;
+                let firstSlot = slots.count - items.length;
+
+                // only use the last slot if there are 6 items
+                if (items.length < 6) {
+                    firstSlot--;
+                }
+
                 itemIndex -= firstSlot;
                 const easterEgg = items[itemIndex].easterEgg;
 
-                if (isInPlate && !easterEgg) {
-                    this.props.choiceMade(this._question, itemIndex);
+                if (isInPlate) {
 
-                    // drop in plate
-                    this._items.dropInPlate(this._currentItem as PlateItem);
-                    this._items.transitionOut()
-                        .then(() => {                            
-                            this._objectives.setState({ currentObjective: this._question + 1 });
-                            if (this._question < 2) {
-                                this._question++;
-                                this._items.transitionIn(this._question, this.props.region, this.props.character);
-                            } else {
-                                setTimeout(() => this.complete(0), 500);
-                            }
-                        });
-                } else {
-
-                    const item = this._currentItem;
                     if (easterEgg) {
                         const forbiddenFood = this._currentItem.foodUrl;
+                        const item = this._currentItem;
                         this.fadeOut()
                             .then(() => item.resetParent())
                             .then(() => {
@@ -84,8 +76,35 @@ export class Plate extends Gamelet<IPlateProps> {
                                 });
                             });
                     } else {
-                        item.resetParent();
+                        this.props.choiceMade(this._question, itemIndex);
+
+                        // drop in plate
+                        this._items.dropInPlate(this._currentItem as PlateItem);
+                        
+                        // Neesa gets 2 proteins
+                        const extraSlot = region === Region.Indonesia && character === IndonesiaCharacters.Neesa;
+                        const neesaExtra = extraSlot && !this._firstProteinPicked;
+                        if (neesaExtra) {
+                            this._firstProteinPicked = true;
+                            this._objectives.animate();
+                        }
+
+                        if (!neesaExtra) {
+                            this._items.transitionOut()
+                                .then(() => {
+                                    this._objectives.setState({ currentObjective: this._question + 1 });
+                                    if (this._question < 2) {
+                                        this._question++;
+                                        this._items.transitionIn(this._question, region, character);
+                                    } else {
+                                        setTimeout(() => this.complete(0), 500);
+                                    }
+                                });
+                        }
                     }
+                    
+                } else {
+                    this._currentItem.resetParent();
                 }
 
                 this._currentItem = null;
@@ -171,6 +190,7 @@ export class Plate extends Gamelet<IPlateProps> {
                                 this._initialTouchPos.y = y;
                                 this._currentItem = item;
                             }}
+                            extraSlot={region === Region.Indonesia && character === IndonesiaCharacters.Neesa}
                         />
                     </div>
                     <div
@@ -186,6 +206,7 @@ export class Plate extends Gamelet<IPlateProps> {
                         <PlateObjectives 
                             ref={e => this._objectives = e as PlateObjectives} 
                             region={region}
+                            character={character}
                         />
                     </div>
                     <div
