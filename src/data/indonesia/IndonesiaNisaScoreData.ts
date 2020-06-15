@@ -11,6 +11,7 @@ import { IndonesiaWulandariScoreData } from "./IndonesiaWulandariScoreData";
 import { LunchSnackData } from "./LunchSnackData";
 import { FruitShoppingData } from "./FruitShoppingData";
 import { GroceriesShoppingData } from "./GroceriesShoppingData";
+import { IndonesiaHassanScoreData } from "./IndonesiaHassanScoreData";
 
 // tslint:disable:object-literal-key-quotes
 // tslint:disable:max-line-length
@@ -415,48 +416,18 @@ namespace Private {
         // ],
         [IndonesiaQuestions.DinnerProtein]: [
             {
-                "outcome": "Good source of protein but fried foods have negative health impacts. There are environmental issues with increased poultry and feed production in Indonesia",
+                "outcome": "Tempeh is an affordable source of protein and has a low climate footprint",
                 "scores": {
-                    "Environment": -1,
+                    "Environment": 2,
                     "Health": 1,
                     "Healthcare": 1,
-                    "Culture": 1,
-                    "Climate": -1
+                    "Culture": 2,
+                    "Climate": 1
                 },
-                icon: IndonesiaNisaPlateData.getItems()[0][0].foodInfo.content
-            },
-            {
-                "outcome": "A good source of protein but some practices in the shrimp industry neglect human rights.",
-                "scores": {
-                    "Environment": -1,
-                    "Health": 2,
-                    "Healthcare": 2,
-                    "Culture": 1,
-                    "Climate": 0
-                },
-                icon: IndonesiaNisaPlateData.getItems()[0][1].foodInfo.content
-            },
-            {
-                "outcome": "Diets high in red and processed meat are linked to NCDs; beef has a heavier impact on environment and climate",
-                "scores": {
-                    "Environment": -1,
-                    "Health": 1,
-                    "Healthcare": 1,
-                    "Culture": 1,
-                    "Climate": -2
-                },
-                icon: IndonesiaNisaPlateData.getItems()[0][2].foodInfo.content
-            },
-            {
-                "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing; aquaculture has environmental issues related to fish feed, used of antibiotics and chemicals; fish is a healthy protein, but deep frying reduced its nutritional value.",
-                "scores": {
-                    "Environment": -1,
-                    "Health": 1,
-                    "Healthcare": 1,
-                    "Culture": 1,
-                    "Climate": 0
-                },
-                icon: IndonesiaNisaPlateData.getItems()[0][3].foodInfo.content
+                icon: IndonesiaNisaPlateData.getItems()[0][0].foodInfo.content,
+                outcomeType: OutcomeType.Health,
+                outcomeDesc: "Protein",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/plant-based-proteins/"
             },
             {
                 "outcome": "Tofu is an affordable source of protein and has a low climate footprint; however imported tofu must be packaged and transported.",
@@ -467,7 +438,53 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 1
                 },
-                icon: IndonesiaNisaPlateData.getItems()[0][4].foodInfo.content
+                icon: IndonesiaNisaPlateData.getItems()[0][1].foodInfo.content,
+                outcomeDesc: "Tofu",
+                outcomeType: OutcomeType.Environment,
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"
+            },
+            {
+                "outcome": "Eggs are a good source of protein and nutrition, but expensive to purchase for whole family.",
+                "scores": {
+                  "Environment": 0,
+                  "Health": 2,
+                  "Healthcare": 2,
+                  "Culture": 1,
+                  "Climate": 0
+                },
+                icon: IndonesiaNisaPlateData.getItems()[0][2].foodInfo.content,
+                outcomeType: OutcomeType.Environment,
+                outcomeDesc: "Eggs",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/egg-environmental-impact/"
+            },
+            IndonesiaHassanScoreData.get()[IndonesiaQuestions.DinnerProtein][2], // Fish
+            {
+                "outcome": "Diets high in red and processed meat are linked to NCDs; beef has a heavier impact on environment and climate",
+                "scores": {
+                    "Environment": -1,
+                    "Health": 1,
+                    "Healthcare": 1,
+                    "Culture": 1,
+                    "Climate": -2
+                },
+                icon: IndonesiaNisaPlateData.getItems()[0][4].foodInfo.content,
+                outcomeType: OutcomeType.Healthcare,
+                outcomeDesc: "Nutrition related disease",
+                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-is-medicine/"
+            },
+            {
+                "outcome": "Good source of protein but fried foods have negative health impacts. There are environmental issues with increased poultry and feed production in Indonesia",
+                "scores": {
+                    "Environment": -1,
+                    "Health": 1,
+                    "Healthcare": 1,
+                    "Culture": 1,
+                    "Climate": -1
+                },
+                icon: IndonesiaNisaPlateData.getItems()[0][5].foodInfo.content,
+                outcomeDesc: "Fried foods",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/fried-food/"
             }
         ],
         [IndonesiaQuestions.DinnerGrains]: IndonesiaWulandariScoreData.get()[IndonesiaQuestions.DinnerGrains],

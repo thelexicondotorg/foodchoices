@@ -28,6 +28,7 @@ export class CommonData {
     public static get whiteRice() { return "/public/food/brazil/gabriel/plate/grain1.svg"; }
     public static get whiteRiceFoodOffset() { return { x: 16, y: 14 }; }
     public static get whiteRiceTextOffset() { return { x: 80, y: 150 }; }
+    public static get friedEggOffset() { return { x: 70, y: 30 }; }
 
     public static get dinnerDish() { return "/public/food/brazil/gabriel/eatingout/3.svg"; }
     public static get friedEgg() { return "/public/food/indonesia/wulandari/plate/protein3.svg"; }

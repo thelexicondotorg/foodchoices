@@ -409,7 +409,10 @@ namespace Private {
           "Culture": 2,
           "Climate": 1
         },
-        icon: IndonesiaWulandariPlateData.getItems()[0][0].foodInfo.content
+        icon: IndonesiaWulandariPlateData.getItems()[0][0].foodInfo.content,
+        outcomeType: OutcomeType.Health,
+        outcomeDesc: "Protein",
+        link: "https://www.greenbrownblue.com/food-and-health-explained/plant-based-proteins/"
       },
       {
         "outcome": "Tofu is an affordable source of protein and has a low climate footprint; however imported tofu must be packaged and transported.",
@@ -420,7 +423,10 @@ namespace Private {
           "Culture": 2,
           "Climate": 1
         },
-        icon: IndonesiaWulandariPlateData.getItems()[0][1].foodInfo.content
+        icon: IndonesiaWulandariPlateData.getItems()[0][1].foodInfo.content,
+        outcomeDesc: "Imported foods",
+        outcomeType: OutcomeType.Climate,
+        link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"
       },
       {
         "outcome": "Eggs are a good source of protein and nutrition, but expensive to purchase for whole family.",
@@ -431,7 +437,10 @@ namespace Private {
           "Culture": 1,
           "Climate": 0
         },
-        icon: IndonesiaWulandariPlateData.getItems()[0][2].foodInfo.content
+        icon: IndonesiaWulandariPlateData.getItems()[0][2].foodInfo.content,
+        outcomeType: OutcomeType.Environment,
+        outcomeDesc: "Eggs",
+        link: "https://www.greenbrownblue.com/food-and-environment-explained/egg-environmental-impact/"
       }
     ],
     [IndonesiaQuestions.DinnerGrains]: [
@@ -444,7 +453,10 @@ namespace Private {
           "Culture": 2,
           "Climate": -1
         },
-        icon: IndonesiaWulandariPlateData.getItems()[1][0].foodInfo.content
+        icon: IndonesiaWulandariPlateData.getItems()[1][0].foodInfo.content,
+        outcomeDesc: "Rice and methane",
+        outcomeType: OutcomeType.Climate,
+        link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
       },
       {
         "outcome": "High consumption of staples come at the expense of nutrient diversity.",
@@ -455,43 +467,96 @@ namespace Private {
           "Culture": 1,
           "Climate": 0
         },
-        icon: IndonesiaWulandariPlateData.getItems()[1][1].foodInfo.content
+        icon: IndonesiaWulandariPlateData.getItems()[1][1].foodInfo.content,
+        outcomeType: OutcomeType.Health,
+        outcomeDesc: "Noodles",
+        link: "https://www.greenbrownblue.com/food-and-health-explained/instant-noodles-vs-spaghetti/"
       }
     ],
     [IndonesiaQuestions.DinnerVeggies]: [
-        {
-            "outcome": "Petai is indiginous to Indonesia and contain protein, vitamins and fiber.",
-            "scores": {
-                "Environment": 2,
-                "Health": 2,
-                "Healthcare": 2,
-                "Culture": 1,
-                "Climate": 2
-            },
-            icon: IndonesiaWulandariPlateData.getItems()[2][0].foodInfo.content
+      {
+        "outcome": "Kangkung is rich in Vitamins A and C, and antioxidants. It is a popular local vegetable that is inexpensive.",
+        "scores": {
+          "Environment": 2,
+          "Health": 2,
+          "Healthcare": 2,
+          "Culture": 1,
+          "Climate": 2
         },
-        {
-            "outcome": "Kangkung is rich in Vitamins A and C, and antioxidants. It is a popular local vegetable that is inexpensive.",
-            "scores": {
-                "Environment": 2,
-                "Health": 2,
-                "Healthcare": 2,
-                "Culture": 1,
-                "Climate": 2
-            },
-            icon: IndonesiaWulandariPlateData.getItems()[2][1].foodInfo.content
+        icon: IndonesiaWulandariPlateData.getItems()[2][0].foodInfo.content,
+        outcomeDesc: "Traditional foods",
+        outcomeType: OutcomeType.Culture,
+        link: "https://www.greenbrownblue.com/food-and-culture-explained/indonesia-imported-processed-foods/"
+      },
+      {
+        "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
+        "scores": {
+          "Environment": 1,
+          "Health": 2,
+          "Healthcare": 2,
+          "Culture": 1,
+          "Climate": 1
         },
-        {
-            "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
-            "scores": {
-                "Environment": 1,
-                "Health": 2,
-                "Healthcare": 2,
-                "Culture": 1,
-                "Climate": 1
-            },
-            icon: IndonesiaWulandariPlateData.getItems()[2][2].foodInfo.content
-        }
+        icon: IndonesiaWulandariPlateData.getItems()[2][1].foodInfo.content,
+        outcomeType: OutcomeType.Health,
+        outcomeDesc: "Fruits and vegetables",
+        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+      },
+      {
+        "outcome": "Cassava leaves are highly nutritious and complement a balanced meal. It is a locally grown, inexpensive vegetable.",
+        "scores": {
+          "Environment": 2,
+          "Health": 2,
+          "Healthcare": 2,
+          "Culture": 1,
+          "Climate": 2
+        },
+        icon: IndonesiaWulandariPlateData.getItems()[2][2].foodInfo.content,
+        outcomeDesc: "Agrobiodiversity",
+        outcomeType: OutcomeType.Environment,
+        link: "https://www.greenbrownblue.com/food-and-environment-explained/diversifying-diets/"
+      },
+      {
+        "outcome": "Petai is indiginous to Indonesia and contain protein, vitamins and fiber.",
+        "scores": {
+          "Environment": 2,
+          "Health": 2,
+          "Healthcare": 2,
+          "Culture": 1,
+          "Climate": 2
+        },
+        icon: IndonesiaWulandariPlateData.getItems()[2][3].foodInfo.content,
+        outcomeDesc: "Traditional foods",
+        outcomeType: OutcomeType.Culture
+      },
+      {
+        "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
+        "scores": {
+          "Environment": 1,
+          "Health": 2,
+          "Healthcare": 2,
+          "Culture": 1,
+          "Climate": 1
+        },
+        icon: IndonesiaWulandariPlateData.getItems()[2][4].foodInfo.content,
+        outcomeDesc: "Fruits and vegetables",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+      },
+      {
+        "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
+        "scores": {
+          "Environment": 1,
+          "Health": 2,
+          "Healthcare": 2,
+          "Culture": 1,
+          "Climate": 1
+        },
+        icon: IndonesiaWulandariPlateData.getItems()[2][5].foodInfo.content,
+        outcomeDesc: "Fruits and vegetables",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+      }
     ]
   };
 }

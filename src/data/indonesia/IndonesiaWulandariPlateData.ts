@@ -41,10 +41,7 @@ namespace Private {
                 containerUrl: CommonData.plate,
                 foodInfo: {
                     content: CommonData.friedEgg,
-                    offset: {
-                        x: 70,
-                        y: 30
-                    }
+                    offset: CommonData.friedEggOffset
                 },
                 descriptionInfo: {
                     content: "Fried egg",
@@ -63,7 +60,7 @@ namespace Private {
                     offset: CommonData.whiteRiceFoodOffset,
                 },
                 descriptionInfo: {
-                    content: "White Rice",
+                    content: "Rice",
                     offset: CommonData.whiteRiceTextOffset
                 },
                 containerScale: 2,
@@ -89,19 +86,6 @@ namespace Private {
             {
                 containerUrl: CommonData.plate,
                 foodInfo: {
-                    content: "/public/food/indonesia/wulandari/plate/vegetable1.svg",
-                    offset: { x: 10, y: 10 }
-                },
-                descriptionInfo: {
-                    content: "Petai (stink beans)",
-                    offset: CommonData.plateTextOffset
-                },
-                scale: 1.8,
-                plateScale: 2.5
-            },
-            {
-                containerUrl: CommonData.plate,
-                foodInfo: {
                     content: "/public/food/indonesia/wulandari/plate/vegetable2.svg",
                     offset: { x: 40, y: 30 }
                 },
@@ -124,7 +108,59 @@ namespace Private {
                 },
                 scale: 2,
                 plateScale: 2.5
-            }
+            },
+            {
+                containerUrl: CommonData.plate,
+                foodInfo: {
+                    content: "/public/food/indonesia/plate-veggie-kassava.svg",
+                    offset: { x: 40, y: 35 }
+                },
+                descriptionInfo: {
+                    content: "Gulai daun singkong (cassava leaves)",
+                    offset: CommonData.plateTextOffset
+                },
+                scale: 2,
+                plateScale: 3
+            },
+            {
+                containerUrl: CommonData.plate,
+                foodInfo: {
+                    content: "/public/food/indonesia/wulandari/plate/vegetable1.svg",
+                    offset: { x: 10, y: 10 }
+                },
+                descriptionInfo: {
+                    content: "Petai (stink beans)",
+                    offset: CommonData.plateTextOffset
+                },
+                scale: 1.8,
+                plateScale: 2.5
+            },            
+            {
+                containerUrl: CommonData.plate,
+                foodInfo: {
+                    content: "/public/food/indonesia/plate-veggie-mushrooms.svg",
+                    offset: { x: 60, y: 35 }
+                },
+                descriptionInfo: {
+                    content: "Mushrooms",
+                    offset: CommonData.plateTextOffset
+                },
+                scale: 2,
+                plateScale: 3
+            },
+            {
+                containerUrl: CommonData.plate,
+                foodInfo: {
+                    content: "/public/food/indonesia/plate-veggie-cabbage.svg",
+                    offset: { x: 45, y: 12 }
+                },
+                descriptionInfo: {
+                    content: "Cabbage",
+                    offset: CommonData.plateTextOffset
+                },
+                scale: 2,
+                plateScale: 3
+            },
         ]
     ];
 }

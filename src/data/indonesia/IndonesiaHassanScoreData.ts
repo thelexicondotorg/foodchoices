@@ -376,37 +376,32 @@ namespace Private {
         // ],
         [IndonesiaQuestions.DinnerProtein]: [
             {
-                "outcome": "Good source of protein but fried foods have negative health impacts. There are environmental issues with increased poultry and feed production in Indonesia",
+                "outcome": "Tempeh is an affordable source of protein and has a low climate footprint",
                 "scores": {
-                    "Environment": -1,
+                    "Environment": 2,
                     "Health": 1,
                     "Healthcare": 1,
-                    "Culture": 1,
-                    "Climate": -1
+                    "Culture": 2,
+                    "Climate": 1
                 },
-                icon: IndonesiaHassanPlateData.getItems()[0][0].foodInfo.content
+                icon: IndonesiaHassanPlateData.getItems()[0][0].foodInfo.content,
+                outcomeDesc: "Carbon Footprint",
+                outcomeType: OutcomeType.Climate,
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
             },
             {
-                "outcome": "A good source of protein but some practices in the shrimp industry neglect human rights.",
+                "outcome": "Eggs are a good source of protein and nutrition, but expensive to purchase eggs for whole family.",
                 "scores": {
-                    "Environment": -1,
+                    "Environment": 0,
                     "Health": 2,
                     "Healthcare": 2,
                     "Culture": 1,
                     "Climate": 0
                 },
-                icon: IndonesiaHassanPlateData.getItems()[0][1].foodInfo.content
-            },
-            {
-                "outcome": "Diets high in red and processed meat are linked to NCDs; beef has a heavier impact on environment and climate",
-                "scores": {
-                    "Environment": -1,
-                    "Health": 1,
-                    "Healthcare": 1,
-                    "Culture": 1,
-                    "Climate": -2
-                },
-                icon: IndonesiaHassanPlateData.getItems()[0][2].foodInfo.content
+                icon: IndonesiaHassanPlateData.getItems()[0][1].foodInfo.content,
+                outcomeDesc: "Undernutrition",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/protein-needs-in-children/"
             },
             {
                 "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing; aquaculture has environmental issues related to fish feed, used of antibiotics and chemicals; fish is a healthy protein, but deep frying reduced its nutritional value.",
@@ -417,18 +412,52 @@ namespace Private {
                     "Culture": 1,
                     "Climate": 0
                 },
-                icon: IndonesiaHassanPlateData.getItems()[0][3].foodInfo.content
+                icon: IndonesiaHassanPlateData.getItems()[0][2].foodInfo.content,
+                outcomeDesc: "Fishing",
+                outcomeType: OutcomeType.Environment,
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
             },
             {
-                "outcome": "Tofu is an affordable source of protein and has a low climate footprint; however imported tofu must be packaged and transported.",
+                "outcome": "Diets high in red and processed meat are linked to NCDs; beef has a heavier impact on environment and climate",
                 "scores": {
                     "Environment": -1,
                     "Health": 1,
                     "Healthcare": 1,
-                    "Culture": 2,
-                    "Climate": 1
+                    "Culture": 1,
+                    "Climate": -2
                 },
-                icon: IndonesiaHassanPlateData.getItems()[0][4].foodInfo.content
+                icon: IndonesiaHassanPlateData.getItems()[0][3].foodInfo.content,
+                outcomeType: OutcomeType.Health,
+                outcomeDesc: "Red Meat",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/red-meat/"
+            },
+            {
+                "outcome": "A good source of protein but some practices in the shrimp industry neglect human rights.",
+                "scores": {
+                    "Environment": -1,
+                    "Health": 2,
+                    "Healthcare": 2,
+                    "Culture": 1,
+                    "Climate": 0
+                },
+                icon: IndonesiaHassanPlateData.getItems()[0][4].foodInfo.content,
+                outcomeDesc: "Human rights and workers rights",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/shrimp-industry/"
+            },
+            {
+                "outcome": "Good source of protein but fried foods have negative health impacts. There are environmental issues with increased poultry and feed production in Indonesia",
+                "scores": {
+                    "Environment": -1,
+                    "Health": 1,
+                    "Healthcare": 1,
+                    "Culture": 1,
+                    "Climate": -1
+                },
+                icon: IndonesiaHassanPlateData.getItems()[0][5].foodInfo.content,
+                outcomeDesc: "Fried Foods",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/fried-food/"
             }
         ],
         [IndonesiaQuestions.DinnerGrains]: IndonesiaWulandariScoreData.get()[IndonesiaQuestions.DinnerGrains],

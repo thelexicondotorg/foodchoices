@@ -9,24 +9,40 @@ namespace Private {
             {
                 containerUrl: CommonData.plate,
                 foodInfo: {
-                    content: "/public/food/indonesia/hassan/plate/protein1.svg",
-                    offset: { x: 60, y: 20 }
+                    content: "/public/food/indonesia/wulandari/plate/protein1.svg",
+                    offset: {
+                        x: 60,
+                        y: 30
+                    }
                 },
                 descriptionInfo: {
-                    content: "Fried chicken",
+                    content: "Fried tempeh",
                     offset: CommonData.plateTextOffset
                 },
-                scale: 2,
-                plateScale: 2.5
+                scale: 2.5,
+                plateScale: 3
             },
             {
                 containerUrl: CommonData.plate,
                 foodInfo: {
-                    content: "/public/food/indonesia/hassan/plate/protein2.svg",
-                    offset: { x: 40, y: 10 }
+                    content: CommonData.friedEgg,
+                    offset: CommonData.friedEggOffset
                 },
                 descriptionInfo: {
-                    content: "Fried shrimp",
+                    content: "Fried egg",
+                    offset: CommonData.plateTextOffset
+                },
+                scale: 2.5,
+                plateScale: 3
+            },
+            {
+                containerUrl: CommonData.plate,
+                foodInfo: {
+                    content: "/public/food/indonesia/nisa/plate/protein2.svg",
+                    offset: { x: 30, y: 10 }
+                },
+                descriptionInfo: {
+                    content: "Fish",
                     offset: CommonData.plateTextOffset
                 },
                 scale: 2,
@@ -48,11 +64,11 @@ namespace Private {
             {
                 containerUrl: CommonData.plate,
                 foodInfo: {
-                    content: "/public/food/indonesia/nisa/plate/protein2.svg",
-                    offset: { x: 30, y: 10 }
+                    content: "/public/food/indonesia/hassan/plate/protein2.svg",
+                    offset: { x: 40, y: 10 }
                 },
                 descriptionInfo: {
-                    content: "Fish",
+                    content: "Fried shrimp",
                     offset: CommonData.plateTextOffset
                 },
                 scale: 2,
@@ -61,11 +77,11 @@ namespace Private {
             {
                 containerUrl: CommonData.plate,
                 foodInfo: {
-                    content: "/public/food/indonesia/wulandari/plate/protein2.svg",
+                    content: "/public/food/indonesia/hassan/plate/protein1.svg",
                     offset: { x: 60, y: 20 }
                 },
                 descriptionInfo: {
-                    content: "Fried Tofu (imported)",
+                    content: "Fried chicken",
                     offset: CommonData.plateTextOffset
                 },
                 scale: 2,

@@ -7,46 +7,33 @@ namespace Private {
     export const choices: IPlateItem[][] = [
         // Protein
         [
-            IndonesiaHassanPlateData.getItems()[0][0],
-            IndonesiaHassanPlateData.getItems()[0][1],
-            IndonesiaHassanPlateData.getItems()[0][2],
-            IndonesiaHassanPlateData.getItems()[0][3],
-            IndonesiaHassanPlateData.getItems()[0][4]
+            IndonesiaHassanPlateData.getItems()[0][0], // tempeh
+            {
+                containerUrl: CommonData.plate,
+                foodInfo: {
+                    content: "/public/food/indonesia/wulandari/plate/protein2.svg",
+                    offset: {
+                        x: 40,
+                        y: 10
+                    }
+                },
+                descriptionInfo: {
+                    content: "Fried Tofu",
+                    offset: CommonData.plateTextOffset
+                },
+                scale: 2.5,
+                plateScale: 3
+            },
+            IndonesiaHassanPlateData.getItems()[0][1], // Fried egg
+            IndonesiaHassanPlateData.getItems()[0][2], // fish
+            IndonesiaHassanPlateData.getItems()[0][3], // beef
+            // IndonesiaHassanPlateData.getItems()[0][4], // fried shrimp
+            IndonesiaHassanPlateData.getItems()[0][5], // fried chicken
         ],        
         // Grain
         IndonesiaWulandariPlateData.getItems()[1],
         // Vegetables
-        [
-            IndonesiaWulandariPlateData.getItems()[2][0],
-            IndonesiaWulandariPlateData.getItems()[2][1],
-            IndonesiaWulandariPlateData.getItems()[2][2],
-            {
-                containerUrl: CommonData.plate,
-                foodInfo: {
-                    content: "/public/food/indonesia/plate-veggie-kassava.svg",
-                    offset: { x: 40, y: 35 }
-                },
-                descriptionInfo: {
-                    content: "Gulai daun singkong (cassava leaves)",
-                    offset: CommonData.plateTextOffset
-                },
-                scale: 2,
-                plateScale: 3
-            },
-            {
-                containerUrl: CommonData.plate,
-                foodInfo: {
-                    content: "/public/food/indonesia/plate-veggie-mushrooms.svg",
-                    offset: { x: 60, y: 35 }
-                },
-                descriptionInfo: {
-                    content: "Mushrooms",
-                    offset: CommonData.plateTextOffset
-                },
-                scale: 2,
-                plateScale: 3
-            }
-        ]
+        IndonesiaWulandariPlateData.getItems()[2]
     ];
 }
 
