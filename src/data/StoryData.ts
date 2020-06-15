@@ -72,6 +72,21 @@ namespace Private {
         }
     ];
 
+    const nordicSections: IStoryData[] = [
+        {
+            ...breakfastIcons,
+            message: "Can you help ${name} start ${possessivePronoun} day?",
+        },
+        {
+            ...breakIcons,
+            message: "${name} has a lunch break, help ${objectPronoun} pick ${possessivePronoun} meal!",
+        },
+        {
+            ...clockIcons,
+            message: "It's dinner time for ${name}!",
+        }
+    ];
+
     export const sections: {
         [region: number]: {
             [character: number]: IStoryData[];
@@ -174,9 +189,9 @@ namespace Private {
             [BrazilCharacters.Sandra]: defaultSections,
         },
         [Region.Nordics]: {
-            [NordicCharacters.Amena]: defaultSections,
-            [NordicCharacters.Elias]: defaultSections,
-            [NordicCharacters.Lisen]: defaultSections,
+            [NordicCharacters.Amena]: nordicSections,
+            [NordicCharacters.Elias]: nordicSections,
+            [NordicCharacters.Lisen]: nordicSections,
         }
     };
 }

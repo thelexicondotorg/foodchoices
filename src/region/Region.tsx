@@ -58,23 +58,32 @@ export class Region extends React.Component<IRegionProps> {
                                     alignItems: "center"
                                 }}
                             >
-                                {(() => {
-                                    if (Array.isArray(flag)) {
-                                        return flag.map((f, index) => (
-                                            <img key={index} className="flags" src={f} />
-                                        ));
-                                    } else {
-                                        return <img className="flag" src={flag} />;
-                                    }
-                                })()}
-                                <img
-                                    className={Array.isArray(flag) ? "region-globe" : ""}
+                                <div
                                     style={{
-                                        marginLeft: "30px",
-                                        width: "80px"
+                                        display: "flex",
+                                        flexWrap: "wrap"
                                     }}
-                                    src={globe}
-                                />
+                                >
+                                    {(() => {
+                                        if (Array.isArray(flag)) {
+                                            return flag.map((f, index) => (
+                                                <img key={index} className="flags" src={f} />
+                                            ));
+                                        } else {
+                                            return <img className="flag" src={flag} />;
+                                        }
+                                    })()}
+                                </div>
+                                <div>
+                                    <img
+                                        className={Array.isArray(flag) ? "region-globe" : ""}
+                                        style={{
+                                            marginLeft: Array.isArray(flag) ? undefined : "30px",
+                                            width: Array.isArray(flag) ? "120px" : "80px"
+                                        }}
+                                        src={globe}
+                                    />
+                                </div>
                             </div>
                             <div
                                 style={{

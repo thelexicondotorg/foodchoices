@@ -37,6 +37,9 @@ namespace Private {
                 "/public/region/nordics/flag3.svg",
                 "/public/region/nordics/flag4.svg",
                 "/public/region/nordics/flag5.svg",
+                "/public/region/nordics/Faroe-Islands-flag.svg",
+                "/public/region/nordics/Aaland-flag.svg",
+                "/public/region/nordics/Greenland-flag.svg"
             ],
             globe: "/public/region/nordics/globe.svg",
             background: "/public/region/Nordics.svg",

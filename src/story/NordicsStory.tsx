@@ -33,6 +33,7 @@ export class NordicsStory extends React.Component<IStoryProps> {
                     onCompleted={onIntroFinished}
                     region={region}
                     character={character}
+                    maxSections={3}
                 />
             );
         }
@@ -49,66 +50,67 @@ export class NordicsStory extends React.Component<IStoryProps> {
             NordicQuestions.Dinner4
         ];
 
-        const gamelets = [
-            <Time
-                region={region}
-                character={character}
-                onCompleted={i => onCompleted(NordicQuestions.Breakfast, i)}
-            />,
-            <MCQ
-                region={region}
-                character={character}
-                onCompleted={onProgress}
-                choiceMade={(question, answer) => {
-                    const id = [
-                        NordicQuestions.Snacks1
-                    ][question];
-                    Scores.register(id, answer);
-                }}
-            />,
-            <Lunch
-                region={region}
-                character={character}
-                onCompleted={onProgress}
-                choiceMade={(question, answer) => {
-                    const id = [
-                        NordicQuestions.Lunch1,
-                        NordicQuestions.Lunch1Drinks,
-                    ][question];
-                    Scores.register(id, answer);
-                }}
-            />,
-            <Stacking
-                region={region}
-                character={character}
-                onCompleted={i => onCompleted(NordicQuestions.Lunch2, i)}
-            />,
-            <Slider
-                region={region}
-                character={character}
-                onCompleted={i => onCompleted(NordicQuestions.Groceries, i)}
-            />,
-            <YesNoSocial
-                region={region}
-                character={character}
-                onCompleted={onProgress}
-                onYesPicked={question => Scores.registerYesNo(yesNoQuestions[question], "Yes")}
-                onNoPicked={question => Scores.registerYesNo(yesNoQuestions[question], "No")}                
-            />,
-            <Plate
-                region={region}
-                character={character}
-                onCompleted={onProgress}
-                choiceMade={(question, answer) => {
-                    const id = [
-                        NordicQuestions.DinnerProtein,
-                        NordicQuestions.DinnerGrains,
-                        NordicQuestions.DinnerVeggies
-                    ][question];
-                    Scores.register(id, answer);
-                }}
-            />
-        ];
+        const gamelets: { [g: string]: JSX.Element } = {
+            [types.GameletType.Time]: (
+                <Time
+                    region={region}
+                    character={character}
+                    onCompleted={i => onCompleted(NordicQuestions.Breakfast, i)}
+                />
+            ),
+            [types.GameletType.MCQ]: (
+                <MCQ
+                    region={region}
+                    character={character}
+                    onCompleted={onProgress}
+                    choiceMade={(question, answer) => {
+                        const id = [
+                            NordicQuestions.Snacks1
+                        ][question];
+                        Scores.register(id, answer);
+                    }}
+                />
+            ),
+            [types.GameletType.Lunch]: (
+                <Lunch
+                    region={region}
+                    character={character}
+                    onCompleted={onProgress}
+                    choiceMade={(question, answer) => {
+                        const id = [
+                            NordicQuestions.Lunch1,
+                            NordicQuestions.Lunch1Drinks,
+                        ][question];
+                        Scores.register(id, answer);
+                    }}
+                />
+            ),
+            [types.GameletType.YesNoSocial]: (
+                <YesNoSocial
+                    region={region}
+                    character={character}
+                    onCompleted={onProgress}
+                    onYesPicked={question => Scores.registerYesNo(yesNoQuestions[question], "Yes")}
+                    onNoPicked={question => Scores.registerYesNo(yesNoQuestions[question], "No")}
+                />
+            ),
+            [types.GameletType.Plate]: (
+                <Plate
+                    region={region}
+                    character={character}
+                    onCompleted={onProgress}
+                    choiceMade={(question, answer) => {
+                        const id = [
+                            NordicQuestions.DinnerProtein,
+                            NordicQuestions.DinnerGrains,
+                            NordicQuestions.DinnerVeggies
+                        ][question];
+                        Scores.register(id, answer);
+                    }}
+                />
+            )
+        };
+        
         return gamelets[gamelet];
     }
 }
