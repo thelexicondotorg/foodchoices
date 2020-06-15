@@ -59,7 +59,7 @@ namespace Private {
                 },
                 containerScale: 2,
                 scale: 2,
-                plateScale: 3
+                plateScale: 3.5
             },
             {
                 containerUrl: CommonData.bowl,
@@ -73,7 +73,7 @@ namespace Private {
                 },
                 containerScale: 2,
                 scale: 2,
-                plateScale: 3
+                plateScale: 3.5
             },
             {
                 containerUrl: CommonData.plate,
@@ -119,6 +119,22 @@ namespace Private {
                 },
                 scale: 2,
                 plateScale: 2.5
+            },
+            {
+                containerUrl: CommonData.plate,
+                foodInfo: {
+                    content: "/public/food/brazil/plate-salad.svg",
+                    offset: {
+                        x: 30,
+                        y: 0
+                    }
+                },
+                descriptionInfo: {
+                    content: "Salad",
+                    offset: CommonData.plateTextOffset
+                },
+                scale: 3,
+                plateScale: 4
             },
             {
                 containerUrl: "/public/gamelets/plate/FriesBag.svg",

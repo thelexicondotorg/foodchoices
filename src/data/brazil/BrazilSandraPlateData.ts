@@ -96,6 +96,22 @@ namespace Private {
             {
                 containerUrl: CommonData.plate,
                 foodInfo: {
+                    content: "/public/food/brazil/plate-spaetzle.svg",
+                    offset: {
+                        x: 50,
+                        y: 20
+                    }
+                },
+                descriptionInfo: {
+                    content: "Spaetzle",
+                    offset: CommonData.plateTextOffset
+                },
+                scale: 3,
+                plateScale: 4
+            },
+            {
+                containerUrl: CommonData.plate,
+                foodInfo: {
                     content: "/public/food/brazil/sandra/plate/grain3.svg",
                     offset: {
                         x: 70,

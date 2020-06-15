@@ -1,4 +1,4 @@
-import { IScoreData, Region, CanadaCharacters, BrazilCharacters } from "../../Types";
+import { IScoreData, Region, CanadaCharacters, BrazilCharacters, OutcomeType } from "../../Types";
 import { BrazilQuestions } from "../../score/ScoreTypes";
 import { TimeData } from "../TimeData";
 import { MCQData } from "../MCQData";
@@ -299,7 +299,7 @@ namespace Private {
         ],
         [BrazilQuestions.DinnerProtein]: [
             {
-                "outcome": "Eggs from the backyard, yummy! Great choice for Maria's and the panet health!",
+                "outcome": "Eggs from the backyard, yummy! This is a great choice for Maria's health and the planet's health!",
                 "scores": {
                     "Environment": 1,
                     "Health": 2,
@@ -307,21 +307,27 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 1
                 },
-                icon: BrazilMariaPlateData.getItems()[0][0].foodInfo.content
+                icon: BrazilMariaPlateData.getItems()[0][0].foodInfo.content,
+                outcomeType: OutcomeType.Culture,
+                outcomeDesc: "Locally grown food",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"
             },
             {
-                "outcome": "Be careful! If the tomato souce is fresh, this is just fine. But about the beef... well... not everyday, OK?",
+                "outcome": "Be careful! If the tomato souce is fresh, this is just fine, but beef has a large carbon footprint and should be consumed with moderation.",
                 "scores": {
                     "Environment": -1,
-                    "Health": 0,
-                    "Healthcare": 0,
+                    "Health": 1,
+                    "Healthcare": 1,
                     "Culture": 1,
                     "Climate": -1
                 },
-                icon: BrazilMariaPlateData.getItems()[0][1].foodInfo.content
+                icon: BrazilMariaPlateData.getItems()[0][1].foodInfo.content,
+                outcomeDesc: "Carbon Footprint",
+                outcomeType: OutcomeType.Climate,
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
             },
             {
-                "outcome": "Not a good choice...this is ultra-processed foods! It is not the best choice for Maria's and the planet health!",
+                "outcome": "Not a good choice...hot dogs are ultra-processed! They are not the best choice for Maria's health or the planet's health!",
                 "scores": {
                     "Environment": -2,
                     "Health": -2,
@@ -329,7 +335,10 @@ namespace Private {
                     "Culture": -2,
                     "Climate": -2
                 },
-                icon: BrazilMariaPlateData.getItems()[0][2].foodInfo.content
+                icon: BrazilMariaPlateData.getItems()[0][2].foodInfo.content,
+                outcomeType: OutcomeType.Climate,
+                outcomeDesc: "Carbon Footprint",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
             }            
         ],
         [BrazilQuestions.DinnerGrains]: [
@@ -342,21 +351,27 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 1
                 },
-                icon: BrazilMariaPlateData.getItems()[1][0].foodInfo.content
+                icon: BrazilMariaPlateData.getItems()[1][0].foodInfo.content,
+                outcomeDesc: "Whole grains",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
             },
             {
-                "outcome": "Unprocessed and rich in fiber. You rock!",
+                "outcome": "Brown rice is unprocessed and rich in fiber. You rock!",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
                     "Healthcare": 2,
-                    "Culture": 0,
+                    "Culture": 1,
                     "Climate": 2
                 },
-                icon: BrazilMariaPlateData.getItems()[1][1].foodInfo.content
+                icon: BrazilMariaPlateData.getItems()[1][1].foodInfo.content,
+                outcomeDesc: "Whole grains",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
             },
             {
-                "outcome": "Usually, when one eats instant noodles, eats only that. So, double trouble: a baby eating an ultra-processed unhealthy meal and doesn't eating other foods that could be healthier. Bad choice...",
+                "outcome": "Instant noodles are ultra-processed and unhealthy. They are an especially bad choice when eaten alone and not paired with healthier foods such as legumes and vegetables. ",
                 "scores": {
                     "Environment": -2,
                     "Health": -2,
@@ -364,10 +379,13 @@ namespace Private {
                     "Culture": -2,
                     "Climate": -2
                 },
-                icon: BrazilMariaPlateData.getItems()[1][2].foodInfo.content
+                icon: BrazilMariaPlateData.getItems()[1][2].foodInfo.content,
+                outcomeDesc: "Instant noodles",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/instant-noodles-vs-spaghetti/"
             },
             {
-              "outcome": "Pasta with sauce it's a quick and good choice. However it is important the sauce to be healthy (as homemade tomato sauce).",
+              "outcome": "Pasta with sauce is fast and easy to make. Include vegetables in your sauce! Homemade tomato sauce is a healthy option. ",
               "scores": {
                   "Environment": 1,
                   "Health": 1,
@@ -375,12 +393,15 @@ namespace Private {
                   "Culture": 1,
                   "Climate": 1
               },
-              icon: BrazilMariaPlateData.getItems()[1][3].foodInfo.content
+              icon: BrazilMariaPlateData.getItems()[1][3].foodInfo.content,
+              outcomeDesc: "Home-made food",
+              outcomeType: OutcomeType.Culture,
+              link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
           }
         ],
         [BrazilQuestions.DinnerVeggies]: [
             {
-                "outcome": "Wonderful choice! This is local food, unprocessed, healthy!",
+                "outcome": "Wonderful choice! Eating food from your backyard is as local as you can get and vegetables are full of healthy nutrients.",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
@@ -388,10 +409,27 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: BrazilMariaPlateData.getItems()[2][0].foodInfo.content
+                icon: BrazilMariaPlateData.getItems()[2][0].foodInfo.content,
+                outcomeDesc: "Locally grown food",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"
             },
             {
-                "outcome": "No, no, no! Ultra-processed foods should not be offered to children! Next time try some fresh organic vegetables from the family's yard!",
+              "outcome": "Good choice! Remember that it is important corretly wash these leaves before eating.",
+              "scores": {
+                "Environment": 2,
+                "Health": 2,
+                "Healthcare": 2,
+                "Culture": 2,
+                "Climate": 2
+              },
+              icon: BrazilMariaPlateData.getItems()[2][1].foodInfo.content,
+              outcomeType: OutcomeType.Healthcare,
+              outcomeDesc: "Washing vegetables",
+              link: "https://www.greenbrownblue.com/food-and-healthcare-explained/washing-vegetables/"
+            },    
+            {
+                "outcome": "Ultra-processed foods should not be offered to children. Next time try to eat some fresh organic vegetables from the family's yard.",
                 "scores": {
                   "Environment": -2,
                   "Health": -2,
@@ -399,7 +437,10 @@ namespace Private {
                   "Culture": -2,
                   "Climate": -2
                 },
-                icon: BrazilMariaPlateData.getItems()[2][1].foodInfo.content
+                icon: BrazilMariaPlateData.getItems()[2][2].foodInfo.content,
+                outcomeDesc: "Saturated and trans fats",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/saturated-trans-fats/"
             }            
         ]
     };

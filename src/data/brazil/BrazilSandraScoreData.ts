@@ -1,4 +1,4 @@
-import { IScoreData, Region, CanadaCharacters, BrazilCharacters } from "../../Types";
+import { IScoreData, Region, BrazilCharacters, OutcomeType } from "../../Types";
 import { BrazilQuestions } from "../../score/ScoreTypes";
 import { TimeData } from "../TimeData";
 import { MCQData } from "../MCQData";
@@ -294,7 +294,7 @@ namespace Private {
         ],
         [BrazilQuestions.DinnerProtein]: [
             {
-                "outcome": "Should consume with moderation",
+                "outcome": "Chicken is better for the climate than beef, but eating any kind of meat is resource intensive. Consume with moderation.",
                 "scores": {
                     "Environment": -1,
                     "Health": 1,
@@ -302,10 +302,13 @@ namespace Private {
                     "Culture": 1,
                     "Climate": -2
                 },
-                icon: BrazilSandraPlateData.getItems()[0][0].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[0][0].foodInfo.content,
+                outcomeType: OutcomeType.Climate,
+                outcomeDesc: "Chicken",
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/chicken-beef/"
             },
             {
-                "outcome": "Its a tradicional meat from South, but you should consume with moderation",
+                "outcome": "Kassler, a traditional german dish, is a popular meat dish in Blumenau, the town where Sandra is from. Blumenau is one of the largest Germen descendent communities in Brazil. You should consume meat in moderation.",
                 "scores": {
                     "Environment": -1,
                     "Health": 0,
@@ -313,10 +316,13 @@ namespace Private {
                     "Culture": 1,
                     "Climate": -2
                 },
-                icon: BrazilSandraPlateData.getItems()[0][1].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[0][1].foodInfo.content,
+                outcomeDesc: "Dairy/Meat",
+                outcomeType: OutcomeType.Environment,
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/dairy-meat-environment/"
             },
             {
-                "outcome": "Nice pick! Eat less meat its a good way to adopt of environmentally friendly practices.",
+                "outcome": "Nice pick! Eating less meat its a good way to adopt environmentally friendly practices.",
                 "scores": {
                     "Environment": -2,
                     "Health": 1,
@@ -324,10 +330,13 @@ namespace Private {
                     "Culture": 0,
                     "Climate": -2
                 },
-                icon: BrazilSandraPlateData.getItems()[0][2].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[0][2].foodInfo.content,
+                outcomeType: OutcomeType.Environment,
+                outcomeDesc: "Eggs",
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/egg-environmental-impact/"         
             },
             {
-                "outcome": "Pay attention, Ultraprocessed food!Try to read the label if you do not recogonize lots of words, its not a good ideia for dinner.",
+                "outcome": "Sausage is often ultraprocessed. Read the label before you buy, and if you don't recognize many of the ingredients, it's most likely not very healthy.",
                 "scores": {
                     "Environment": -1,
                     "Health": -2,
@@ -335,12 +344,15 @@ namespace Private {
                     "Culture": -2,
                     "Climate": -1
                 },
-                icon: BrazilSandraPlateData.getItems()[0][3].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[0][3].foodInfo.content,
+                outcomeDesc: "Processed Foods",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
             }
         ],
         [BrazilQuestions.DinnerGrains]: [
             {
-                "outcome": "Good choice! its tradicional food from Brazil",
+                "outcome": "Good choice! White rice is a traditional side dish in Brazil.",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
@@ -348,10 +360,13 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: BrazilSandraPlateData.getItems()[1][0].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[1][0].foodInfo.content,
+                outcomeDesc: "Rice and methane",
+                outcomeType: OutcomeType.Environment,
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
             },
             {
-                "outcome": "Pay attention, Ultraprocessed food!Try to read the label if you do not recogonize lots of words, its not a good ideia for dinner.",
+                "outcome": "Ready to eat foods are often ultraprocessed. Read the label before you buy, and if you don't recognize many of the ingredients, it's most likely not very healthy.",
                 "scores": {
                     "Environment": 0,
                     "Health": -2,
@@ -359,23 +374,43 @@ namespace Private {
                     "Culture": -2,
                     "Climate": 0
                 },
-                icon: BrazilSandraPlateData.getItems()[1][1].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[1][1].foodInfo.content,
+                outcomeType: OutcomeType.Health,
+                outcomeDesc: "Sodium",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"
             },
             {
-                "outcome": "Nice Pick! Be in natura and minimally processed food most part of you meal",
+                "outcome": "Good choice! Spaetzl, a traditional german dish, is a popular food in Blumenau, the city where Sandra is from. Blumenau is one of the largest Germen descendent communities in Brazil.",
                 "scores": {
                     "Environment": 1,
                     "Health": 2,
                     "Healthcare": 2,
-                    "Culture": 1,
+                    "Culture": 2,
                     "Climate": 0
                 },
-                icon: BrazilSandraPlateData.getItems()[1][2].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[1][2].foodInfo.content,
+                outcomeDesc: "Whole grain",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
+            },
+            {
+                "outcome": "Nice Pick! Boiled corn is minimally processed.",
+                "scores": {
+                    "Environment": 1,
+                    "Health": 2,
+                    "Healthcare": 2,
+                    "Culture": 2,
+                    "Climate": 1
+                },
+                icon: BrazilSandraPlateData.getItems()[1][3].foodInfo.content,
+                outcomeType: OutcomeType.Health,
+                outcomeDesc: "Whole grain",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
             }
         ],
         [BrazilQuestions.DinnerVeggies]: [
             {
-                "outcome": "Good choice! This is typical in Brazilian dishes. It's real food!",
+                "outcome": "Good choice! Fresh vegetables are healthy to consume and typical in Brazilian dishes.",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
@@ -383,10 +418,13 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: BrazilSandraPlateData.getItems()[2][0].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[2][0].foodInfo.content,
+                outcomeType: OutcomeType.Health,
+                outcomeDesc: "Leafy greens",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"
             },
             {
-                "outcome": "Good choice! This is typical in Brazilian dishes. It's real food!",
+                "outcome": "Sauerkraut is very healthy and full of nutrients such as Vitamin C.",
                 "scores": {
                     "Environment": 0,
                     "Health": 2,
@@ -394,10 +432,13 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 1
                 },
-                icon: BrazilSandraPlateData.getItems()[2][1].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[2][1].foodInfo.content,
+                outcomeDesc: "Vegetables and fruit",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
             },
             {
-                "outcome": "Watch out! The sauce will screw up your vegetable.",
+                "outcome": "Watch out! Eating your vegetable with an ultraprocessed sauce is less healthy. ",
                 "scores": {
                     "Environment": 0,
                     "Health": -1,
@@ -405,7 +446,10 @@ namespace Private {
                     "Culture": -1,
                     "Climate": 0
                 },
-                icon: BrazilSandraPlateData.getItems()[2][2].foodInfo.content
+                icon: BrazilSandraPlateData.getItems()[2][2].foodInfo.content,
+                outcomeType: OutcomeType.Health,
+                outcomeDesc: "Ultra-processed foods",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
             }
         ]
     };

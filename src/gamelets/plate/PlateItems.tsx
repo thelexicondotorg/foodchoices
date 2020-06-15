@@ -143,7 +143,7 @@ export class PlateItems extends React.Component<IPlateItemsProps> {
                     <g transform="translate(130, 22)" ref={e => this._slots[0] = e as SVGGElement} />
                     <g transform="translate(22, 222)" ref={e => this._slots[1] = e as SVGGElement} />
                     <g transform="translate(30, 425)" ref={e => this._slots[2] = e as SVGGElement} />
-                    <g transform="translate(248, 585)" ref={e => this._slots[3] = e as SVGGElement} />
+                    <g transform="translate(248, 605)" ref={e => this._slots[3] = e as SVGGElement} />
                     <g transform="translate(594, 585)" ref={e => this._slots[4] = e as SVGGElement} />
                     <g transform="translate(900, 565)" ref={e => this._slots[5] = e as SVGGElement} />
                     <g ref={e => this._frontSlot = e as SVGGElement} />
@@ -194,7 +194,7 @@ export class PlateItems extends React.Component<IPlateItemsProps> {
         if (items.length > 3) {
             this._slots[3].setAttribute("transform", "translate(268, 600)");
         } else {
-            this._slots[3].setAttribute("transform", "translate(248, 585)");
+            this._slots[3].setAttribute("transform", "translate(248, 605)");
         }
     }
 
