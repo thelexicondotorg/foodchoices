@@ -51,6 +51,11 @@ export class Scores {
         return Private.scores;
     }
 
+    public static getYesNoScores() {
+        // used to calculate outcomes
+        return Private.yesNoScores;
+    }
+
     public static getAllScores() {
         // used to send scores to backend
         return (Private.scores as object[]).concat(Private.yesNoScores);

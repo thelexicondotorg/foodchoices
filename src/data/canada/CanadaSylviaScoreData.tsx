@@ -353,6 +353,7 @@ namespace Private {
             }
         ],
         [CanadaQuestions.Dinner1]: [
+            // Yes
             {
                 "outcome": "In most developed countries, ultra-processed and packaged foods make up more than 50% of the typical diet - and are associated with lower diet quality and increased health risks compared to diets that are higher in whole foods.",
                 "scores": {
@@ -361,6 +362,21 @@ namespace Private {
                     "Healthcare": 2,
                     "Culture": 1,
                     "Climate": 1
+                },
+                icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
+                outcomeType: OutcomeType.Health,
+                outcomeDesc: "Whole Foods",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-foods-meaning/"
+            },
+            // No 
+            {
+                "outcome": "In most developed countries, ultra-processed and packaged foods make up more than 50% of the typical diet - and are associated with lower diet quality and increased health risks compared to diets that are higher in whole foods.",
+                "scores": {
+                    "Environment": -1,
+                    "Health": -2,
+                    "Healthcare": -2,
+                    "Culture": -1,
+                    "Climate": -1
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Health,
@@ -382,6 +398,21 @@ namespace Private {
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Cooking Skills",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
+            },
+            // No
+            {
+                "outcome": "On any given day, more than one-third of Americans consume fast food, which is typically higher in calories, salt and fat than the same meal prepared at home from real, whole ingredients.",
+                "scores": {
+                    "Environment": 0,
+                    "Health": -1,
+                    "Healthcare": -1,
+                    "Culture": -2,
+                    "Climate": 0
+                },
+                icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1].icon,
+                outcomeType: OutcomeType.Culture,
+                outcomeDesc: "Cooking Skills",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
             }
         ],
         [CanadaQuestions.Dinner3]: [
@@ -392,6 +423,21 @@ namespace Private {
                     "Health": 1,
                     "Healthcare": 1,
                     "Culture": 2,
+                    "Climate": 0
+                },
+                icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,
+                outcomeType: OutcomeType.Health,
+                outcomeDesc: "Eating as a Family",
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+            },
+            // No
+            {
+                "outcome": "Eating together as a family can help everyone make healthier food choices and learn about food traditions.",
+                "scores": {
+                    "Environment": 0,
+                    "Health": -1,
+                    "Healthcare": -1,
+                    "Culture": -2,
                     "Climate": 0
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,

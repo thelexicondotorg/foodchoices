@@ -119,7 +119,7 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
 
         const scoresData = scoreMap[props.region][props.character];
         const scores = Scores.get();
-        const finalScores = scores.reduce(
+        const normalScores = scores.reduce(
             (prev, cur) => {
                 const questionData = scoresData[cur.questionId];
                 if (Boolean(questionData)) {
@@ -138,6 +138,29 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
             },
             [] as Array<{ data: IScoreData; id: string; }>
         ).filter(s => Boolean(s.data.outcome) && Boolean(s.data.icon));
+
+        const yesNoScores = Scores.getYesNoScores().reduce(
+            (prev, cur) => {
+                const questionData = scoresData[cur.gamelet];
+                if (Boolean(questionData)) {
+                    const index = cur.answer === "Yes" ? 0 : 1;
+                    const answerData = questionData[index];
+                    if (Boolean(answerData)) {
+                        return prev.concat({
+                            data: answerData,
+                            id: `${cur.gamelet}_${cur.answer}`
+                        });
+                    } else {
+                        return prev;
+                    }
+                } else {
+                    return prev;
+                }
+            },
+            [] as Array<{ data: IScoreData; id: string; }>
+        ).filter(s => Boolean(s.data.outcome) && Boolean(s.data.icon));
+
+        const finalScores = [...normalScores, ...yesNoScores];
 
         // 4 is equivalent to 2, because [-2, 2] range is normalized to [0, 4]
         this._maxScore = finalScores.length * 4;
