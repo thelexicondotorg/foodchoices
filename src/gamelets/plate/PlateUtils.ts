@@ -9,6 +9,7 @@ import { IndonesiaHassanPlateData } from "../../data/indonesia/IndonesiaHassanPl
 import { IndonesiaNisaPlateData } from "../../data/indonesia/IndonesiaNisaPlateData";
 import { CanadaHardeepPlateData } from "../../data/canada/CanadaHardeepPlateData";
 import { BrazilMariaPlateData } from "../../data/brazil/BrazilMariaPlateData";
+import { CanadaEstherPlateData } from "../../data/canada/CanadaEstherPlateData";
 
 export class PlateUtils {
      public static getData(region: Region, character: Character) {
@@ -16,6 +17,7 @@ export class PlateUtils {
             case Region.Canada: 
                 switch (character) {
                     case CanadaCharacters.Hardeep: return CanadaHardeepPlateData;
+                    case CanadaCharacters.Esther: return CanadaEstherPlateData;
                     default: return PlateDataCanada;
                 }
             case Region.Brazil: 

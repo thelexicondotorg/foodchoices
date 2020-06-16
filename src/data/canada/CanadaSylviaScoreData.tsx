@@ -348,7 +348,7 @@ namespace Private {
                 },
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[3].icon,
                 outcomeType: OutcomeType.Healthcare,
-                outcomeDesc: "Food Insecurity and Health Outcomesk",
+                outcomeDesc: "Food Insecurity and Health Outcomes",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/food-banks/"
             }
         ],

@@ -1,7 +1,6 @@
 
 import * as React from "react";
 import { PlateItem } from "./PlateItem";
-import { PlateDataCanada } from "../../data/canada/PlateDataCanada";
 import { Utils } from "../../common/Utils";
 import { IPoint, Region, Character } from "../../Types";
 import { Images } from "../../Images";

@@ -29,21 +29,21 @@ namespace Private {
             // Esther
             [
                 {
-                    icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "${subjectPronoun} stops at a big box grocery store",
-                    easterEgg: "Esther doesn't have a car and can't get to the major grocery stores without walking along a major highway"
-                },
-                {
                     icon: "/public/gamelets/slider/market.svg",
                     description: "${subjectPronoun} waits until the weekend to shop at a local farmer's market, where ${subjectPronoun} knows all of the vendors and stops to say hello."
-                },            
+                },
+                {
+                    icon: "/public/gamelets/slider/bigbox.svg",
+                    description: "${subjectPronoun} stops at a big box grocery store",
+                    easterEgg: "Esther doesn’t have a car and can’t get to the major grocery stores without walking along a major highway. Choose another option!"
+                },
                 {
                     icon: "/public/gamelets/slider/shop.svg",
                     description: "${subjectPronoun} visits the convenience store close to ${possessivePronoun} house"
                 },
                 {
                     icon: "/public/gamelets/slider/foodbank.svg",
-                    description: "${subjectPronoun} rearranges her schedule to get groceries from the food bank when its open"
+                    description: "${subjectPronoun} rearranges her schedule to get groceries from the food bank when it's open"
                 }
             ],
             // Hardeep
