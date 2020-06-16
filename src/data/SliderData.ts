@@ -49,14 +49,14 @@ namespace Private {
             // Hardeep
             [
                 {
+                    icon: "/public/gamelets/slider/market.svg",
+                    description: "He waits until the weekend to shop at a local farmer’s market, where he knows all of the vendors and stops to say hello.",
+                    easterEgg: "Hardeep doesn't know where the local farmer's market is!"
+                },
+                {
                     icon: "/public/gamelets/slider/bigbox.svg",
                     description: "${subjectPronoun} stops at a big box grocery store"
                 },
-                {
-                    icon: "/public/gamelets/slider/market.svg",
-                    description: "${subjectPronoun} waits until the weekend to shop at a local farmer's market, where ${subjectPronoun} knows all of the vendors and stops to say hello.",
-                    easterEgg: "Hardeep doesn't know where the local farmer's market is!"
-                },            
                 {
                     icon: "/public/gamelets/slider/shop.svg",
                     description: "He visits the corner store close to his apartment"

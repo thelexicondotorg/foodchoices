@@ -55,16 +55,16 @@ namespace Private {
                 },
                 {
                     icon: "/public/gamelets/time/Flakes.svg",
-                    description: "He has a quick bowl of sugary frosted flakes and milk",
+                    description: "Sugary frosted flakes",
                 },
                 {
                     icon: "/public/gamelets/time/Porridge.svg",
-                    description: "${subjectPronoun} makes homemade porridge with raisins",
-                    easterEgg: "${name}'s doesn't know how to make porridge!"
+                    description: "He makes homemade porridge with raisins.",
+                    easterEgg: " Hardeep doesn’t know how to make porridge from scratch, and doesn’t have the ingredients!"
                 },
                 {
                     icon: "/public/gamelets/time/Coffee.svg",
-                    description: "${subjectPronoun} grabs coffee and skips breakfast altogether"
+                    description: "${subjectPronoun} grabs coffee and skips breakfast"
                 }
             ]
         ],

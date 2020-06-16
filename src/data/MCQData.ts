@@ -94,11 +94,11 @@ namespace Private {
                 [
                     {
                         icon: "/public/gamelets/mcq/Chips.svg",
-                        description: "A bag of potato chips"
+                        description: "Potato chips"
                     },
                     {
                         icon: "/public/food/canada/yogurt-granola.svg",
-                        description: "Yogurt and granola parfait"
+                        description: "Yogurt and granola"
         
                     },
                     {
