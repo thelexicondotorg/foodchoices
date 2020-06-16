@@ -24,7 +24,11 @@ namespace Private {
                 "Her mother will feed her while she watches television",
                 "Today Maria doesn't have time for lunch"
             ],
-            [BrazilCharacters.Gabriel]: kidChoices
+            [BrazilCharacters.Gabriel]: [
+                "At the table with his family, interacting with his sister.",
+                "In front of the video game in his room.",
+                "At the table with his family, but using his smartphone"
+            ]
         },
         [Region.Nordics]: {
             [NordicCharacters.Elias]: kidChoices,

@@ -139,20 +139,21 @@ namespace Private {
                 [
                     {
                         icon: "/public/food/brazil/gabriel/guava.svg",
-                        description: "Guava and tangerine"
+                        description: "Guava and tangerine",
+                        easterEgg: "These fruits are a good option, but it's not easy to find fruits in Brazilian schools."
                     },
                     {
                         icon: "/public/food/brazil/gabriel/drumstick_soda.svg",
-                        description: "Chicken drumstick with requeijão and a can of soda"
+                        description: "Chicken drumstick with requeijão (similar to cream cheese) and a can of soda."
         
                     },
                     {
                         icon: "/public/food/brazil/gabriel/morningsnack/3.svg",
-                        description: "A package of low sodium snacks, one chocolate bar, one pack of candy"
+                        description: "A package of low sodium snacks, a chocolate bar, and a pack of hard candy."
                     },
                     {
                         icon: "/public/food/brazil/sandra/dinnergrain/1.svg",
-                        description: "Free food served at school, usually rice, beans, meat and vegetables"
+                        description: "Gabriel eats a free meal prepared at his school, which is usually rice, beans, meat and cooked vegetables."
                     }
                 ]
             ],

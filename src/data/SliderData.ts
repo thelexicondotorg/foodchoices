@@ -72,20 +72,20 @@ namespace Private {
             // Gabriel
             [
                 {
-                    icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "All family goes together to a hypermarket"
-                },
-                {
                     icon: "/public/gamelets/slider/market.svg",
                     description: "Gabriel and his mother go to a local farmer's fair"
-                },            
+                },
+                {
+                    icon: "/public/gamelets/slider/bigbox.svg",
+                    description: "The family goes together to a hypermarket. "
+                },                
                 {
                     icon: "/public/gamelets/slider/shop.svg",
-                    description: " Gabriel's mother goes alone to a mini market"
+                    description: "Gabriel’s mother goes alone to a mini-market."
                 },
                 {
                     icon: "/public/gamelets/slider/foodbank.svg",
-                    description: " Gabriel's mother buys food online"
+                    description: "Gabriel's mother buys food online. "
                 }
             ],
             // Sandra

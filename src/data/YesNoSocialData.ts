@@ -63,9 +63,9 @@ namespace Private {
                 },
                 {
                     icon: "/public/food/brazil/gabriel-fancy-restaurant.svg",
-                    description: "They go to a fancy restaurant and have an executive menu.",
+                    description: "They go to a fancy restaurant and have a whatever's on special.",
                     // tslint:disable-next-line
-                    easterEgg: "Fancy restaurants often serve healthy dishes. But Gabriel and his teenager friends do not always have money to attend these places."
+                    easterEgg: "Fancy restaurants often serve healthy dishes, but Gabriel and his teenage friends don't always have the money to frequent these establishments."
                 },
                 {
                     icon: "/public/food/brazil/gabriel-traditional-dish.svg",
@@ -74,7 +74,7 @@ namespace Private {
                 {
                     icon: "/public/food/brazil/gabriel-hamburger.svg",
                     // tslint:disable-next-line
-                    description: "They go to a bakery or a snack bar that sells fresh hamburgers and other types of foods."
+                    description: "They go to a bakery or a snack bar that sells fresh hamburgers and other types of convenience foods."
                 }
             ],
             // Sandra

@@ -72,7 +72,7 @@ namespace Private {
                 [
                     {
                         icon: "/public/food/brazil/gabriel/lunch/1.svg",
-                        description: "Rice, beans, a cooked vegetable, an omelet and a leafy salad. Guava paste with white cheese."
+                        description: "Rice, beans, a cooked vegetable, an omelet and a leafy salad. Guava paste with queijo minas (white cheese)."
                     },
                     {
                         icon: "/public/food/brazil/gabriel/lunch/2.svg",
@@ -85,26 +85,26 @@ namespace Private {
                     {
                         icon: "/public/food/brazil/gabriel/lunch/4.svg",
                         description: "Seven-grain rice with nuts, grilled salmon with passion fruit sauce and grilled asparagus. A star fruit.",
-                        easterEgg: "This is not an ordinary everyday meal for a middle-income family"
+                        easterEgg: "There's nothing ultra-processed in this dish and there is a lot of color, but it's not an everyday meal for a middle-income Brazilian family."
                     }
                 ],
                 [
-                    {
-                        icon: "/public/gamelets/mcq/TapWater.svg",
-                        description: "Glass of water"
-                    },
                     {
                         icon: "/public/gamelets/mcq/Soda.svg",
                         description: "Soda"
                     },
                     {
                         icon: "/public/food/brazil/gabriel/drinking/2.svg",
-                        description: "Powder juice"
+                        description: "Powdered juice"
                     },
                     {
                         icon: "/public/food/brazil/gabriel/drinking/3.svg",
                         description: "Whole grape juice",
-                        easterEgg: "Whole grape juice is not an ultra-processed drink and can be taken occasionally. But it's an expensive choice. And to quench our thirst there is nothing better than water!"
+                        easterEgg: "Whole grape juice is not ultra-processed but it’s expensive. There is nothing better than water to quench our thirst."
+                    },
+                    {
+                        icon: "/public/gamelets/mcq/TapWater.svg",
+                        description: "A glass of water"
                     }
                 ]
             ],

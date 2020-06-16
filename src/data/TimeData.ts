@@ -74,7 +74,7 @@ namespace Private {
             [
                 {
                     icon: CommonData.nothingIcon,
-                    description: "${subjectPronoun} skips breakfast"
+                    description: "Nothing!"
                 },
                 {
                     icon: "/public/food/brazil/gabriel/coffee.svg",
@@ -82,11 +82,11 @@ namespace Private {
                 },
                 {
                     icon: "/public/food/brazil/gabriel/milk.svg",
-                    description: "Industrialized chocolate milk and bisnaguinha with requeijão"
+                    description: "Ultra-rocessed chocolate milk and bisnaguinha (ultra-processed milk bread) with requeijão (similar to cream cheese)."
                 },
                 {
                     icon: "/public/food/brazil/gabriel/baozi.svg",
-                    description: "Baozi with soup.",
+                    description: "Baozi (Chinese bread) with soup.",
                     easterEgg: "Although it is a very healthy meal, this meal is not usually part of Brazilian culture!"
                 }
             ],

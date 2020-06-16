@@ -82,7 +82,7 @@ namespace Private {
                     offset: { x: 50, y: 20 }
                 },
                 descriptionInfo: {
-                    content: "Chicken flavored Instant noodles",
+                    content: "Chicken flavored instant noodles",
                     offset: CommonData.plateTextOffset
                 },
                 scale: 2,
