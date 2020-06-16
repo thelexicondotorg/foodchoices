@@ -94,8 +94,8 @@ namespace Private {
             [
                 {
                     icon: "/public/food/brazil/sandra/toast.svg",
-                    description: "Toast with light cream cheese and black coffee with sweetened",
-                    easterEgg: "Be careful about the brand's claim (light/diet), be critical sense. These are ultraprocessed food"
+                    description: "Toast with light cream cheese and black coffee with sweetened.",
+                    easterEgg: "Be careful about food that claims to be light or diet food. These are often ultraprocessed."
                 },
                 {
                     icon: "/public/food/brazil/sandra/cereal.svg",

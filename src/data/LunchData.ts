@@ -113,7 +113,7 @@ namespace Private {
                 [
                     {
                         icon: "/public/food/brazil/sandra/lunch/1.svg",
-                        description: "Self service restaurant, with a variety of meat, salad, vegetables, pasta, rice and beans."
+                        description: "Self service restaurant that offers a variety of meat, salad, vegetables, pasta, rice and beans."
                     },
                     {
                         icon: "/public/food/brazil/sandra/eatingout/3.svg",
@@ -121,7 +121,7 @@ namespace Private {
                     },
                     {
                         icon: "/public/food/brazil/sandra/lunch/2.svg",
-                        description: "A packed lunch."
+                        description: "She use to take packed lunch."
                     },
                     {
                         icon: "/public/food/brazil/sandra/lunch/3.svg",
@@ -142,7 +142,7 @@ namespace Private {
                     {
                         icon: "/public/food/brazil/maria/drinking/2.svg",
                         description: "Soft drink",
-                        easterEgg: "Whatc out! Sugar beverages are associated with noncommunicable chronic diseases. Avoid ultra-processed foods."
+                        easterEgg: "Watch out! Sugar beverages are associated with nutrition related chronic diseases. Avoid ultra-processed foods."
                     },
                     {
                         icon: "/public/gamelets/mcq/TapWater.svg",

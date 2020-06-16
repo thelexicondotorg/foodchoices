@@ -28,6 +28,12 @@ namespace Private {
                 "At the table with his family, interacting with his sister.",
                 "In front of the video game in his room.",
                 "At the table with his family, but using his smartphone"
+            ],
+            [BrazilCharacters.Sandra]: [
+                "With her collegues at a restaurant",
+                "By herself in the lunchroom",
+                "By herself in front of her desk while working",
+                "Sandra get's busy and doesn't have time to eat"
             ]
         },
         [Region.Nordics]: {

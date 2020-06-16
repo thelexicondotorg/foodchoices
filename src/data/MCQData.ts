@@ -162,21 +162,21 @@ namespace Private {
                 [
                     {
                         icon: "/public/food/brazil/sandra/cereal_bar.svg",
-                        description: "Cereal bars, because she thinks it's practice and healthy snack."
+                        description: "Cereal bars, because she thinks it’s a pratical and healthy snack."
                     },
                     {
                         icon: "/public/food/brazil/sandra/fruits_nuts.svg",
-                        description: "Nuts, fruits or crude vegetables. She has small fridge in her office and use to let these foods there."
+                        description: "Nuts, fruits or fresh vegetables. She has small fridge in her office where she can keep these foods."
         
                     },
                     {
                         icon: "/public/food/brazil/sandra/coffee.svg",
-                        description: "Just black coffee with sweetener. She usually not hungry."
+                        description: "Just black coffee with sweetener. She isn't hungry."
         
                     },
                     {
                         icon: "/public/food/brazil/sandra/coffee_crackers.svg",
-                        description: "Coffee with sweetener and crackers. Rapid snack to get back to work."
+                        description: "Coffee with sweetener and crackers. A quick snack so she can get back to work."
                     }
                 ]                
             ],

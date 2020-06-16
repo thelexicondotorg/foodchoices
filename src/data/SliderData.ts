@@ -92,21 +92,21 @@ namespace Private {
             [
                 {
                     icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "At a super market",
+                    description: "They buy all their groceries at the Supermarket.",
                     easterEgg: "Shop in places that offer fresh or minimally processed varieties of food."
                 },
                 {
-                    icon: "/public/gamelets/slider/market.svg",
-                    description: "A local farmer's market"                    
-                },            
-                {
                     icon: "/public/gamelets/slider/shop.svg",
-                    description: "They buy all at grocery store."
-                },
+                    description: "They buy all their groceries at the grocery store."
+                },                
                 {
                     icon: "/public/gamelets/slider/smallshop.svg",
                     description: "At a corner store close to her house"
-                }
+                },
+                {
+                    icon: "/public/gamelets/slider/market.svg",
+                    description: "She goes to the local farmers market."                    
+                }  
             ],
             // Maria
             [
