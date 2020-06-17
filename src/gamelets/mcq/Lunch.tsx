@@ -4,7 +4,7 @@ import { Gamelet, IGameletProps } from "../Gamelet";
 import { LunchData } from "../../data/LunchData";
 import { MCQItem } from "./MCQItem";
 import { EasterEgg } from "../../story/EasterEgg";
-import { IEasterEgg, IChoiceItem } from "../../Types";
+import { IEasterEgg, IChoiceItem, Region, BrazilCharacters } from "../../Types";
 import { Objective } from "../../story/Objective";
 import { CharacterData } from "../../data/CharacterData";
 import "./lunch.css";
@@ -75,8 +75,18 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                                 >
                                     {(() => {
                                         if (question === 0) {
+                                            if (region === Region.Brazil) {
+                                                if (character === BrazilCharacters.Maria) {
+                                                    return "What does Maria's mom feed her for lunch?"
+                                                }
+                                            }
                                             return `What lunch will ${characterData.name} get?`;
                                         } else {
+                                            if (region === Region.Brazil) {
+                                                if (character === BrazilCharacters.Maria) {
+                                                    return "When Maria is thirsty, what does she drink?";
+                                                }
+                                            }                                            
                                             return `What drink will ${characterData.name} get with ${characterData.possessivePronoun} lunch?`;
                                         }
                                     })()}

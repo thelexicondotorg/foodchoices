@@ -114,7 +114,7 @@ namespace Private {
                 },
                 {
                     icon: "/public/food/brazil/maria/eatingout/4.svg",
-                    description: "Maria's parents bring a 'marmita' (lunch box) with homemade meal (leftovers from dinner), some washed fruits and water."
+                    description: "Maria and her parents eat a homemade meal (leftovers from lunch), washed fruit and water."
                 }
             ]
         ],

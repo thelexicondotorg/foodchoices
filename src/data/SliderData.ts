@@ -111,20 +111,20 @@ namespace Private {
             // Maria
             [
                 {
-                    icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "Her mother does all alone. She goes to a supermarket"                    
+                    icon: "/public/gamelets/slider/market.svg",
+                    description: "The parents grow almost everything the family eats. Other foods they exchange with local farmers."
                 },
                 {
-                    icon: "/public/gamelets/slider/market.svg",
-                    description: "The parents produce what they eat and exchange with other local farmers."
-                },            
+                    icon: "/public/gamelets/slider/bigbox.svg",
+                    description: "Her mother shops alone. She goes to a supermarket."
+                },                          
                 {
                     icon: "/public/gamelets/slider/shop.svg",
-                    description: "They don't plan. They buy all at a grocery store"
+                    description: "At a grocery store, where they purchase cookies, instant noodles and soda."
                 },
                 {
                     icon: "/public/gamelets/slider/foodbank.svg",
-                    description: "Maria's mother does a grocery list and her father gets it from a supermarket."
+                    description: "Maria’s mother writes a grocery list and her father gets it from a supermarket."
                 }
             ]
         ],
@@ -269,6 +269,7 @@ export class SliderData {
             isKid = character === NordicCharacters.Elias || character === NordicCharacters.Amena;
         }
         
+        let pluralDelegate = false;
         const delegate = (() => {
             if (region === Region.Indonesia) {
                 if (character === IndonesiaCharacters.Neesa) {
@@ -280,6 +281,7 @@ export class SliderData {
                 if (character === BrazilCharacters.Gabriel) {
                     return "mother";
                 } else if (character === BrazilCharacters.Maria) {
+                    pluralDelegate = true;
                     return "parents";
                 }
             }
@@ -292,7 +294,7 @@ export class SliderData {
         })();
 
         if (delegate) {
-            return `Where does ${characterData.name}'s ${delegate} purchase groceries?`;
+            return `Where ${pluralDelegate ? "do" : "does"} ${characterData.name}'s ${delegate} purchase groceries?`;
         } else {
             return `Where does ${characterData.name} purchase groceries?`;
         }

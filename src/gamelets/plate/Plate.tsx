@@ -3,7 +3,7 @@ import * as React from "react";
 import { Gamelet } from "../Gamelet";
 import { PlateItems } from "./PlateItems";
 import { PlateItem } from "./PlateItem";
-import { IPoint, Region, IndonesiaCharacters } from "../../Types";
+import { IPoint, Region, IndonesiaCharacters, BrazilCharacters } from "../../Types";
 import { Objective } from "../../story/Objective";
 import { PlateObjectives } from "./PlateObjectives";
 import { EasterEgg } from "../../story/EasterEgg";
@@ -215,8 +215,17 @@ export class Plate extends Gamelet<IPlateProps> {
                             right: "40px",
                             top: window.innerWidth > 1100 ? "8vh" : undefined
                         }}
-                    >
-                        <Objective message={`Helping ${characterData.name} make a dinner plate`} />
+                    >                        
+                        <Objective 
+                            message={(() => {
+                                if (region === Region.Brazil) {
+                                    if (character === BrazilCharacters.Maria) {
+                                        return "What does the family eat for dinner?";
+                                    }
+                                }
+                                return `Helping ${characterData.name} make a dinner plate`;
+                            })()} 
+                        />
                     </div>
                 </div>
                 <EasterEgg

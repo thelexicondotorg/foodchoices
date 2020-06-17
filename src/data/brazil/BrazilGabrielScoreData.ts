@@ -117,7 +117,7 @@ namespace Private {
                     "Climate": -1
                 },
                 icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0][3].icon,
-                outcomeDesc: "PNAE",
+                outcomeDesc: "Brazil food policy initiatives",
                 outcomeType: OutcomeType.Culture,
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/pnae/"
             }
@@ -494,7 +494,7 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: BrazilGabrielPlateData.getItems()[1][3].foodInfo.content,
-                outcomeDesc: "Eating with others",
+                outcomeDesc: "Importance of Eating with others",
                 outcomeType: OutcomeType.Culture,
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/brazilians-eat-with-others/"
             }

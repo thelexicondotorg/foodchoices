@@ -49,12 +49,22 @@ export class Header extends React.Component<IHeaderProps> {
                             return `Helping ${characterData.name} start their day`;
                         }
                     }
+                    if (region === Region.Brazil) {
+                        if (character === BrazilCharacters.Maria) {
+                            return "What is Maria's first meal?";
+                        }
+                    }
                     return `Helping ${characterData.name} start ${characterData.possessivePronoun} day`;
                 case GameletType.MCQ:
                     if (region === Region.Indonesia) {
                         if (character === IndonesiaCharacters.Neesa
                             || character === IndonesiaCharacters.Hassan) {
                             return `Helping ${characterData.name} pick a beverage`;
+                        }
+                    }
+                    if (region === Region.Brazil) {
+                        if (character === BrazilCharacters.Maria) {
+                            return "What does she eat for her morning snack?";
                         }
                     }
                     return `Helping ${characterData.name} pick a morning snack`;
@@ -115,6 +125,11 @@ export class Header extends React.Component<IHeaderProps> {
                         }
                     }                    
                 case GameletType.YesNoSocial:
+                    if (region === Region.Brazil) {
+                        if (character === BrazilCharacters.Maria) {
+                            return "What do Maria's family often eat for dinner?";
+                        }
+                    }
                     if (isKid) {
                         return `${characterData.name}'s family is having dinner`;
                     } else {

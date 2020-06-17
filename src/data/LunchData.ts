@@ -182,11 +182,11 @@ namespace Private {
                     },
                     {
                         icon: "/public/gamelets/mcq/TapWater.svg",
-                        description: "Glass of water"
+                        description: "Water"
                     },
                     {
                         icon: "/public/food/brazil/gabriel/drinking/2.svg",
-                        description: "Powder juice"
+                        description: "Artificial orange juice."
                     }
                 ]
             ]
