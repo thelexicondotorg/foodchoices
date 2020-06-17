@@ -83,7 +83,7 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Esther)[0][0].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Food processing",
+                outcomeDesc: "Ultra-processed food vs. minimally-Processed Foods",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
             },
             {
@@ -110,7 +110,7 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Esther)[0][2].icon,
-                outcomeType: OutcomeType.Environment,
+                outcomeType: OutcomeType.Health,
                 outcomeDesc: "Pesticides",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/organic-vs-conventional/"
             },
@@ -125,7 +125,7 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Esther)[0][3].icon,
                 outcomeType: OutcomeType.Climate,
-                outcomeDesc: "Food miles",
+                outcomeDesc: "Local food",
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/buy-local-climate/"
             }
         ],
@@ -155,7 +155,7 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Esther)[1][1].icon,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Single-Use Plastic Bottles",
+                outcomeDesc: "Plastics and Packaging",
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/plastic-waste/"
             },
             {
@@ -196,7 +196,7 @@ namespace Private {
                 },
                 icon: LunchData.getQuestions(Region.Canada, CanadaCharacters.Esther)[0][0].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Diet and Obesity",
+                outcomeDesc: "Fast Food",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/eating-fast-food/"
             },
             {
@@ -352,8 +352,8 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Esther)[3].icon,
-                outcomeType: OutcomeType.Healthcare,
-                outcomeDesc: "Food Insecurity and Health Outcomes",
+                outcomeType: OutcomeType.Culture,
+                outcomeDesc: "Food Bank",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/food-banks/"
             }
         ],
@@ -431,7 +431,7 @@ namespace Private {
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Esther)[2].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Eating as a Family",
+                outcomeDesc: "Eating with others",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
             },
             // No
@@ -446,7 +446,7 @@ namespace Private {
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Esther)[2].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Eating as a Family",
+                outcomeDesc: "Eating with others",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
             }
         ],
@@ -462,7 +462,7 @@ namespace Private {
                 },
                 icon: CanadaEstherPlateData.getItems()[0][0].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Seafood choices",
+                outcomeDesc: "Sustainable Fishing",
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
             },
             {
@@ -490,7 +490,7 @@ namespace Private {
                 },
                 icon: CanadaEstherPlateData.getItems()[0][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Plant-based diet",
+                outcomeDesc: "Meat Alternative",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
             },
             {
@@ -504,7 +504,7 @@ namespace Private {
                 },
                 icon: CanadaEstherPlateData.getItems()[0][3].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Grass-fed beef",
+                outcomeDesc: "Dairy/Meat",
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/dairy-meat-environment/"
             },
             {
@@ -562,7 +562,7 @@ namespace Private {
                 },
                 icon: CanadaEstherPlateData.getItems()[1][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Ultra-Processed Food",
+                outcomeDesc: "Sodium",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"
             },
             {
@@ -591,8 +591,8 @@ namespace Private {
                     "Climate": -1
                 },
                 icon: CanadaEstherPlateData.getItems()[2][0].foodInfo.content,
-                outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Single-use plastics",
+                outcomeType: OutcomeType.Climate,
+                outcomeDesc: "Processed foods",
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/food-processing-climate/"
             },
             {

@@ -108,7 +108,7 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][2].icon,
-                outcomeType: OutcomeType.Environment,
+                outcomeType: OutcomeType.Health,
                 outcomeDesc: "Pesticides",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/organic-vs-conventional/"
             },
@@ -123,7 +123,7 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][3].icon,
                 outcomeType: OutcomeType.Climate,
-                outcomeDesc: "Food miles",
+                outcomeDesc: "Local Food",
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/buy-local-climate/"
             }
         ],
@@ -347,8 +347,8 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[3].icon,
-                outcomeType: OutcomeType.Healthcare,
-                outcomeDesc: "Food Insecurity and Health Outcomes",
+                outcomeType: OutcomeType.Culture,
+                outcomeDesc: "Food Banks",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/food-banks/"
             }
         ],
@@ -458,7 +458,7 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[0][0].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Seafood choices",
+                outcomeDesc: "Sustainable fishing",
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
             },
             {
@@ -486,7 +486,7 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[0][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Plant-based Diet",
+                outcomeDesc: "Meat Alternative",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
             },
             {
@@ -500,7 +500,7 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[0][3].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Grass-fed Beef",
+                outcomeDesc: "Dairy/ Meat",
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/dairy-meat-environment/"
             },
             {
@@ -558,7 +558,7 @@ namespace Private {
                 },
                 icon: PlateDataCanada.getItems()[1][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Ultra-processed Food",
+                outcomeDesc: "Sodium",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"
             },
             {

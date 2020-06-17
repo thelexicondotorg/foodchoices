@@ -77,7 +77,7 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                                         if (question === 0) {
                                             if (region === Region.Brazil) {
                                                 if (character === BrazilCharacters.Maria) {
-                                                    return "What does Maria's mom feed her for lunch?"
+                                                    return "What does Maria's mom feed her for lunch?";
                                                 }
                                             }
                                             return `What lunch will ${characterData.name} get?`;

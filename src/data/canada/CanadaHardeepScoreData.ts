@@ -108,7 +108,7 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Hardeep)[0][2].icon,
-                outcomeType: OutcomeType.Environment,
+                outcomeType: OutcomeType.Health,
                 outcomeDesc: "Pesticides",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/organic-vs-conventional/"
             },
@@ -122,7 +122,7 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Hardeep)[0][3].icon,
-                outcomeDesc: "Food Miles",
+                outcomeDesc: "Local Food",
                 outcomeType: OutcomeType.Climate
             }
         ],
@@ -179,7 +179,7 @@ namespace Private {
                     "Climate": -2
                 },
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Hardeep)[1][3].icon,
-                outcomeDesc: "Single-Use Plastices",
+                outcomeDesc: "Water usage",
                 outcomeType: OutcomeType.Environment,
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/water-food-production/"
             }
@@ -196,7 +196,7 @@ namespace Private {
                 },
                 icon: LunchData.getQuestions(Region.Canada, CanadaCharacters.Hardeep)[0][0].icon,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Diet and Obesity",
+                outcomeDesc: "Fast Food",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/eating-fast-food/"
             },
             {
@@ -291,7 +291,7 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Hardeep)[3].icon,
-                outcomeDesc: "Restaurant food",
+                outcomeDesc: "Fast food",
                 outcomeType: OutcomeType.Culture,
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/foodservice-sector/"
             }
@@ -320,7 +320,7 @@ namespace Private {
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Hardeep)[0].icon,
                 outcomeType: OutcomeType.Culture,
-                outcomeDesc: "Cooking skills",
+                outcomeDesc: "Food skills",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/fewer-know-how-to-cook/"
             },
         ],
@@ -367,7 +367,7 @@ namespace Private {
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Hardeep)[2].icon,
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/",
-                outcomeDesc: "Eating as a family",
+                outcomeDesc: "Eating with others",
                 outcomeType: OutcomeType.Health
             },
             // No
@@ -382,7 +382,7 @@ namespace Private {
                 },
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Hardeep)[2].icon,
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/",
-                outcomeDesc: "Eating as a family",
+                outcomeDesc: "Eating with others",
                 outcomeType: OutcomeType.Health
             }
         ],
@@ -426,7 +426,7 @@ namespace Private {
                 },
                 icon: CanadaHardeepPlateData.getItems()[0][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Plant-based diet",
+                outcomeDesc: "Meat Alternative",
                 link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
             },
             {
@@ -483,7 +483,7 @@ namespace Private {
                     "Climate": -1
                 },
                 icon: CanadaHardeepPlateData.getItems()[1][2].foodInfo.content,
-                outcomeDesc: "Ultra-Processed Food",
+                outcomeDesc: "Sodium",
                 outcomeType: OutcomeType.Health,
                 link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"
             },
@@ -514,8 +514,8 @@ namespace Private {
                 },
                 icon: CanadaHardeepPlateData.getItems()[2][0].foodInfo.content,
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/food-processing-climate/",
-                outcomeType: OutcomeType.Environment,
-                outcomeDesc: "Single-Use Plastics"
+                outcomeType: OutcomeType.Climate,
+                outcomeDesc: "Processed Foods"
             },
             {
                 "outcome": "Pre-packaged french fries are often made from palm oil, which is harmful to health and the environment.",
