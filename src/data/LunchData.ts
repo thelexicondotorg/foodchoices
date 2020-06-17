@@ -248,7 +248,8 @@ namespace Private {
                     },
                     {
                         icon: "/public/food/indonesia/hassan/lunch/3.svg",
-                        description: "Meatball soup with noodles from street vendor"
+                        description: "Meatball soup with noodles from street vendor",
+                        easterEgg: "He doesn't have enough time to leave school for lunch"
                     },
                     {
                         icon: CommonData.nothingIcon,

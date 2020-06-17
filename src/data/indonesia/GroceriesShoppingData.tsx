@@ -142,8 +142,7 @@ namespace Private {
                           <b>(72,600 rpa)</b>
                         </div>
                     </div>  
-                  ),
-                easterEgg: "Hassan doesn't have enough money"
+                  )
             },
             {
                 icon: "/public/food/indonesia/groceries-shopping/HASSAN_CHOICE_3.svg",

@@ -118,6 +118,8 @@ namespace Private {
                 }
             ]
         ],
+        // Game is not used in Indonesia
+        // But this must remain because indexing into this structure relies on it
         // Indonesia
         [
             // Wulandari

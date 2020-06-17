@@ -133,23 +133,23 @@ namespace Private {
             // Wulandari
             [
                 {
-                    icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "Supermarket",
-                    easterEgg: "There are no grocery stores or supermarkets in walking distance of Wulandari's home. She must rely on small shops and outdoor markets"
-                },
-                {
                     icon: "/public/gamelets/slider/outdoor_market.svg",
-                    description: "Local outdoor market"
-                },            
-                {
-                    icon: "/public/gamelets/slider/shop.svg",
-                    description: "Grocery store",
-                    easterEgg: "There are no grocery stores or supermarkets in walking distance of Wulandari's home. She must rely on small shops and outdoor markets"
+                    description: "Local outdoor market (same one she sells her goods at)"
                 },
                 {
                     icon: "/public/gamelets/slider/neighbor_store.svg",
                     description: "Neighbor's small convenience shop"
-                }
+                },
+                {
+                    icon: "/public/gamelets/slider/shop.svg",
+                    description: "Grocery store",
+                    easterEgg: "There are no grocery stores or supermarkets in walking distance of Wulandari's home. She must rely on small shops and outdoor markets"
+                },                
+                {
+                    icon: "/public/gamelets/slider/bigbox.svg",
+                    description: "Supermarket",
+                    easterEgg: "There are no grocery stores or supermarkets in walking distance of Wulandari's home. She must rely on small shops and outdoor markets"
+                },                                
             ],
             // Neesa
             [
@@ -174,22 +174,22 @@ namespace Private {
             // Hassan
             [
                 {
-                    icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "Supermarket",
-                    easterEgg: "There is no supermarket in Hasan's rural community"
-                },
-                {
                     icon: "/public/gamelets/slider/outdoor_market.svg",
                     description: "Local outdoor market"
-                },            
-                {
-                    icon: "/public/gamelets/slider/shop.svg",
-                    description: "Grocery store"                    
                 },
                 {
                     icon: "/public/gamelets/slider/neighbor_store.svg",
                     description: "Neighbor's small convenience shop"
-                }
+                },
+                {
+                    icon: "/public/gamelets/slider/shop.svg",
+                    description: "Small grocery store (with limited produce)"                    
+                },
+                {
+                    icon: "/public/gamelets/slider/bigbox.svg",
+                    description: "Supermarket",
+                    easterEgg: "There is no supermarket in Hasan's rural community"
+                },
             ]
         ],
         // Nordics

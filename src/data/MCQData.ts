@@ -215,7 +215,7 @@ namespace Private {
                     },
                     {
                         icon: "/public/food/indonesia/wulandari/drinks/2.svg",
-                        description: "Wulandari feeds Centia with a container of reconsitituted fortified milk"
+                        description: "Wulandari brings a container of reconsitituted fortified milk powder and feeds Centia"
                     },
                     {
                         icon: "/public/food/indonesia/wulandari/drinks/3.svg",
@@ -255,6 +255,7 @@ namespace Private {
                     {
                         icon: "/public/food/indonesia/hassan/drinks/1.svg",
                         description: "Carbonated soft drink",
+                        easterEgg: "The street cart doesn't have soda today."
                     },
                     {
                         icon: "/public/food/indonesia/hassan/drinks/2.svg",

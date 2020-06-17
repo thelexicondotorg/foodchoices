@@ -9,6 +9,7 @@ import { IndonesiaWulandariPlateData } from "./IndonesiaWulandariPlateData";
 import { LunchSnackData } from "./LunchSnackData";
 import { FruitShoppingData } from "./FruitShoppingData";
 import { GroceriesShoppingData } from "./GroceriesShoppingData";
+import { StackingData } from "../../gamelets/stacking/StackingData";
 
 // tslint:disable:object-literal-key-quotes
 // tslint:disable:max-line-length
@@ -26,7 +27,10 @@ namespace Private {
           "Culture": 1,
           "Climate": -1
         },
-        icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0].icon
+        icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0].icon,
+        outcomeDesc: "Undernutrition",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/undernutrition-problem/"
       },
       {
         "outcome": "Good source of micronutrients and affordable; although low in protein.",
@@ -37,7 +41,10 @@ namespace Private {
           "Culture": 1,
           "Climate": 2
         },
-        icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[1].icon
+        icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[1].icon,
+        outcomeDesc: "Micronutrients",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"
       },
       {
         "outcome": "Cheap and easy to prepare but lacking protein and micronutrients and high in fat and salt.",
@@ -48,18 +55,20 @@ namespace Private {
           "Culture": 1,
           "Climate": 0
         },
-        icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[2].icon
+        icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[2].icon,
+        outcomeDesc: "Instant Noodles",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/instant-noodles-vs-spaghetti/"
       },
+      // Easter egg
       {
-        "outcome": "Even though this is a healthy option, meat is expensive to purchase.",
         "scores": {
           "Environment": 0,
           "Health": 0,
           "Healthcare": 0,
           "Culture": 0,
           "Climate": 0
-        },
-        icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[3].icon
+        }
       }
     ],
     [IndonesiaQuestions.Snacks1]: [
@@ -72,7 +81,10 @@ namespace Private {
           "Culture": 2,
           "Climate": 0
         },
-        icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][0].icon
+        icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][0].icon,
+        outcomeDesc: "Breastfeeding",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/breastfeeding-formulas/"
       },
       {
         "outcome": "Dairy is an important source of protein and nutrients for young children, but also has a high GHG impact",
@@ -83,8 +95,12 @@ namespace Private {
           "Culture": 1,
           "Climate": -1
         },
-        icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][1].icon
+        icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][1].icon,
+        outcomeDesc: "Protein and growth",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/protein-needs-in-children/"
       },
+      // Easter egg
       {
         "outcome": "Even though this is a healthy option, eggs are expensive to purchase, and their few hens do not lay eggs daily.",
         "scores": {
@@ -93,8 +109,7 @@ namespace Private {
           "Healthcare": 0,
           "Culture": 0,
           "Climate": 0
-        },
-        icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][2].icon
+        }
       },
       {
         "outcome": "Excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions; juice packets also contribute to packaging waste",
@@ -105,7 +120,10 @@ namespace Private {
           "Culture": -1,
           "Climate": 0
         },
-        icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][3].icon
+        icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][3].icon,
+        outcomeDesc: "Soda",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
       }
     ],
     [IndonesiaQuestions.Lunch1]: [
@@ -118,7 +136,10 @@ namespace Private {
           "Culture": 2,
           "Climate": 0
         },
-        icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][0].icon
+        icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][0].icon,
+        outcomeDesc: "Tofu and tempeh",
+        outcomeType: OutcomeType.Environment,
+        link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"
       },
       {
         "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing; aquaculture has environmental issues related to fish feed, used of antibiotics and chemicals",
@@ -129,7 +150,10 @@ namespace Private {
           "Culture": 2,
           "Climate": -1
         },
-        icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][1].icon
+        icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][1].icon,
+        outcomeDesc: "Sustainable fishing",
+        outcomeType: OutcomeType.Environment,
+        link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
       },
       {
         "outcome": "Spinach is locally grown and does not require a lot of inputs; it is good source of micronutrients yet insufficient calories and protein.",
@@ -140,7 +164,10 @@ namespace Private {
           "Culture": 1,
           "Climate": 2
         },
-        icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][2].icon
+        icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][2].icon,
+        outcomeDesc: "Leafy greens",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"
       },
       {
         "outcome": "Although it is tasty and inexpensive, excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions.",
@@ -151,7 +178,10 @@ namespace Private {
           "Culture": 1,
           "Climate": 0
         },
-        icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][3].icon
+        icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][3].icon,
+        outcomeDesc: "Time, tech, determinants of food choices",
+        outcomeType: OutcomeType.Culture,
+        link: "https://www.greenbrownblue.com/food-and-culture-explained/busy-lifestyles-impact/"
       }
     ],
     [IndonesiaQuestions.LunchSnack]: [
@@ -164,7 +194,10 @@ namespace Private {
           "Culture": 1,
           "Climate": 0
         },
-        icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][0].icon
+        icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][0].icon,
+        outcomeDesc: "Sugar",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"
       },
       {
         "outcome": "Though these crackers are made locally and inexpensive, they are very oily and provide very little nutrition",
@@ -175,7 +208,10 @@ namespace Private {
           "Culture": 1,
           "Climate": 0
         },
-        icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][1].icon
+        icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][1].icon,
+        outcomeDesc: "Food insecurity",
+        outcomeType: OutcomeType.Culture,
+        link: "https://www.greenbrownblue.com/food-choices-for-a-healthy-planet-explained/food-insecurity/"
       },
       {
         "outcome": "Excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions; juice packets also contribute to packaging waste",
@@ -186,7 +222,10 @@ namespace Private {
           "Culture": -1,
           "Climate": 0
         },
-        icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][2].icon
+        icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][2].icon,
+        outcomeDesc: "Sugar",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"
       },
       {
         "outcome": "Good source of micronutrients; low cost and locally grown.",
@@ -197,19 +236,14 @@ namespace Private {
           "Culture": 0,
           "Climate": 1
         },
-        icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][3].icon
+        icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][3].icon,
+        outcomeDesc: "Micronutrients",
+        outcomeType: OutcomeType.Health,
+        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"
       }
     ],
     [IndonesiaQuestions.Groceries]: [
-      {
-        scores: {
-          "Environment": -1,
-          "Health": -2,
-          "Healthcare": -2,
-          "Culture": 1,
-          "Climate": -2
-        }
-      },
+      
       {
         "outcome": "Local markets supply fresh produce with less packaging, but often fewer choices beyond produce.",
         "scores": {
@@ -219,16 +253,10 @@ namespace Private {
           "Culture": 2,
           "Climate": 1
         },
-        icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[1].icon
-      },
-      {        
-        "scores": {
-          "Environment": 0,
-          "Health": -1,
-          "Healthcare": -1,
-          "Culture": -1,
-          "Climate": -1
-        }
+        icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0].icon,
+        outcomeDesc: "Local foods",
+        outcomeType: OutcomeType.Culture,
+        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"
       },
       {
         "outcome": "Small shops stock more processed, packaged foods with very limited variety and a lack of fresh produce. It's a good place to meet your neighbors though!",
@@ -239,8 +267,31 @@ namespace Private {
           "Culture": 1,
           "Climate": -1
         },
-        icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[3].icon
-      }
+        icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[1].icon,
+        outcomeDesc: "Shopping",
+        outcomeType: OutcomeType.Culture,
+        link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+      },
+      // easter egg
+      {        
+        "scores": {
+          "Environment": 0,
+          "Health": -1,
+          "Healthcare": -1,
+          "Culture": -1,
+          "Climate": -1
+        }
+      },
+      // easter rgg
+      {
+        scores: {
+          "Environment": -1,
+          "Health": -2,
+          "Healthcare": -2,
+          "Culture": 1,
+          "Climate": -2
+        }
+      }      
     ],
     [IndonesiaQuestions.GroceriesShopping]: [
       {
@@ -252,8 +303,8 @@ namespace Private {
           "Culture": 0,
           "Climate": -2
         },
-        outcomeType: OutcomeType.Culture,
-        outcomeDesc: "Food security",
+        outcomeDesc: "Food insecurity and health outcomes",
+        outcomeType: OutcomeType.Healthcare,
         link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/",
         icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0].icon
       },
@@ -307,8 +358,9 @@ namespace Private {
           "Climate": 1
         },
         icon: FruitShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0][0].icon,
-        outcomeType: OutcomeType.Climate,
-        outcomeDesc: "Local Food"
+        outcomeType: OutcomeType.Health,
+        outcomeDesc: "Micronutrients",
+        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"
       },
       {
         // Apple - Easter egg
@@ -331,7 +383,8 @@ namespace Private {
         },
         icon: FruitShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0][2].icon,
         outcomeType: OutcomeType.Culture,
-        outcomeDesc: "Indigenous foods"
+        outcomeDesc: "Indigenous foods",
+        link: "https://www.greenbrownblue.com/food-and-culture-explained/indigenous-food/"
       },
       {
         "outcome": "Good source of micronutrients, locally grown.",
@@ -344,61 +397,41 @@ namespace Private {
         },
         icon: FruitShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0][3].icon,
         outcomeType: OutcomeType.Health,
-        outcomeDesc: "Fruits and vegetables"
+        outcomeDesc: "Fruits and vegetables",
+        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"
       }
     ],
-    // [IndonesiaQuestions.Dinner1]: [
-    //     {
-    //         "outcome": "In most developed countries, ultra-processed and packaged foods make up more than 50% of the typical diet - and are associated with lower diet quality and increased health risks compared to diets that are higher in whole foods.",
-    //         "scores": {
-    //             "Environment": -1,
-    //             "Health": -1,
-    //             "Healthcare": -1,
-    //             "Culture": 0,
-    //             "Climate": -1
-    //         },
-    //         icon: YesNoSocialData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0].icon
-    //     }
-    // ],
-    // [IndonesiaQuestions.Dinner2]: [
-    //     {
-    //         "outcome": "Eating in front of a screen may discourage social interaction and mindful eating - which can lead to overindulging.",
-    //         "scores": {
-    //             "Environment": 0,
-    //             "Health": 1,
-    //             "Healthcare": 1,
-    //             "Culture": -1,
-    //             "Climate": 0
-    //         },
-    //         icon: YesNoSocialData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[1].icon
-    //     }
-    // ],
-    // [IndonesiaQuestions.Dinner3]: [
-    //     {
-    //         "outcome": "On any given day, more than one-third of Americans consume fast food, which is typically higher in calories, salt and fat than the same meal prepared at home from real, whole ingredients.",
-    //         "scores": {
-    //             "Environment": -1,
-    //             "Health": -2,
-    //             "Healthcare": -2,
-    //             "Culture": -2,
-    //             "Climate": -2
-    //         },
-    //         icon: YesNoSocialData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[2].icon
-    //     }
-    // ],
-    // [IndonesiaQuestions.Dinner4]: [
-    //     {
-    //         "outcome": "Globally, trends are shifting towards families rarely eating together anymore. The majority of American families report eating a single meal together less than five days a week.* Eating together as a family has many benefits, including fewer behavioral problems, better self-esteem and better grades at school.",
-    //         "scores": {
-    //             "Environment": 0,
-    //             "Health": 2,
-    //             "Healthcare": 2,
-    //             "Culture": 2,
-    //             "Climate": 0
-    //         },
-    //         icon: YesNoSocialData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[3].icon
-    //     }
-    // ],
+    // Stacking
+    [IndonesiaQuestions.Dinner]: [
+      {
+        "outcome": "Centia shares food with family and learns about food choices while she experiences family interaction.",
+        "scores": {
+          "Environment": 0,
+          "Health": 1,
+          "Healthcare": 0,
+          "Culture": 2,
+          "Climate": 0
+        },
+        icon: StackingData.getOutcomeIcon(),
+        outcomeDesc: "Eating with others",
+        outcomeType: OutcomeType.Culture,
+        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"      
+      },
+      {
+        "outcome": "Centia has less interaction and access to food choices.",
+        "scores": {
+          "Environment": 0,
+          "Health": -1,
+          "Healthcare": 0,
+          "Culture": -1,
+          "Climate": 0
+        },
+        icon: StackingData.getOutcomeIcon(),
+        outcomeDesc: "Eating with others",
+        outcomeType: OutcomeType.Culture,
+        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+      }
+    ],
     [IndonesiaQuestions.DinnerProtein]: [
       {
         "outcome": "Tempeh is an affordable source of protein and has a low climate footprint",
@@ -424,8 +457,8 @@ namespace Private {
           "Climate": 1
         },
         icon: IndonesiaWulandariPlateData.getItems()[0][1].foodInfo.content,
-        outcomeDesc: "Imported foods",
-        outcomeType: OutcomeType.Climate,
+        outcomeDesc: "Tofu",
+        outcomeType: OutcomeType.Environment,
         link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"
       },
       {
