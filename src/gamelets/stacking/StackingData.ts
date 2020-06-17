@@ -42,8 +42,8 @@ namespace Private {
         },
         [Region.Indonesia]: {
             [IndonesiaCharacters.Hassan]: [
-                "Hasan's Grandma cooks at home using traditional methods",
-                "Hasan's Mom brings food home from warung"
+                "Hasan’s Grandma cooks at home using traditional methods and recipes",
+                "Hasan’s Mom brings food home from the street vendors"
             ],
             [IndonesiaCharacters.Wulandari]: [
                 "Centia eats with the family",

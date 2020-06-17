@@ -154,21 +154,21 @@ namespace Private {
             // Neesa
             [
                 {
-                    icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "Supermarket"
-                },
-                {
                     icon: "/public/gamelets/slider/outdoor_market.svg",
                     description: "Local outdoor market",
                     easterEgg: "There is no local market in this urban setting"
-                },            
+                },
+                {
+                    icon: "/public/gamelets/slider/neighbor_store.svg",
+                    description: "Neighbor's small convenience shop"
+                },
                 {
                     icon: "/public/gamelets/slider/shop.svg",
                     description: "Grocery store"                    
                 },
                 {
-                    icon: "/public/gamelets/slider/neighbor_store.svg",
-                    description: "Neighbor's small convenience shop"
+                    icon: "/public/gamelets/slider/bigbox.svg",
+                    description: "Supermarket"
                 }
             ],
             // Hassan

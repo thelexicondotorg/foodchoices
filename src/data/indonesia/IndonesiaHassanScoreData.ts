@@ -9,6 +9,7 @@ import { IndonesiaHassanPlateData } from "./IndonesiaHassanPlateData";
 import { LunchSnackData } from "./LunchSnackData";
 import { GroceriesShoppingData } from "./GroceriesShoppingData";
 import { FruitShoppingData } from "./FruitShoppingData";
+import { StackingData } from "../../gamelets/stacking/StackingData";
 
 // tslint:disable:object-literal-key-quotes
 // tslint:disable:max-line-length
@@ -410,6 +411,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/buy-local-climate/"
             }
         ],
+        // Stacking game
         [IndonesiaQuestions.Dinner]: [
             {
                 "outcome": "Traditional meals contain more vegetables and fresh ingredients.",
@@ -420,6 +422,7 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 0
                 },
+                icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Cooking skills",
                 outcomeType: OutcomeType.Culture,
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"               
@@ -433,6 +436,7 @@ namespace Private {
                     "Culture": 1,
                     "Climate": 0
                 },
+                icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Traditional Indonesian foods ",
                 outcomeType: OutcomeType.Culture,
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/indonesia-imported-processed-foods/"               
