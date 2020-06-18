@@ -1,11 +1,10 @@
-import { IScoreData, Region, CanadaCharacters, NordicCharacters } from "../../Types";
+import { IScoreData, Region, CanadaCharacters, NordicCharacters, OutcomeType } from "../../Types";
 import { NordicQuestions } from "../../score/ScoreTypes";
 import { TimeData } from "../TimeData";
 import { MCQData } from "../MCQData";
 import { LunchData } from "../LunchData";
-import { SliderData } from "../SliderData";
 import { YesNoSocialData } from "../YesNoSocialData";
-import { PlateDataNordics } from "./PlateDataNordics";
+import { NordicsEliasPlateData } from "./NordicsEliasPlateData";
 
 // tslint:disable:object-literal-key-quotes
 // tslint:disable:max-line-length
@@ -23,7 +22,10 @@ namespace Private {
                     "Culture": -1,
                     "Climate": -1
                 },
-                icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0].icon
+                icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0].icon,
+                outcomeDesc: "sugar",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"               
             },
             {
                 "outcome": "Homemade porridge is high in fibre and protein and can be a healthier alternative to processed, sugary breakfast cereals. Finland produces 13% of the oats grown in the European Union.",
@@ -34,8 +36,12 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 1
                 },
-                icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1].icon
+                icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1].icon,
+                outcomeDesc: "whole grain",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"               
             },
+            // Easter egg
             {
                 "outcome": "His parents don't allow him to have chocolate milk as it contains too much sugar",
                 "scores": {
@@ -45,7 +51,6 @@ namespace Private {
                     "Culture": 1,
                     "Climate": 0
                 },
-                icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Elias)[2].icon
             },
             {
                 "outcome": "Whole grains offer a “complete package” of health benefits, unlike refined grains, which are stripped of valuable nutrients during the refining process. Whole grains are full of nutrients including protein, fiber, B vitamins, antioxidants, and trace minerals (iron, zinc, copper, and magnesium). Dairy products should be consumed in moderation as farming livestock for meat, eggs and milk generates some 14.5% of total greenhouse gas emissions.",
@@ -56,56 +61,67 @@ namespace Private {
                     "Culture": 1,
                     "Climate": -1
                 },
-                icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Elias)[3].icon
+                icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Elias)[3].icon,
+                outcomeDesc: "whole grains",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"               
             }
         ],
-        // Missing in the Outcomes document
-        // [NordicQuestions.Snacks1]: [
-        //     {
-        //         "outcome": "Ultra-processed potato chips, which are typically high in calories, fat and sodium, are considered 'other foods' thatshould be eaten less often and in smaller amounts.",
-        //         "scores": {
-        //             "Environment": -1,
-        //             "Health": -2,
-        //             "Healthcare": -2,
-        //             "Culture": -2,
-        //             "Climate": 0
-        //         },
-        //         icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][0].icon
-        //     },
-        //     {
-        //         "outcome": "While an excellent source of calcium, the animal-source dairy in a yogurt and granola parfait make this snack a less climate-friendly choice",
-        //         "scores": {
-        //             "Environment": 0,
-        //             "Health": 1,
-        //             "Healthcare": 0,
-        //             "Culture": 1,
-        //             "Climate": -1
-        //         },
-        //         icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][1].icon
-        //     },
-        //     {
-        //         "outcome": "Local food usually, but not always, has less impact on greenhouse gas emissions. Get to know the farmers in your area and learn more about the types of farming they support!",
-        //         "scores": {
-        //             "Environment": 2,
-        //             "Health": 2,
-        //             "Healthcare": 0,
-        //             "Culture": 2,
-        //             "Climate": 0
-        //         },
-        //         icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][2].icon
-        //     },
-        //     {
-        //         "outcome": "While not the largest contributor to greenhouse gas emissions, the 'food miles' on imported foods contributes upwards of 10% of the overall greenhouse gas emissions produced by foods. Buy local!",
-        //         "scores": {
-        //             "Environment": 1,
-        //             "Health": 2,
-        //             "Healthcare": 2,
-        //             "Culture": 1,
-        //             "Climate": 0
-        //         },
-        //         icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][3].icon
-        //     }
-        // ],
+        [NordicQuestions.Snacks1]: [
+            {
+                "outcome": "When choosing sandwhich toppings, and other foods to include in your everyday diet for that matter, try to avoid processed meats such as ham, salami, bacon and some sausages such as frankfurters and chorizo. These are types of meat that have been transformed through salting, curing, fermentation, smoking or other processes to enhance flavour or improve preservation. Research evidence shows that it can be high in fat and salt and eating it is a cause of bowel cancer. Use alternatives to ham in your sandwiches, why not try boiled eggs, low-fat houmous or cream cheese?",
+                "scores": {
+                    "Environment": 2,
+                    "Health": 1,
+                    "Healthcare": -2,
+                    "Culture": 1,
+                    "Climate": 0
+                },
+                icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][0].icon,
+                outcomeDesc: "Sodium",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"              
+            },
+            {
+                "outcome": "Great choice! One apple provides at least 10 percent of the recommended daily amount of vitamin C and fiber. It also has a lot of dietary fiber that can act in several ways to lower cancer risk.",
+                "scores": {
+                    "Environment": 2,
+                    "Health": 2,
+                    "Healthcare": 0,
+                    "Culture": 1,
+                    "Climate": 0
+                },
+                icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][1].icon,
+                outcomeDesc: "Nutrition related diseases",
+                outcomeType: OutcomeType.Healthcare,
+                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-is-medicine/"              
+            },
+            // easter egg
+            {
+                "outcome": "Local food usually, but not always, has less impact on greenhouse gas emissions. Get to know the farmers in your area and learn more about the types of farming they support!",
+                "scores": {
+                    "Environment": 2,
+                    "Health": 1,
+                    "Healthcare": 0,
+                    "Culture": 1,
+                    "Climate": 0
+                }
+            },
+            {
+                "outcome": "Not everyone can afford to buy snacks throughout the day. If you do find yourself getting hungry between meals but can't afford buying food outside the home, try bringing a healthy snack from home.",
+                "scores": {
+                    "Environment": 2,
+                    "Health": 1,
+                    "Healthcare": 0,
+                    "Culture": 1,
+                    "Climate": 0
+                },
+                icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][3].icon,
+                outcomeDesc: "food insecurity",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-access-challenges/"                              
+            }
+        ],
         [NordicQuestions.Lunch1]: [
             {
                 "outcome": "Rice is the nutritious staple crop for more than half of the world's people, but growing rice produces methane, a greenhouse gas more than 30 times as potent as carbon dioxide.",
@@ -116,7 +132,10 @@ namespace Private {
                     "Culture": 1,
                     "Climate": -1
                 },
-                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][0].icon
+                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][0].icon,
+                outcomeDesc: "Rice and methane",
+                outcomeType: OutcomeType.Climate,
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
             },
             {
                 "outcome": "Subsituting the meat in bolognese with vegetables can be a great way to reduce your consumption of meat. Try adding mushrooms for texture and flavor.",
@@ -127,7 +146,10 @@ namespace Private {
                     "Culture": 1,
                     "Climate": 2
                 },
-                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][1].icon
+                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][1].icon,
+                outcomeDesc: "protein",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/plant-based-proteins/"               
             },
             {
                 "outcome": "Fatty fish is important source of healthy fats. However, overfishing means that 50% of the world's fisheries are no longer sustainable. Be sure to choose sustainably caught or farmed fish. Organizations such as the World Wildlife Foundation and the Marine Stewardship Council offer great guides to help you choose which fish you should eat.",
@@ -138,7 +160,10 @@ namespace Private {
                     "Culture": 1,
                     "Climate": 2
                 },
-                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][2].icon
+                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][2].icon,
+                outcomeDesc: "Sustainable fishing",
+                outcomeType: OutcomeType.Environment,
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"              
             },
             {
                 "outcome": "Karelian Pies are a traditional dish from Finland. These are commonly served for lunch. Did you know that Finland is the first country in the world to serve a free, healthy school lunch to every student?",
@@ -149,102 +174,67 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][3].icon
+                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0][3].icon,
+                outcomeDesc: "Traditional ",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/traditional-nordic-cuisine/"               
             }
         ],
-        // Removed from game
-        /*[NordicQuestions.Lunch2]: [
+        [NordicQuestions.Lunch1Drinks]: [
+            // easter eggs
             {
-                "outcome": "Only water and milk are served for school lunch in Elias's school, some schools also serve plant-based milk alternatives. This is a way to help reduce the intak of drinks high in sugars.",
+                "outcome": "Rice is the nutritious staple crop for more than half of the world's people, but growing rice produces methane, a greenhouse gas more than 30 times as potent as carbon dioxide.",
                 "scores": {
-                    "Environment": 2,
+                    "Environment": -1,
                     "Health": 1,
-                    "Healthcare": 0,
+                    "Healthcare": 1,
                     "Culture": 1,
-                    "Climate": 0
+                    "Climate": -1
                 },
-                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1][0].icon
             },
             {
-                "outcome": "In general, oat milk is one of the most envrionmentally-friendly plant-based milks. Oats require less land and water and produce fewer green-house gases than rice or dairy milk.",
+                "outcome": "Subsituting the meat in bolognese with vegetables can be a great way to reduce your consumption of meat. Try adding mushrooms for texture and flavor.",
                 "scores": {
-                    "Environment": 0,
-                    "Health": -1,
-                    "Healthcare": 0,
+                    "Environment": 1,
+                    "Health": 1,
+                    "Healthcare": 1,
                     "Culture": 1,
-                    "Climate": 0
-                },
-                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1][1].icon
-            },
-            {
-                "outcome": "According to the Nordic Nutrition Recommendations, the average adult should drink between 1-1.5 L of water per day. Dehydration causes tiredness, dizziness and headaches.",
-                "scores": {
-                    "Environment": 2,
-                    "Health": 2,
-                    "Healthcare": 2,
-                    "Culture": 0,
                     "Climate": 2
                 },
-                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1][2].icon
+                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1][1].icon,
+                outcomeDesc: "Dairy",
+                outcomeType: OutcomeType.Climate,
+                link: ""               
             },
             {
-                "outcome": "Keep a reusable bottle close to you throughout the day to keep you hydrated. Dehydration can cause headaches and dizziness.",
+                "outcome": "Fatty fish is important source of healthy fats. However, overfishing means that 50% of the world's fisheries are no longer sustainable. Be sure to choose sustainably caught or farmed fish. Organizations such as the World Wildlife Foundation and the Marine Stewardship Council offer great guides to help you choose which fish you should eat.",
                 "scores": {
-                    "Environment": 0,
-                    "Health": 0,
-                    "Healthcare": 0,
-                    "Culture": 0,
-                    "Climate": 0
-                },
-                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1][3].icon
-            }
-        ],*/
-        // Missing in the document
-        /*[NordicQuestions.Groceries]: [
-            {
-                scores: {
                     "Environment": -1,
-                    "Health": -2,
-                    "Healthcare": -2,
-                    "Culture": 1,
-                    "Climate": -2
-                },
-                icon: SliderData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0].icon
-            },
-            {
-                "outcome": "Community-supported agriculture is increasingly being used to link producers (farmers) to consumers (you!). This type of shopping will decrease the environmental and climate impact of fresh food purchases. Check out CSA efforts in your area!",
-                "scores": {
-                    "Environment": 2,
                     "Health": 2,
                     "Healthcare": 2,
+                    "Culture": 1,
+                    "Climate": 2
+                },
+                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1][2].icon,
+                outcomeDesc: "Drinking Water",
+                outcomeType: OutcomeType.Environment,
+                link: ""               
+            },
+            {
+                "outcome": "Karelian Pies are a traditional dish from Finland. These are commonly served for lunch. Did you know that Finland is the first country in the world to serve a free, healthy school lunch to every student?",
+                "scores": {
+                    "Environment": 1,
+                    "Health": 1,
+                    "Healthcare": 1,
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: SliderData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1].icon
-            },
-            {
-                "outcome": "Food deserts, or areas where there is little access to healthy, unprocessed foods like vegetables, fruits and whole grains, are often found in low-income areas, and have been linked with poorer quality diets.",
-                "scores": {
-                    "Environment": 0,
-                    "Health": -1,
-                    "Healthcare": -1,
-                    "Culture": -1,
-                    "Climate": -1
-                },
-                icon: SliderData.getQuestions(Region.Nordics, NordicCharacters.Elias)[2].icon
-            },
-            {
-                "outcome": "1 in 5 Canadians have used a foodbank at some point in their lives, and almost 1 million use them every month, typically because they don't make enough money to cover their expenses. Almost 1/3 of food bank users are children.",
-                "scores": {
-                    "Environment": -1,
-                    "Health": -1,
-                    "Healthcare": -1,
-                    "Culture": -2,
-                    "Climate": 0
-                },
-                icon: SliderData.getQuestions(Region.Nordics, NordicCharacters.Elias)[3].icon
+                icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1][3].icon,
+                outcomeDesc: "Drinking Water",
+                outcomeType: OutcomeType.Environment,
+                link: ""                              
             }
-        ],*/
+        ],        
         [NordicQuestions.Dinner1]: [
             {
                 "outcome": "The production of beef cattle is associated with some of the highest environmental and climate impacts associated with any food. On top of this, processed foods like fast-food hamburgers and soda are associated with obesity, diabetes and other lifestyle diseases.",
@@ -255,7 +245,10 @@ namespace Private {
                     "Culture": -2,
                     "Climate": -2
                 },
-                icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0].icon
+                icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Elias)[0].icon,
+                outcomeDesc: "Fast Food",
+                outcomeType: OutcomeType.Healthcare,
+                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/obesity-fast-food/"              
             }
         ],
         [NordicQuestions.Dinner2]: [
@@ -268,7 +261,10 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1].icon
+                icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Elias)[1].icon,
+                outcomeDesc: "Pesticides",
+                outcomeType: OutcomeType.Environment,
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/organic-foods/"               
             }
         ],
         [NordicQuestions.Dinner3]: [
@@ -281,7 +277,10 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 0
                 },
-                icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Elias)[2].icon
+                icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Elias)[2].icon,
+                outcomeDesc: "fruits and vegetables",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"               
             }
         ],
         [NordicQuestions.Dinner4]: [
@@ -294,24 +293,87 @@ namespace Private {
                     "Culture": 0,
                     "Climate": -1
                 },
-                icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Elias)[3].icon
+                icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Elias)[3].icon,
+                outcomeDesc: "processed foods",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"               
             }
         ],
-        // Missing in the document
-        /*[NordicQuestions.DinnerProtein]: [
+        [NordicQuestions.DinnerProtein]: [
             {
-                "outcome": "Greater consumption of ultra-processed foods is linked with weight gain, poorer diet quality, and overall health. Eating whole, unprocessed foods with fewer additives is an important part of a healthy diet.",
+                "outcome": "Because of the negative climate, environment and health impact, the Nordic nutrition recommendations recommend limited intake of red and processed meat. Sweden recommends a maximum intake of no more than 500 grams of red and processed meat a week. Only a small amount of this should be processed meat.",
                 "scores": {
-                    "Environment": -2,
-                    "Health": -1,
-                    "Healthcare": -1,
-                    "Culture": -2,
-                    "Climate": -1
+                    "Environment": -1,
+                    "Health": -2,
+                    "Healthcare": -2,
+                    "Culture": 2,
+                    "Climate": -2
                 },
-                icon: PlateDataNordics.getItems()[0][0].foodInfo.content
+                icon: NordicsEliasPlateData.getItems()[0][0].foodInfo.content,
+                outcomeDesc: "Beef",
+                outcomeType: OutcomeType.Climate,
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/beef-climate-change/"               
             },
             {
-                "outcome": "The Nordic Nutrition Recommendations recommends plant-based proteins like beans and lentils as alternatives to animal-source proteins. These choices have benefits for health, the environment and the climate.",
+                "outcome": "Products derived from animals, like cheese, require significantly more land to produce than protein-rich plant-based foods like fava beans.",
+                "scores": {
+                    "Environment": -1,
+                    "Health": -1,
+                    "Healthcare": -1,
+                    "Culture": 0,
+                    "Climate": -2
+                },
+                icon: NordicsEliasPlateData.getItems()[0][1].foodInfo.content,
+                outcomeDesc: "Dairy",
+                outcomeType: OutcomeType.Climate,
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/dairy-climate/"               
+            },
+            {
+                "outcome": "White fish, if sustainble sourced, is a good protein option.",
+                "scores": {
+                    "Environment": -1,
+                    "Health": 2,
+                    "Healthcare": 2,
+                    "Culture": 2,
+                    "Climate": 0
+                },
+                icon: NordicsEliasPlateData.getItems()[0][2].foodInfo.content,
+                outcomeDesc: "Nordic food ",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/traditional-nordic-cuisine/"               
+            },
+            {
+                "outcome": "Salmon, if sustainably sourced, is a healthy protein option that also provides a lot of good omega 3 fatty acids. If from aquaculture production however, be aware that sometimes the salmon may be fed on fishmeal (making it a very resource intense production) and sometimes the feed is soy which if not certified, is implicated in deforestation.",
+                "scores": {
+                    "Environment": -1,
+                    "Health": 2,
+                    "Healthcare": 2,
+                    "Culture": 2,
+                    "Climate": -1
+                },
+                icon: NordicsEliasPlateData.getItems()[0][3].foodInfo.content,
+                outcomeDesc: "tofu",
+                outcomeType: OutcomeType.Environment,
+                link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"               
+            }
+        ],
+        [NordicQuestions.DinnerGrains]: [
+            {
+                "outcome": "Potato is culturally an important staple in the Nordics, and an important part of many traditional dishes. As the food culture is globalized, the Nordic population is however eating less and less potato.",
+                "scores": {
+                    "Environment": 2,
+                    "Health": 0,
+                    "Healthcare": 0,
+                    "Culture": 2,
+                    "Climate": 1
+                },
+                icon: NordicsEliasPlateData.getItems()[1][0].foodInfo.content,
+                outcomeDesc: "Food marketing",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-marketing/"               
+            },
+            {
+                "outcome": "Buckwheat is a healthy grain that has seen a revival in the Nordics in the past 10 years.",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
@@ -319,123 +381,98 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: PlateDataNordics.getItems()[0][1].foodInfo.content
+                icon: NordicsEliasPlateData.getItems()[1][1].foodInfo.content,
+                outcomeDesc: "Whole grains",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"               
             },
             {
-                "outcome": "Tofu is often used as a dairy-free alternative to animal-source proteins like beef, chicken and fish.",
+                "outcome": "Potato is culturally an important staple in the Nordics, and an important part of many traditional dishes. As the food culture is globalized, the Nordic population is however eating less and less potato.",
                 "scores": {
-                    "Environment": 0,
-                    "Health": 1,
-                    "Healthcare": 1,
-                    "Culture": 2,
-                    "Climate": 2
-                },
-                icon: PlateDataNordics.getItems()[0][2].foodInfo.content
-            },
-            {
-                "outcome": "While grass-fed beef can have a smaller climate impact than conventionally-raised grain fed beef, it depends on how the grasslands are managed. Grass-fed beef still has a higher climate impact than plant-based proteins.",
-                "scores": {
-                    "Environment": -1,
-                    "Health": -1,
-                    "Healthcare": -1,
-                    "Culture": 2,
-                    "Climate": -1
-                },
-                icon: PlateDataNordics.getItems()[0][3].foodInfo.content
-            }
-        ],
-        [NordicQuestions.DinnerGrains]: [
-            {
-                "outcome": "Rice is the world's most widely consumed staple food. White and brown rice are the same grain, but the most nutritious parts (the bran and germ) are removed from white rice. Try brown rice for a higher fibre grain!",
-                "scores": {
-                    "Environment": 1,
-                    "Health": 1,
-                    "Healthcare": 1,
+                    "Environment": 2,
+                    "Health": 0,
+                    "Healthcare": 0,
                     "Culture": 2,
                     "Climate": 1
                 },
-                icon: PlateDataNordics.getItems()[1][0].foodInfo.content
+                icon: NordicsEliasPlateData.getItems()[1][2].foodInfo.content,
+                outcomeDesc: "Food marketing",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-marketing/"               
             },
             {
-                "outcome": "Rice is the world's most widely consumed staple food. White and brown rice are the same grain, but the most nutritious parts (the bran and germ) are removed from white rice. Try brown rice for a higher fibre grain!",
+                "outcome": "Whole grain bread has a lot of dietary fibers which promotes digestive health and is a healthy choice if you want to have a side-snack in your meal.",
                 "scores": {
-                    "Environment": 0,
-                    "Health": 0,
-                    "Healthcare": 0,
-                    "Culture": 1,
-                    "Climate": 0
-                },
-                icon: PlateDataNordics.getItems()[1][1].foodInfo.content
-            },
-            {
-                "outcome": "Ultra-processed rice dishes are often high in sodium. Check the nutrition label of products to help you identify healthier options!",
-                "scores": {
-                    "Environment": -1,
-                    "Health": -1,
-                    "Healthcare": -1,
-                    "Culture": -2,
-                    "Climate": -1
-                },
-                icon: PlateDataNordics.getItems()[1][2].foodInfo.content
-            },
-            {
-                "outcome": "Wild rice is actually a species of grass that is native to North America. With more fibre than brown rice, it is a healthy whole-grain alternative!",
-                "scores": {
-                    "Environment": 0,
+                    "Environment": 2,
                     "Health": 2,
                     "Healthcare": 2,
                     "Culture": 2,
-                    "Climate": 0
+                    "Climate": 2
                 },
-                icon: PlateDataNordics.getItems()[1][3].foodInfo.content
+                icon: NordicsEliasPlateData.getItems()[1][3].foodInfo.content,
+                outcomeDesc: "Whole grains",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"               
             }
         ],
         [NordicQuestions.DinnerVeggies]: [
             {
-                "outcome": "Salad kits often come in non-recyclable packaging and have high levels of waste along the supply chain. If a salad kit is your only option, skip fat- and salt-laden creamy dressings and toss with oil and vinegar.",
+                "outcome": "Broccoli is a superfood - it is not only healthy (with high concentration of vitamins K and C, folate or folic acid as well as potassium, fiber and iron) but also because it generally has a low carbon footprint.",
                 "scores": {
-                    "Environment": -1,
-                    "Health": 1,
-                    "Healthcare": 1,
-                    "Culture": 1,
-                    "Climate": -1
-                },
-                icon: PlateDataNordics.getItems()[2][0].foodInfo.content
-            },
-            {
-                "outcome": "Pre-packaged french fries are often made from palm oil, which is harmful to health and the environment.",
-                "scores": {
-                    "Environment": -1,
-                    "Health": -2,
-                    "Healthcare": -2,
-                    "Culture": -1,
-                    "Climate": -1
-                },
-                icon: PlateDataNordics.getItems()[2][1].foodInfo.content
-            },
-            {
-                "outcome": "Only one-quarter of Canadians eat the recommended amount of fruits and vegetables, and leafy green consumption makes up only a small part despite its many nutritional benefits. Look for exciting types of dark greens varieties like spinach, kale, and arugula!",
-                "scores": {
-                    "Environment": 1,
+                    "Environment": 2,
                     "Health": 2,
                     "Healthcare": 2,
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: PlateDataNordics.getItems()[2][2].foodInfo.content
+                icon: NordicsEliasPlateData.getItems()[2][0].foodInfo.content,
+                outcomeDesc: "Leafy greens",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"               
             },
             {
-                "outcome": "Cheese has a relatively large carbon footprint, as it usually comes from dairy milk which has all the same climate challenges as eating beef. Decreasing animal-source foods overall (not just meat but dairy and eggs too!) is likely to have a greater overall impact than vegetarian diets that eat milk and eggs!",
+                "outcome": "Spinach is a good complement to other types of salad greens as it often includes more calcium, vintamin A and C and iron. During the summer spinach grows well also in the Nordic region.",
                 "scores": {
-                    "Environment": 1,
-                    "Health": 1,
-                    "Healthcare": 1,
+                    "Environment": 2,
+                    "Health": 2,
+                    "Healthcare": 2,
                     "Culture": 2,
-                    "Climate": 0
+                    "Climate": 2
                 },
-                icon: PlateDataNordics.getItems()[2][3].foodInfo.content
+                icon: NordicsEliasPlateData.getItems()[2][1].foodInfo.content,
+                outcomeDesc: "Local food",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"               
+            },
+            {
+                "outcome": "Green peas are truly a great staple to have in the fridge. If you do, you can without much effort add some healthy vegetables to your meal. Because they are frozen, you might also reduce the risk of food waste since many other greens are more easily perishable when fresh.",
+                "scores": {
+                    "Environment": 2,
+                    "Health": 2,
+                    "Healthcare": 2,
+                    "Culture": 2,
+                    "Climate": 2
+                },
+                icon: NordicsEliasPlateData.getItems()[2][2].foodInfo.content,
+                outcomeDesc: "Food waste",
+                outcomeType: OutcomeType.Environment,
+                link: "https://www.greenbrownblue.com/food-and-climate-explained/food-waste-climate/"               
+            },
+            {
+                "outcome": "Did you know that Fennel is a flowering plant species in the carrot family? This is a veggie that helps add a lot of flavour (anis-like) to any dish. It is seen as an important food  in the Nordic diet.",
+                "scores": {
+                    "Environment": 2,
+                    "Health": 2,
+                    "Healthcare": 2,
+                    "Culture": 2,
+                    "Climate": 2
+                },
+                icon: NordicsEliasPlateData.getItems()[2][3].foodInfo.content,
+                outcomeDesc: "Food diversity",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/diverse-diets/"              
             }
-        ]*/
+        ]
     };
 }
 

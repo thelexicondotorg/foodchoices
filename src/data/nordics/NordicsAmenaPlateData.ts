@@ -38,7 +38,7 @@ namespace Private {
                     offset: { x: 60, y: 10 }
                 },
                 descriptionInfo: {
-                    content: "Flatfish",
+                    content: "Panfried flatfish (sole or turbot)",
                     offset: CommonData.plateTextOffset
                 },
                 scale: 2,
@@ -181,7 +181,7 @@ namespace Private {
     ];
 }
 
-export class PlateDataNordics {
+export class NordicsAmenaPlateData {
     public static getItems() {
         return Private.choices;
     }

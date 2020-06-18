@@ -181,19 +181,19 @@ namespace Private {
             [
                 {
                     icon: "/public/food/nordics/lisen/dinner/1.svg",
-                    description: "Green pea soup served with a small piece of smoked, farmed Norwegian salmon on top, the family has a bread-basket on the table where they can choose from various types of crisp bread which they eat with butter"
+                    description: "Yellow pea soup served with a small piece of smoked, farmed Norwegian salmon, crisp bread with butter"
                 },
                 {
                     icon: "/public/food/nordics/lisen/dinner/2.svg",
-                    description: "Fried flatfish with cucumber, radishes, lemon verbs and dressing served with potato"
+                    description: "Fried flatfish with cucumber, radishes, lemon herbs and dressing served with potato"
                 },
                 {
                     icon: "/public/food/nordics/lisen/dinner/3.svg",
-                    description: "Fresh pasta with creamy shrimp-sauce served with a yellow beetroot salad with leafy greens"
+                    description: "Fresh pasta with creamy shrimp-sauce served with a yellow beetroot salad and leafy greens"
                 },
                 {
                     icon: "/public/food/nordics/lisen/dinner/4.svg",
-                    description: "Prepackaged tartlets served with Brussels sprouts, spinach, cloves, beetroot and fried eggs served with potato wedges in the oven"
+                    description: "Prepackaged tartlets served with Brussels sprouts, spinach, cloves, beetroot and fried eggs with potato wedges"
                 }
             ]
         ]

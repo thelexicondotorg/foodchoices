@@ -130,6 +130,15 @@ export class Header extends React.Component<IHeaderProps> {
                             return "What do Maria's family often eat for dinner?";
                         }
                     }
+                    if (region === Region.Nordics) {
+                        if (character === NordicCharacters.Elias) {
+                            return "What do Elias and his family often eat for dinner?";
+                        } else if (character === NordicCharacters.Amena) {
+                            return "What meals does Amena often eat for dinner?";
+                        } else {
+                            return "What do Lisen and her family often eat for dinner?";
+                        }
+                    }
                     if (isKid) {
                         return `${characterData.name}'s family is having dinner`;
                     } else {

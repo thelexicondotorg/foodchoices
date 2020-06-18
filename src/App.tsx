@@ -62,9 +62,9 @@ export class App extends React.Component<{}, IAppState> {
                 isPreloading: true,
                 fontsPreloaded: false,
                 section: types.Section.Story,
-                region: types.Region.Indonesia,                
-                character: types.IndonesiaCharacters.Neesa,
-                gamelet: types.GameletType.Slider,
+                region: types.Region.Nordics,
+                character: types.NordicCharacters.Elias,
+                gamelet: types.GameletType.Time,
                 gameletSection: 0,
                 gameletSectionIntro: false
             };
@@ -341,17 +341,17 @@ export class App extends React.Component<{}, IAppState> {
                                 onProgress={() => {
                                     switch (gamelet) {
                                         case types.GameletType.Time:
-                                            this.setState({ gamelet: gamelet + 1 });
+                                            this.setState({ gamelet: types.GameletType.MCQ });
                                             break;
                                         case types.GameletType.MCQ:
                                             this.setState({
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
+                                                gamelet: types.GameletType.Lunch
                                             });
                                             break;
                                         case types.GameletType.Lunch:
-                                            this.setState({ gamelet: gamelet + 1 });
+                                            this.setState({ gamelet: types.GameletType.Stacking });
                                             break;
                                         case types.GameletType.Stacking:
                                             this.setState({ isPreloading: true });
@@ -362,18 +362,18 @@ export class App extends React.Component<{}, IAppState> {
                                                 isPreloading: false,
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
+                                                gamelet: types.GameletType.Slider
                                             }));
                                             break;
                                         case types.GameletType.Slider:
                                             this.setState({
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
+                                                gamelet: types.GameletType.YesNoSocial
                                             });
                                             break;
                                         case types.GameletType.YesNoSocial:
-                                            this.setState({ gamelet: gamelet + 1 });
+                                            this.setState({ gamelet: types.GameletType.Plate });
                                             break;
                                         case types.GameletType.Plate:
                                             onGameletsCompleted();
@@ -394,17 +394,17 @@ export class App extends React.Component<{}, IAppState> {
                                 onProgress={() => {
                                     switch (gamelet) {
                                         case types.GameletType.Time:
-                                            this.setState({ gamelet: gamelet + 1 });
+                                            this.setState({ gamelet: types.GameletType.MCQ });
                                             break;
                                         case types.GameletType.MCQ:
                                             this.setState({
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
+                                                gamelet: types.GameletType.Lunch
                                             });
                                             break;
                                         case types.GameletType.Lunch:
-                                            this.setState({ gamelet: gamelet + 1 });
+                                            this.setState({ gamelet: types.GameletType.Stacking });
                                             break;
                                         case types.GameletType.Stacking:
                                             this.setState({ isPreloading: true });
@@ -415,14 +415,14 @@ export class App extends React.Component<{}, IAppState> {
                                                 isPreloading: false,
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
+                                                gamelet: types.GameletType.Slider
                                             }));
                                             break;
                                         case types.GameletType.Slider:
                                             this.setState({
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
+                                                gamelet: types.GameletType.YesNoSocial
                                             });
                                             break;
                                         case types.GameletType.YesNoSocial:
@@ -430,7 +430,7 @@ export class App extends React.Component<{}, IAppState> {
                                             //     // No plate game for Maria
                                             //     onGameletsCompleted();
                                             // } else {
-                                            this.setState({ gamelet: gamelet + 1 });
+                                            this.setState({ gamelet: types.GameletType.Plate });
                                             // }
                                             break;
                                         case types.GameletType.Plate:
@@ -452,39 +452,48 @@ export class App extends React.Component<{}, IAppState> {
                                 onProgress={() => {
                                     switch (gamelet) {
                                         case types.GameletType.Time:
-                                            this.setState({ gamelet: gamelet + 1 });
+                                            this.setState({ gamelet: types.GameletType.MCQ });
                                             break;
                                         case types.GameletType.MCQ:
                                             this.setState({
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
+                                                gamelet: GameletType.Lunch
                                             });
                                             break;
                                         case types.GameletType.Lunch:
-                                            this.setState({ gamelet: gamelet + 1 });
-                                            break;
-                                        case types.GameletType.Stacking:
                                             this.setState({ isPreloading: true });
                                             Preloading.preload3(
                                                 this.state.region as types.Region,
-                                                this.state.character as types.CanadaCharacters
+                                                this.state.character as types.NordicCharacters
                                             ).then(() => this.setState({
                                                 isPreloading: false,
                                                 gameletSectionIntro: true,
                                                 gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
+                                                gamelet: types.GameletType.YesNoSocial
                                             }));
                                             break;
-                                        case types.GameletType.Slider:
-                                            this.setState({
-                                                gameletSectionIntro: true,
-                                                gameletSection: gameletSection + 1,
-                                                gamelet: gamelet + 1
-                                            });
-                                            break;
+                                        // case types.GameletType.Stacking:
+                                        //     this.setState({ isPreloading: true });
+                                        //     Preloading.preload3(
+                                        //         this.state.region as types.Region,
+                                        //         this.state.character as types.CanadaCharacters
+                                        //     ).then(() => this.setState({
+                                        //         isPreloading: false,
+                                        //         gameletSectionIntro: true,
+                                        //         gameletSection: gameletSection + 1,
+                                        //         gamelet: gamelet + 1
+                                        //     }));
+                                        //     break;
+                                        // case types.GameletType.Slider:
+                                        //     this.setState({
+                                        //         gameletSectionIntro: true,
+                                        //         gameletSection: gameletSection + 1,
+                                        //         gamelet: gamelet + 1
+                                        //     });
+                                        //     break;
                                         case types.GameletType.YesNoSocial:
-                                            this.setState({ gamelet: gamelet + 1 });
+                                            this.setState({ gamelet: types.GameletType.Plate });
                                             break;
                                         case types.GameletType.Plate:
                                             onGameletsCompleted();

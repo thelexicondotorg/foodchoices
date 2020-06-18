@@ -284,11 +284,11 @@ namespace Private {
                     {
                         icon: CommonData.appleJuice,
                         description: "Apple juice",
-                        easterEgg: "Only water and milk are served for school lunch in Elias's school, some schools also serve plant-based milk alternatives. This is a way to help reduce the intak of drinks high in sugars."
+                        easterEgg: "Only water and milk are served for school lunch in Elias’s school, some schools also serve plant-based milk alternatives. This is a way to help reduce the intake of drinks high in sugars."
                     },
                     {
                         icon: "/public/food/nordics/elias/snacks/6.svg",
-                        description: "Glass of milk"
+                        description: "Glass of oat milk"
                     },
                     {
                         icon: CommonData.waterGlass,
