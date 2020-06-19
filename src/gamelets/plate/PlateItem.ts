@@ -107,11 +107,12 @@ export class PlateItem {
         const _plateScale = plateScale || 2;
         const _plateOffset = plateOffset || { x: 0, y: 0 };
         const food = this._foodGroup.children[0] as SVGRectElement;
-        slot.appendChild(food);
-        food.setAttribute("transform", `translate(${x}, ${y}) scale(${_scale})`);
-        food.classList.add("transform-transition");
         food.classList.remove("svg-clickable");
-        setTimeout(() => food.setAttribute("transform", `translate(${_plateOffset.x}, ${_plateOffset.y}) scale(${_plateScale})`), 60);
+        slot.appendChild(food);
+        food.setAttribute("transform", `translate(${_plateOffset.x}, ${_plateOffset.y}) scale(${_plateScale})`);
+        // food.setAttribute("transform", `translate(${x}, ${y}) scale(${_scale})`);        
+        //food.classList.add("transform-transition");        
+        //setTimeout(() => food.setAttribute("transform", `translate(${_plateOffset.x}, ${_plateOffset.y}) scale(${_plateScale})`), 60);
         this.resetParent();
     }
 
