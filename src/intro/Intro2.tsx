@@ -25,7 +25,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
             return (
                 <img
                     style={{
-                        maxWidth: `${maxWidth}%`,                        
+                        maxWidth: `${maxWidth}%`,
                         position: "relative"
                     }}
                     src={`/public/intro/${name}.svg`}
@@ -35,18 +35,18 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
 
         return (
             <div>
-                <div className="character-layer">
+                <div className="character-layer intro-horiz-slide-1">
                     {makeCharacter("left-group", 33)}
                     {makeCharacter("center-group", 33)}
                     {makeCharacter("right-group", 33)}
                 </div>
-                <div className="character-layer">
+                <div className="character-layer intro-horiz-slide-2">
                     {makeCharacter("sylvia-intro", 20)}
                     {makeCharacter("boy-intro", 20)}
                     {makeCharacter("wulandari-intro", 20)}
                     {makeCharacter("man-intro", 20)}
                     {makeCharacter("woman-intro", 20)}
-                </div>                
+                </div>
                 <div
                     style={{
                         position: "absolute",
@@ -54,7 +54,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                         textAlign: "center"
                     }}
                 >
-                    <div>
+                    <div className="intro-vertical-slide-3">
                         <img
                             style={{
                                 maxWidth: "90%"
@@ -63,6 +63,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                         />
                     </div>
                     <div
+                        className="intro-vertical-slide-2"
                         style={{
                             marginTop: "60px"
                         }}
@@ -83,6 +84,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                         />
                     </div>
                     <div
+                        className="intro-vertical-slide-1"
                         style={{
                             marginTop: "60px",
                             marginBottom: "20px"
