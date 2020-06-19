@@ -23,6 +23,7 @@ import { Http } from "./common/HTTP";
 
 import * as uuid from "uuid";
 import { Utils } from "./common/Utils";
+import { Intro2 } from "./intro/Intro2";
 
 interface IAppState {
     isPreloading: boolean;
@@ -61,10 +62,10 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.Story,
+                section: types.Section.Intro,
                 region: types.Region.Nordics,
-                character: types.NordicCharacters.Elias,
-                gamelet: types.GameletType.Time,
+                character: types.NordicCharacters.Amena,
+                gamelet: types.GameletType.Plate,
                 gameletSection: 0,
                 gameletSectionIntro: false
             };
@@ -267,7 +268,7 @@ export class App extends React.Component<{}, IAppState> {
         switch (section) {
             case types.Section.Intro:
                 return (
-                    <Intro
+                    <Intro2
                         onPlay={() => {
                             // tslint:disable-next-line
                             console.log("clearing scores");

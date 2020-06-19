@@ -1,0 +1,8 @@
+
+.character-layer {
+    position: absolute;
+    bottom: 10vw;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
