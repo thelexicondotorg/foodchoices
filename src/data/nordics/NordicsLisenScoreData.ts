@@ -110,8 +110,8 @@ namespace Private {
                 },
                 icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Lisen)[0][2].icon,
                 outcomeDesc: "Snacks",
-                outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
+                outcomeType: OutcomeType.Culture,                
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/snacking/"
             },
             {
                 "outcome": "Sparkling water is great way to perk up your water. By carbonating water yourself, you'll avoid single-use plastic bottles.",
