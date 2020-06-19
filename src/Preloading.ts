@@ -43,8 +43,7 @@ export class Preloading {
         );
         return Images.preload(
             [
-                // Intro
-                // "/public/intro/Logo.svg",
+                // Intro                
                 // "/public/intro/Footer.svg",
                 // "/public/intro/Girl.svg",
                 // "/public/intro/Girl2.svg",
@@ -54,18 +53,20 @@ export class Preloading {
                 // "/public/intro/Sylvia.svg",
                 // "/public/intro/Woman.svg",
                 // "/public/intro/Apple.svg",
+                // "/public/intro/Logo.svg",                
                 "/public/intro/title.svg",
                 "/public/intro/foodplay.svg",
-                "/public/intro/boy-intro.svg",
-                "/public/intro/center-group.svg",
-                "/public/intro/left-group.svg",
-                "/public/intro/man-intro.svg",
                 "/public/intro/play-button.svg",
-                "/public/intro/right-group.svg",
-                "/public/intro/sylvia-intro.svg",
-                "/public/intro/woman-intro.svg",
-                "/public/intro/woman2-intro.svg",
-                "/public/intro/wulandari-intro.svg",
+                "/public/intro/intro-characters.svg",
+                // "/public/intro/boy-intro.svg",
+                // "/public/intro/center-group.svg",
+                // "/public/intro/left-group.svg",
+                // "/public/intro/man-intro.svg",
+                // "/public/intro/right-group.svg",
+                // "/public/intro/sylvia-intro.svg",
+                // "/public/intro/woman-intro.svg",
+                // "/public/intro/woman2-intro.svg",
+                // "/public/intro/wulandari-intro.svg",
 
                 // Character
                 "/public/common/BalloonPink.svg",

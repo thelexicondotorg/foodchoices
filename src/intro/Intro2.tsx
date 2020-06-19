@@ -21,31 +21,20 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
 
     public render() {
 
-        const makeCharacter = (name: string, maxWidth: number) => {
-            return (
-                <img
-                    style={{
-                        maxWidth: `${maxWidth}%`,
-                        position: "relative"
-                    }}
-                    src={`/public/intro/${name}.svg`}
-                />
-            );
-        };
-
         return (
-            <div>
-                <div className="character-layer intro-horiz-slide-1">
-                    {makeCharacter("left-group", 33)}
-                    {makeCharacter("center-group", 33)}
-                    {makeCharacter("right-group", 33)}
-                </div>
-                <div className="character-layer intro-horiz-slide-2">
-                    {makeCharacter("sylvia-intro", 20)}
-                    {makeCharacter("boy-intro", 20)}
-                    {makeCharacter("wulandari-intro", 20)}
-                    {makeCharacter("man-intro", 20)}
-                    {makeCharacter("woman-intro", 20)}
+            <div 
+                style={{ 
+                    opacity: 0
+                }}
+                className="intro-fade-in"
+            >
+                <div className="character-layer">
+                    <img
+                        style={{
+                            maxWidth: "91%"
+                        }}
+                        src="/public/intro/intro-characters.svg"
+                    />
                 </div>
                 <div
                     style={{
@@ -57,7 +46,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                     <div className="intro-vertical-slide-3">
                         <img
                             style={{
-                                maxWidth: "90%"
+                                maxWidth: "95%"
                             }}
                             src="/public/intro/foodplay.svg"
                         />
@@ -71,7 +60,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                         <img
                             style={{
                                 maxWidth: "26vh",
-                                minWidth: "300px"
+                                minWidth: "230px"
                             }}
                             src="/public/intro/play-button.svg"
                             className={`${this.state.playClicked ? "selected" : "clickable"}`}
