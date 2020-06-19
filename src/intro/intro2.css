@@ -17,7 +17,7 @@
 @keyframes anim-intro-vertical-slide-3 { from { transform: translate(0px, -2000px); } to { transform: translate(0px, 0px); }}
 
 .intro-horiz-slide-1 { animation: anim-intro-horiz-slide-1 1.4s ease-in-out 0s 1 forwards; }
-@keyframes anim-intro-horiz-slide-1 { from { transform: translate(-1500px, 0px); } to { transform: translate(0px, 0px); }}
+@keyframes anim-intro-horiz-slide-1 { from { transform: translate(-2000px, 0px); } to { transform: translate(0px, 0px); }}
 
 .intro-horiz-slide-2 { animation: anim-intro-horiz-slide-2 1.6s ease-in-out 0s 1 forwards; }
 @keyframes anim-intro-horiz-slide-2 { from { transform: translate(2000px, 0px); } to { transform: translate(0px, 0px); }}
