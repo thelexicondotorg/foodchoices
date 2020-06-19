@@ -22,7 +22,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
     public render() {
 
         return (
-            <div                 
+            <div
                 className="intro-fade-in"
             >
                 <div className="character-layer">
@@ -40,7 +40,9 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                         textAlign: "center"
                     }}
                 >
-                    <div className="intro-vertical-slide-3">
+                    <div
+                        // className="intro-vertical-slide-3"
+                    >
                         <img
                             style={{
                                 maxWidth: "95%"
@@ -49,7 +51,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                         />
                     </div>
                     <div
-                        className="intro-vertical-slide-2"
+                        // className="intro-vertical-slide-2"
                         style={{
                             marginTop: "60px"
                         }}
@@ -70,7 +72,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                         />
                     </div>
                     <div
-                        className="intro-vertical-slide-1"
+                        // className="intro-vertical-slide-1"
                         style={{
                             marginTop: "60px",
                             marginBottom: "20px"
