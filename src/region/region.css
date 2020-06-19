@@ -9,7 +9,7 @@
 }
 
 .region-container {
-    display: grid;
+    /*display: grid;*/
     width: 100%;
     height: 100%;
     text-align: center;
@@ -18,13 +18,13 @@
 
 .region-sub-container {
     position: relative;
-    height: 90%;
+    height: 100%;
     align-self: center;
 }
 
 .region-image {
     width: auto;
-    height: 80%;
+    height: 85%;
 }
 
 .region-name{

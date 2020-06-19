@@ -71,7 +71,7 @@ export class Regions extends React.Component<IRegionsProps> {
                             style={{
                                 width: "24vw"
                             }}
-                            src="/public/intro/Logo.svg" 
+                            src="/public/intro/foodplay.svg" 
                         />
                     </div>
                     <div
