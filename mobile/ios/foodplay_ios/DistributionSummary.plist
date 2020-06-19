@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ios-launcher.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>10998B172A96B6967A3E98405D2011FA2BB31BF6</string>
+				<key>dateExpires</key>
+				<string>2021-03-02</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>47J5M946PH.foodplay</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>47J5M946PH</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>47J5M946PH.foodplay</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Foodplay: Your Food Story.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c892f7bb-28cb-4c29-8a7c-ea57fe17b23e</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: foodplay</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>47J5M946PH</string>
+				<key>name</key>
+				<string>Amine Rehioui</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
