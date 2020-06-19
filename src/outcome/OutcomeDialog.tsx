@@ -103,8 +103,7 @@ export class OutcomeDialog extends React.Component<IOutcomeDialogProps, IOutcome
                     left: 0,
                     top: 0,
                     width: "100%",
-                    height: "100%",
-                    padding: "30px",
+                    height: "100%",                    
                     backgroundColor: "rgba(0,0,0,0.4)",
                 }}
                 onClick={() => {
@@ -120,8 +119,11 @@ export class OutcomeDialog extends React.Component<IOutcomeDialogProps, IOutcome
                         marginBottom: "10p",
                         fontSize: "26px",
                         // overflow: "auto",
-                        width: "calc(100% - 60px)",
-                        height: "calc(100% - 60px)",
+                        width: "1150px",
+                        maxWidth: "calc(100% - 40px)",
+                        margin: "0 auto",
+                        height: "calc(100% - 40px)",
+                        marginTop: "20px",
                         // height: "80%",
                         textAlign: "left",
                         transform: "scaleY(0)"
