@@ -1,20 +1,35 @@
 
 .character-layer {
     position: absolute;
-    bottom: 10vw;
+    bottom: 0;
     text-align: center;
     width: 100%;
     overflow: hidden;
+    animation: characters-anim 1.2s ease-in-out 0s 1 forwards;
 }
 
-.intro-vertical-slide-1 { animation: anim-intro-vertical-slide-1 1.2s ease-in-out 0s 1 forwards; }
+@keyframes characters-anim { from { bottom: 0; } to { bottom: 10vw; }}
+
+.intro-vertical-slide-1 { 
+    transform: translate(0px, 1000px);
+    animation: anim-intro-vertical-slide-1 .8s ease-in-out .2s 1 forwards; 
+}
 @keyframes anim-intro-vertical-slide-1 { from { transform: translate(0px, 1000px); } to { transform: translate(0px, 0px); }}
 
-.intro-vertical-slide-2 { animation: anim-intro-vertical-slide-2 1.2s ease-in-out 0s 1 forwards; }
+.intro-vertical-slide-2 { 
+    transform: translate(0px, -1000px);
+    animation: anim-intro-vertical-slide-2 .8s ease-in-out .2s 1 forwards; 
+}
 @keyframes anim-intro-vertical-slide-2 { from { transform: translate(0px, -1000px); } to { transform: translate(0px, 0px); }}
 
-.intro-vertical-slide-3 { animation: anim-intro-vertical-slide-3 1.5s ease-in-out 0s 1 forwards; }
+.intro-vertical-slide-3 { 
+    transform: translate(0px, -1000px);
+    animation: anim-intro-vertical-slide-3 1s ease-in-out .2s 1 forwards;
+ }
 @keyframes anim-intro-vertical-slide-3 { from { transform: translate(0px, -1000px); } to { transform: translate(0px, 0px); }}
 
-.intro-fade-in { animation: 1s forwards anim-intro-fade-in; }        
+.intro-fade-in { 
+    opacity: 0;
+    animation: .4s forwards anim-intro-fade-in; 
+}        
 @keyframes anim-intro-fade-in { from { opacity: 0; } to { opacity: 1; }}

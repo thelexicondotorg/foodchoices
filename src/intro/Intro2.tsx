@@ -22,10 +22,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
     public render() {
 
         return (
-            <div 
-                style={{ 
-                    opacity: 0
-                }}
+            <div                 
                 className="intro-fade-in"
             >
                 <div className="character-layer">
