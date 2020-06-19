@@ -534,6 +534,7 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                         onClick={() => {
                             Utils.fadeOut(this._root)
                                 .then(() => {
+                                    window.scrollTo(0, 0);
                                     this.props.onReplay();
                                 });
                         }}

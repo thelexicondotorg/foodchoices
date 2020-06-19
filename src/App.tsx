@@ -175,8 +175,8 @@ export class App extends React.Component<{}, IAppState> {
             <MuiThemeProvider theme={theme}>
                 <div
                     style={{
-                        width: "100vw",
-                        height: "100vh"
+                        width: "100%",
+                        height: "100%"
                     }}
                 >
                     {/* {header()} */}
@@ -200,7 +200,7 @@ export class App extends React.Component<{}, IAppState> {
                                             height: "100%",
                                             overflow: Utils.isMobile()
                                                 ? undefined
-                                                : this.state.section === types.Section.Intro ? "hidden" : "auto",
+                                                : this.state.section === types.Section.Intro ? "hidden" : undefined,
                                             position: "relative",
                                             WebkitOverflowScrolling: "touch"
                                         }}
@@ -617,10 +617,6 @@ export class App extends React.Component<{}, IAppState> {
                                 region: undefined,
                                 character: undefined
                             });
-                            
-                            setTimeout(() => {
-                                window.scrollTo(0, 0);
-                            }, 60);
                         }}
                     />
                 );
