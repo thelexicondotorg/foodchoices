@@ -111,8 +111,9 @@ export class PlateItem {
         slot.appendChild(food);
         food.setAttribute("transform", `translate(${_plateOffset.x}, ${_plateOffset.y}) scale(${_plateScale})`);
         // food.setAttribute("transform", `translate(${x}, ${y}) scale(${_scale})`);        
-        //food.classList.add("transform-transition");        
-        //setTimeout(() => food.setAttribute("transform", `translate(${_plateOffset.x}, ${_plateOffset.y}) scale(${_plateScale})`), 60);
+        // food.classList.add("transform-transition");
+        // tslint:disable-next-line
+        // setTimeout(() => food.setAttribute("transform", `translate(${_plateOffset.x}, ${_plateOffset.y}) scale(${_plateScale})`), 60);
         this.resetParent();
     }
 
