@@ -198,9 +198,7 @@ export class App extends React.Component<{}, IAppState> {
                                         className="unselectable"
                                         style={{
                                             height: "100%",
-                                            overflow: Utils.isMobile()
-                                                ? undefined
-                                                : this.state.section === types.Section.Intro ? "hidden" : undefined,
+                                            overflow: this.state.section === types.Section.Intro ? "hidden" : undefined,
                                             position: "relative",
                                             WebkitOverflowScrolling: "touch"
                                         }}
