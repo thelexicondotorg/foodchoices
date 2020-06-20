@@ -1,4 +1,4 @@
-package com.franticsoftware.foodplay;
+package com.thelexicon.foodplay;
 
 import android.annotation.SuppressLint;
 
