@@ -28,8 +28,8 @@ export class Region extends React.Component<IRegionProps> {
                 style={{
                     backgroundColor,
                     height: "100%",
-                    overflow: Utils.isMobile() ? undefined : "auto",
-                    position: "relative"
+                    position: "relative",
+                    overflow: "auto"
                 }}
             >
                 <div
@@ -46,7 +46,6 @@ export class Region extends React.Component<IRegionProps> {
                     <div
                         style={{
                             height: "100%",                            
-                            overflow: "auto",
                             display: "grid"
                         }}
                     >
@@ -58,12 +57,7 @@ export class Region extends React.Component<IRegionProps> {
                                     alignItems: "center"
                                 }}
                             >
-                                <div
-                                    style={{
-                                        display: "flex",
-                                        flexWrap: "wrap"
-                                    }}
-                                >
+                                <div>
                                     {(() => {
                                         if (Array.isArray(flag)) {
                                             return flag.map((f, index) => (
@@ -104,17 +98,8 @@ export class Region extends React.Component<IRegionProps> {
                         }}
                     >
                         <div style={{ alignSelf: "center" }} >
-                            <div
-                                style={{                                    
-                                    textAlign: "center",
-                                    height: "40vh"
-                                }}
-                            >
-                                <img 
-                                    style={{
-                                        height: "100%",
-                                        maxWidth: "700px"
-                                    }}
+                            <div style={{ textAlign: "center" }}>
+                                <img
                                     src={background} 
                                 />
                             </div>
