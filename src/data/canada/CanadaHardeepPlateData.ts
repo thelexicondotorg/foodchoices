@@ -9,12 +9,16 @@ namespace Private {
                 containerUrl: CommonData.plate,
                 foodInfo: {
                     content: CommonData.eggOmelet,
-                    offset: CommonData.plateFoodOffset
+                    offset: {
+                        x: 60,
+                        y: 10
+                    }
                 },
                 descriptionInfo: {
                     content: "Egg omelet",
                     offset: CommonData.plateTextOffset
-                }
+                },
+                scale: 2
             },     
             {
                 containerUrl: "/public/gamelets/plate/BeanLentilPlate.svg",
