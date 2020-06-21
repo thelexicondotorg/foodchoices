@@ -1,5 +1,6 @@
 
 import * as React from "react";
+import { Config } from "../Config";
 
 interface ICharacterItemProps {
     icon: string;
@@ -7,19 +8,39 @@ interface ICharacterItemProps {
     onClick: () => void;
 }
 
-export class CharacterItem extends React.Component<ICharacterItemProps> {
+interface ICharacterItemState {
+    clicked: boolean;
+}
+
+export class CharacterItem extends React.Component<ICharacterItemProps, ICharacterItemState> {
+
+    constructor(props: ICharacterItemProps) {
+        super(props);
+        this.state = {
+            clicked: false
+        };
+    }
+
     public render() {
         const { icon, description } = this.props;
         return (
             <div>
                 <div>
                     <img 
-                        className="clickable"
+                        className={`${this.state.clicked ? "selected" : "clickable"}`}
                         src={icon}
                         style={{                            
                             height: "90%"
                         }}
-                        onClick={() => this.props.onClick()}
+                        onClick={() => {
+                            if (this.state.clicked) {
+                                return;
+                            }
+                            this.setState({ clicked: true });
+                            setTimeout(() => {
+                                this.props.onClick();
+                            }, Config.clickAcceptDelay);
+                        }}
                     />
                 </div>
                 <div

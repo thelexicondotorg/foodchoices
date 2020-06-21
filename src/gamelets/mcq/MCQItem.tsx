@@ -59,6 +59,9 @@ export class MCQItem extends React.Component<IMCQItemProps, IMCQItemState> {
                         className={`${selected ? "selected" : "clickable"}`}
                         src={icon}
                         onClick={() => {
+                            if (this.state.selected) {
+                                return;
+                            }
                             this.setState({
                                 selected: true
                             });

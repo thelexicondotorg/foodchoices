@@ -52,6 +52,9 @@ export class TimeItem extends React.Component<ITimeItemProps, ITimeItemState> {
                     className={`${iconClass} ${selected ? "selected" : "clickable"}`}
                     src={icon}
                     onClick={() => {
+                        if (this.state.selected) {
+                            return;
+                        }
                         this.setState({
                             selected: true
                         });

@@ -100,6 +100,9 @@ export class Region extends React.Component<IRegionProps> {
                         <div style={{ alignSelf: "center" }} >
                             <div style={{ textAlign: "center" }}>
                                 <img
+                                    style={{ 
+                                        maxHeight: "60vh"
+                                    }}
                                     src={background} 
                                 />
                             </div>

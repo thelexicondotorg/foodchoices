@@ -4,14 +4,25 @@ import * as types from "../Types";
 import "./region.css";
 import { Utils } from "../common/Utils";
 import { RegionData } from "../data/RegionData";
+import { Config } from "../Config";
 
 interface IRegionsProps {
     onSelect: (region: types.Region) => void;
 }
 
-export class Regions extends React.Component<IRegionsProps> {
+interface IResionsState {
+    clickedRegion?: types.Region;
+}
+
+export class Regions extends React.Component<IRegionsProps, IResionsState> {
 
     private _root!: HTMLDivElement;
+
+    constructor(props: IRegionsProps) {
+        super(props);
+        this.state = {            
+        };
+    }
 
     public render() {
 
@@ -21,10 +32,16 @@ export class Regions extends React.Component<IRegionsProps> {
                 <div className="region-container">
                     <div className="region-sub-container">
                         <img
-                            className="clickable region-image"
+                            className={`${this.state.clickedRegion === region ? "selected" : "clickable"} region-image`}
                             src={data.background}
                             onClick={e => {
-                                Utils.fadeOut(this._root).then(() => this.props.onSelect(region));
+                                if (this.state.clickedRegion) {
+                                    return;
+                                }
+                                this.setState({ clickedRegion: region });
+                                setTimeout(() => {
+                                    Utils.fadeOut(this._root).then(() => this.props.onSelect(region));
+                                }, Config.clickAcceptDelay);
                             }}
                         />
                         <div className="region-name">
