@@ -1,7 +1,7 @@
 
 .character-layer {
     position: absolute;
-    bottom: 10vw; /* 0 */ 
+    bottom: calc(40px + 7vw);
     text-align: center;
     width: 100%;
     overflow: hidden;

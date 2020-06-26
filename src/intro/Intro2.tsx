@@ -28,7 +28,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                 <div className="character-layer">
                     <img
                         style={{
-                            maxWidth: "91%"
+                            maxWidth: "73%"
                         }}
                         src="/public/intro/intro-characters.svg"
                     />
@@ -45,7 +45,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                     >
                         <img
                             style={{
-                                maxWidth: "95%"
+                                maxWidth: "76%"
                             }}
                             src="/public/intro/foodplay.svg"
                         />
@@ -53,13 +53,13 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                     <div
                         // className="intro-vertical-slide-2"
                         style={{
-                            marginTop: "60px"
+                            marginTop: "30px"
                         }}
                     >
                         <img
                             style={{
                                 maxWidth: "26vh",
-                                minWidth: "230px"
+                                minWidth: "150px"
                             }}
                             src="/public/intro/play-button.svg"
                             className={`${this.state.playClicked ? "selected" : "clickable"}`}
@@ -77,13 +77,13 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                     <div
                         // className="intro-vertical-slide-1"
                         style={{
-                            marginTop: "60px",
-                            marginBottom: "20px"
+                            marginTop: "40px",
+                            marginBottom: "40px"
                         }}
                     >
                         <img
                             style={{
-                                maxWidth: "90%"
+                                maxWidth: "73%"
                             }}
                             src="/public/intro/title.svg"
                         />
