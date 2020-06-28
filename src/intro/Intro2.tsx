@@ -12,11 +12,25 @@ interface IIntroState {
 }
 
 export class Intro2 extends React.Component<IIntroProps, IIntroState> {
+
+    private _image!: HTMLImageElement;
+    private _playButton!: HTMLImageElement;
+
     constructor(props: IIntroProps) {
         super(props);
         this.state = {
             playClicked: false
         };
+    }
+
+    public componentDidMount() {
+        this.onResize();
+        this.onResize = this.onResize.bind(this);
+        window.addEventListener("resize", this.onResize);
+    }
+
+    public componentWillUnmount() {
+        window.removeEventListener("resize", this.onResize);
     }
 
     public render() {
@@ -25,71 +39,68 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
             <div
                 className="intro-fade-in"
             >
-                <div className="character-layer">
+                <div>
                     <img
+                        ref={e => this._image = e as HTMLImageElement}
                         style={{
-                            maxWidth: "73%"
+                            width: "100%",
+                            height: "100%",
+                            objectFit: "contain"
                         }}
-                        src="/public/intro/intro-characters.svg"
+                        src="/public/intro/intro-image.svg"
                     />
                 </div>
-                <div
+                <img
+                    ref={e => this._playButton = e as HTMLImageElement}
                     style={{
-                        position: "absolute",
-                        bottom: "0px",
-                        textAlign: "center"
+                        position: "absolute"
                     }}
-                >
-                    <div
-                        // className="intro-vertical-slide-3"
-                    >
-                        <img
-                            style={{
-                                maxWidth: "76%"
-                            }}
-                            src="/public/intro/foodplay.svg"
-                        />
-                    </div>
-                    <div
-                        // className="intro-vertical-slide-2"
-                        style={{
-                            marginTop: "30px"
-                        }}
-                    >
-                        <img
-                            style={{
-                                maxWidth: "26vh",
-                                minWidth: "150px"
-                            }}
-                            src="/public/intro/play-button.svg"
-                            className={`${this.state.playClicked ? "selected" : "clickable"}`}
-                            onClick={() => {
-                                if (this.state.playClicked) {
-                                    return;
-                                }
-                                this.setState({ playClicked: true });
-                                setTimeout(() => {
-                                    this.props.onPlay();
-                                }, Config.clickAcceptDelay);
-                            }}
-                        />
-                    </div>
-                    <div
-                        // className="intro-vertical-slide-1"
-                        style={{
-                            marginTop: "40px",
-                            marginBottom: "40px"
-                        }}
-                    >
-                        <img
-                            style={{
-                                maxWidth: "73%"
-                            }}
-                            src="/public/intro/title.svg"
-                        />
-                    </div>
-                </div>
+                    src="/public/intro/play-button.svg"
+                    className={`${this.state.playClicked ? "selected" : "clickable"}`}
+                    onClick={() => {
+                        if (this.state.playClicked) {
+                            return;
+                        }
+                        this.setState({ playClicked: true });
+                        setTimeout(() => {
+                            this.props.onPlay();
+                        }, Config.clickAcceptDelay);
+                    }}
+                />
             </div>
         );
+    }
+
+    private onResize() {
+        const { width, height } = this._image.getBoundingClientRect();
+        const origWidth = 2764;
+        const origHeight = 1594;
+        const playButtonOrigWidth = 421;
+        // const playButtonOrigHeight = 91;
+        const playButtonOrigX = 1164;
+        const playButtonOrigY = 1078;
+
+        const ratio = width / height;
+        const origRatio = origWidth / origHeight;
+        let playButtonWidth = playButtonOrigWidth;
+        if (ratio > origRatio) {
+            // Center horizontally + 'bars' on the sides
+            const sizeRatio = height / origHeight;
+            playButtonWidth = playButtonOrigWidth * sizeRatio;
+            const newWidth = origWidth * sizeRatio;
+            const offset = (width - newWidth) / 2;
+            this._playButton.style.left = `${offset + playButtonOrigX * sizeRatio}px`;
+            this._playButton.style.top = `${playButtonOrigY * sizeRatio}px`;
+        } else {
+            // Center vertically + 'bars' on top & bottom
+            const sizeRatio = width / origWidth;
+            playButtonWidth = playButtonOrigWidth * sizeRatio;
+            const newHeight = origHeight * sizeRatio;
+            const offset = (height - newHeight) / 2;
+            this._playButton.style.left = `${playButtonOrigX * sizeRatio}px`;
+            this._playButton.style.top = `${offset + playButtonOrigY * sizeRatio}px`;
+        }
+
+        this._playButton.style.width = `${playButtonWidth}px`;
     }
 }
