@@ -129,7 +129,6 @@ export class EasterEgg extends React.Component<IEasterEggProps, IEasterEggState>
                                 variant="contained"
                                 style={{
                                     borderRadius: "40px",
-                                    padding: "16px",
                                     margin: "8px",
                                 }}
                                 onClick={() => {
@@ -163,7 +162,6 @@ export class EasterEgg extends React.Component<IEasterEggProps, IEasterEggState>
                                     variant="contained"
                                     style={{
                                         borderRadius: "40px",
-                                        padding: "16px",
                                         margin: "8px",
                                     }}
                                     onClick={() => {

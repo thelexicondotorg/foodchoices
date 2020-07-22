@@ -98,7 +98,6 @@ export class Characters extends React.Component<ICharactersProps> {
                                     style={{
                                         borderRadius: "40px",
                                         color: "black",
-                                        padding: "16px",
                                         margin: "8px"
                                     }}
                                     onClick={() => Utils.fadeOut(this._root).then(() => this.props.onBack())}

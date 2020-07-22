@@ -62,7 +62,6 @@ export class Stacking extends Gamelet<{}, IStackingState> {
                     variant="contained"
                     style={{
                         borderRadius: "40px",
-                        padding: "16px",
                         margin: "8px",
                     }}
                     onClick={() => {

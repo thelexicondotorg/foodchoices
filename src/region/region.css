@@ -4,7 +4,8 @@
 }
 
 .flags {
-    width: 64px;
+    max-width: 64px;
+    width: 8vw;
     padding: 8px;
 }
 
@@ -41,3 +42,4 @@
     display: flex;
     justify-content: space-around;
 }
+

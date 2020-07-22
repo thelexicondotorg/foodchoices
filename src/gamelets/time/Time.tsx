@@ -73,6 +73,7 @@ export class Time extends Gamelet<{}, ITimeState> {
                                     />
                                 </div>
                                 <div
+                                    className="gamelet-text"
                                     style={{
                                         display: "flex",
                                         flexDirection: "column",

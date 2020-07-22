@@ -69,6 +69,7 @@ export class MCQ extends Gamelet<IMCQProps, IMCQState> {
                             }}
                         >
                             <div
+                                className="gamelet-text"
                                 style={{
                                     display: "flex",
                                     flexDirection: "column",

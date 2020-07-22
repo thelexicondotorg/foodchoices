@@ -119,7 +119,6 @@ export class Region extends React.Component<IRegionProps> {
                                     style={{
                                         borderRadius: "40px",
                                         color: "black",
-                                        padding: "16px",
                                         margin: "8px"
                                     }}
                                     onClick={() => Utils.fadeOut(this._root).then(() => this.props.onBack())}
@@ -132,7 +131,6 @@ export class Region extends React.Component<IRegionProps> {
                                     variant="contained"
                                     style={{
                                         borderRadius: "40px",
-                                        padding: "16px",
                                         margin: "8px"
                                     }}
                                     onClick={() => Utils.fadeOut(this._root).then(() => this.props.onPlay())}

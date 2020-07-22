@@ -346,7 +346,6 @@ export class Slider extends Gamelet<{}, ISliderState> {
                             variant="contained"
                             style={{
                                 borderRadius: "40px",
-                                padding: "16px",
                                 margin: "8px",
                             }}
                             onClick={() => {

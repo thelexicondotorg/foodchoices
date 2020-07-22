@@ -46,7 +46,6 @@ export class OutcomeIntro extends React.Component<IOutcomeIntroProps> {
                             variant="contained"
                             style={{
                                 borderRadius: "40px",
-                                padding: "16px",
                                 margin: "8px",
                             }}
                             onClick={() => {

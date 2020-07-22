@@ -252,7 +252,6 @@ export class YesNoSocial extends Gamelet<IYesNoSocialProps, IYesNoSocialState> {
                                             variant="contained"
                                             style={{
                                                 borderRadius: "40px",
-                                                padding: "16px",
                                                 margin: "8px",
                                             }}
                                             onClick={() => {

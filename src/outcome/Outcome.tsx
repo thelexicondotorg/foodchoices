@@ -528,7 +528,6 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                         variant="contained"
                         style={{
                             borderRadius: "40px",
-                            padding: "16px",
                             margin: "8px",
                         }}
                         onClick={() => {
