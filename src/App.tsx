@@ -34,6 +34,7 @@ interface IAppState {
     gamelet: types.GameletType;
     gameletSection: number;
     gameletSectionIntro: boolean;
+    rotateScreenPrompt: boolean;
 }
 
 const theme = createMuiTheme({
@@ -49,7 +50,6 @@ const theme = createMuiTheme({
 
 export class App extends React.Component<{}, IAppState> {
 
-    private _rotatePrompt!: HTMLDivElement;
     private _pingTimer: any;
 
     constructor(props: {}) {
@@ -62,20 +62,21 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.Story,
+                section: types.Section.Outcome,
                 region: types.Region.Nordics,
                 character: types.NordicCharacters.Lisen,
                 gamelet: types.GameletType.Time,
                 gameletSection: 0,
-                gameletSectionIntro: false
+                gameletSectionIntro: false,
+                rotateScreenPrompt: false
             };
 
-            // Scores.register(CanadaQuestions.Breakfast, 0);
-            // Scores.register(CanadaQuestions.Snacks1, 0);
-            // Scores.register(CanadaQuestions.DinnerProtein, 0);
-            // Scores.register(CanadaQuestions.DinnerGrains, 0);
-            // Scores.register(CanadaQuestions.DinnerVeggies, 0);
-            // Scores.register(CanadaQuestions.Lunch1, 0);
+            Scores.register(CanadaQuestions.Breakfast, 0);
+            Scores.register(CanadaQuestions.Snacks1, 0);
+            Scores.register(CanadaQuestions.DinnerProtein, 0);
+            Scores.register(CanadaQuestions.DinnerGrains, 0);
+            Scores.register(CanadaQuestions.DinnerVeggies, 0);
+            Scores.register(CanadaQuestions.Lunch1, 0);
             
         } else {
             this.state = {
@@ -84,7 +85,8 @@ export class App extends React.Component<{}, IAppState> {
                 section: types.Section.Intro,
                 gamelet: types.GameletType.Time,
                 gameletSection: 0,
-                gameletSectionIntro: true
+                gameletSectionIntro: true,
+                rotateScreenPrompt: false
             };
         }
     }
@@ -188,7 +190,7 @@ export class App extends React.Component<{}, IAppState> {
                     <div
                         style={{
                             height: `calc(100% - ${Config.headerHeight}px)`,
-                            position: "relative"                           
+                            position: "relative",
                         }}
                     >
                         {(() => {
@@ -200,7 +202,8 @@ export class App extends React.Component<{}, IAppState> {
                                             height: "100%",
                                             overflow: this.state.section === types.Section.Intro ? "hidden" : undefined,
                                             position: "relative",
-                                            WebkitOverflowScrolling: "touch"
+                                            WebkitOverflowScrolling: "touch",
+                                            display: this.state.rotateScreenPrompt ? "none" : "block"
                                         }}
                                     >
                                         {this.renderInternal()}
@@ -219,8 +222,7 @@ export class App extends React.Component<{}, IAppState> {
                                 gameletIntro={this.state.gameletSectionIntro}
                             />
                         }
-                        <div
-                            ref={e => this._rotatePrompt = e as HTMLDivElement}
+                        <div                            
                             style={{
                                 position: "absolute",
                                 width: "100vw",
@@ -228,7 +230,7 @@ export class App extends React.Component<{}, IAppState> {
                                 left: "0px",
                                 top: "0px",
                                 backgroundColor: "black",
-                                display: "none",
+                                display: this.state.rotateScreenPrompt ? "grid" : "none",
                                 alignItems: "center",
                                 textAlign: "center"
                             }}
@@ -627,6 +629,6 @@ export class App extends React.Component<{}, IAppState> {
 
     private checkIfPortrait() {
         const isPortrait = window.top.innerHeight > window.top.innerWidth;
-        this._rotatePrompt.style.display = isPortrait ? "grid" : "none";
+        this.setState({ rotateScreenPrompt: isPortrait });
     }
 }
