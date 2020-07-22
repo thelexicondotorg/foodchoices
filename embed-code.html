@@ -1,19 +1,24 @@
-<iframe id="foodchoices_game" src="https://foodskills-251802.uc.r.appspot.com/" frameborder="0"></iframe>
 <script>
     // Change depending on your header size
     // Set to 0 if no header
     const HEADER_SIZE = 90;
 
-    function updateSize() {
-        const desiredRatio = 3/2;
-        const frame = document.getElementById("foodchoices_game");
-        const ratio = window.innerWidth / window.innerHeight;
-        if (ratio > desiredRatio) {
-            frame.style.height = `calc(100vh - ${HEADER_SIZE}px)`;
-        } else {
-            frame.style.height = `${(window.innerWidth / desiredRatio) - HEADER_SIZE}px`;
+    function onLoaded() {
+        function updateSize() {
+            const desiredRatio = 3 / 2;
+            const frame = document.getElementById("foodchoices_game");
+            const ratio = window.innerWidth / window.innerHeight;
+            if (ratio > desiredRatio) {
+                frame.style.height = `calc(100vh - ${HEADER_SIZE}px)`;
+            } else {
+                frame.style.height = `${(window.innerWidth / desiredRatio) - HEADER_SIZE}px`;
+            }
+
+            // Transmit host window size to game
+            frame.contentWindow.postMessage(JSON.stringify([window.innerWidth, window.innerHeight]), "*");
         }
+        updateSize();
+        window.addEventListener("resize", updateSize);
     }
-    updateSize();
-    window.addEventListener("resize", updateSize);
 </script>
+<iframe id="foodchoices_game" src="https://foodskills-251802.uc.r.appspot.com/" frameborder="0" onload="onLoaded()"></iframe>

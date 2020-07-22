@@ -51,6 +51,7 @@ const theme = createMuiTheme({
 export class App extends React.Component<{}, IAppState> {
 
     private _pingTimer: any;
+    private _topWindowSize?: [number, number];
 
     constructor(props: {}) {
         super(props);
@@ -117,6 +118,9 @@ export class App extends React.Component<{}, IAppState> {
         this.checkIfPortrait();
         this.onResize = this.onResize.bind(this);
         window.addEventListener("resize", this.onResize);        
+
+        this.onMessage = this.onMessage.bind(this);
+        window.addEventListener("message", this.onMessage, false);
     }
 
     public componentWillUnmount() {
@@ -628,7 +632,13 @@ export class App extends React.Component<{}, IAppState> {
     }
 
     private checkIfPortrait() {
-        const isPortrait = window.top.innerHeight > window.top.innerWidth;
+        const [width, height] = this._topWindowSize ?? [window.innerWidth, window.innerHeight];
+        const isPortrait = height > width;
         this.setState({ rotateScreenPrompt: isPortrait });
+    }
+
+    private onMessage(event: MessageEvent) {
+        this._topWindowSize = JSON.parse(event.data);
+        this.checkIfPortrait();
     }
 }
