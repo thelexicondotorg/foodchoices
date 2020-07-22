@@ -62,10 +62,10 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.Intro,
+                section: types.Section.Story,
                 region: types.Region.Nordics,
-                character: types.NordicCharacters.Amena,
-                gamelet: types.GameletType.Plate,
+                character: types.NordicCharacters.Lisen,
+                gamelet: types.GameletType.Time,
                 gameletSection: 0,
                 gameletSectionIntro: false
             };
@@ -626,7 +626,7 @@ export class App extends React.Component<{}, IAppState> {
     }
 
     private checkIfPortrait() {
-        const isPortrait = window.innerHeight > window.innerWidth;
+        const isPortrait = window.top.innerHeight > window.top.innerWidth;
         this._rotatePrompt.style.display = isPortrait ? "grid" : "none";
     }
 }
