@@ -10,6 +10,7 @@ export class Objective extends React.Component<IObjectProps> {
         const { message } = this.props;
         return (
             <div
+                className="gamelet-header-text"
                 style={{
                     display: "flex",
                     alignItems: "center"
@@ -24,9 +25,7 @@ export class Objective extends React.Component<IObjectProps> {
                         margin: "8px"
                     }}
                 />
-                <div style={{ fontSize: "18px" }}>
-                    {message}
-                </div>
+                {message}
             </div>
         );
     }

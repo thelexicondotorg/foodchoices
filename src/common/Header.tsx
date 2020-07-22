@@ -19,7 +19,7 @@ export class Header extends React.Component<IHeaderProps> {
         const isMobile = Utils.isMobile();
         const paddingLeft = isMobile ? "20px" : "54px";
         const { section, region, gamelet, character, gameletIntro } = this.props;
-        const alignRight = false; // gamelet === GameletType.Stacking;
+        const alignRight = gamelet === GameletType.MCQ;
 
         if (section === Section.RegionSelect
         || section === Section.Outcome
