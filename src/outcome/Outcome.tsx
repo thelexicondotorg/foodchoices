@@ -401,6 +401,10 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                 >
                     <div>
                         <img
+                            style={{
+                                maxWidth: "unset",
+                                height: "unset"
+                            }}
                             src="/public/outcome/impacts.svg"
                         />
                     </div>
@@ -408,9 +412,10 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                         style={{
                             display: "flex",
                             flexDirection: "row",
-                            justifyContent: "space-around",
+                            justifyContent: "space-evenly",
                             alignItems: "center",
-                            width: "100%"
+                            width: "100%",
+                            minWidth: "709px"
                         }}
                     >
                         <OutcomeScore

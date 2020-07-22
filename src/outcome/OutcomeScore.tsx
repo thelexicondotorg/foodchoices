@@ -96,7 +96,8 @@ export class OutcomeScore extends React.Component<IOutcomeScoreProps, IOutcomeSc
         return (
             <div
                 style={{
-                    position: "relative"
+                    position: "relative",
+                    minWidth: "128px"
                 }}
             >
                 <div>
