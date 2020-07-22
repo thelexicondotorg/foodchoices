@@ -125,6 +125,7 @@ export class App extends React.Component<{}, IAppState> {
 
     public componentWillUnmount() {
         window.removeEventListener("resize", this.onResize);
+        window.removeEventListener("message", this.onMessage);
         if (this._pingTimer) {
             clearInterval(this._pingTimer);
             delete this._pingTimer;
@@ -639,6 +640,6 @@ export class App extends React.Component<{}, IAppState> {
 
     private onMessage(event: MessageEvent) {
         this._topWindowSize = JSON.parse(event.data);
-        this.checkIfPortrait();
+        this.onResize();
     }
 }

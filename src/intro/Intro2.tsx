@@ -27,10 +27,13 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
         this.onResize();
         this.onResize = this.onResize.bind(this);
         window.addEventListener("resize", this.onResize);
+        this.onMessage = this.onMessage.bind(this);
+        window.addEventListener("message", this.onMessage, false);
     }
 
     public componentWillUnmount() {
         window.removeEventListener("resize", this.onResize);
+        window.removeEventListener("message", this.onMessage);
     }
 
     public render() {
@@ -102,5 +105,9 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
         }
 
         this._playButton.style.width = `${playButtonWidth}px`;
+    }
+
+    private onMessage(event: MessageEvent) {
+        this.onResize();
     }
 }
