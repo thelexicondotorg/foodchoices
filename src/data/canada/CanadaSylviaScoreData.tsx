@@ -308,7 +308,7 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1].icon,
+                icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Community Supported Agriculture",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/csas/"

@@ -311,7 +311,7 @@ namespace Private {
                     "Culture": 2,
                     "Climate": 2
                 },
-                icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Esther)[1].icon,
+                icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Esther)[0].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Community Supported Agriculture",
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"
@@ -326,7 +326,6 @@ namespace Private {
                     "Culture": 0,
                     "Climate": -1
                 },
-                icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Esther)[0].icon
             },
             {
                 "outcome": "Food deserts, or areas where there is little access to healthy, unprocessed foods like vegetables, fruits and whole grains, are often found in low-income areas, and have been linked with poorer quality diets.",
