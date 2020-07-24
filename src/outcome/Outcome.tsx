@@ -262,6 +262,15 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
             });
     }
 
+    public componentDidMount() {
+        this.onResize = this.onResize.bind(this);
+        window.addEventListener("resize", this.onResize);
+    }
+
+    public componentWillUnmount() {
+        window.removeEventListener("resize", this.onResize);
+    }
+
     public render() {
         const { region, character } = this.props;
         const characterData = CharacterData.get(region, character);
@@ -403,67 +412,79 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                         <img
                             style={{
                                 maxWidth: "unset",
-                                height: "unset"
+                                height: "unset",
+                                marginRight: "8px"
                             }}
                             src="/public/outcome/impacts.svg"
                         />
                     </div>
-                    <div
-                        style={{
-                            display: "flex",
-                            flexDirection: "row",
-                            justifyContent: "space-evenly",
-                            alignItems: "center",
-                            width: "100%",
-                            minWidth: "709px"
-                        }}
-                    >
-                        <OutcomeScore
-                            icon="/public/outcome/Health.svg"
-                            description="Personal Health"
-                            score={this._healthScore}
-                            maxScore={this._maxScore}
-                            getColor={getColor}
-                            id={0}
-                            color={Private.outcomeInfo[OutcomeType.Health].color}
-                        />
-                        <OutcomeScore
-                            icon="/public/outcome/Healthcare.svg"
-                            description="National Healthcare"
-                            score={this._healthcareScore}
-                            maxScore={this._maxScore}
-                            getColor={getColor}
-                            id={1}
-                            color={Private.outcomeInfo[OutcomeType.Healthcare].color}
-                        />
-                        <OutcomeScore
-                            icon="/public/outcome/Environment.svg"
-                            description="Environment"
-                            score={this._envScore}
-                            maxScore={this._maxScore}
-                            getColor={getColor}
-                            id={2}
-                            color={Private.outcomeInfo[OutcomeType.Environment].color}
-                        />
-                        <OutcomeScore
-                            icon="/public/outcome/Climate Change.svg"
-                            description="Climate"
-                            score={this._climateScore}
-                            maxScore={this._maxScore}
-                            getColor={getColor}
-                            id={3}
-                            color={Private.outcomeInfo[OutcomeType.Climate].color}
-                        />
-                        <OutcomeScore
-                            icon="/public/outcome/Culture.svg"
-                            description="Culture"
-                            score={this._cultureScore}
-                            maxScore={this._maxScore}
-                            getColor={getColor}
-                            id={4}
-                            color={Private.outcomeInfo[OutcomeType.Culture].color}
-                        />
-                    </div>
+                    {
+                        (() => {
+                            const minWidth = 709;
+                            const scaleFactor = window.innerWidth / (minWidth + 120);
+                            const scale = Math.min(scaleFactor, 1);
+                            const transform = `translate(${-(minWidth - minWidth * scale) * .5}px, 0px) scale(${scale})`;
+                            return (
+                                <div
+                                    style={{
+                                        display: "flex",
+                                        flexDirection: "row",
+                                        justifyContent: "space-evenly",
+                                        alignItems: "center",
+                                        width: "100%",
+                                        minWidth: `${minWidth}px`,
+                                        transform
+                                    }}
+                                >
+                                    <OutcomeScore
+                                        icon="/public/outcome/Health.svg"
+                                        description="Personal Health"
+                                        score={this._healthScore}
+                                        maxScore={this._maxScore}
+                                        getColor={getColor}
+                                        id={0}
+                                        color={Private.outcomeInfo[OutcomeType.Health].color}
+                                    />
+                                    <OutcomeScore
+                                        icon="/public/outcome/Healthcare.svg"
+                                        description="National Healthcare"
+                                        score={this._healthcareScore}
+                                        maxScore={this._maxScore}
+                                        getColor={getColor}
+                                        id={1}
+                                        color={Private.outcomeInfo[OutcomeType.Healthcare].color}
+                                    />
+                                    <OutcomeScore
+                                        icon="/public/outcome/Environment.svg"
+                                        description="Environment"
+                                        score={this._envScore}
+                                        maxScore={this._maxScore}
+                                        getColor={getColor}
+                                        id={2}
+                                        color={Private.outcomeInfo[OutcomeType.Environment].color}
+                                    />
+                                    <OutcomeScore
+                                        icon="/public/outcome/Climate Change.svg"
+                                        description="Climate"
+                                        score={this._climateScore}
+                                        maxScore={this._maxScore}
+                                        getColor={getColor}
+                                        id={3}
+                                        color={Private.outcomeInfo[OutcomeType.Climate].color}
+                                    />
+                                    <OutcomeScore
+                                        icon="/public/outcome/Culture.svg"
+                                        description="Culture"
+                                        score={this._cultureScore}
+                                        maxScore={this._maxScore}
+                                        getColor={getColor}
+                                        id={4}
+                                        color={Private.outcomeInfo[OutcomeType.Culture].color}
+                                    />
+                                </div>
+                            );
+                        })()
+                    }
                 </div>
                 {
                     this._outcomes.map((o, i) => {
@@ -495,7 +516,7 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
 
                         // tslint:disable-next-line
                         const info = Private.outcomeInfo[o.type ?? random[0]];
-                        const buttonClass = `${info.name.toLowerCase()}-outcome`;                        
+                        const buttonClass = `${info.name.toLowerCase()}-outcome`;
 
                         return (
                             <OutcomeRow
@@ -521,7 +542,7 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                             />
                         );
                     })
-                }                           
+                }
                 <div
                     style={{
                         marginTop: "20px"
@@ -564,6 +585,10 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                 screenText: <div />,
                 link
             }
-        });    
+        });
+    }
+
+    private onResize() {
+        this.forceUpdate();
     }
 }

@@ -162,7 +162,8 @@ export class Header extends React.Component<IHeaderProps> {
                     {                        
                         <div
                             style={{
-                                marginBottom: "10px"
+                                marginBottom: "10px",
+                                pointerEvents: "none"
                             }}
                         >
                             <img
