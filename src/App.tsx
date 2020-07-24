@@ -63,10 +63,10 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.Outcome,
-                region: types.Region.Nordics,
-                character: types.NordicCharacters.Lisen,
-                gamelet: types.GameletType.Time,
+                section: types.Section.Story,
+                region: types.Region.Canada,
+                character: types.CanadaCharacters.Sylvia,
+                gamelet: types.GameletType.Stacking,
                 gameletSection: 0,
                 gameletSectionIntro: false,
                 rotateScreenPrompt: false
@@ -120,7 +120,7 @@ export class App extends React.Component<{}, IAppState> {
         window.addEventListener("resize", this.onResize);        
 
         this.onMessage = this.onMessage.bind(this);
-        window.addEventListener("message", this.onMessage, false);
+        // window.addEventListener("message", this.onMessage, false);
     }
 
     public componentWillUnmount() {

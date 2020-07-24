@@ -50,7 +50,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                             height: "100%",
                             objectFit: "contain"
                         }}
-                        src="/public/intro/intro-image.svg"
+                        src="/public/intro/intro-image2.svg"
                     />
                 </div>
                 <img
@@ -58,7 +58,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                     style={{
                         position: "absolute"
                     }}
-                    src="/public/intro/play-button.svg"
+                    src="/public/intro/play-button2.svg"
                     className={`${this.state.playClicked ? "selected" : "clickable"}`}
                     onClick={() => {
                         if (this.state.playClicked) {
@@ -76,16 +76,17 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
 
     private onResize() {
         const { width, height } = this._image.getBoundingClientRect();
-        const origWidth = 2764;
-        const origHeight = 1594;
-        const playButtonOrigWidth = 421;
-        // const playButtonOrigHeight = 91;
-        const playButtonOrigX = 1164;
-        const playButtonOrigY = 1078;
+        const origWidth = 1920;
+        const origHeight = 1127;
+        const playButtonOrigWidth = 336;
+        const playButtonOrigHeight = 72.430;
+        const playButtonOrigX = 795.610;
+        const playButtonOrigY = 301.370;
 
         const ratio = width / height;
         const origRatio = origWidth / origHeight;
         let playButtonWidth = playButtonOrigWidth;
+        const playButtonY = origHeight - playButtonOrigY - playButtonOrigHeight;
         if (ratio > origRatio) {
             // Center horizontally + 'bars' on the sides
             const sizeRatio = height / origHeight;
@@ -93,7 +94,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
             const newWidth = origWidth * sizeRatio;
             const offset = (width - newWidth) / 2;
             this._playButton.style.left = `${offset + playButtonOrigX * sizeRatio}px`;
-            this._playButton.style.top = `${playButtonOrigY * sizeRatio}px`;
+            this._playButton.style.top = `${playButtonY * sizeRatio}px`;
         } else {
             // Center vertically + 'bars' on top & bottom
             const sizeRatio = width / origWidth;
@@ -101,7 +102,7 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
             const newHeight = origHeight * sizeRatio;
             const offset = (height - newHeight) / 2;
             this._playButton.style.left = `${playButtonOrigX * sizeRatio}px`;
-            this._playButton.style.top = `${offset + playButtonOrigY * sizeRatio}px`;
+            this._playButton.style.top = `${offset + playButtonY * sizeRatio}px`;
         }
 
         this._playButton.style.width = `${playButtonWidth}px`;
