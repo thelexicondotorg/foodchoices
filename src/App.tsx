@@ -63,7 +63,7 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.RegionSelect,
+                section: types.Section.Outcome,
                 region: types.Region.Canada,
                 character: types.CanadaCharacters.Sylvia,
                 gamelet: types.GameletType.Slider,
@@ -72,12 +72,12 @@ export class App extends React.Component<{}, IAppState> {
                 rotateScreenPrompt: false
             };
 
-            Scores.register(CanadaQuestions.Breakfast, 0);
+            /*Scores.register(CanadaQuestions.Breakfast, 0);
             Scores.register(CanadaQuestions.Snacks1, 0);
             Scores.register(CanadaQuestions.DinnerProtein, 0);
             Scores.register(CanadaQuestions.DinnerGrains, 0);
             Scores.register(CanadaQuestions.DinnerVeggies, 0);
-            Scores.register(CanadaQuestions.Lunch1, 0);
+            Scores.register(CanadaQuestions.Lunch1, 0);*/
             
         } else {
             this.state = {
@@ -200,16 +200,16 @@ export class App extends React.Component<{}, IAppState> {
                     >
                         {(() => {
                             if (!isPreloading) {
+                                const isIntro = this.state.section === types.Section.Intro;
+                                const hideOverflow = this.state.rotateScreenPrompt || isIntro;
                                 return (
                                     <div
                                         className="unselectable"
                                         style={{
                                             height: "100%",
-                                            overflow: this.state.section === types.Section.Intro ? "hidden" : undefined,
+                                            overflow: hideOverflow ? "hidden" : undefined,
                                             position: "relative",
-                                            WebkitOverflowScrolling: "touch",
-                                            display: this.state.rotateScreenPrompt ? "none" : "block",
-                                            pointerEvents: this.state.rotateScreenPrompt ? "none" : "all"
+                                            WebkitOverflowScrolling: "touch"
                                         }}
                                     >
                                         {this.renderInternal()}
