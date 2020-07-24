@@ -116,6 +116,8 @@ export class StackingData {
                 }
             } else if (character === IndonesiaCharacters.Hassan) {
                 if (answer === 0) {
+                    return "18px";
+                } else if (answer === 1) {
                     return "22px";
                 }
             }
