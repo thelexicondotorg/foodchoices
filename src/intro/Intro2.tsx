@@ -28,12 +28,12 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
         this.onResize = this.onResize.bind(this);
         window.addEventListener("resize", this.onResize);
         this.onMessage = this.onMessage.bind(this);
-        window.addEventListener("message", this.onMessage, false);
+        // window.addEventListener("message", this.onMessage, false);
     }
 
     public componentWillUnmount() {
         window.removeEventListener("resize", this.onResize);
-        window.removeEventListener("message", this.onMessage);
+        // window.removeEventListener("message", this.onMessage);
     }
 
     public render() {
@@ -61,14 +61,13 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                     src="/public/intro/play-button2.svg"
                     className={`${this.state.playClicked ? "selected" : "clickable"}`}
                     onClick={() => {
-                        // if (this.state.playClicked) {
-                        //     return;
-                        // }
-                        // this.setState({ playClicked: true });
-                        this.props.onPlay();
-                        /*setTimeout(() => {
+                        if (this.state.playClicked) {
+                            return;
+                        }
+                        this.setState({ playClicked: true });
+                        setTimeout(() => {
                             this.props.onPlay();
-                        }, Config.clickAcceptDelay);*/
+                        }, Config.clickAcceptDelay);
                     }}
                 />
             </div>
