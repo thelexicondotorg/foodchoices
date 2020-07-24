@@ -63,10 +63,10 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.Intro,
-                region: types.Region.Canada,
-                character: types.CanadaCharacters.Sylvia,
-                gamelet: types.GameletType.Time,
+                section: types.Section.Story,
+                region: types.Region.Indonesia,
+                character: types.IndonesiaCharacters.Hassan,
+                gamelet: types.GameletType.Stacking,
                 gameletSection: 0,
                 gameletSectionIntro: false,
                 rotateScreenPrompt: false
@@ -636,7 +636,8 @@ export class App extends React.Component<{}, IAppState> {
     private checkIfPortrait() {
         const [width, height] = /*this._topWindowSize ??*/ [window.innerWidth, window.innerHeight];
         const isPortrait = height > width;
-        this.setState({ rotateScreenPrompt: isPortrait });
+        const isOutcomes = this.state.section === types.Section.Outcome;
+        this.setState({ rotateScreenPrompt: isPortrait && !isOutcomes });
     }
 
     private onMessage(event: MessageEvent) {
