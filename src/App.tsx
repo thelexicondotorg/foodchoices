@@ -17,13 +17,13 @@ import { NordicsStory } from "./story/NordicsStory";
 import { IndonesiaStory } from "./story/IndonesiaStory";
 import { Config } from "./Config";
 import "./common/common.css";
-import { CanadaQuestions } from "./score/ScoreTypes";
 import { Scores } from "./Scores";
 import { Http } from "./common/HTTP";
 
 import * as uuid from "uuid";
 import { Utils } from "./common/Utils";
 import { Intro2 } from "./intro/Intro2";
+import { IntroPopup } from "./IntroPopup";
 
 interface IAppState {
     isPreloading: boolean;
@@ -35,6 +35,7 @@ interface IAppState {
     gameletSection: number;
     gameletSectionIntro: boolean;
     rotateScreenPrompt: boolean;
+    helpVisible: boolean;
 }
 
 const theme = createMuiTheme({
@@ -63,13 +64,14 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.Story,
-                region: types.Region.Indonesia,
+                section: types.Section.Intro,
+                // region: types.Region.Indonesia,
                 character: types.IndonesiaCharacters.Hassan,
                 gamelet: types.GameletType.Stacking,
                 gameletSection: 0,
                 gameletSectionIntro: false,
-                rotateScreenPrompt: false
+                rotateScreenPrompt: false,
+                helpVisible: true
             };
 
             /*Scores.register(CanadaQuestions.Breakfast, 0);
@@ -87,7 +89,8 @@ export class App extends React.Component<{}, IAppState> {
                 gamelet: types.GameletType.Time,
                 gameletSection: 0,
                 gameletSectionIntro: true,
-                rotateScreenPrompt: false
+                rotateScreenPrompt: false,
+                helpVisible: true
             };
         }
     }
@@ -311,13 +314,21 @@ export class App extends React.Component<{}, IAppState> {
                 );
             case types.Section.RegionSelect:
                 return (
-                    <RegionSelect
-                        onSelect={region => this.setState({
-                            region,
-                            section: types.Section.CharacterSelect
-                        })}
-                        selection={this.state.region}
-                    />
+                    <React.Fragment>
+                        <RegionSelect
+                            onSelect={region => this.setState({
+                                region,
+                                section: types.Section.CharacterSelect
+                            })}
+                            selection={this.state.region}
+                        />
+                        <IntroPopup
+                            visible={this.state.helpVisible}
+                            onClose={() => {
+                                this.setState({ helpVisible: false });
+                            }}
+                        />
+                    </React.Fragment>
                 );
             case types.Section.CharacterSelect:
                 return (
