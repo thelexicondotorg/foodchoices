@@ -109,7 +109,7 @@ namespace Private {
                 age: 50,
                 occupation: "Urban Executive",
                 attributes: {
-                    access: 1,
+                    access: 2,
                     security: 2,
                     literacy: 2
                 }
@@ -126,11 +126,11 @@ namespace Private {
                 age: 9,
                 occupation: "Rural Baby",
                 attributes: {
-                    access: 2,
+                    access: 1,
                     security: 0,
                     literacy: -2
                 },
-                description: "Maria lives with her parents in a small house in the rural area of ​​Lagoa da Canoa, a small-sized city in the interior of the state of Alagoas, in northeast Brazil. Her parents work in the fields. They are small farmers and they produce most of the food the family eats using the mandala system (an agro ecological way of production where the chicken coop is in the center of the land and the food is planted around it, fertilized with chicken manure). Her mother stays at home, taking care of her and doing domestic activities. Maria was breastfed until six months. Her mother, who is primarily responsible for her food, cooks very well. Her parents only studied until elementary school. Her family is low-income (US$ 290/ month). Maria is a healthy baby, and has the weight and height expected for age. Attributes: good food access, light food insecurity. Maria’s mother has low food literacy, Maria’s mother has high cooking skills."
+                description: "Maria lives with her parents in a small house in the rural area of ​​Lagoa da Canoa, a small-sized city in the interior of the state of Alagoas, in northeast Brazil. Her parents work in the fields. They are small farmers and they produce most of the food the family eats using the mandala system (an agro ecological way of production where the chicken coop is in the center of the land and the food is planted around it, fertilized with chicken manure). Her mother stays at home, taking care of her and doing domestic activities. Maria was breastfed until six months. Her mother, who is primarily responsible for her food, cooks very well. Her parents only studied until elementary school. Her family is low-income (US$ 290/ month). Maria is a healthy baby, and has the weight and height expected for her age."
             }
         },
         [Region.Indonesia]: {

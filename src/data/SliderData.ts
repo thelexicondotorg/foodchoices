@@ -77,27 +77,27 @@ namespace Private {
                 },
                 {
                     icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "The family goes together to a hypermarket. "
+                    description: "The family goes together to a hypermarket"
                 },                
                 {
                     icon: "/public/gamelets/slider/shop.svg",
-                    description: "Gabriel’s mother goes alone to a mini-market."
+                    description: "Gabriel’s mother goes alone to a mini-market"
                 },
                 {
                     icon: "/public/gamelets/slider/foodbank.svg",
-                    description: "Gabriel's mother buys food online. "
+                    description: "Gabriel's mother buys food online"
                 }
             ],
             // Sandra
             [
                 {
                     icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "They buy all their groceries at the Supermarket.",
-                    easterEgg: "Shop in places that offer fresh or minimally processed varieties of food."
+                    description: "They buy all their groceries at the Supermarket",
+                    easterEgg: "Shop in places that offer fresh or minimally processed varieties of food"
                 },
                 {
                     icon: "/public/gamelets/slider/shop.svg",
-                    description: "They buy all their groceries at the grocery store."
+                    description: "They buy all their groceries at the grocery store"
                 },                
                 {
                     icon: "/public/gamelets/slider/smallshop.svg",
@@ -105,26 +105,26 @@ namespace Private {
                 },
                 {
                     icon: "/public/gamelets/slider/market.svg",
-                    description: "She goes to the local farmers market."                    
+                    description: "She goes to the local farmers market"                    
                 }  
             ],
             // Maria
             [
                 {
                     icon: "/public/gamelets/slider/market.svg",
-                    description: "The parents grow almost everything the family eats. Other foods they exchange with local farmers."
+                    description: "The parents grow almost everything the family eats. Other foods they exchange with local farmers"
                 },
                 {
                     icon: "/public/gamelets/slider/bigbox.svg",
-                    description: "Her mother shops alone. She goes to a supermarket."
+                    description: "Her mother shops alone. She goes to a supermarket"
                 },                          
                 {
                     icon: "/public/gamelets/slider/shop.svg",
-                    description: "At a grocery store, where they purchase cookies, instant noodles and soda."
+                    description: "At a grocery store, where they purchase cookies, instant noodles and soda"
                 },
                 {
                     icon: "/public/gamelets/slider/foodbank.svg",
-                    description: "Maria’s mother writes a grocery list and her father gets it from a supermarket."
+                    description: "Maria’s mother writes a grocery list and her father gets it from a supermarket"
                 }
             ]
         ],

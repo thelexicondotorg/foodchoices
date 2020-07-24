@@ -82,7 +82,7 @@ namespace Private {
                 },
                 {
                     icon: "/public/food/brazil/gabriel/milk.svg",
-                    description: "Ultra-rocessed chocolate milk and bisnaguinha (ultra-processed milk bread) with requeijão (similar to cream cheese)."
+                    description: "Ultra-processed chocolate milk and bisnaguinha (ultra-processed milk bread) with requeijão (similar to cream cheese)."
                 },
                 {
                     icon: "/public/food/brazil/gabriel/baozi.svg",

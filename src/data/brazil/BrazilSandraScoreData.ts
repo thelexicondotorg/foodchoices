@@ -314,7 +314,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
             },
             {
-                "outcome": "Community-supported agriculture is increasingly being used to link producers (farmers) to consumers (you!). This type of shopping will decrease the environmental and climate impact of fresh food purchases. Check out CSA efforts in your area!",
+                "outcome": "Shop in places that offer fresh or minimally processed varieties of food",
                 "scores": {
                     "Environment": -1,
                     "Health": 0,

@@ -19,9 +19,9 @@ namespace Private {
     export const choices: { [region: string]: { [character: string]: string[] } } = {
         [Region.Brazil]: {
             [BrazilCharacters.Maria]: [
-                "With her parents at the table",
-                "By herself at the table. Her mother watches her",
-                "Her mother will feed her while she watches television",
+                "Her mother will feed her while she watches television",                
+                "By herself at the table. Her mother watches her",      
+                "With her parents at the table",          
                 "Today Maria doesn't have time for lunch"
             ],
             [BrazilCharacters.Gabriel]: [
@@ -30,10 +30,10 @@ namespace Private {
                 "At the table with his family, but using his smartphone"
             ],
             [BrazilCharacters.Sandra]: [
+                "Sandra get's busy and doesn't have time to eat",
                 "With her collegues at a restaurant",
-                "By herself in the lunchroom",
                 "By herself in front of her desk while working",
-                "Sandra get's busy and doesn't have time to eat"
+                "By herself in the lunchroom"
             ]
         },
         [Region.Nordics]: {

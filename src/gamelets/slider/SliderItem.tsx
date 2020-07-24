@@ -44,7 +44,9 @@ export class SliderItem extends React.Component<ISliderItemProps> {
                         padding: "8px",
                         height: "calc(35% - 16px)",
                         // overflow: "hidden"
-                        maxWidth: "60%"
+                        width: "60%",
+                        maxWidth: "320px",
+                        minWidth: "180px"
                     }}
                 >
                     {description}

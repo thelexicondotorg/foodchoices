@@ -167,7 +167,15 @@ namespace Private {
             [CanadaCharacters.Esther]: defaultSections,
         },
         [Region.Brazil]: {
-            [BrazilCharacters.Gabriel]: defaultSections,
+            [BrazilCharacters.Gabriel]: [
+                defaultSections[0],
+                defaultSections[1],
+                {
+                    ...shoppingIcons,
+                    message: "On their way home, Gabriel and his mother needs to purchase groceries",
+                },
+                defaultSections[3]
+            ],
             [BrazilCharacters.Maria]: [
                 {
                     ...breakfastIcons,

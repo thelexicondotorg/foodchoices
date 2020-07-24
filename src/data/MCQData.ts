@@ -171,7 +171,7 @@ namespace Private {
                     },
                     {
                         icon: "/public/food/brazil/sandra/coffee.svg",
-                        description: "Just black coffee with sweetener. She isn't hungry."
+                        description: "Just black coffee with sweetener or sugar. She isn’t hungry"
         
                     },
                     {

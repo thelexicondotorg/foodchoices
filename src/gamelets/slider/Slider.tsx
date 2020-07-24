@@ -261,7 +261,7 @@ export class Slider extends Gamelet<{}, ISliderState> {
                                     icon={items[1].icon}
                                     description={Utils.resolve(items[1].description, characterData)}
                                     customStyle={{
-                                        marginLeft: "-50px",
+                                        marginLeft: "-20px",
                                         opacity: `${revealed[1] ? 1 : 0}`
                                     }}
                                 />
@@ -287,7 +287,7 @@ export class Slider extends Gamelet<{}, ISliderState> {
                                     icon={items[3].icon}
                                     description={Utils.resolve(items[3].description, characterData)}
                                     customStyle={{
-                                        marginRight: "-50px",
+                                        // marginRight: "-50px",
                                         opacity: `${revealed[3] ? 1 : 0}`
                                     }}
                                 />

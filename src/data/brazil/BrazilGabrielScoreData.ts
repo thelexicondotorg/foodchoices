@@ -538,9 +538,9 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: BrazilGabrielPlateData.getItems()[2][2].foodInfo.content,
-                outcomeDesc: "Blood sugar regulation",
+                outcomeDesc: "Ultra-processed foods",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/blood-sugar-levels/"
+                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
             }
         ]
     };
