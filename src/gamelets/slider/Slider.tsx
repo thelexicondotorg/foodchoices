@@ -191,7 +191,8 @@ export class Slider extends Gamelet<{}, ISliderState> {
                             style={{
                                 maxWidth: "400px",
                                 margin: "0 auto",
-                                transform: "translate(0px, -20px)"
+                                transform: "translate(0px, -20px)",
+                                fontWeight: "bold"
                             }}
                         >
                             {SliderData.getTitle(region, character)}
@@ -341,7 +342,7 @@ export class Slider extends Gamelet<{}, ISliderState> {
                         }}
                     >
                         <Button
-                            className="button"
+                            className="button keep-size"
                             color="primary"
                             variant="contained"
                             style={{

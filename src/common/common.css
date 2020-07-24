@@ -36,7 +36,7 @@
 }
  
 @media (max-width: 940px), (max-height: 660px) { 
-    .button { 
+    .button:not(.keep-size) { 
         min-width: 120px !important; 
         padding: 8px !important;
     }

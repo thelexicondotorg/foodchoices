@@ -32,9 +32,11 @@
     left: 40%;
     bottom: 0px;
     font-size: 30px;
+    font-weight: bold;
 }
 
-@media (max-width: 1110px) { .region-name { font-size: 3vw; } }
+@media (max-width: 1110px), (max-height: 600px) { .region-name { font-size: 18px; } }
+@media (max-height: 260px) { .region-name { font-size: 14px; } }
 @media (max-width: 1062px) { .region-globe { display: none; } }
 
 .region-row {

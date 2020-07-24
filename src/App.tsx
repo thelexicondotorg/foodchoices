@@ -63,10 +63,10 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.Story,
+                section: types.Section.RegionSelect,
                 region: types.Region.Canada,
                 character: types.CanadaCharacters.Sylvia,
-                gamelet: types.GameletType.Stacking,
+                gamelet: types.GameletType.Plate,
                 gameletSection: 0,
                 gameletSectionIntro: false,
                 rotateScreenPrompt: false
@@ -208,7 +208,8 @@ export class App extends React.Component<{}, IAppState> {
                                             overflow: this.state.section === types.Section.Intro ? "hidden" : undefined,
                                             position: "relative",
                                             WebkitOverflowScrolling: "touch",
-                                            display: this.state.rotateScreenPrompt ? "none" : "block"
+                                            display: this.state.rotateScreenPrompt ? "none" : "block",
+                                            pointerEvents: this.state.rotateScreenPrompt ? "none" : "all"
                                         }}
                                     >
                                         {this.renderInternal()}

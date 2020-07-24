@@ -55,6 +55,7 @@ export class Regions extends React.Component<IRegionsProps, IResionsState> {
         return (
             <div
                 className="fadeIn"
+                style={{ overflow: "hidden" }}
                 ref={e => this._root = e as HTMLDivElement}
             >
                 <div className="region-row">
