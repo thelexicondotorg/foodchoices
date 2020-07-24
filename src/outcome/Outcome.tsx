@@ -297,7 +297,8 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                     <img
                         src={characterData.iconOutcome}
                         style={{
-                            height: "25vh"
+                            height: "25vh",
+                            maxHeight: "222px"
                         }}
                     />
                 </div>
