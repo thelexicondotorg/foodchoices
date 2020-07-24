@@ -63,10 +63,10 @@ export class App extends React.Component<{}, IAppState> {
             this.state = { 
                 isPreloading: true,
                 fontsPreloaded: false,
-                section: types.Section.Outcome,
+                section: types.Section.Intro,
                 region: types.Region.Canada,
                 character: types.CanadaCharacters.Sylvia,
-                gamelet: types.GameletType.Slider,
+                gamelet: types.GameletType.Time,
                 gameletSection: 0,
                 gameletSectionIntro: false,
                 rotateScreenPrompt: false

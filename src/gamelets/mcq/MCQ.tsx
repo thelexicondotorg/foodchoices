@@ -55,7 +55,6 @@ export class MCQ extends Gamelet<IMCQProps, IMCQState> {
                         className="bg-color-transition"
                         style={{
                             height: "100%",
-                            overflow: Utils.isMobile() ? undefined : "hidden",
                             position: "relative"
                         }}
                     >

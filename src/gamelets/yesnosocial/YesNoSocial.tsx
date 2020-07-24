@@ -91,10 +91,7 @@ export class YesNoSocial extends Gamelet<IYesNoSocialProps, IYesNoSocialState> {
         return (
             <div>
                 <div
-                    className="fadeIn gamelet"
-                    style={{
-                        overflow: Utils.isMobile() ? undefined : "hidden",
-                    }}
+                    className="fadeIn gamelet"                    
                     ref={e => this._root = e as HTMLDivElement}
                     onMouseMove={e => {
                         if (this._isDragging) {

@@ -94,7 +94,6 @@ export class Stacking extends Gamelet<{}, IStackingState> {
                 ref={e => this._root = e as HTMLDivElement}
                 style={{
                     position: "relative",
-                    overflow: Utils.isMobile() ? undefined : "hidden"
                 }}
                 onMouseMove={e => {
                     if (this._movingItem) {

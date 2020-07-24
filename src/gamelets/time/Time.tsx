@@ -34,7 +34,6 @@ export class Time extends Gamelet<{}, ITimeState> {
                     <div
                         style={{
                             height: "100%",
-                            overflow: Utils.isMobile() ? undefined : "hidden",
                             position: "relative"
                         }}
                     >

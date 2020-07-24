@@ -116,8 +116,7 @@ export class Plate extends Gamelet<IPlateProps> {
                 <div
                     className="fadeIn gamelet"
                     style={{
-                        position: "relative",
-                        overflow: Utils.isMobile() ? undefined : "hidden"
+                        position: "relative"
                     }}
                     ref={e => this._root = e as HTMLDivElement}
                     onMouseMove={e => {
