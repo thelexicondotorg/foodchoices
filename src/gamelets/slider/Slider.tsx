@@ -138,6 +138,7 @@ export class Slider extends Gamelet<{}, ISliderState> {
             }
         };
 
+        const top = "22%";
         return (
             <div>
                 <div
@@ -183,7 +184,7 @@ export class Slider extends Gamelet<{}, ISliderState> {
                             width: "100%",
                             height: "100%",
                             textAlign: "center",
-                            top: "22%"
+                            top
                         }}
                     >
                         <div
@@ -191,7 +192,7 @@ export class Slider extends Gamelet<{}, ISliderState> {
                             style={{
                                 maxWidth: "400px",
                                 margin: "0 auto",
-                                transform: "translate(0px, -20px)",
+                                transform: "translate(0px, -10px)",
                                 fontWeight: "bold"
                             }}
                         >
@@ -226,9 +227,9 @@ export class Slider extends Gamelet<{}, ISliderState> {
                         style={{
                             position: "absolute",
                             width: "100%",
-                            height: "85%",
+                            height: `calc(100% - ${top})`,
                             left: "0px",
-                            top: "15%"
+                            top
                         }}
                     >
                         <div
