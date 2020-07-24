@@ -61,10 +61,10 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                     src="/public/intro/play-button2.svg"
                     className={`${this.state.playClicked ? "selected" : "clickable"}`}
                     onClick={() => {
-                        if (this.state.playClicked) {
-                            return;
-                        }
-                        this.setState({ playClicked: true });
+                        // if (this.state.playClicked) {
+                        //     return;
+                        // }
+                        // this.setState({ playClicked: true });
                         this.props.onPlay();
                         /*setTimeout(() => {
                             this.props.onPlay();
