@@ -66,7 +66,7 @@ export class App extends React.Component<{}, IAppState> {
                 section: types.Section.RegionSelect,
                 region: types.Region.Canada,
                 character: types.CanadaCharacters.Sylvia,
-                gamelet: types.GameletType.Plate,
+                gamelet: types.GameletType.Slider,
                 gameletSection: 0,
                 gameletSectionIntro: false,
                 rotateScreenPrompt: false
@@ -278,34 +278,36 @@ export class App extends React.Component<{}, IAppState> {
                 return (
                     <Intro2
                         onPlay={() => {
-                            // tslint:disable-next-line
-                            console.log("clearing scores");
-                            Scores.clear();
-                            if (this._pingTimer) {
-                                clearInterval(this._pingTimer);
-                                delete this._pingTimer;
-                            }
+                            setTimeout(() => {
+                                // tslint:disable-next-line
+                                console.log("clearing scores");
+                                Scores.clear();
+                                if (this._pingTimer) {
+                                    clearInterval(this._pingTimer);
+                                    delete this._pingTimer;
+                                }
 
-                            Scores.sessionId = uuid.v1();
-                            Http.request({
-                                url: `/api/scores/init/${Scores.sessionId}/${Date.now()}`,
-                                method: "GET"
-                            })
-                                .then(() => {
-                                    // tslint:disable-next-line
-                                    console.log(`session ${Scores.sessionId} started`);
-                                    this._pingTimer = setInterval(
-                                        () => {
-                                            Http.request({
-                                                url: `/api/scores/ping/${Scores.sessionId}/${Date.now()}`,
-                                                method: "GET"
-                                            });
-                                        },
-                                        5000
-                                    );
-                                });
+                                Scores.sessionId = uuid.v1();
+                                Http.request({
+                                    url: `/api/scores/init/${Scores.sessionId}/${Date.now()}`,
+                                    method: "GET"
+                                })
+                                    .then(() => {
+                                        // tslint:disable-next-line
+                                        console.log(`session ${Scores.sessionId} started`);
+                                        this._pingTimer = setInterval(
+                                            () => {
+                                                Http.request({
+                                                    url: `/api/scores/ping/${Scores.sessionId}/${Date.now()}`,
+                                                    method: "GET"
+                                                });
+                                            },
+                                            5000
+                                        );
+                                    });
 
-                            this.setState({ section: types.Section.RegionSelect });
+                                this.setState({ section: types.Section.RegionSelect });
+                            }, Config.clickAcceptDelay);
                         }}
                     />
                 );

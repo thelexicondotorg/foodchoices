@@ -90,6 +90,7 @@ export class Character extends React.Component<ICharacterProps> {
                                     {description}
                                 </div>
                                 <div
+                                    className="character-select-text"
                                     style={{
                                         display: "flex",
                                         flexDirection: "column",

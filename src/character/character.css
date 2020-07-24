@@ -9,3 +9,19 @@
 
 .character-select-description { font-size: 3.8vh; }
 @media (min-height: 677px) { .character-select-description { font-size: 20px; } }
+
+.character-select-text {
+    font-size: 16px;
+}
+
+@media (max-width: 1000px), (max-height: 800px) {
+    .character-select-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px), (max-height: 700px) {
+    .character-select-text {
+        font-size: 12px;
+    }
+}

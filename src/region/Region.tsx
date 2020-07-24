@@ -112,31 +112,35 @@ export class Region extends React.Component<IRegionProps> {
                                     textAlign: "center"
                                 }}
                             >
-                                <Button
-                                    className="button"
-                                    color="secondary"
-                                    variant="contained"
-                                    style={{
-                                        borderRadius: "40px",
-                                        color: "black",
-                                        margin: "8px"
-                                    }}
-                                    onClick={() => Utils.fadeOut(this._root).then(() => this.props.onBack())}
-                                >
-                                    Go Back
+                                <div>
+                                    <Button
+                                        className="button"
+                                        color="primary"
+                                        variant="contained"
+                                        style={{
+                                            borderRadius: "40px",
+                                            margin: "8px"
+                                        }}
+                                        onClick={() => Utils.fadeOut(this._root).then(() => this.props.onPlay())}
+                                    >
+                                        Yes, let's Play!
                                 </Button>
-                                <Button
-                                    className="button"
-                                    color="primary"
-                                    variant="contained"
-                                    style={{
-                                        borderRadius: "40px",
-                                        margin: "8px"
-                                    }}
-                                    onClick={() => Utils.fadeOut(this._root).then(() => this.props.onPlay())}
-                                >
-                                    Yes, let's Play!
+                                </div>
+                                <div>
+                                    <Button
+                                        className="button"
+                                        color="secondary"
+                                        variant="contained"
+                                        style={{
+                                            borderRadius: "40px",
+                                            color: "black",
+                                            margin: "8px"
+                                        }}
+                                        onClick={() => Utils.fadeOut(this._root).then(() => this.props.onBack())}
+                                    >
+                                        Go Back
                                 </Button>
+                                </div>
                             </div>
                         </div>
                     </div>

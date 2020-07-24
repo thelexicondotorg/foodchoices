@@ -65,9 +65,10 @@ export class Intro2 extends React.Component<IIntroProps, IIntroState> {
                             return;
                         }
                         this.setState({ playClicked: true });
-                        setTimeout(() => {
+                        this.props.onPlay();
+                        /*setTimeout(() => {
                             this.props.onPlay();
-                        }, Config.clickAcceptDelay);
+                        }, Config.clickAcceptDelay);*/
                     }}
                 />
             </div>
