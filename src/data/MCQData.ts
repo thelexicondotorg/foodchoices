@@ -24,7 +24,7 @@ namespace Private {
                     },
                     {
                         icon: "/public/transition/banana.svg",                
-                        description: "Imported bananas"
+                        description: "Imported banana"
                     }
                 ],
                 [
@@ -65,7 +65,7 @@ namespace Private {
                     },
                     {
                         icon: "/public/transition/banana.svg",                
-                        description: "Imported bananas"
+                        description: "Imported banana"
                     }
                 ],
                 [
@@ -108,7 +108,7 @@ namespace Private {
                     },
                     {
                         icon: "/public/transition/banana.svg",                
-                        description: "Imported bananas"
+                        description: "Imported banana"
                     }
                 ],
                 [

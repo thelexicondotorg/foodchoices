@@ -10,7 +10,7 @@ namespace Private {
             [                
                 {
                     icon: "/public/gamelets/slider/market.svg",
-                    description: "She waits until the weekend to shop at a local farmer’s market, where she knows the vendors and buys what's in season"
+                    description: "She waits until the weekend to shop at a local farmer’s market"
                 },
                 {
                     icon: "/public/gamelets/slider/bigbox.svg",
@@ -30,7 +30,7 @@ namespace Private {
             [
                 {
                     icon: "/public/gamelets/slider/market.svg",
-                    description: "${subjectPronoun} waits until the weekend to shop at a local farmer's market, where ${subjectPronoun} knows all of the vendors and stops to say hello."
+                    description: "${subjectPronoun} waits until the weekend to shop at a local farmer's market"
                 },
                 {
                     icon: "/public/gamelets/slider/bigbox.svg",
@@ -50,7 +50,7 @@ namespace Private {
             [
                 {
                     icon: "/public/gamelets/slider/market.svg",
-                    description: "He waits until the weekend to shop at a local farmer’s market, where he knows all of the vendors and stops to say hello.",
+                    description: "He waits until the weekend to shop at a local farmer’s market",
                     easterEgg: "Hardeep doesn't know where the local farmer's market is!"
                 },
                 {

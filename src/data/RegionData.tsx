@@ -12,10 +12,10 @@ namespace Private {
             name: "Canada",
             description: (
                 <div>                    
-                    Canadians come from all across the globe, and bring along their unique habits and attitudes towards food!
+                    Canada has a rich dietary history, and the Canadian diet incorporates both traditional foods and international foods from across the globe.
                     In 2019, Canada released a new food guide, which promotes greater consumption of vegetables and fruits,
                     whole grains, and plant-based proteins and a decrease in consumption of highly processed foods.
-                    It is a significant shift for Canadians, as the vast majority of them eat unhealthy diets,
+                    It is a significant shift for Canadians, as the vast majority of them eat unhealthy diets
                     made up largely of ‘ultra-processed' foods.
                 </div>
             ),
