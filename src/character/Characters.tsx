@@ -21,7 +21,7 @@ export class Characters extends React.Component<ICharactersProps> {
         const { region } = this.props;
         return (
             <div
-                className="fadeIn gamelet characters"
+                className="fadeIn gamelet keep-overflow"
                 ref={e => this._root = e as HTMLDivElement}
             >
                 <div

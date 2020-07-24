@@ -19,6 +19,7 @@ interface ISlideIndicatorProps {
     balloon?: string;
     styleOverride?: object;
     globalGradient?: boolean;
+    staticSize?: boolean;
     onPressed?: (touchX: number) => void;
 }
 
@@ -200,7 +201,7 @@ export class SlideIndicator extends React.Component<ISlideIndicatorProps, ISlide
                     balloon
                     &&
                     (() => {
-                        const width = Math.min(52, window.innerHeight / 20);
+                        const width = this.props.staticSize ? 52 : Math.min(52, window.innerHeight / 20);
                         const height = width / (52 / 63);
                         return (
                             <div

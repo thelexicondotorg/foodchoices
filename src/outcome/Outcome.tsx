@@ -374,6 +374,7 @@ export class Outcome extends React.Component<IOutcomeProps, IOutcomeState> {
                                 maxHeight: "30px"
                             }}
                             globalGradient={true}
+                            staticSize={true}
                         />
                         {/* <div>
                             <div

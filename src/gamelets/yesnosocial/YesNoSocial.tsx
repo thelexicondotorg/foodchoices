@@ -91,7 +91,7 @@ export class YesNoSocial extends Gamelet<IYesNoSocialProps, IYesNoSocialState> {
         return (
             <div>
                 <div
-                    className="fadeIn gamelet"                    
+                    className="fadeIn gamelet keep-overflow"                    
                     ref={e => this._root = e as HTMLDivElement}
                     onMouseMove={e => {
                         if (this._isDragging) {
@@ -208,6 +208,7 @@ export class YesNoSocial extends Gamelet<IYesNoSocialProps, IYesNoSocialState> {
                                         balloon="BalloonBlue"
                                         onPressed={startDrag}
                                         showValues={false}
+                                        staticSize={true}
                                     />
                                     {
                                         // !Utils.isMobile()
