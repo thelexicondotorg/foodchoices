@@ -119,7 +119,7 @@ export class Stacking extends Gamelet<{}, IStackingState> {
                 <div
                     style={{
                         display: "grid",
-                        gridTemplateColumns: "1fr 1fr",
+                        gridTemplateColumns: "1fr 1.5fr",
                         maxWidth: "1400px",
                         margin: "0 auto",
                         height: "100%",
@@ -139,7 +139,9 @@ export class Stacking extends Gamelet<{}, IStackingState> {
                         <img
                             style={{
                                 maxHeight: "100%",
-                                margin: "0 auto"
+                                margin: "0 auto",
+                                width: "100%",
+                                height: "100%"
                             }}
                             src={characterData.iconSecondary}
                         />

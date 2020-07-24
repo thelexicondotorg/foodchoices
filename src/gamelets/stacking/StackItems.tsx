@@ -1,10 +1,15 @@
 
 import * as React from "react";
 import { StackItem } from "./StackItem";
-import { Region, Character } from "../../Types";
+import { Region, Character, IPoint } from "../../Types";
 import { StackingData } from "./StackingData";
 import { Utils } from "../../common/Utils";
 import { CharacterData } from "../../data/CharacterData";
+
+namespace Private {
+    export const svgSize: IPoint = { x: 600, y: 680 };
+    export const svgRatio = svgSize.x / svgSize.y;
+}
 
 export interface IStackItemsProps {
     region: Region;
@@ -18,6 +23,8 @@ export class StackItems extends React.Component<IStackItemsProps> {
     private _frontSlot!: SVGGElement;
     private _currentTarget: SVGGElement | null = null;
     private _lastValidTarget: SVGGElement | null = null;
+    private _svg!: SVGSVGElement;
+    private _point!: SVGPoint;
 
     public componentDidMount() {
 
@@ -59,12 +66,15 @@ export class StackItems extends React.Component<IStackItemsProps> {
         for (let i = items.length; i < this._slots.length; ++i) {
             this._slots[i].style.display = "none";
         }        
+
+        this._point = this._svg.createSVGPoint();
     }
 
     public render() {
         return (
             <svg
-                viewBox="0 0 600 720"
+                ref={e => this._svg = e as SVGSVGElement}
+                viewBox={`0 0 ${Private.svgSize.x} ${Private.svgSize.y}`}
                 preserveAspectRatio="xMidYMin meet"
                 style={{
                     width: "100%",
@@ -100,8 +110,9 @@ export class StackItems extends React.Component<IStackItemsProps> {
         return topItem.index;
     }
 
-    public move(item: StackItem, x: number, y: number) {
-        item.setPosition(x, y);
+    public move(item: StackItem, x: number, y: number) {   
+        const local = this.screenToSvg(x, y);     
+        item.setPosition(local.x, local.y);
 
         const overlaps: Array<{ slot: SVGGElement, area: number }> = [];
         this._slots.forEach((slot, slotIndex) => {
@@ -111,7 +122,7 @@ export class StackItems extends React.Component<IStackItemsProps> {
             const slotY = 150 * slotIndex;
             const itemSlot = item.parentSlot;
             const itemSlotIndex = this._slots.indexOf(itemSlot);
-            const localY = 150 * itemSlotIndex + y;
+            const localY = 150 * itemSlotIndex + local.y;
             const deltaY = localY - slotY;
             const overlapY = Math.abs(deltaY) < 150;
             if (overlapY) {
@@ -199,5 +210,23 @@ export class StackItems extends React.Component<IStackItemsProps> {
                 this._lastValidTarget = target;
             }
         }
+    }
+
+    private screenToSvg(x: number, y: number) {
+        const clientRatio = this._svg.clientWidth / this._svg.clientHeight;
+        // Take preserveAspectRatio="xMidYMid meet" into account
+        if (clientRatio > Private.svgRatio) {
+            const svgWidth = Private.svgRatio * this._svg.clientHeight;
+            const offset = (this._svg.clientWidth - svgWidth) / 2;
+            x += offset;
+        } else {
+            const svgHeight = this._svg.clientWidth / Private.svgRatio;
+            const offset = (this._svg.clientHeight - svgHeight) / 2;
+            y += offset;
+        }
+        const rc = this._svg.getBoundingClientRect();
+        this._point.x = x + rc.x;
+        this._point.y = y + rc.y;
+        return this._point.matrixTransform((this._svg.getScreenCTM() as DOMMatrix).inverse());
     }
 }
