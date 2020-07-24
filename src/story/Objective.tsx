@@ -2,7 +2,7 @@
 import * as React from "react";
 
 interface IObjectProps {
-    message: string;
+    message: string | JSX.Element;
 }
 
 export class Objective extends React.Component<IObjectProps> {

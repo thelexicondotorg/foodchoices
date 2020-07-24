@@ -183,7 +183,7 @@ export class Slider extends Gamelet<{}, ISliderState> {
                             width: "100%",
                             height: "100%",
                             textAlign: "center",
-                            top: "15%"
+                            top: "22%"
                         }}
                     >
                         <div

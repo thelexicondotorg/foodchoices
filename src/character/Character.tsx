@@ -29,7 +29,7 @@ export class Character extends React.Component<ICharacterProps> {
 
         return (
             <div
-                className="fadeIn gamelet"
+                className="fadeIn gamelet characters"
                 ref={e => this._root = e as HTMLDivElement}
             >
                 <div

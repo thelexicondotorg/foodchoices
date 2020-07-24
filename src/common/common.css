@@ -1,6 +1,9 @@
 
 .gamelet {
     height: 100%;
+}
+
+.gamelet:not(.characters) {
     overflow: hidden;
 }
 

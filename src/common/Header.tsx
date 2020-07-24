@@ -19,7 +19,10 @@ export class Header extends React.Component<IHeaderProps> {
         const isMobile = Utils.isMobile();
         const paddingLeft = isMobile ? "20px" : "54px";
         const { section, region, gamelet, character, gameletIntro } = this.props;
-        const alignRight = gamelet === GameletType.MCQ || gamelet === GameletType.Slider;
+        const alignRight = 
+            gamelet === GameletType.MCQ 
+            || gamelet === GameletType.Slider
+            || gamelet === GameletType.LunchSnack;
 
         if (section === Section.RegionSelect
         || section === Section.Outcome
@@ -121,7 +124,14 @@ export class Header extends React.Component<IHeaderProps> {
                         } else if (character === IndonesiaCharacters.Hassan) {
                             return "Hassan grabs a snack on his way home from school. Can you help him choose?";
                         } else {
-                            return "School's out. Neesa stops to get a snack as she walks home with her friends. Can you help her choose?";
+                            return (
+                                <React.Fragment>
+                                    School's out.<br />
+                                    Neesa stops to get a snack<br />
+                                    as she walks home with her friends.<br />
+                                    Can you help her choose?"
+                                </React.Fragment>
+                            );
                         }
                     }                    
                 case GameletType.YesNoSocial:
