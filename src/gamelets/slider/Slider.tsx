@@ -187,8 +187,8 @@ export class Slider extends Gamelet<{}, ISliderState> {
                         }}
                     >
                         <div
+                            className="gamelet-header-text"
                             style={{
-                                fontSize: "20px",
                                 maxWidth: "400px",
                                 margin: "0 auto",
                                 transform: "translate(0px, -20px)"

@@ -43,3 +43,9 @@
     justify-content: space-around;
 }
 
+.region-description {
+    font-size: 20px;
+}
+
+@media (max-width: 940px) { .region-description { font-size: 16px; } }
+@media (max-width: 840px) { .region-description { font-size: 14px; } }

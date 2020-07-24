@@ -93,10 +93,14 @@ export class SlideIndicator extends React.Component<ISlideIndicatorProps, ISlide
                 }
             };
         }
+
+        this.onResize = this.onResize.bind(this);
+        window.addEventListener("resize", this.onResize);
     }
 
     public componentWillUnmount() {
         this._mounted = false;
+        window.removeEventListener("resize", this.onResize);
     }
 
     public componentDidUpdate() {
@@ -195,31 +199,38 @@ export class SlideIndicator extends React.Component<ISlideIndicatorProps, ISlide
                 {
                     balloon
                     &&
-                    <div
-                        ref={e => this._balloon = e as HTMLDivElement}
-                        className={`left-transition ${onPressed ? "clickable" : ""}`}
-                        style={{
-                            left: `${percent}%`,
-                            position: "absolute",
-                            backgroundImage: `url(/public/common/${balloon}.svg)`,
-                            top: "-63px",
-                            width: "52px",
-                            height: "63px",
-                            textAlign: "center",
-                            display: "grid",
-                            alignItems: "center",
-                            transform: "translateX(-26px)"
-                        }}
-                        onMouseDown={e => {
-                            if (onPressed) {
-                                e.preventDefault();
-                                onPressed(e.clientX);
-                                this.enableTransitions(false);
-                            }
-                        }}                        
-                    >
-                        {showValues && <span>{current}</span>}
-                    </div>
+                    (() => {
+                        const width = Math.min(52, window.innerHeight / 20);
+                        const height = width / (52 / 63);
+                        return (
+                            <div
+                                ref={e => this._balloon = e as HTMLDivElement}
+                                className={`left-transition ${onPressed ? "clickable" : ""}`}
+                                style={{
+                                    left: `${percent}%`,
+                                    position: "absolute",
+                                    backgroundImage: `url(/public/common/${balloon}.svg)`,
+                                    backgroundSize: "cover",
+                                    top: `-${height}px`,
+                                    width: `${width}px`,
+                                    height: `${height}px`,
+                                    textAlign: "center",
+                                    display: "grid",
+                                    alignItems: "center",
+                                    transform: `translateX(-${width / 2}px)`
+                                }}
+                                onMouseDown={e => {
+                                    if (onPressed) {
+                                        e.preventDefault();
+                                        onPressed(e.clientX);
+                                        this.enableTransitions(false);
+                                    }
+                                }}
+                            >
+                                {showValues && <span>{current}</span>}
+                            </div>
+                        );
+                    })()
                 }
                 {
                     !balloon
@@ -284,5 +295,9 @@ export class SlideIndicator extends React.Component<ISlideIndicatorProps, ISlide
         const colorFactor = Math.min(Math.max((circleCenterX - canvasRect.left) / canvasRect.width, 0), 1);
         this._circle.style.backgroundColor = this.getColor(colorFactor);
         requestAnimationFrame(() => this.refreshCircleColor());
+    }
+
+    private onResize() {
+        this.forceUpdate();
     }
 }

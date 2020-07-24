@@ -80,9 +80,9 @@ export class Region extends React.Component<IRegionProps> {
                                 </div>
                             </div>
                             <div
+                                className="region-description"
                                 style={{
                                     color: "white",
-                                    fontSize: "20px",
                                     textAlign: "justify",
                                     padding: "20px"
                                 }}

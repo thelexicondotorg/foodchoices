@@ -97,8 +97,7 @@ export class Regions extends React.Component<IRegionsProps, IResionsState> {
                             fontSize: "20px",
                             color: "#1A73E8"
                         }}
-                    >
-                        Pick A Region
+                    >                        
                     </div>
                 </div>
             </div>

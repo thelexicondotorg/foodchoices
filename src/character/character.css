@@ -7,5 +7,5 @@
 .character-select-question { font-size: 2vw; }
 @media (min-width: 1000px) { .character-select-question { font-size: 30px; } }
 
-.character-select-description { font-size: 3vh; }
+.character-select-description { font-size: 3.8vh; }
 @media (min-height: 677px) { .character-select-description { font-size: 20px; } }

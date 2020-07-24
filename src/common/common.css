@@ -35,7 +35,7 @@
     padding: 16px !important;
 }
  
-@media (max-width: 940px) { 
+@media (max-width: 940px), (max-height: 660px) { 
     .button { 
         min-width: 120px !important; 
         padding: 8px !important;
@@ -103,7 +103,7 @@
     font-size: 18px;
 }
 
-@media (max-width: 910px) { 
+@media (max-width: 910px), (max-height: 660px) { 
     .gamelet-header-text { 
         font-size: 14px;
     }
