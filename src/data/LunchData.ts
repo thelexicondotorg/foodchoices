@@ -9,7 +9,7 @@ namespace Private {
             [
                 [{
                     icon: "/public/gamelets/mcq2/ChickenSub.svg",
-                    description: "Grilled chicken sub sandwich from a fastfood restaurant chain"
+                    description: "Grilled chicken sandwich from a fastfood restaurant chain"
                 },
                 {
                     icon: "/public/gamelets/mcq2/VeggieSub.svg",
@@ -29,7 +29,7 @@ namespace Private {
             [
                 [{
                     icon: "/public/gamelets/mcq2/ChickenSub.svg",
-                    description: "Grilled chicken sub sandwich from a fastfood restaurant chain"
+                    description: "Grilled chicken sandwich from a fastfood restaurant chain"
                 },
                 {
                     icon: "/public/gamelets/mcq2/VeggieSub.svg",
