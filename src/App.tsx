@@ -634,13 +634,13 @@ export class App extends React.Component<{}, IAppState> {
     }
 
     private checkIfPortrait() {
-        const [width, height] = this._topWindowSize ?? [window.innerWidth, window.innerHeight];
+        const [width, height] = /*this._topWindowSize ??*/ [window.innerWidth, window.innerHeight];
         const isPortrait = height > width;
         this.setState({ rotateScreenPrompt: isPortrait });
     }
 
     private onMessage(event: MessageEvent) {
-        this._topWindowSize = JSON.parse(event.data);
-        this.onResize();
+        // this._topWindowSize = JSON.parse(event.data);
+        // this.onResize();
     }
 }
