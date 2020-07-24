@@ -216,7 +216,7 @@ namespace Private {
                     }
                 },
                 descriptionInfo: {
-                    content: "Fresh, local spinach salad with mixed fresh local vegetables and vinaigrette",
+                    content: "Fresh, local spinach salad",
                     offset: {
                         x: 10,
                         y: 200

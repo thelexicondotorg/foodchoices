@@ -62,9 +62,8 @@ export class PlateObjective extends React.Component<IPlateObjectiveProps> {
                 </div>
                 <div
                     ref={e => this._text = e as HTMLElement}
-                    className={isCurrent ? flashAnimation : ""}
+                    className={`plate-objective-text ${isCurrent ? flashAnimation : ""}`}
                     style={{
-                        fontSize: "20px",                        
                         fontWeight: state === PlateObjectiveState.Current ? "bold" : undefined,
                         transition: "font-weight 1s"
                     }}

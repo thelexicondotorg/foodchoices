@@ -14,3 +14,13 @@
 
 .plate-objectives-appear { animation: .5s forwards ease-in-out 0.8s 1 plate-objectives-appear; }
 @keyframes plate-objectives-appear { from { transform: translate(500px, 0px); } to { transform: translate(0px, 0px); }}
+
+.plate-objective-text {
+    font-size: 20px;
+}
+
+@media (max-width: 1000px), (max-height: 700px) {
+    .plate-objective-text {
+        font-size: 14px;
+    }
+}
