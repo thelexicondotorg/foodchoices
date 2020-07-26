@@ -11,11 +11,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/W_C_CHOICE_1.svg",
                 description: "",
                 descriptionElem: (
-                  <div>
+                  <div style={{ display: "flex" }}>
                       <div>
-                        4 eggs<br/>4 instant noodle packets<br/>chili sauce<br/>250 g. oil<br/>cabbage, tomatoes and 100g milk powder
+                        4 eggs<br/>4 instant noodle packets<br/>chili sauce
                         <br/>
                         <b>(38,000 rpa)</b>
+                      </div>
+                      <div style={{ paddingLeft: "8px" }}>
+                        250 g. oil<br/>cabbage, tomatoes<br/>100g milk powder
                       </div>
                   </div>  
                 )
@@ -38,28 +41,34 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/W_C_CHOICE_3.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                    <div style={{ display: "flex" }}>
                         <div>
-                          0.5 kg. fish<br/>0.5 kg. rice<br/>spinach<br/>small satchet of shrimp paste<br/>250 g. oil<br/>tomatoes<br/>100 g. sugar<br/>half portion (50g.) of milk powder
+                          0.5 kg. fish<br/>0.5 kg. rice<br/>spinach<br/>small satchet of shrimp paste
                           <br/>
                           <b>(32,000 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                          250 g. oil<br/>tomatoes<br/>100 g. sugar<br/>half portion (50g.) of milk powder
                         </div>
                     </div>  
                   )
             },
-            {
-                icon: "/public/food/indonesia/groceries-shopping/W_C_CHOICE_4.svg",
-                description: "",
-                descriptionElem: (
-                    <div>
-                        <div>
-                        500 g. tempeh<br/>250 g. yams<br/>100 g. oil<br/>soy sauce<br/>tomatoes<br/>cabbage<br/>100 g. milk
-                          <br/>
-                          <b>(23,000 rpa)</b>
-                        </div>
-                    </div>  
-                  )
-            }
+        {
+          icon: "/public/food/indonesia/groceries-shopping/W_C_CHOICE_4.svg",
+          description: "",
+          descriptionElem: (
+            <div style={{ display: "flex" }}>
+              <div>
+                500 g. tempeh<br />250 g. yams<br />100 g. oil<br />soy sauce
+                          <br />
+                <b>(23,000 rpa)</b>
+              </div>
+              <div style={{ paddingLeft: "8px" }}>
+                tomatoes<br />cabbage<br />100 g. milk
+              </div>
+            </div>
+          )
+        }
         ],
         // Neesa
         [
@@ -67,11 +76,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/NEESA_CHOICE_1.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                  <div style={{ display: "flex" }}>
                         <div>
-                            250 g. chicken<br/>1 kg. rice<br/>oil<br/>8 eggs<br/>250 g. sugar<br/>chili sauce<br/>cabbage and tomatoes
+                            250 g. chicken<br/>1 kg. rice<br/>oil<br/>8 eggs
                           <br/>
                           <b>(46,500 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                          250 g. sugar<br/>chili sauce<br/>cabbage<br/>tomatoes
                         </div>
                     </div>  
                   )
@@ -80,11 +92,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/NEESA_CHOICE_2.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                  <div style={{ display: "flex" }}>
                         <div>
-                            250 g. beef<br/>4 pkts. noodles<br/>1 L. milk<br/>2 pkts. oil<br/>4 eggs<br/>250 g. sugar<br/>tomatoes<br/>soy sauce 
+                            250 g. beef<br/>4 pkts. noodles<br/>1 L. milk<br/>2 pkts. oil
                           <br/>
                           <b>(72,600 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                        4 eggs<br/>250 g. sugar<br/>tomatoes<br/>soy sauce 
                         </div>
                     </div>  
                   )
@@ -93,11 +108,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/NEESA_CHOICE_3.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                    <div style={{ display: "flex" }}>
                         <div>
-                            1/2 kg fish<br/>1 kg. rice<br/>1 L. milk<br/>yams<br/>cabbage<br/>tomatoes<br/>100 g. sugar<br/>shrimp paste 
+                            1/2 kg fish<br/>1 kg. rice<br/>1 L. milk<br/>yams
                           <br/>
                           <b>(46, 000 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                          cabbage<br/>tomatoes<br/>100 g. sugar<br/>shrimp paste 
                         </div>
                     </div>  
                   )
@@ -106,11 +124,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/NEESA_CHOICE_4.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                    <div style={{ display: "flex" }}>
                         <div>
-                            250 g. tofu<br/>1 kg. rice<br/>4 eggs<br/>yams<br/>spinach<br/>tomatoes<br/>250 g. sugar
+                            250 g. tofu<br/>1 kg. rice<br/>4 eggs
                           <br/>
                           <b>(28,000 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                        yams<br/>spinach<br/>tomatoes<br/>250 g. sugar
                         </div>
                     </div>  
                   )
@@ -122,11 +143,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/HASSAN_CHOICE_1.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                    <div style={{ display: "flex" }}>
                         <div>
-                        250 g. chicken<br/>1 kg. rice<br/>oil<br/>8 eggs<br/>250 g. sugar<br/>chili sauce<br/>cabbage and tomatoes
+                        250 g. chicken<br/>1 kg. rice<br/>oil<br/>8 eggs
                           <br/>
                           <b>(46,500 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                        250 g. sugar<br/>chili sauce<br/>cabbage<br/>tomatoes
                         </div>
                     </div>  
                   )
@@ -135,11 +159,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/HASSAN_CHOICE_2.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                  <div style={{ display: "flex" }}>
                         <div>
-                        250 g. beef<br/>4 pkts. noodles<br/>1 L. milk<br/>2 pkts. oil<br/>4 eggs<br/>250 g. sugar<br/>tomatoes<br/>soy sauce
+                        250 g. beef<br/>4 pkts. noodles<br/>1 L. milk<br/>2 pkts. oil
                           <br/>
                           <b>(72,600 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                        4 eggs<br/>250 g. sugar<br/>tomatoes<br/>soy sauce
                         </div>
                     </div>  
                   )
@@ -148,11 +175,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/HASSAN_CHOICE_3.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                  <div style={{ display: "flex" }}>
                         <div>
-                        1/2 kg fish<br/>1 kg. rice<br/>1 L. milk<br/>yams<br/>cabbage<br/>tomatoes<br/>100 g. sugar<br/>shrimp paste 
+                        1/2 kg fish<br/>1 kg. rice<br/>1 L. milk<br/>yams
                           <br/>
                           <b>(46, 000 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                        cabbage<br/>tomatoes<br/>100 g. sugar<br/>shrimp paste 
                         </div>
                     </div>  
                   )
@@ -161,11 +191,14 @@ namespace Private {
                 icon: "/public/food/indonesia/groceries-shopping/HASSAN_CHOICE_4.svg",
                 description: "",
                 descriptionElem: (
-                    <div>
+                  <div style={{ display: "flex" }}>
                         <div>
-                        250 g. tofu<br/>4 pkts<br/>4 eggs<br/>oil<br/>yams<br/>spinach<br/>tomatoes<br/>250 g. sugar 
+                        250 g. tofu<br/>4 pkts<br/>4 eggs<br/>oil<br/>yams
                           <br/>
                           <b>(29,500 rpa)</b>
+                        </div>
+                        <div style={{ paddingLeft: "8px" }}>
+                        spinach<br/>tomatoes<br/>250 g. sugar 
                         </div>
                     </div>  
                   )

@@ -139,9 +139,9 @@ export class Header extends React.Component<IHeaderProps> {
                         if (character === BrazilCharacters.Maria) {
                             return "What do Maria's family often eat for dinner?";
                         } else if (character === BrazilCharacters.Gabriel) {
-                            return "What does Gabriel often eat for dinner?"
+                            return "What does Gabriel often eat for dinner?";
                         } else if (character === BrazilCharacters.Sandra) {
-                            return "What do Sandra and her family usually eat for dinner?"
+                            return "What do Sandra and her family usually eat for dinner?";
                         }
                     }
                     if (region === Region.Nordics) {
