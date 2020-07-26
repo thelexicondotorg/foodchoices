@@ -215,12 +215,12 @@ namespace Private {
                     },
                     {
                         icon: "/public/food/indonesia/wulandari/drinks/2.svg",
-                        description: "Wulandari brings a container of reconsitituted fortified milk powder and feeds Centia"
+                        description: "Wulandari feeds Centia with fortified milk powder provided by the government"
                     },
                     {
                         icon: "/public/food/indonesia/wulandari/drinks/3.svg",
                         description: "Wulandari brought a hard boiled egg and some fruit",
-                        easterEgg: "Even though this is a healthy option, eggs are expensive to purchase, and their few hens do not lay eggs daily."
+                        easterEgg: "Even though this is a healthy option, eggs are expensive to purchase, and household hens typically do not lay eggs daily."
                     },
                     {
                         icon: "/public/food/indonesia/wulandari/drinks/4.svg",

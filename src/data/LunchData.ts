@@ -240,7 +240,7 @@ namespace Private {
                 [
                     {
                         icon: "/public/food/indonesia/hassan/lunch/1.svg",
-                        description: "Maize or rice and beans (supplied by local farmers and prepared by parents"
+                        description: " Maize or rice and beans (supplied by local farmers and prepared by parents)"
                     },
                     {
                         icon: "/public/food/indonesia/hassan/lunch/2.svg",

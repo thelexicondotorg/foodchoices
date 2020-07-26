@@ -63,9 +63,9 @@ namespace Private {
                     "Climate": 2
                 },
                 icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[3].icon,
-                outcomeDesc: "Cooking skills",
-                outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
+                outcomeDesc: "Whole Foods",
+                outcomeType: OutcomeType.Health,
+                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-foods-meaning/"
             }
         ],
         [BrazilQuestions.Snacks1]: [
@@ -165,12 +165,12 @@ namespace Private {
                     "Climate": 1
                 },
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][2].icon,
-                outcomeDesc: "Eating with others",
+                outcomeDesc: "Food skills",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/brazilians-eat-with-others/"
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/fewer-know-how-to-cook/"
             },
             {
-                "outcome": "Eating less meat at a vegan restauarant is a good way to adopt environmentally friendly practices.",
+                "outcome": "Eating less meat at a vegan restaurant is a good way to adopt environmentally friendly practices.",
                 "scores": {
                     "Environment": 2,
                     "Health": 2,
@@ -504,8 +504,8 @@ namespace Private {
                 },
                 icon: BrazilSandraPlateData.getItems()[1][1].foodInfo.content,
                 outcomeType: OutcomeType.Health,
-                outcomeDesc: "Sodium",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"
+                outcomeDesc: "Food Choices",
+                link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
             },
             {
                 "outcome": "Good choice! Spaetzl, a traditional german dish, is a popular food in Blumenau, the city where Sandra is from. Blumenau is one of the largest Germen descendent communities in Brazil.",

@@ -1,11 +1,9 @@
-import { IScoreData, Region, CanadaCharacters, IndonesiaCharacters, OutcomeType } from "../../Types";
+import { IScoreData, Region, IndonesiaCharacters, OutcomeType } from "../../Types";
 import { IndonesiaQuestions } from "../../score/ScoreTypes";
 import { TimeData } from "../TimeData";
 import { MCQData } from "../MCQData";
 import { LunchData } from "../LunchData";
 import { SliderData } from "../SliderData";
-import { YesNoSocialData } from "../YesNoSocialData";
-import { IndonesiaWulandariPlateData } from "./IndonesiaWulandariPlateData";
 import { IndonesiaNisaPlateData } from "./IndonesiaNisaPlateData";
 import { IndonesiaWulandariScoreData } from "./IndonesiaWulandariScoreData";
 import { LunchSnackData } from "./LunchSnackData";
@@ -22,7 +20,7 @@ namespace Private {
     } = {
         [IndonesiaQuestions.Breakfast]: [
             {
-                "outcome": "Her breakfast lacks protein but contains vegetables; rice has a low nutrient content and contributes a bulk of GHG emissions from food in Indonesia",
+                "outcome": "Her breakfast lacks protein but contains vegetables. Rice has a low nutrient content and contributes a bulk of greenhouse gas emissions from food in Indonesia",
                 "scores": {
                     "Environment": 1,
                     "Health": 1,
@@ -64,7 +62,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/beef-climate-change/"                
             },
             {
-                "outcome": "A nutritious diet with variety is important for a growing youth; skipping breakfast increases the chance of snacking on unhealthy processed foods later.",
+                "outcome": "A nutritious diet with variety is important for a growing youth. Skipping breakfast increases the chance of snacking on unhealthy processed foods later.",
                 "scores": {
                     "Environment": 0,
                     "Health": -2,
@@ -89,7 +87,7 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Neesa)[0][0].icon,
-                outcomeDesc: "Soft drinks",
+                outcomeDesc: "Sweetened beverages",
                 outcomeType: OutcomeType.Health,
                 link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"               
             },
@@ -108,7 +106,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"               
             },
             {
-                "outcome": "Milk alternatives, such as soy, are expensive and lower in protein.",
+                "outcome": "Milk alternatives, such as soy, are expensive and lower in protein. Soy products have a lower greenhouse gas footprint than dairy.",
                 "scores": {
                     "Environment": 0,
                     "Health": -1,
@@ -138,7 +136,7 @@ namespace Private {
         ],
         [IndonesiaQuestions.Lunch1]: [
             {
-                "outcome": "Balanced meal with all groups in Dietary Guidelines, but rice lack nutrients and contributes a bulk of GHG emissions from food in Indonesia.",
+                "outcome": "A balanced meal with all groups in the Dietary Guidelines; however rice lack nutrients and contributes a bulk of greenhouse gas emissions from food in Indonesia.",
                 "scores": {
                     "Environment": 0,
                     "Health": 1,
@@ -152,7 +150,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-health-explained/dietary-guidelines-importance/"               
             },
             {
-                "outcome": "Fast food has more salt, fat and sugar; diets high in red and processed meats are associated with NCD's. Beef has a large climate footprint",
+                "outcome": "Fast food has more salt, fat and sugar. Diets high in red and processed meats are associated with non communicable diseases. Beef also has a large climate footprint",
                 "scores": {
                     "Environment": -1,
                     "Health": -2,
@@ -180,7 +178,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/beef-climate-change/"               
             },
             {
-                "outcome": "A nutritious diet with variety is important for a growing teen; skipping lunch puts Neesa at risk for missing important micronutrients and may cause her to snack more on unhealthy processed foods later",
+                "outcome": "A nutritious diet with variety is important for a growing teen. Skipping lunch puts Neesa at risk for missing important micronutrients and may cause her to snack more on unhealthy processed foods later",
                 "scores": {
                     "Environment": 0,
                     "Health": -2,
@@ -224,7 +222,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/egg-environmental-impact/"                              
             },
             {
-                "outcome": "High in fat and sugar and extra calories, which contributes to obesity and NCDs",
+                "outcome": "High in fat and sugar and extra calories, which contributes to obesity and non communicable diseases.",
                 "scores": {
                     "Environment": -1,
                     "Health": -1,
@@ -310,7 +308,7 @@ namespace Private {
         ],
         [IndonesiaQuestions.GroceriesShopping]: [
             {
-                outcome: "Contains plenty of protein; however low in vegetables and dairy; sugar and rice lack micronutrients and along with animal products, rice contributes the bulk of GHG emissions from food In Indonesia.",
+                outcome: "Contains plenty of protein; however low in vegetables and dairy. Sugar and rice lack micronutrients and along with animal products, rice contributes the bulk of greenhouse gas emissions from food In Indonesia.",
                 scores: {
                     "Environment": -1,
                     "Health": 1,
@@ -324,7 +322,7 @@ namespace Private {
                 icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Neesa)[0].icon
             },
             {
-                outcome: "Contains plenty of protein; however low in vegetables, and sugar and noodles lack micronutrients. Beef is expensive and also contributes more greenhouse gases than other meats.",
+                outcome: "Contains plenty of protein; however low in vegetables. Sugar and noodles lack micronutrients. Beef is expensive and also contributes more greenhouse gases than other meats.",
                 scores: {
                     "Environment": -2,
                     "Health": -1,
@@ -338,7 +336,7 @@ namespace Private {
                 icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Neesa)[0].icon
             },
             {
-                outcome: "Good Choice! She chose a variety of protein, dairy and vegetables and has enough leftover to buy some fruit; however rice as a staple lacks micronutrients and contributes the bulk of GHG emissions from food In Indonesia.",
+                outcome: "Good Choice! She chose a variety of protein, dairy and vegetables and has enough leftover to buy some fruit; however rice as a staple lacks micronutrients and contributes the bulk of greenhouse gas emissions from food In Indonesia.",
                 scores: {
                     "Environment": 0,
                     "Health": 1,
@@ -352,7 +350,7 @@ namespace Private {
                 icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Neesa)[2].icon
             },
             {
-                outcome: "Most economical choice. She chose a variety of protein, dairy and vegetables and has enough leftover to buy extras however sugar and noodles provide very little nutrients.",
+                outcome: "Most economical choice. She chose a variety of protein, dairy and vegetables and has enough leftover to buy extras; however sugar and noodles provide very little nutrients.",
                 scores: {
                     "Environment": 1,
                     "Health": 1,
@@ -505,7 +503,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/egg-environmental-impact/"
             },
             {
-                "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing; aquaculture has environmental issues related to fish feed, used of antibiotics and chemicals; fish is a healthy protein, but deep frying reduced its nutritional value.",
+                "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing. Aquaculture also has environmental issues related to fish feed, use of antibiotics and chemicals. Fish is a healthy protein, but deep frying reduced its nutritional value.",
                 "scores": {
                     "Environment": -1,
                     "Health": 1,
@@ -519,7 +517,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
             },
             {
-                "outcome": "Diets high in red and processed meat are linked to NCDs; beef has a heavier impact on environment and climate",
+                "outcome": "Diets high in red and processed meat are linked to non communicable diseases. Beef also has a heavier impact on environment and climate",
                 "scores": {
                     "Environment": -1,
                     "Health": 1,
@@ -548,7 +546,7 @@ namespace Private {
             }
         ],
         [IndonesiaQuestions.DinnerGrains]: IndonesiaWulandariScoreData.get()[IndonesiaQuestions.DinnerGrains],
-        [IndonesiaQuestions.DinnerVeggies]: IndonesiaWulandariScoreData.get()[IndonesiaQuestions.DinnerVeggies]
+        [IndonesiaQuestions.DinnerVeggies]: IndonesiaHassanScoreData.get()[IndonesiaQuestions.DinnerVeggies]
     };
 }
 

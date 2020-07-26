@@ -19,7 +19,7 @@ namespace Private {
     } = {
         [IndonesiaQuestions.Breakfast]: [
             {
-                "outcome": "His breakfast lacks protein but contains vegetables; rice contributes the bulk of GHG emissions from food in Indonesia",
+                "outcome": "His breakfast lacks protein but contains vegetables. Rice contributes the bulk of greenhouse gas emissions from food in Indonesia",
                 "scores": {
                     "Environment": 1,
                     "Health": 1,
@@ -33,7 +33,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
             },
             {
-                "outcome": "Milo contains dairy protein, but is high in sugar and contains palm oil which is responsible for enironmental degradation. Packaging detrimental to environment.",
+                "outcome": "Milo contains dairy protein, but is high in sugar and contains palm oil which is responsible for enironmental degradation. Packaging is detrimental to the environment.",
                 "scores": {
                     "Environment": -1,
                     "Health": -1,
@@ -47,7 +47,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/palm-oil/"
             },
             {
-                "outcome": "Good start to the day with protein rich breakfast though rice lacks micronutrients and contributes the bulk of GHG emissions from food.",
+                "outcome": "Good start to the day with a protein rich breakfast, though rice lacks micronutrients and contributes the bulk of greenhouse gas emissions from food.",
                 "scores": {
                     "Environment": -1,
                     "Health": 1,
@@ -61,7 +61,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-health-explained/balanced-meal-importance/"
             },
             {
-                "outcome": "A nutritious diet with variety is important for a growing youth; skipping breakfast puts Hasan at risk for undernutrition and increases the chance of snacking on unhealthy processed foods later",
+                "outcome": "A nutritious diet with variety is important for a growing youth. Skipping breakfast puts Hasan at risk for undernutrition and increases the chance of snacking on unhealthy processed foods later.",
                 "scores": {
                     "Environment": 0,
                     "Health": -2,
@@ -88,7 +88,7 @@ namespace Private {
                 }
             },
             {
-                "outcome": "Excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions; juice packets also contribute to packaging waste",
+                "outcome": "Excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions. Juice packets also contribute to packaging waste",
                 "scores": {
                     "Environment": -1,
                     "Health": -2,
@@ -97,12 +97,12 @@ namespace Private {
                     "Climate": -1
                 },
                 icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Hassan)[0][1].icon,
-                outcomeDesc: "Soft drinks",
+                outcomeDesc: "Sweetened beverages",
                 outcomeType: OutcomeType.Health,
                 link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
             },
             {
-                "outcome": "Over-use of small plastic packaging contribute to environmental degradation",
+                "outcome": "Over-use of small plastic packaging contributes to environmental degradation",
                 "scores": {
                     "Environment": -1,
                     "Health": 0,
@@ -171,7 +171,7 @@ namespace Private {
                 }
             },
             {
-                "outcome": "A nutritious diet with variety is important for a growing youth; skipping lunch puts Hasan at risk for undernutrition and increases the chance of snacking on unhealthy processed foods later",
+                "outcome": "A nutritious diet with variety is important for a growing youth.Skipping lunch puts Hasan at risk for undernutrition and increases the chance of snacking on unhealthy processed foods later.",
                 "scores": {
                     "Environment": 0,
                     "Health": -2,
@@ -238,15 +238,15 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: LunchSnackData.getQuestions(IndonesiaCharacters.Hassan)[0][3].icon,
-                outcomeDesc: "Saturated and trans fats",
-                outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/saturated-trans-fats/"
+                outcomeDesc: "Snacking",
+                outcomeType: OutcomeType.Culture,
+                link: "https://www.greenbrownblue.com/food-and-culture-explained/snacking/"
             }
         ],
         // Slider game
         [IndonesiaQuestions.Groceries]: [
             {
-                outcome: "Local markets supply fresh produce with less packaging, but often fewer choices beyond produce.",
+                outcome: "Local markets supply fresh produce with less packaging, but offer fewer choices beyond produce.",
                 scores: {
                     "Environment": 1,
                     "Health": 1,
@@ -301,7 +301,7 @@ namespace Private {
         ],
         [IndonesiaQuestions.GroceriesShopping]: [
             {
-                outcome: "Contains plenty of protein; however low in vegetables and dairy; sugar and rice lack micronutrients and along with animal products, rice contributes the bulk of GHG emissions from food In Indonesia.",
+                outcome: "Contains plenty of protein; however low in vegetables and dairy. Sugar and rice lack micronutrients and along with animal products, and rice contributes the bulk of greenhouse gas emissions from food In Indonesia.",
                 scores: {
                     "Environment": -1,
                     "Health": 0,
@@ -458,7 +458,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
             },
             {
-                "outcome": "Eggs are a good source of protein and nutrition, but expensive to purchase eggs for whole family.",
+                "outcome": "Eggs are a good source of protein and nutrition, but it is expensive to purchase eggs for whole family.",
                 "scores": {
                     "Environment": 0,
                     "Health": 2,
@@ -467,12 +467,12 @@ namespace Private {
                     "Climate": 0
                 },
                 icon: IndonesiaHassanPlateData.getItems()[0][1].foodInfo.content,
-                outcomeDesc: "Undernutrition",
+                outcomeDesc: "Protein and growth",
                 outcomeType: OutcomeType.Health,
                 link: "https://www.greenbrownblue.com/food-and-health-explained/protein-needs-in-children/"
             },
             {
-                "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing; aquaculture has environmental issues related to fish feed, used of antibiotics and chemicals; fish is a healthy protein, but deep frying reduced its nutritional value.",
+                "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing. Aquaculture also has environmental issues related to fish feed, use of antibiotics and chemicals. Fish is a healthy protein, but deep frying reduced its nutritional value.",
                 "scores": {
                     "Environment": -1,
                     "Health": 1,
@@ -486,7 +486,7 @@ namespace Private {
                 link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
             },
             {
-                "outcome": "Diets high in red and processed meat are linked to NCDs; beef has a heavier impact on environment and climate",
+                "outcome": "Diets high in red and processed meat are linked to non communicable diseases. Beef also has a heavier impact on environment and climate.",
                 "scores": {
                     "Environment": -1,
                     "Health": 1,
@@ -529,7 +529,91 @@ namespace Private {
             }
         ],
         [IndonesiaQuestions.DinnerGrains]: IndonesiaWulandariScoreData.get()[IndonesiaQuestions.DinnerGrains],
-        [IndonesiaQuestions.DinnerVeggies]: IndonesiaWulandariScoreData.get()[IndonesiaQuestions.DinnerVeggies]
+        [IndonesiaQuestions.DinnerVeggies]: [
+            {
+              "outcome": "Kangkung is a popular local, inexpensive vegetable that provides micronutrients and rounds out a meal that has adequate protein.",
+              "scores": {
+                "Environment": 2,
+                "Health": 2,
+                "Healthcare": 2,
+                "Culture": 1,
+                "Climate": 2
+              },
+              icon: IndonesiaHassanPlateData.getItems()[2][0].foodInfo.content,
+              outcomeDesc: "Leafy greens",
+              outcomeType: OutcomeType.Health,
+              link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"
+            },
+            {
+              "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
+              "scores": {
+                "Environment": 1,
+                "Health": 2,
+                "Healthcare": 2,
+                "Culture": 1,
+                "Climate": 1
+              },
+              icon: IndonesiaHassanPlateData.getItems()[2][1].foodInfo.content,
+              outcomeType: OutcomeType.Health,
+              outcomeDesc: "Fruits and vegetables",
+              link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+            },
+            {
+              "outcome": "Cassava leaves are highly nutritious and complement a balanced meal. It is a locally grown, inexpensive vegetable.",
+              "scores": {
+                "Environment": 2,
+                "Health": 2,
+                "Healthcare": 2,
+                "Culture": 1,
+                "Climate": 2
+              },
+              icon: IndonesiaHassanPlateData.getItems()[2][2].foodInfo.content,
+              outcomeDesc: "Agrobiodiversity",
+              outcomeType: OutcomeType.Environment,
+              link: "https://www.greenbrownblue.com/food-and-environment-explained/diversifying-diets/"
+            },
+            {
+              "outcome": "Petai is indiginous to Indonesia and contain protein, vitamins and fiber.",
+              "scores": {
+                "Environment": 2,
+                "Health": 2,
+                "Healthcare": 2,
+                "Culture": 1,
+                "Climate": 2
+              },
+              icon: IndonesiaHassanPlateData.getItems()[2][3].foodInfo.content,
+              outcomeDesc: "Traditional foods",
+              outcomeType: OutcomeType.Culture
+            },
+            {
+              "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
+              "scores": {
+                "Environment": 1,
+                "Health": 2,
+                "Healthcare": 2,
+                "Culture": 1,
+                "Climate": 1
+              },
+              icon: IndonesiaHassanPlateData.getItems()[2][4].foodInfo.content,
+              outcomeDesc: "Fruits and vegetables",
+              outcomeType: OutcomeType.Health,
+              link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+            },
+            {
+              "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
+              "scores": {
+                "Environment": 1,
+                "Health": 2,
+                "Healthcare": 2,
+                "Culture": 1,
+                "Climate": 1
+              },
+              icon: IndonesiaHassanPlateData.getItems()[2][5].foodInfo.content,
+              outcomeDesc: "Fruits and vegetables",
+              outcomeType: OutcomeType.Health,
+              link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+            }
+          ]
     };
 }
 

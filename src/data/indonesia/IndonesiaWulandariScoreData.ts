@@ -4,7 +4,6 @@ import { TimeData } from "../TimeData";
 import { MCQData } from "../MCQData";
 import { LunchData } from "../LunchData";
 import { SliderData } from "../SliderData";
-import { YesNoSocialData } from "../YesNoSocialData";
 import { IndonesiaWulandariPlateData } from "./IndonesiaWulandariPlateData";
 import { LunchSnackData } from "./LunchSnackData";
 import { FruitShoppingData } from "./FruitShoppingData";
@@ -19,7 +18,7 @@ namespace Private {
   } = {
     [IndonesiaQuestions.Breakfast]: [
       {
-        "outcome": "The fortified milk provides good nutrition for growth; however, rice has a low nutritional value and contributes the bulk of GHG emissions from food in Indonesia, dairy also has a high climate footprint",
+        "outcome": "The fortified milk provides good nutrition for growth; however, rice has a low nutritional value and contributes the bulk of GHG emissions from food in Indonesia. Dairy also has a high climate footprint",
         "scores": {
           "Environment": -1,
           "Health": 1,
@@ -121,14 +120,14 @@ namespace Private {
           "Climate": 0
         },
         icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][3].icon,
-        outcomeDesc: "Soda",
+        outcomeDesc: "Sugar sweetened beverages",
         outcomeType: OutcomeType.Health,
         link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
       }
     ],
     [IndonesiaQuestions.Lunch1]: [
       {
-        "outcome": "Tofu is a good souce of protein, is affordable and better for climate and environment (some tofu is imported, however)",
+        "outcome": "Tofu is a good souce of protein,  an local tofu is affordable and better for climate and environment; however, some tofu is imported.",
         "scores": {
           "Environment": 1,
           "Health": 1,
@@ -142,7 +141,7 @@ namespace Private {
         link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"
       },
       {
-        "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing; aquaculture has environmental issues related to fish feed, used of antibiotics and chemicals",
+        "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing. Aquaculture also has environmental issues related to fish feed, use of antibiotics and chemicals.",
         "scores": {
           "Environment": -1,
           "Health": 1,
@@ -156,7 +155,7 @@ namespace Private {
         link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
       },
       {
-        "outcome": "Spinach is locally grown and does not require a lot of inputs; it is good source of micronutrients yet insufficient calories and protein.",
+        "outcome": "Spinach is locally grown and does not require a lot of inputs; it is good source of micronutrients yet insufficient calories and protein on its own.",
         "scores": {
           "Environment": 2,
           "Health": 1,
@@ -170,7 +169,7 @@ namespace Private {
         link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"
       },
       {
-        "outcome": "Although it is tasty and inexpensive, excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions.",
+        "outcome": "Although these are convenient and inexpensive, excess sugar is detrimental to health and growth, which replaces more nutrient dense foods especially for small children who eat smaller portions.",
         "scores": {
           "Environment": 0,
           "Health": -1,
@@ -214,7 +213,7 @@ namespace Private {
         link: "https://www.greenbrownblue.com/food-choices-for-a-healthy-planet-explained/food-insecurity/"
       },
       {
-        "outcome": "Excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions; juice packets also contribute to packaging waste",
+        "outcome": "Excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions. Juice packets also contribute to packaging waste",
         "scores": {
           "Environment": -1,
           "Health": -2,
@@ -245,7 +244,7 @@ namespace Private {
     [IndonesiaQuestions.Groceries]: [
       
       {
-        "outcome": "Local markets supply fresh produce with less packaging, but often fewer choices beyond produce.",
+        "outcome": "Local markets supply fresh produce with less packaging, but often have fewer choices beyond produce.",
         "scores": {
           "Environment": 1,
           "Health": 1,
@@ -477,8 +476,8 @@ namespace Private {
       }
     ],
     [IndonesiaQuestions.DinnerGrains]: [
-      {
-        "outcome": "High consumption of rice comes at the expense of nutrient diversity; rice is also a contributor of GHG emissions.",
+      {        
+        "outcome": "High consumption of rice comes at the expense of nutrient diversity; rice is also a contributor of greenhouse gas emissions.",
         "scores": {
           "Environment": -1,
           "Health": -1,
@@ -492,7 +491,7 @@ namespace Private {
         link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
       },
       {
-        "outcome": "High consumption of staples come at the expense of nutrient diversity.",
+        "outcome": "Processed noodles are low in fiber, protein and micronutrients. High consumption of staples come at the expense of nutrient diversity.",
         "scores": {
           "Environment": 0,
           "Health": -1,
@@ -507,7 +506,7 @@ namespace Private {
       }
     ],
     [IndonesiaQuestions.DinnerVeggies]: [
-      {
+      {        
         "outcome": "Kangkung is rich in Vitamins A and C, and antioxidants. It is a popular local vegetable that is inexpensive.",
         "scores": {
           "Environment": 2,

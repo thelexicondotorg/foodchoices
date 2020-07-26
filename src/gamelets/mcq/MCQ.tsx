@@ -73,7 +73,8 @@ export class MCQ extends Gamelet<IMCQProps, IMCQState> {
                                     display: "flex",
                                     flexDirection: "column",
                                     justifyContent: "space-around",
-                                    padding: "25px"
+                                    padding: "25px",
+                                    paddingTop: "0px"
                                 }}
                             >
                                 {

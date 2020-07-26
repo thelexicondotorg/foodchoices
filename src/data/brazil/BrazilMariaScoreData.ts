@@ -71,7 +71,7 @@ namespace Private {
     ],
     [BrazilQuestions.Snacks1]: [
       {
-        "outcome": "Ultra-processed foods (such as breakfast cereals with added sugar and food additives) should not be offered to children under 2 years. The processing of food and the packaging of processed foods is also bad for planetary health.",
+        "outcome": "Ultra-processed foods (such as breakfast cereals with added sugar and food additives) should not be offered to children under 2 years.",
         "scores": {
           "Environment": -2,
           "Health": -2,
@@ -157,7 +157,7 @@ namespace Private {
         link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
       },
       {
-        "outcome": "Homemade soups are healthy but not needed at this stage. Jello is an ultra-processed dessert and should not be part of a child's healthy diet. Distractions during meals, such as watching TV, should be avoided.",
+        "outcome": "Homemade soups are healthy but not needed at this stage. Jello is an ultra-processed dessert and should not be part of a child's healthy diet.",
         "scores": {
           "Environment": 0,
           "Health": -1,
@@ -166,9 +166,9 @@ namespace Private {
           "Climate": 0
         },
         icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][2].icon,
-        outcomeDesc: "Eating with others",
+        outcomeDesc: "Food Choices",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/brazilians-eat-with-others/"
+        link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
       },
       {
         "outcome": "Instant flour (with sugar and food additives) is an ultra-processed food and should not be offered to children under 2 years. They are not only unhealthy, but their industrialized mass production and plastic package has a negative impact the planet's health. Distractions during meals should also be avoided.",
@@ -323,7 +323,7 @@ namespace Private {
           "Climate": -1
         },
         icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[1].icon,
-        outcomeDesc: "food marketing",
+        outcomeDesc: "Food marketing",
         outcomeType: OutcomeType.Culture,
         link: "https://www.greenbrownblue.com/food-and-culture-explained/food-marketing/"
       },
@@ -337,9 +337,9 @@ namespace Private {
           "Climate": -2
         },
         icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[2].icon,
-        outcomeDesc: "Tech, time, cost and other determinants of food choices",
+        outcomeDesc: "Food Access",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/busy-lifestyles-impact/"
+        link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/"
       },
       {
         "outcome": "Food is the responsibility of the whole family, so everyone should participate in this task. Dividing tasks when preparing food is important, makes work easier, and enables the family to cook healthy foods quickly.",

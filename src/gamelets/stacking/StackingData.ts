@@ -138,7 +138,7 @@ export class StackingData {
                     return "When does Centia eat?";
 
                 case IndonesiaCharacters.Hassan:
-                    return "How is dinner prepared for Hasan and his sister?";                    
+                    return "What does Hasan often eat for dinner?";                    
 
                 case IndonesiaCharacters.Neesa:
                     return "What do Neesa's family do for dinner?";

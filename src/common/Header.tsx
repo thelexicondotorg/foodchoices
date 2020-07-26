@@ -184,7 +184,8 @@ export class Header extends React.Component<IHeaderProps> {
                         <div
                             style={{
                                 marginBottom: "4px",
-                                pointerEvents: "none"
+                                pointerEvents: "none",
+                                textAlign: alignRight ? "right" : undefined
                             }}
                         >
                             <img
