@@ -60,7 +60,7 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                             width: "100%",
                             height: "100%",
                             textAlign: "center",
-                            top: "15%"
+                            top: "70px"
                         }}
                     >
                         {
@@ -107,8 +107,8 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                         style={{
                             position: "absolute",
                             width: "calc(100% - 80px)",
-                            height: noTitle === true ? "90%" : "80%",
-                            top: noTitle === true ? "10%" : "20%",
+                            height: "calc(100% - 100px)",
+                            top: "100px",
                             padding: "0px 40px 0px 40px"
                         }}
                     >

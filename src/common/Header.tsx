@@ -109,6 +109,9 @@ export class Header extends React.Component<IHeaderProps> {
                         }
                     }              
                 case GameletType.GroceriesShopping:
+                    if (character === IndonesiaCharacters.Wulandari) {
+                        return `Wulandari and Centia have 40,000rpa, help them with their shopping list`;
+                    }
                     return `Help ${characterData.name} with ${characterData.possessivePronoun} shopping list`;
                 case GameletType.FruitShopping:
                     if (region === Region.Indonesia) {
@@ -167,6 +170,8 @@ export class Header extends React.Component<IHeaderProps> {
                 style={{
                     position: "absolute",
                     padding: "20px",
+                    paddingTop: "14px",
+                    paddingBottom: "10px",
                     paddingLeft,
                     top: "0px",
                     right: alignRight ? "0px" : undefined
@@ -176,7 +181,7 @@ export class Header extends React.Component<IHeaderProps> {
                     {                        
                         <div
                             style={{
-                                marginBottom: "10px",
+                                marginBottom: "4px",
                                 pointerEvents: "none"
                             }}
                         >
