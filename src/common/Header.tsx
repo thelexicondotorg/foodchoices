@@ -111,6 +111,8 @@ export class Header extends React.Component<IHeaderProps> {
                 case GameletType.GroceriesShopping:
                     if (character === IndonesiaCharacters.Wulandari) {
                         return `Wulandari and Centia have 40,000rpa, help them with their shopping list`;
+                    } else if (character === IndonesiaCharacters.Hassan) {
+                        return `Hassan and his mother have 70,000rpa, help them with their shopping list`;
                     }
                     return `Help ${characterData.name} with ${characterData.possessivePronoun} shopping list`;
                 case GameletType.FruitShopping:
