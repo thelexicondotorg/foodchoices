@@ -127,7 +127,12 @@ export class Header extends React.Component<IHeaderProps> {
                         if (character === IndonesiaCharacters.Wulandari) {
                             return "Wulandari stops by a street cart on the way to the market. What does she buy for Centia?";
                         } else if (character === IndonesiaCharacters.Hassan) {
-                            return "Hassan grabs a snack on his way home from school. Can you help him choose?";
+                            return (
+                                <React.Fragment>
+                                    Hassan grabs a snack on his way home from school.<br />
+                                    Can you help him choose?
+                                </React.Fragment>
+                            );
                         } else {
                             return (
                                 <React.Fragment>
@@ -176,7 +181,8 @@ export class Header extends React.Component<IHeaderProps> {
                     paddingBottom: "10px",
                     paddingLeft,
                     top: "0px",
-                    right: alignRight ? "0px" : undefined
+                    right: alignRight ? "0px" : undefined,
+                    pointerEvents: "none"
                 }}
             >
                 <div>
@@ -184,7 +190,6 @@ export class Header extends React.Component<IHeaderProps> {
                         <div
                             style={{
                                 marginBottom: "4px",
-                                pointerEvents: "none",
                                 textAlign: alignRight ? "right" : undefined
                             }}
                         >

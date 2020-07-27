@@ -132,7 +132,7 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                                     icon={items[0].icon}
                                     description={items[0].description}
                                     descriptionElem={items[0].descriptionElem}
-                                    descStyle={{ margin: "0px 0px 0px auto" }}
+                                    descStyle={{ margin: "0px 0px 0px auto", justifyContent: "flex-end" }}
                                     customStyle={customStyle}
                                 />
                                 <MCQItem
@@ -142,7 +142,7 @@ export class Lunch extends Gamelet<ILunchProps, ILunchState> {
                                     icon={items[1].icon}
                                     description={items[1].description}
                                     descriptionElem={items[1].descriptionElem}
-                                    descStyle={{ margin: "0px 0px 0px auto" }}
+                                    descStyle={{ margin: "0px 0px 0px auto", justifyContent: "flex-end" }}
                                     customStyle={customStyle}
                                 />
                             </div>
