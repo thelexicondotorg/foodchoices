@@ -1,4 +1,4 @@
-package com.thelexicon.foodplay;
+package com.foodchoices.healthyplanet;
 
 import android.annotation.SuppressLint;
 
