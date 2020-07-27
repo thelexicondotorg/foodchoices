@@ -24,7 +24,7 @@ class ViewController: UIViewController, WKUIDelegate {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
-        let myURL = URL(string:"https://foodplay.thelexicon.org")
+        let myURL = URL(string:"https://foodskills-251802.uc.r.appspot.com/")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
     }

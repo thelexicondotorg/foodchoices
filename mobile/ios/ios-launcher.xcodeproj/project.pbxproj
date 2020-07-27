@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E1D5212D23DA0BD10012297B /* Foodplay: Your Food Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foodplay: Your Food Story.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D5212D23DA0BD10012297B /* Food Choices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Choices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D5213023DA0BD10012297B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1D5213223DA0BD10012297B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1D5213523DA0BD10012297B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		E1D5212E23DA0BD10012297B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1D5212D23DA0BD10012297B /* Foodplay: Your Food Story.app */,
+				E1D5212D23DA0BD10012297B /* Food Choices.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,7 +81,7 @@
 			);
 			name = "ios-launcher";
 			productName = "ios-launcher";
-			productReference = E1D5212D23DA0BD10012297B /* Foodplay: Your Food Story.app */;
+			productReference = E1D5212D23DA0BD10012297B /* Food Choices.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -288,8 +288,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thelexicon.foodplay;
-				PRODUCT_NAME = "Foodplay: Your Food Story";
+				PRODUCT_NAME = "Food Choices";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -308,8 +309,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thelexicon.foodplay;
-				PRODUCT_NAME = "Foodplay: Your Food Story";
+				PRODUCT_NAME = "Food Choices";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
