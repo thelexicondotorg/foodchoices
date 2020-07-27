@@ -110,9 +110,19 @@ export class Header extends React.Component<IHeaderProps> {
                     }              
                 case GameletType.GroceriesShopping:
                     if (character === IndonesiaCharacters.Wulandari) {
-                        return `Wulandari and Centia have 40,000rpa, help them with their shopping list`;
+                        return (
+                            <React.Fragment>
+                                Wulandari and Centia have 40,000rpa<br />
+                                Help them with their shopping list
+                            </React.Fragment>
+                        );
                     } else if (character === IndonesiaCharacters.Hassan) {
-                        return `Hassan and his mother have 70,000rpa, help them with their shopping list`;
+                        return (
+                            <React.Fragment>
+                                Hassan and his mother have 70,000rpa<br />
+                                Help them with their shopping list
+                            </React.Fragment>
+                        );
                     }
                     return `Help ${characterData.name} with ${characterData.possessivePronoun} shopping list`;
                 case GameletType.FruitShopping:
@@ -125,7 +135,12 @@ export class Header extends React.Component<IHeaderProps> {
                 case GameletType.LunchSnack:
                     if (region === Region.Indonesia) {
                         if (character === IndonesiaCharacters.Wulandari) {
-                            return "Wulandari stops by a street cart on the way to the market. What does she buy for Centia?";
+                            return (
+                                <React.Fragment>
+                                    Wulandari stops by a street cart on the way to the market.<br />
+                                    What does she buy for Centia?
+                                </React.Fragment>
+                            );
                         } else if (character === IndonesiaCharacters.Hassan) {
                             return (
                                 <React.Fragment>
