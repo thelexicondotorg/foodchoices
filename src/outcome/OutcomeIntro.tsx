@@ -26,14 +26,14 @@ export class OutcomeIntro extends React.Component<IOutcomeIntroProps> {
                 <div>
                     <div
                         style={{
-                            fontSize: "40px",
+                            fontSize: "5vh",
                             textAlign: "center",
                             padding: "4vh",
                             maxWidth: "800px",
                             margin: "0 auto"
                         }}
                     >
-                        The food you eat tells a story. Would you like to see yours?
+                        The food you eat tells a story.<br/>Would you like to see yours?
                     </div>
                     <div
                         style={{
