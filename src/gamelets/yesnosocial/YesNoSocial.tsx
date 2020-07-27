@@ -137,7 +137,6 @@ export class YesNoSocial extends Gamelet<IYesNoSocialProps, IYesNoSocialState> {
                         </div>
                         <div
                             style={{
-                                overflow: "visible",
                                 // height: "calc(100% - 40px)",
                                 padding: "10px 80px 10px 10px"
                             }}
@@ -214,7 +213,7 @@ export class YesNoSocial extends Gamelet<IYesNoSocialProps, IYesNoSocialState> {
                                         // !Utils.isMobile()
                                         // &&
                                         <div
-                                            className="opacity-transition"
+                                            className="yesno-hint opacity-transition"
                                             style={{
                                                 marginTop: "40px",
                                                 textAlign: "center",

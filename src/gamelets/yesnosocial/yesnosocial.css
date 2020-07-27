@@ -12,3 +12,13 @@
 @media (min-height: 496px) { .yesno-icon { height: 50%; } }
 @media (min-height: 607px) { .yesno-icon { height: 60%; } }
 @media (min-height: 752px) { .yesno-icon { height: 70%; } }
+
+.yesno-hint {
+    font-size: 16px;
+}
+
+@media (max-width: 1000px), (max-height: 700px) {
+    .yesno-hint {
+        font-size: 2.5vh;
+    }
+}
