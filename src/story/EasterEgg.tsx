@@ -56,7 +56,8 @@ export class EasterEgg extends React.Component<IEasterEggProps, IEasterEggState>
                     top: "0px",
                     height: "100%",
                     width: "100%",
-                    overflow: "hidden"
+                    overflow: "auto",
+                    backgroundColor: backgroundColor ?? "#FEEFC4"
                 }}
             >
                 <div
@@ -65,8 +66,7 @@ export class EasterEgg extends React.Component<IEasterEggProps, IEasterEggState>
                     style={{
                         display: "grid",
                         alignItems: "center",
-                        height: "100%",
-                        backgroundColor: backgroundColor || "#FEEFC4"
+                        height: "100%"                        
                     }}
                 >
                     <div>
@@ -106,16 +106,7 @@ export class EasterEgg extends React.Component<IEasterEggProps, IEasterEggState>
                                 />
                             </div>
                         }
-                        <div
-                            style={{
-                                fontSize: "20px",
-                                fontWeight: "bold",
-                                textAlign: "center",
-                                padding: "4vh",
-                                maxWidth: "800px",
-                                margin: "0 auto"
-                            }}
-                        >
+                        <div className="easter-egg-desc">
                             {Utils.resolve(message, character)}
                         </div>
                         <div
