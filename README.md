@@ -1,5 +1,3 @@
-# Foodplay
-
 # Setup
 `npm install`
 
