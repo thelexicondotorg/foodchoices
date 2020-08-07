@@ -11,6 +11,3 @@
 
 # Build for production
 `npm run build:prod`
-
-# Deploy to foodplay.thelexicon.org
-See instructions on the [foodplay-live](https://github.com/thelexicondotorg/foodplay-live) repo
