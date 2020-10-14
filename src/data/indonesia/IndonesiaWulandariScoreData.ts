@@ -86,7 +86,7 @@ namespace Private {
         link: "https://www.greenbrownblue.com/food-and-health-explained/breastfeeding-formulas/"
       },
       {
-        "outcome": "Dairy is an important source of protein and nutrients for young children, but also has a high GHG impact",
+        "outcome": "Dairy is an important source of protein and nutrients for young children, but also has a high GHG impact. Breastmilk is best for children under-two.",
         "scores": {
           "Environment": -1,
           "Health": 2,

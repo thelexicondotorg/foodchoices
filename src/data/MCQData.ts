@@ -214,8 +214,8 @@ namespace Private {
                         description: "Wulandari takes a break to breastfeed the baby",
                     },
                     {
-                        icon: "/public/food/indonesia/wulandari/drinks/2.svg",
-                        description: "Wulandari feeds Centia with fortified milk powder provided by the government"
+                        icon: "/public/food/indonesia/nisa/drinks/3.svg",
+                        description: "She gives her a cup of milk because she no longer breastfeeds and knows that milk is good for her"
                     },
                     {
                         icon: "/public/food/indonesia/wulandari/drinks/3.svg",
