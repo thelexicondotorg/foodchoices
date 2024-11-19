@@ -27,7 +27,7 @@ namespace Private {
         icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0].icon,
         outcomeDesc: "breastfeeding",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/breastfeeding-formulas/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/breastfeeding-formulas/"
       },
       {
         "outcome": "Great choice! Breast milk remains an important food and should be offered until 2 years of age, whenever the child wants.",
@@ -41,7 +41,7 @@ namespace Private {
         icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[1].icon,
         outcomeDesc: "breastfeeding",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/breastfeeding-formulas/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/breastfeeding-formulas/"
       },
       // Easter egg
       {
@@ -66,7 +66,7 @@ namespace Private {
         icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[3].icon,
         outcomeDesc: "breastfeeding",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/breastfeeding-formulas/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/breastfeeding-formulas/"
       }
     ],
     [BrazilQuestions.Snacks1]: [
@@ -82,7 +82,7 @@ namespace Private {
         icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][0].icon,
         outcomeDesc: "ultra-processed foods",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/minimally-processed-vs-processed/"
       },
       {
         "outcome": "Colored and artifically flavored yogurts that have added sugar are ultra-processed foods and should not be offered to children under 2 years.",
@@ -96,7 +96,7 @@ namespace Private {
         icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][1].icon,
         outcomeDesc: "Plastics and packaging",
         outcomeType: OutcomeType.Environment,
-        link: "https://www.greenbrownblue.com/food-and-environment-explained/plastic-waste/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/plastic-waste/"
       },
       {
         "outcome": "Good choice! In addition to being healthy, it is more economical to eat fruits from the family's yard.",
@@ -110,7 +110,7 @@ namespace Private {
         icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][2].icon,
         outcomeDesc: "Seasonal foods",
         outcomeType: OutcomeType.Climate,
-        link: "https://www.greenbrownblue.com/food-and-climate-explained/buy-local-climate/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/buy-local-climate/"
       },
       {
         "outcome": "Salted package crackers (plain or stuffed) are ultra-processed foods. Although they contain cereals, they should not be offered to children because of their unhealthy characteristics. Also, their industrialized mass production and plastic package may be detrimental to the planet's health.",
@@ -124,7 +124,7 @@ namespace Private {
         icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][3].icon,
         outcomeDesc: "sodium",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/salt/"
       }
     ],
     [BrazilQuestions.Lunch1]: [
@@ -140,7 +140,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][0].icon,
         outcomeDesc: "Balanced meal",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/balanced-meal-importance/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/balanced-meal-importance/"
       },
       {
         "outcome": "Not a good choice! Avoid feeding children ultra-processed foods. Healthy homemade meals and fruits and vegetables are much better options.",
@@ -154,7 +154,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][1].icon,
         outcomeDesc: "ultra-processed foods",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/minimally-processed-vs-processed/"
       },
       {
         "outcome": "Homemade soups are healthy but not needed at this stage. Jello is an ultra-processed dessert and should not be part of a child's healthy diet.",
@@ -168,7 +168,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][2].icon,
         outcomeDesc: "Food Choices",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/meat-alternatives/"
       },
       {
         "outcome": "Instant flour (with sugar and food additives) is an ultra-processed food and should not be offered to children under 2 years. They are not only unhealthy, but their industrialized mass production and plastic package has a negative impact the planet's health. Distractions during meals should also be avoided.",
@@ -182,7 +182,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0][3].icon,
         outcomeDesc: "Tech, time, cost and other determinants of food choices",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/busy-lifestyles-impact/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/busy-lifestyles-impact/"
       }
     ],
     [BrazilQuestions.Lunch1Drinks]: [
@@ -208,7 +208,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[1][1].icon,
         outcomeDesc: "soda",
         outcomeType: OutcomeType.Healthcare,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/drink-less-soda/"
       },
       {
         "outcome": "Great choice! Water is the always the best option to quench thirst. In addition to breast milk, it is very important for a baby of Maria's age to drink clean water throughout the day.",
@@ -222,7 +222,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[1][2].icon,
         outcomeDesc: "Drinking water",
         outcomeType: OutcomeType.Environment,
-        link: "https://www.greenbrownblue.com/food-and-environment-explained/safe-drinking-water/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/safe-drinking-water/"
       },
       {
         "outcome": "Sodas and artifical juices are full of sugar and should not be offered to children at this age.",
@@ -236,7 +236,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[1][3].icon,
         outcomeDesc: "sugar",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/sugar/"
       }
     ],
     // Stacking
@@ -253,7 +253,7 @@ namespace Private {
         icon: StackingData.getOutcomeIcon(),
         outcomeDesc: "Eating with others",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"
       },
       {
         "outcome": "A baby at Maria's age can already eat by herself (with a spoon or with her hands), so she can eat sitting in the baby highchair, but her parents should be eat the table with her.",
@@ -267,7 +267,7 @@ namespace Private {
         icon: StackingData.getOutcomeIcon(),
         outcomeDesc: "Eating with others",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"
       },
       {
         "outcome": "Distractions during meals (such as cell phone, television, etc.) can lead to less healthy eating habits. Avoid whenever possible!",
@@ -281,7 +281,7 @@ namespace Private {
         icon: StackingData.getOutcomeIcon(),
         outcomeDesc: "Eating with others",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/brazilians-eat-with-others/"      
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/brazilians-eat-with-others/"      
       },
       {
         "outcome": "Eating regular meals is important, especially for a growing baby.",
@@ -295,7 +295,7 @@ namespace Private {
         icon: StackingData.getOutcomeIcon(),
         outcomeDesc: "Tech, time, cost and other determinants of food choices",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/busy-lifestyles-impact/"      
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/busy-lifestyles-impact/"      
       },
     ],
     [BrazilQuestions.Groceries]: [
@@ -311,7 +311,7 @@ namespace Private {
         icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0].icon,
         outcomeDesc: "Locally grown food",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-locally/"
       },
       {
         "outcome": "Food is the responsibility of the whole family, so everyone should participate in this task. Dividing tasks when preparing food is important, makes work easier, and enables the family to cook healthy foods quickly.",
@@ -325,7 +325,7 @@ namespace Private {
         icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[1].icon,
         outcomeDesc: "Food marketing",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/food-marketing/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-marketing/"
       },
       {
         "outcome": "Ultra-processed foods (such as meat sold already seasoned with ultra-processed spice mix, sausages, nuggets, crackers, pastries, instant noodles, packet breads) are unhealthy and should not be part of children's diet.",
@@ -339,7 +339,7 @@ namespace Private {
         icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[2].icon,
         outcomeDesc: "Food Access",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/food-security/"
       },
       {
         "outcome": "Food is the responsibility of the whole family, so everyone should participate in this task. Dividing tasks when preparing food is important, makes work easier, and enables the family to cook healthy foods quickly.",
@@ -353,7 +353,7 @@ namespace Private {
         icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[3].icon,
         outcomeDesc: "shopping",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-retail/"
       }
     ],
     [BrazilQuestions.Dinner1]: [
@@ -369,7 +369,7 @@ namespace Private {
         icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[0].icon,
         outcomeDesc: "Fried foods",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/fried-food/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/fried-food/"
       }
     ],
     [BrazilQuestions.Dinner2]: [
@@ -385,7 +385,7 @@ namespace Private {
         icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[1].icon,
         outcomeDesc: "Fast food",
         outcomeType: OutcomeType.Healthcare,
-        link: "https://www.greenbrownblue.com/food-and-healthcare-explained/obesity-fast-food/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/obesity-fast-food/"
       }
     ],
     // Easter egg
@@ -414,7 +414,7 @@ namespace Private {
         icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Maria)[3].icon,
         outcomeDesc: "Cooking skills",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/cooking-skills/"
       }
     ],
     [BrazilQuestions.DinnerProtein]: [
@@ -430,7 +430,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[0][0].foodInfo.content,
         outcomeType: OutcomeType.Culture,
         outcomeDesc: "Locally grown food",
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-locally/"
       },
       {
         "outcome": "Be careful! If the tomato souce is fresh, this is just fine, but beef has a large carbon footprint and should be consumed with moderation.",
@@ -444,7 +444,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[0][1].foodInfo.content,
         outcomeDesc: "Carbon Footprint",
         outcomeType: OutcomeType.Climate,
-        link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/carbon-footprint/"
       },
       {
         "outcome": "Not a good choice...hot dogs are ultra-processed! They are not the best choice for Maria's health or the planet's health!",
@@ -458,7 +458,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[0][2].foodInfo.content,
         outcomeType: OutcomeType.Climate,
         outcomeDesc: "Carbon Footprint",
-        link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/carbon-footprint/"
       }
     ],
     [BrazilQuestions.DinnerGrains]: [
@@ -474,7 +474,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[1][0].foodInfo.content,
         outcomeDesc: "Whole grains",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-grain-meaning/"
       },
       {
         "outcome": "Brown rice is unprocessed and rich in fiber. You rock!",
@@ -488,7 +488,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[1][1].foodInfo.content,
         outcomeDesc: "Whole grains",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-grain-meaning/"
       },
       {
         "outcome": "Instant noodles are ultra-processed and unhealthy. They are an especially bad choice when eaten alone and not paired with healthier foods such as legumes and vegetables. ",
@@ -502,7 +502,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[1][2].foodInfo.content,
         outcomeDesc: "Instant noodles",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/instant-noodles-vs-spaghetti/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/instant-noodles-vs-spaghetti/"
       },
       {
         "outcome": "Pasta with sauce is fast and easy to make. Include vegetables in your sauce! Homemade tomato sauce is a healthy option.",
@@ -516,7 +516,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[1][3].foodInfo.content,
         outcomeDesc: "Cooking skills",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/cooking-skills/"
       }
     ],
     [BrazilQuestions.DinnerVeggies]: [
@@ -532,7 +532,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[2][0].foodInfo.content,
         outcomeDesc: "Locally grown food",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-locally/"
       },
       {
         "outcome": "Good choice! Remember that it is important corretly wash these leaves before eating.",
@@ -546,7 +546,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[2][1].foodInfo.content,
         outcomeType: OutcomeType.Healthcare,
         outcomeDesc: "Washing vegetables",
-        link: "https://www.greenbrownblue.com/food-and-healthcare-explained/washing-vegetables/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/washing-vegetables/"
       },
       {
         "outcome": "Ultra-processed foods should not be offered to children. Next time try to eat some fresh organic vegetables from the family's yard.",
@@ -560,7 +560,7 @@ namespace Private {
         icon: BrazilMariaPlateData.getItems()[2][2].foodInfo.content,
         outcomeDesc: "Saturated and trans fats",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/saturated-trans-fats/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/saturated-trans-fats/"
       }
     ]
   };
