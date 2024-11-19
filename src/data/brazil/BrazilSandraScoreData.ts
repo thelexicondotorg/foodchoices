@@ -37,7 +37,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[1].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Processed foods",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/minimally-processed-vs-processed/"
             },
             {
                 "outcome": "It is important to eat regularly and with attention.",
@@ -51,7 +51,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[2].icon,
                 outcomeDesc: "Blood sugar regulation",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/blood-sugar-levels/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/blood-sugar-levels/"
             },
             {
                 "outcome": "Good choice! Enjoy typical meals from brazilian culture.",
@@ -65,7 +65,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[3].icon,
                 outcomeDesc: "Whole Foods",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-foods-meaning/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-foods-meaning/"
             }
         ],
         [BrazilQuestions.Snacks1]: [
@@ -81,7 +81,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][0].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Sugar",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/sugar/"
             },
             {
                 "outcome": "Good choice! Make unprocessed and minimally processed foods the basis of your food.",
@@ -95,7 +95,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][1].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "vegetables and fruit",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-fruits/"
             },
             {
                 "outcome": "There is evidence that artificially sweetened beverages (ASBs) should not be promoted as part of a healthy diet. Higher intakes of ASBs have been associated with increased risk of some chronic diseases.",
@@ -109,7 +109,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][2].icon,
                 outcomeDesc: "Sugar",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/sugar/"
             },
             {
                 "outcome": "Not a good choice. The cracker and coffee sweetener are both ultra-processed foods. Natural, minimally processed foods are more healthy.",
@@ -123,7 +123,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][3].icon,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Coffee",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/coffee-impact/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/coffee-impact/"
             }
         ],
         [BrazilQuestions.Lunch1]: [
@@ -139,7 +139,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][0].icon,
                 outcomeDesc: "food diversity",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/diverse-diets/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/diverse-diets/"
             },
             {
                 "outcome": "Although fast food can be very convenient, it is ultraprocessed and usually unhealthy.",
@@ -153,7 +153,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][1].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "fast food",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/eating-fast-food/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/eating-fast-food/"
             },
             {
                 "outcome": "Good idea! Making meals from home and eating them at the office is often healthier and more affordable.",
@@ -167,7 +167,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][2].icon,
                 outcomeDesc: "Food skills",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/fewer-know-how-to-cook/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/fewer-know-how-to-cook/"
             },
             {
                 "outcome": "Eating less meat at a vegan restaurant is a good way to adopt environmentally friendly practices.",
@@ -181,7 +181,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0][3].icon,
                 outcomeDesc: "Meat alternatives",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/meat-alternatives/"
             }
         ],
         [BrazilQuestions.Lunch1Drinks]: [
@@ -197,7 +197,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[1][0].icon,
                 outcomeDesc: "Drinking water",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/safe-drinking-water/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/safe-drinking-water/"
             },
             {
                 "outcome": "Eating the whole fruit is the best way to get more fiber. Water is the best thing to drink when you are thirsty.",
@@ -211,7 +211,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[1][1].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Whole Foods",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-foods-meaning/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-foods-meaning/"
             },
             // Easter egg
             {
@@ -236,7 +236,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[1][3].icon,
                 outcomeDesc: "Drinking water",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/safe-drinking-water/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/safe-drinking-water/"
             }
         ],
         // Stacking
@@ -253,7 +253,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Eating with others",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"
             },
             {
                 "outcome": "There is some evidence that taking breaks at work to socialize and relax has mental health benefits, and may contribute to mindful eating practices.",
@@ -267,7 +267,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Eating with others",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"
             },
             {
                 "outcome": "Taking time to eat with others can help support mindful eating habits, and help you to recognize your body's cues that you are hungry or full.",
@@ -281,7 +281,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Mindful eating",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/mindful-eating-healthy-weight/"
             },
             {
                 "outcome": "A nutritious diet with variety is important. Skipping lunch increases the chance of snacking on unhealthy processed foods later.",
@@ -295,7 +295,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Mindful eating",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/mindful-eating-healthy-weight/"
             },
         ],
         [BrazilQuestions.Groceries]: [
@@ -311,7 +311,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0].icon,
                 outcomeDesc: "Shopping",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-retail/"
             },
             {
                 "outcome": "Shop in places that offer fresh or minimally processed varieties of food",
@@ -325,7 +325,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[1].icon,
                 outcomeDesc: "Food",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/grocery-stores-better-diets/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/grocery-stores-better-diets/"
             },
             {
                 "outcome": "It is best to shop in places that offer fresh or minimally processed varieties of food. It is better to share shopping and cooking responsibilities with all of the family.",
@@ -339,7 +339,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[2].icon,
                 outcomeDesc: "Shopping",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-retail/"
             },
             {
                 "outcome": "Shopping at the local farmers market is a good way to support local farmers.",
@@ -353,7 +353,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[3].icon,
                 outcomeDesc: "Shopping",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-retail/"
             }
         ],
         [BrazilQuestions.Dinner1]: [
@@ -369,7 +369,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[0].icon,
                 outcomeDesc: "fast food",
                 outcomeType: OutcomeType.Healthcare,
-                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/obesity-fast-food/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/obesity-fast-food/"
             }
         ],
         [BrazilQuestions.Dinner2]: [
@@ -385,7 +385,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[1].icon,
                 outcomeDesc: "Balanced meal",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/balanced-meal-importance/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/balanced-meal-importance/"
             }
         ],
         [BrazilQuestions.Dinner3]: [
@@ -401,7 +401,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[2].icon,
                 outcomeDesc: "fast food",
                 outcomeType: OutcomeType.Healthcare,
-                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/obesity-fast-food/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/obesity-fast-food/"
             }
         ],
         [BrazilQuestions.Dinner4]: [
@@ -417,7 +417,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Sandra)[3].icon,
                 outcomeDesc: "cooking skills",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/cooking-skills/"
             }
         ],
         [BrazilQuestions.DinnerProtein]: [
@@ -433,7 +433,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[0][0].foodInfo.content,
                 outcomeType: OutcomeType.Climate,
                 outcomeDesc: "Chicken",
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/chicken-beef/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/chicken-beef/"
             },
             {
                 "outcome": "Kassler, a traditional german dish, is a popular meat dish in Blumenau, the town where Sandra is from. Blumenau is one of the largest Germen descendent communities in Brazil. You should consume meat in moderation.",
@@ -447,7 +447,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[0][1].foodInfo.content,
                 outcomeDesc: "Dairy/Meat",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/dairy-meat-environment/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/dairy-meat-environment/"
             },
             {
                 "outcome": "Nice pick! Eating less meat its a good way to adopt environmentally friendly practices.",
@@ -461,7 +461,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[0][2].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Eggs",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/egg-environmental-impact/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/egg-environmental-impact/"
             },
             {
                 "outcome": "Sausage is often ultraprocessed. Read the label before you buy, and if you don't recognize many of the ingredients, it's most likely not very healthy.",
@@ -475,7 +475,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[0][3].foodInfo.content,
                 outcomeDesc: "Processed Foods",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/minimally-processed-vs-processed/"
             }
         ],
         [BrazilQuestions.DinnerGrains]: [
@@ -491,7 +491,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[1][0].foodInfo.content,
                 outcomeDesc: "Rice and methane",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/rice-climate-footprint/"
             },
             {
                 "outcome": "Ready to eat foods are often ultraprocessed. Read the label before you buy, and if you don't recognize many of the ingredients, it's most likely not very healthy.",
@@ -505,7 +505,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[1][1].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Food Choices",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/meat-alternatives/"
             },
             {
                 "outcome": "Good choice! Spaetzl, a traditional german dish, is a popular food in Blumenau, the city where Sandra is from. Blumenau is one of the largest Germen descendent communities in Brazil.",
@@ -519,7 +519,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[1][2].foodInfo.content,
                 outcomeDesc: "Noodles",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/dietary-guidelines-personal-health/#instant-noodles-vs-spaghetti"
+                link: "https://greenbrownblue.kinsta.cloud/dietary-guidelines-personal-health/#instant-noodles-vs-spaghetti"
             },
             {
                 "outcome": "Nice Pick! Boiled corn is minimally processed.",
@@ -533,7 +533,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[1][3].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Whole grain",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-grain-meaning/"
             }
         ],
         [BrazilQuestions.DinnerVeggies]: [
@@ -549,7 +549,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[2][0].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Leafy greens",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/which-vegetables/"
             },
             {
                 "outcome": "Sauerkraut is very healthy and full of nutrients such as Vitamin C.",
@@ -563,7 +563,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[2][1].foodInfo.content,
                 outcomeDesc: "Vegetables and fruit",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-fruits/"
             },
             {
                 "outcome": "Watch out! Eating your vegetable with an ultraprocessed sauce is less healthy. ",
@@ -577,7 +577,7 @@ namespace Private {
                 icon: BrazilSandraPlateData.getItems()[2][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Vegetables and fruit",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-fruits/"
             }
         ]
     };
