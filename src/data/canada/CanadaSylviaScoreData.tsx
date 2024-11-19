@@ -28,7 +28,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Climate,
                 outcomeDesc: "Carbon Footprint",
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/carbon-footprint/"
             },
             // easter egg
             {
@@ -52,7 +52,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Blood sugar regulator",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/blood-sugar-levels/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/blood-sugar-levels/"
             },
             {
                 "outcome": "In some global regions, coffee production has been associated with deforestation and poor working conditions. Make sure your coffee is sustainably produced!",
@@ -66,7 +66,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[3].icon,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Coffee Deforestation",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/coffee-impact/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/coffee-impact/"
             }
         ],
         [CanadaQuestions.Snacks1]: [
@@ -82,7 +82,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][0].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Food processing",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/minimally-processed-vs-processed/"
             },
             {
                 "outcome": "While yogurt in general is an excellent source of calcium, animal-sourced dairy yogurt might make a less climate-friendly snack choice.",
@@ -96,7 +96,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][1].icon,
                 outcomeType: OutcomeType.Climate,
                 outcomeDesc: "Dairy products",
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/dairy-climate/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/dairy-climate/"
             },
             {
                 "outcome": "While local food travels less to reach your table, generally resulting in a smaller carbon footprint and economic benefits for a local economy, strawberries are considered one of the 'Dirty Dozen' crops that are sprayed with the most pesticides. To learn more about the benefits of local food, get to know the farmers in your area to discover the types of farming practices they support!",
@@ -110,7 +110,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][2].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Pesticides",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/organic-vs-conventional/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/organic-vs-conventional/"
             },
             {
                 "outcome": "While not the largest contributor to greenhouse gas emissions, the 'food miles' on imported foods contributes upwards of 10% of the overall greenhouse gas emissions produced by foods. Buying local might help reduce these emissions.",
@@ -124,7 +124,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][3].icon,
                 outcomeType: OutcomeType.Climate,
                 outcomeDesc: "Local Food",
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/buy-local-climate/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/buy-local-climate/"
             }
         ],
         [CanadaQuestions.Snacks2]: [
@@ -140,7 +140,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1][0].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Sugary drinks",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/drink-less-soda/"
             },
             {
                 "outcome": "Most plastic water bottles are made from polyethylene terephthalate, which is comprised of non-renewable fossil fuels. Each year in the US alone, 38 billion water bottles end up in landfills. Reach for a reusable water bottle!",
@@ -154,7 +154,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1][1].icon,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Single-Use Plastic Bottles",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/plastic-waste/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/plastic-waste/"
             },
             {
                 "outcome": "In many areas where tap water can be safely consumed, it can be many times less expensive than bottled water alternatives, as well as having vastly fewer environmental and climate impacts.",
@@ -168,7 +168,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1][2].icon,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Drinking Tap Water",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/safe-drinking-water/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/safe-drinking-water/"
             },
             {
                 "outcome": "It takes more than 200L of water to prepare a single caffe latte, not to mention the environmental impact of 'to-go' cups that end up in the garbage.",
@@ -182,7 +182,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1][3].icon,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Water Usage and Consumer Waste",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/water-food-production/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/water-food-production/"
             }
         ],
         [CanadaQuestions.Lunch1]: [
@@ -198,7 +198,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][0].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Diet and Obesity",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/eating-fast-food/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/eating-fast-food/"
             },
             {
                 "outcome": "The retail environment in which we live and work can influence our food choices - bringing lunch from home can help!",
@@ -212,7 +212,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][1].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Retail environments",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-retail/"
             },
             // easter egg
             {
@@ -236,7 +236,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0][3].icon,
                 outcomeType: OutcomeType.Healthcare,
                 outcomeDesc: "Canada's Dietary Guidelines",
-                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-guide-canada/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/food-guide-canada/"
             }
         ],
         // Stacking
@@ -253,7 +253,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Mindful Eating",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/mindful-eating-healthy-weight/"
             },
             {
                 "outcome": "There is some evidence that taking breaks at work to socialize and relax provides an array of mental health benefits, and may even contribute to more mindful eating practices",
@@ -267,7 +267,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Mindful Eating",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/mindful-eating-healthy-weight/"
             },
             {
                 "outcome": "Taking time to eat with others can help support mindful eating habits, and help you to recognize your body's cues that you are hungry or full.",
@@ -281,7 +281,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Eating with others",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/brazilians-eat-with-others/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/brazilians-eat-with-others/"
             },
             {
                 "outcome": "Eating regular meals can help with blood sugar regulation, and can help from overeating at your next meal",
@@ -295,7 +295,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Busy lifestyles",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/busy-lifestyles-impact/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/busy-lifestyles-impact/"
             }
         ],
         [CanadaQuestions.Groceries]: [
@@ -311,7 +311,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Community Supported Agriculture",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/csas/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/csas/"
             },
             // easter egg
             {
@@ -335,7 +335,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Food Access",
-                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/food-security/"
             },
             {
                 "outcome": "1 in 5 Canadians have used a foodbank at some point in their lives, and almost 1 million use them every month, typically because they don't make enough money to cover their monthly expenses. Almost 1/3 of food bank users are children.",
@@ -349,7 +349,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[3].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Food Banks",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-banks/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-banks/"
             }
         ],
         [CanadaQuestions.Dinner1]: [
@@ -366,7 +366,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Whole Foods",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-foods-meaning/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-foods-meaning/"
             },
             // No 
             {
@@ -381,7 +381,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[0].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Whole Foods",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-foods-meaning/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-foods-meaning/"
             }
         ],
         [CanadaQuestions.Dinner2]: [
@@ -397,7 +397,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Cooking Skills",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/cooking-skills/"
             },
             // No
             {
@@ -412,7 +412,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[1].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Cooking Skills",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/cooking-skills/"
             }
         ],
         [CanadaQuestions.Dinner3]: [
@@ -428,7 +428,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Eating as a Family",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"
             },
             // No
             {
@@ -443,7 +443,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Canada, CanadaCharacters.Sylvia)[2].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Eating as a Family",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"
             }
         ],
         [CanadaQuestions.DinnerProtein]: [
@@ -459,7 +459,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[0][0].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Sustainable fishing",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/seafood-climate-change/"
             },
             {
                 "outcome": "Canada's Food Guide recommends plant-based proteins like beans and lentils as alternatives to animal-source proteins. These choices have benefits for health, the environment and the climate.",
@@ -473,7 +473,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[0][1].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Plant-forward Diet",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/plant-forward-diet/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/plant-forward-diet/"
             },
             {
                 "outcome": "Tofu is often used as a dairy-free alternative to animal-source proteins like beef, chicken and fish.",
@@ -487,7 +487,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[0][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Meat Alternative",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/meat-alternatives/"
             },
             {
                 "outcome": "While grass-fed beef can have a smaller climate impact than conventionally-raised grain fed beef, it depends on how the grasslands are managed. Grass-fed beef still has a higher climate impact than plant-based proteins.",
@@ -501,7 +501,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[0][3].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Dairy/ Meat",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/dairy-meat-environment/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/dairy-meat-environment/"
             },
             {
                 "outcome": "Ruminant meats like grain-fed cattle produce the highest levels of greenhouse gas emissions, with more than 10-times the impact of chicken, eggs or fish",
@@ -515,7 +515,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[0][4].foodInfo.content,
                 outcomeType: OutcomeType.Climate,
                 outcomeDesc: "Beef",
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/beef-climate-change/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/beef-climate-change/"
             }
         ],
         [CanadaQuestions.DinnerGrains]: [
@@ -531,7 +531,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[1][0].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Brown vs. White Rice",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-grain-meaning/"
             },
             {
                 "outcome": "Despite coming from a plant, rice makes a huge contribution to greenhouse gas emissions globally",
@@ -545,7 +545,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[1][1].foodInfo.content,
                 outcomeType: OutcomeType.Climate,
                 outcomeDesc: "Rice and Green House Gases",
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/rice-climate-footprint/"
             },
             {
                 "outcome": "Ultra-processed rice dishes are often high in sodium. Check the nutrition label of products to help you identify healthier options!",
@@ -559,7 +559,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[1][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Sodium",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/salt/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/salt/"
             },
             {
                 "outcome": "Wild rice is actually a species of grass that is native to North America. With more fibre than brown rice, it is a healthy whole-grain alternative!",
@@ -573,7 +573,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[1][3].foodInfo.content,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Indigenous Foods",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/indigenous-food/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/indigenous-food/"
             }
         ],
         [CanadaQuestions.DinnerVeggies]: [
@@ -589,7 +589,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[2][0].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Single-Use Plastics",
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/food-processing-climate/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/food-processing-climate/"
             },
             {
                 "outcome": "Pre-packaged french fries are often made from palm oil, which is harmful to health and the environment.",
@@ -603,7 +603,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[2][1].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Palm Oil",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/palm-oil/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/palm-oil/"
             },
             {
                 "outcome": "Only one-quarter of Canadians eat the recommended amount of fruits and vegetables, and leafy green consumption makes up only a small part despite its many nutritional benefits. Look for exciting types of dark greens varieties like spinach, kale, and arugula!",
@@ -617,7 +617,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[2][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Leafy Greens",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/which-vegetables/"
             },
             {
                 "outcome": "Cheese has a relatively large carbon footprint, as it is produced from dairy milk which has the same climate challenges as eating beef. Decreasing animal-source foods overall—not just meat but dairy and eggs too!—is likely to have a greater overall impact on reducing greenhosue gas emission than vegetarian diets that include milk and eggs!",
@@ -631,7 +631,7 @@ namespace Private {
                 icon: PlateDataCanada.getItems()[2][3].foodInfo.content,
                 outcomeType: OutcomeType.Climate,
                 outcomeDesc: "Carbon Footprint",
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/carbon-footprint/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/carbon-footprint/"
             }
         ]
     };
