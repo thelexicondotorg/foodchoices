@@ -24,7 +24,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0].icon,
                 outcomeDesc: "blood sugar regulation",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/blood-sugar-levels/"              
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/blood-sugar-levels/"              
             },
             {
                 "outcome": "Not all teabags are created the same. Nylon mesh teabags have been found to leech microplastic particles into tea water. Use loose leaf tea instead.",
@@ -38,7 +38,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Amena)[1].icon,
                 outcomeDesc: "plastics and packaging",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/plastic-waste/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/plastic-waste/"               
             },
             {
                 "outcome": "Infrequent meals can lead to insulin spikes and erratic blood sugar levels, which can affect alertness and energy",
@@ -52,7 +52,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Amena)[2].icon,
                 outcomeDesc: "Blood sugar regulation",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/blood-sugar-levels/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/blood-sugar-levels/"               
             },
             {
                 "outcome": "Foul Mudammas is a classic fava bean dish that's commonly eaten for breakfast in the Middle East. Products derived from animals, like cheese, require significantly more land to produce than protein-rich plant-based foods like fava beans.",
@@ -66,7 +66,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Nordics, NordicCharacters.Amena)[3].icon,
                 outcomeDesc: "Meat alternatives",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/meat-alternatives/"                
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/meat-alternatives/"                
             }
         ],
         [NordicQuestions.Snacks1]: [
@@ -82,7 +82,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][0].icon,
                 outcomeDesc: "unsaturated fat",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/saturated-trans-fats/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/saturated-trans-fats/"               
             },
             {
                 "outcome": "Fruit is an important source of dietary fiber, vitamins and fibre. Packing a piece of fruit for work is a perfect snack and can keep you going until lunchtime",
@@ -96,7 +96,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][1].icon,
                 outcomeDesc: "Micronutrients",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"              
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-nutrition/"              
             },
             {
                 "outcome": "Avoid making coffee from disposible capsules or buying coffee in a single use cup. Instead, try to make a habit of bringing your own resuable cup when heading to the coffee shop",
@@ -110,7 +110,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][2].icon,
                 outcomeDesc: "Processed foods",
                 outcomeType: OutcomeType.Climate,
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/food-processing-climate/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/food-processing-climate/"               
             },
             {
                 "outcome": "It's perfectly fine to not have a snack between breakfast and lunch. Fiber-rich breakfasts can help keep you feeling fuller longer, and help you to stay away from unhealthy snack foods between mealtimes",
@@ -124,7 +124,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][3].icon,
                 outcomeDesc: "Mindful eating",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/mindful-eating-healthy-weight/"               
             }
         ],
         [NordicQuestions.Lunch1]: [
@@ -140,7 +140,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][0].icon,
                 outcomeDesc: "Protein",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/plant-based-proteins/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/plant-based-proteins/"               
             },
             {
                 "outcome": "Dishes like this can help you to reach your daily intake of vegetables. According to the Danish dietary guidelines, you should be eating 300g of vegetables per day",
@@ -154,7 +154,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][1].icon,
                 outcomeDesc: "Dietary Guidelines",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/dietary-guidelines-importance/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/dietary-guidelines-importance/"               
             },
             {
                 "outcome": "Swapping the meat in lasagna for something plant-based is a healthy and more environmentally-friendly choice.",
@@ -168,7 +168,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][2].icon,
                 outcomeDesc: "Plant forward diet",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/plant-forward-diet/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/plant-forward-diet/"               
             },
             {
                 "outcome": "Vegan cheese, available in larger supermarket stores in Umeå where Amena lives, is made from coconut fat. Because it's vegan it has no dairy, and since animal products are associated with higher green-house gas emissions this is a better alternative from a climate perspective. Nutrition wise this cheese does not contain any protein so make sure you have proteins from other parts of your daily diet, for example by eating more pulses. This cheese come from the brand 'Astrid och aporna' and the product is called Jeezly original. The full list of ingredients: Water, coconut oil (23%), modified potato and corn starch, potato starch, sea salt, vegan flavorings, acidity regulators: (citric acid), preservative: (sorbic acid), dye: (beta carotene).",
@@ -182,7 +182,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0][3].icon,
                 outcomeDesc: "Green House Gas",
                 outcomeType: OutcomeType.Climate,
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/food-ghg/"              
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/food-ghg/"              
             }
         ],
         [NordicQuestions.Lunch1Drinks]: [
@@ -198,7 +198,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[1][0].icon,
                 outcomeDesc: "Drinking water",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/safe-drinking-water/"              
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/safe-drinking-water/"              
             },
             // easter egg
             {
@@ -222,7 +222,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[1][2].icon,
                 outcomeDesc: "Plastics and packaging",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/plastic-waste/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/plastic-waste/"
             },
             {
                 "outcome": "Keep a reusable bottle close to you throughout the day to keep you hydrated. Dehydration can cause headaches and dizziness.",
@@ -236,7 +236,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Nordics, NordicCharacters.Amena)[1][3].icon,
                 outcomeDesc: "Drinking water",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/safe-drinking-water/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/safe-drinking-water/"
             }
         ],
         [NordicQuestions.Dinner1]: [
@@ -252,7 +252,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Amena)[0].icon,
                 outcomeDesc: "Nordic Food Initiatives",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/nordic-diet-measures/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/nordic-diet-measures/"               
             }
         ],
         [NordicQuestions.Dinner2]: [
@@ -268,7 +268,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Amena)[1].icon,
                 outcomeDesc: "Chicken",
                 outcomeType: OutcomeType.Climate,
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/chicken-beef/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/chicken-beef/"               
             }
         ],
         // easter egg
@@ -297,7 +297,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Nordics, NordicCharacters.Amena)[3].icon,
                 outcomeDesc: "Nordic food",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/traditional-nordic-cuisine/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/traditional-nordic-cuisine/"               
             }
         ],
         [NordicQuestions.DinnerProtein]: [
@@ -313,7 +313,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[0][0].foodInfo.content,
                 outcomeDesc: "Beef",
                 outcomeType: OutcomeType.Climate,
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/beef-climate-change/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/beef-climate-change/"               
             },
             {
                 "outcome": "Products derived from animals, like cheese, require significantly more land to produce than protein-rich plant-based foods like fava beans.",
@@ -327,7 +327,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[0][1].foodInfo.content,
                 outcomeDesc: "Dairy",
                 outcomeType: OutcomeType.Climate,
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/dairy-climate/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/dairy-climate/"               
             },
             {
                 "outcome": "White fish, if sustainble sourced, is a good protein option.",
@@ -341,7 +341,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[0][2].foodInfo.content,
                 outcomeDesc: "Nordic food ",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/traditional-nordic-cuisine/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/traditional-nordic-cuisine/"               
             },
             {
                 "outcome": "Salmon, if sustainably sourced, is a healthy protein option that also provides a lot of good omega 3 fatty acids. If from aquaculture production however, be aware that sometimes the salmon may be fed on fishmeal (making it a very resource intense production) and sometimes the feed is soy which if not certified, is implicated in deforestation.",
@@ -355,7 +355,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[0][3].foodInfo.content,
                 outcomeDesc: "tofu",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/soybean-impact/"               
             }
         ],
         [NordicQuestions.DinnerGrains]: [
@@ -371,7 +371,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[1][0].foodInfo.content,
                 outcomeDesc: "Food marketing",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-marketing/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-marketing/"               
             },
             {
                 "outcome": "Buckwheat is a healthy grain that has seen a revival in the Nordics in the past 10 years.",
@@ -385,7 +385,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[1][1].foodInfo.content,
                 outcomeDesc: "Whole grains",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-grain-meaning/"               
             },
             {
                 "outcome": "Potato is culturally an important staple in the Nordics, and an important part of many traditional dishes. As the food culture is globalized, the Nordic population is however eating less and less potato.",
@@ -399,7 +399,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[1][2].foodInfo.content,
                 outcomeDesc: "Food marketing",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-marketing/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-marketing/"               
             },
             {
                 "outcome": "Whole grain bread has a lot of dietary fibers which promotes digestive health and is a healthy choice if you want to have a side-snack in your meal.",
@@ -413,7 +413,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[1][3].foodInfo.content,
                 outcomeDesc: "Whole grains",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-grain-meaning/"               
             }
         ],
         [NordicQuestions.DinnerVeggies]: [
@@ -429,7 +429,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[2][0].foodInfo.content,
                 outcomeDesc: "Leafy greens",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/which-vegetables/"               
             },
             {
                 "outcome": "Spinach is a good complement to other types of salad greens as it often includes more calcium, vintamin A and C and iron. During the summer spinach grows well also in the Nordic region.",
@@ -443,7 +443,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[2][1].foodInfo.content,
                 outcomeDesc: "Local food",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-locally/"               
             },
             {
                 "outcome": "Green peas are truly a great staple to have in the fridge. If you do, you can without much effort add some healthy vegetables to your meal. Because they are frozen, you might also reduce the risk of food waste since many other greens are more easily perishable when fresh.",
@@ -457,7 +457,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[2][2].foodInfo.content,
                 outcomeDesc: "Food waste",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-climate-explained/food-waste-climate/"               
+                link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/food-waste-climate/"               
             },
             {
                 "outcome": "Did you know that Fennel is a flowering plant species in the carrot family? This is a veggie that helps add a lot of flavour (anis-like) to any dish. It is seen as an important food  in the Nordic diet.",
@@ -471,7 +471,7 @@ namespace Private {
                 icon: NordicsAmenaPlateData.getItems()[2][3].foodInfo.content,
                 outcomeDesc: "Food diversity",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/diverse-diets/"              
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/diverse-diets/"              
             }
         ]
     };
