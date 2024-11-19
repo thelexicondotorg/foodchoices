@@ -40,7 +40,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[1].icon,
                 outcomeDesc: "Ultra-processed foods",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/minimally-processed-vs-processed/"
             },
             {
                 "outcome": "This breakfast is not the best choice as it is made up of ultra-processed food products.",
@@ -54,7 +54,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[2].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Ultra-processed foods",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/minimally-processed-vs-processed/"
             },
             // easter egg
             {
@@ -91,7 +91,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0][1].icon,
                 outcomeDesc: "Fried foods",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/fried-food/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/fried-food/"
             },
             {
                 "outcome": "Not a good choice. They are all ultra-processed foods, rich in sugar and fat. Low sodium does not make it a good food.",
@@ -105,7 +105,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0][2].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Sugar",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/sugar/"
             },
             {
                 "outcome": "Good choice! In Brazil, an important public policy called PNAE insures that students are served healthy meals under the supervision of trained nutritionists.",
@@ -119,7 +119,7 @@ namespace Private {
                 icon: MCQData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0][3].icon,
                 outcomeDesc: "Brazil food policy initiatives",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/pnae/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/pnae/"
             }
         ],
         [BrazilQuestions.Lunch1]: [
@@ -135,7 +135,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0][0].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Traditional Brazilian Food",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/prato-feito/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/prato-feito/"
             },
             {
                 "outcome": "Ultra-processed no! Beware of this choice. Light and diet foods are mostly ultra-processed products.",
@@ -149,7 +149,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0][1].icon,
                 outcomeDesc: "Diet and obesity",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/weight-gain/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/weight-gain/"
             },
             {
                 "outcome": "There's nothing ultra-processed on this plate. But there is no diversity either, right? Gabriel's plate could be more diverse and colorful",
@@ -163,7 +163,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0][2].icon,
                 outcomeDesc: "Diverse diet",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/diverse-diets/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/diverse-diets/"
             },
             // Easter egg
             {
@@ -190,7 +190,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[1][0].icon,
                 outcomeDesc: "soft drinks",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/drink-less-soda/"
             },
             {
                 "outcome": "Powdered juice, as well as soda, is ultra-processed and full of sugar, sodium, flavoring and coloring.",
@@ -204,7 +204,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[1][1].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "soft drinks",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/drink-less-soda/"
             },
             // Easter egg
             {
@@ -230,7 +230,7 @@ namespace Private {
                 icon: LunchData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[1][3].icon,
                 outcomeDesc: "Drinking water",
                 outcomeType: OutcomeType.Environment,
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/safe-drinking-water/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/safe-drinking-water/"
             }
         ],
         // Stacking
@@ -247,7 +247,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Eating with others",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"
             },
             {
                 "outcome": "Not a good choice. It is best to focus on your food during mealtime. ",
@@ -261,7 +261,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Mindful Eating",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/mindful-eating-healthy-weight/"
             },
             {
                 "outcome": "Not a good choice. It is best to focus on your food during mealtime. ",
@@ -275,7 +275,7 @@ namespace Private {
                 icon: StackingData.getOutcomeIcon(),
                 outcomeDesc: "Mindful Eating",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/mindful-eating-healthy-weight/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/mindful-eating-healthy-weight/"
             }
         ],
         [BrazilQuestions.Groceries]: [
@@ -291,7 +291,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "food skills",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/fewer-know-how-to-cook/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/fewer-know-how-to-cook/"
             },
             {
                 "outcome": "Hypermarkets often have prepackaged meals. It's a good idea to bring a grocery list and buy the freshest ingredients you can.",
@@ -305,7 +305,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[1].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "food skills",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/fewer-know-how-to-cook/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/fewer-know-how-to-cook/"
             },
             {
                 "outcome": "Family meals should be a responsability shared by the whole family, including Gabriel, not just done by Gabriel's mother.",
@@ -319,7 +319,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[2].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Shopping",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-retail/"
             },
             {
                 "outcome": "Online supermarkets are usually more expensive.",
@@ -333,7 +333,7 @@ namespace Private {
                 icon: SliderData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[3].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Shopping",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-retail/"
             }
         ],
         [BrazilQuestions.Dinner1]: [
@@ -349,7 +349,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0].icon,
                 outcomeDesc: "Fast food",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/foodservice-sector/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/foodservice-sector/"
             }
         ],
         // Easter egg
@@ -378,7 +378,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[2].icon,
                 outcomeType: OutcomeType.Culture,
                 outcomeDesc: "Cooking skills",
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/cooking-skills/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/cooking-skills/"
             }
         ],
         [BrazilQuestions.Dinner4]: [
@@ -394,7 +394,7 @@ namespace Private {
                 icon: YesNoSocialData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[3].icon,
                 outcomeDesc: "Fast food",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/eating-fast-food/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/eating-fast-food/"
             }
         ],
         [BrazilQuestions.DinnerProtein]: [
@@ -410,7 +410,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[0][0].foodInfo.content,
                 outcomeType: OutcomeType.Environment,
                 outcomeDesc: "Sustainable fishing",
-                link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/seafood-climate-change/"
             },
             {
                 "outcome": "Be careful! If the tomato souce is fresh, this is just fine. But about the beef... well... not everyday, OK?",
@@ -424,7 +424,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[0][1].foodInfo.content,
                 outcomeDesc: "Red meat",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/red-meat/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/red-meat/"
             },
             {
                 "outcome": "These chicken nuggets are fried and ultra-processed, and not very healthy.",
@@ -438,7 +438,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[0][2].foodInfo.content,
                 outcomeDesc: "Saturated and trans fats",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/saturated-trans-fats/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/saturated-trans-fats/"
             }
         ],
         [BrazilQuestions.DinnerGrains]: [
@@ -454,7 +454,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[1][0].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "whole grains",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-grain-meaning/"
             },
             {
                 "outcome": "Brown rice is unprocessed and rich in fibre. You rock!",
@@ -468,7 +468,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[1][1].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "whole grains",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/whole-grain-meaning/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/whole-grain-meaning/"
             },
             {
                 "outcome": "Instant noodles are an ultra-processed unhealthy meal that's high in refined carbohydrates and sodium.",
@@ -482,7 +482,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[1][2].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Instant noodles",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/instant-noodles-vs-spaghetti/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/instant-noodles-vs-spaghetti/"
             },
             {
                 "outcome": "When Gabriel's mom doesn't have much time to cook, she prepares pasta with Bolognese sauce.  Sauces that include more ingredients will provide Gabriel's family with better nutrition. Gabriel and his sister could work with their mother in the kitchen, making dishes that require more steps. When tasks are divided, no one gets overwhelmed.",
@@ -496,7 +496,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[1][3].foodInfo.content,
                 outcomeDesc: "Importance of Eating with others",
                 outcomeType: OutcomeType.Culture,
-                link: "https://www.greenbrownblue.com/food-and-culture-explained/brazilians-eat-with-others/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/brazilians-eat-with-others/"
             }
         ],
         [BrazilQuestions.DinnerVeggies]: [
@@ -512,7 +512,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[2][0].foodInfo.content,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Fruits and vegetables",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-fruits/"
             },
             {
                 "outcome": "Good choice! Make sure to wash the lettuce leaves before eating them to remove any dirt or food-borne illnesses.",
@@ -526,7 +526,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[2][1].foodInfo.content,
                 outcomeDesc: "Washing vegetables",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-healthcare-explained/washing-vegetables/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/washing-vegetables/"
             },
             {
                 "outcome": "Ultra-processed mayonnaise is bad for you.",
@@ -540,7 +540,7 @@ namespace Private {
                 icon: BrazilGabrielPlateData.getItems()[2][2].foodInfo.content,
                 outcomeDesc: "Ultra-processed foods",
                 outcomeType: OutcomeType.Health,
-                link: "https://www.greenbrownblue.com/food-and-health-explained/minimally-processed-vs-processed/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/minimally-processed-vs-processed/"
             }
         ]
     };
