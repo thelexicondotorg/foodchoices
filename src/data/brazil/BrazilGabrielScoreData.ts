@@ -26,7 +26,7 @@ namespace Private {
                 icon: TimeData.getQuestions(Region.Brazil, BrazilCharacters.Gabriel)[0].icon,
                 outcomeType: OutcomeType.Health,
                 outcomeDesc: "Balanced Meal",
-                link: "https://www.greenbrownblue.com/food-and-health-explained/balanced-meal-importance/"
+                link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/balanced-meal-importance/"
             },
             {
                 "outcome": "This meal is free of ultra-processed products. Sounds like a good choice!",
