@@ -29,7 +29,7 @@ namespace Private {
         icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0].icon,
         outcomeDesc: "Undernutrition",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/undernutrition-problem/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/undernutrition-problem/"
       },
       {
         "outcome": "Good source of micronutrients and affordable; although low in protein.",
@@ -43,7 +43,7 @@ namespace Private {
         icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[1].icon,
         outcomeDesc: "Micronutrients",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-nutrition/"
       },
       {
         "outcome": "Cheap and easy to prepare but lacking protein and micronutrients and high in fat and salt.",
@@ -57,7 +57,7 @@ namespace Private {
         icon: TimeData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[2].icon,
         outcomeDesc: "Instant Noodles",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/instant-noodles-vs-spaghetti/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/instant-noodles-vs-spaghetti/"
       },
       // Easter egg
       {
@@ -83,7 +83,7 @@ namespace Private {
         icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][0].icon,
         outcomeDesc: "Breastfeeding",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/breastfeeding-formulas/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/breastfeeding-formulas/"
       },
       {
         "outcome": "Dairy is an important source of protein and nutrients for young children, but also has a high GHG impact. Breastmilk is best for children under-two.",
@@ -97,7 +97,7 @@ namespace Private {
         icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][1].icon,
         outcomeDesc: "Protein and growth",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/protein-needs-in-children/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/protein-needs-in-children/"
       },
       // Easter egg
       {
@@ -122,7 +122,7 @@ namespace Private {
         icon: MCQData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][3].icon,
         outcomeDesc: "Sugar sweetened beverages",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/drink-less-soda/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/drink-less-soda/"
       }
     ],
     [IndonesiaQuestions.Lunch1]: [
@@ -138,7 +138,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][0].icon,
         outcomeDesc: "Tofu and tempeh",
         outcomeType: OutcomeType.Environment,
-        link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/soybean-impact/"
       },
       {
         "outcome": "In Indonesia, some types of fish (snapper, grouper) are at risk of overfishing. Aquaculture also has environmental issues related to fish feed, use of antibiotics and chemicals.",
@@ -152,7 +152,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][1].icon,
         outcomeDesc: "Sustainable fishing",
         outcomeType: OutcomeType.Environment,
-        link: "https://www.greenbrownblue.com/food-and-environment-explained/seafood-climate-change/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/seafood-climate-change/"
       },
       {
         "outcome": "Spinach is locally grown and does not require a lot of inputs; it is good source of micronutrients yet insufficient calories and protein on its own.",
@@ -166,7 +166,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][2].icon,
         outcomeDesc: "Leafy greens",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/which-vegetables/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/which-vegetables/"
       },
       {
         "outcome": "Although these are convenient and inexpensive, excess sugar is detrimental to health and growth, which replaces more nutrient dense foods especially for small children who eat smaller portions.",
@@ -180,7 +180,7 @@ namespace Private {
         icon: LunchData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0][3].icon,
         outcomeDesc: "Time, tech, determinants of food choices",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/busy-lifestyles-impact/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/busy-lifestyles-impact/"
       }
     ],
     [IndonesiaQuestions.LunchSnack]: [
@@ -196,7 +196,7 @@ namespace Private {
         icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][0].icon,
         outcomeDesc: "Sugar",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/sugar/"
       },
       {
         "outcome": "Though these crackers are made locally and inexpensive, they are very oily and provide very little nutrition",
@@ -210,7 +210,7 @@ namespace Private {
         icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][1].icon,
         outcomeDesc: "Food insecurity",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-choices-for-a-healthy-planet-explained/food-insecurity/"
+        link: "https://greenbrownblue.kinsta.cloud/food-choices-for-a-healthy-planet-explained/food-insecurity/"
       },
       {
         "outcome": "Excess sugar is detrimental to health and growth; it replaces more nutrient dense foods especially for small children who eat smaller portions. Juice packets also contribute to packaging waste",
@@ -224,7 +224,7 @@ namespace Private {
         icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][2].icon,
         outcomeDesc: "Sugar",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/sugar/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/sugar/"
       },
       {
         "outcome": "Good source of micronutrients; low cost and locally grown.",
@@ -238,7 +238,7 @@ namespace Private {
         icon: LunchSnackData.getQuestions(IndonesiaCharacters.Wulandari)[0][3].icon,
         outcomeDesc: "Micronutrients",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-nutrition/"
       }
     ],
     [IndonesiaQuestions.Groceries]: [
@@ -255,7 +255,7 @@ namespace Private {
         icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[0].icon,
         outcomeDesc: "Local foods",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-locally/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-locally/"
       },
       {
         "outcome": "Small shops stock more processed, packaged foods with very limited variety and a lack of fresh produce. It's a good place to meet your neighbors though!",
@@ -269,7 +269,7 @@ namespace Private {
         icon: SliderData.getQuestions(Region.Indonesia, IndonesiaCharacters.Wulandari)[1].icon,
         outcomeDesc: "Shopping",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/food-retail/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/food-retail/"
       },
       // easter egg
       {        
@@ -304,7 +304,7 @@ namespace Private {
         },
         outcomeDesc: "Food insecurity and health outcomes",
         outcomeType: OutcomeType.Healthcare,
-        link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/",
+        link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/food-security/",
         icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0].icon
       },
       // Easter egg
@@ -328,7 +328,7 @@ namespace Private {
         },
         outcomeType: OutcomeType.Health,
         outcomeDesc: "Protein and growth",
-        link: "https://www.greenbrownblue.com/food-and-health-explained/protein-needs-in-children/",
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/protein-needs-in-children/",
         icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[2].icon
       },
       {
@@ -342,7 +342,7 @@ namespace Private {
         },
         outcomeType: OutcomeType.Culture,
         outcomeDesc: "Food Insecurity and health outcomes",
-        link: "https://www.greenbrownblue.com/food-and-healthcare-explained/food-security/",
+        link: "https://greenbrownblue.kinsta.cloud/food-and-healthcare-explained/food-security/",
         icon: GroceriesShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[3].icon
       }
     ],
@@ -359,7 +359,7 @@ namespace Private {
         icon: FruitShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0][0].icon,
         outcomeType: OutcomeType.Health,
         outcomeDesc: "Micronutrients",
-        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-nutrition/"
       },
       {
         // Apple - Easter egg
@@ -383,7 +383,7 @@ namespace Private {
         icon: FruitShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0][2].icon,
         outcomeType: OutcomeType.Culture,
         outcomeDesc: "Indigenous foods",
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/indigenous-food/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/indigenous-food/"
       },
       {
         "outcome": "Good source of micronutrients, locally grown.",
@@ -397,7 +397,7 @@ namespace Private {
         icon: FruitShoppingData.getQuestions(IndonesiaCharacters.Wulandari)[0][3].icon,
         outcomeType: OutcomeType.Health,
         outcomeDesc: "Fruits and vegetables",
-        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-nutrition/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-nutrition/"
       }
     ],
     // Stacking
@@ -414,7 +414,7 @@ namespace Private {
         icon: StackingData.getOutcomeIcon(),
         outcomeDesc: "Eating with others",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"      
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"      
       },
       {
         "outcome": "Centia has less interaction and access to food choices.",
@@ -428,7 +428,7 @@ namespace Private {
         icon: StackingData.getOutcomeIcon(),
         outcomeDesc: "Eating with others",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/eating-together-2/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/eating-together-2/"
       }
     ],
     [IndonesiaQuestions.DinnerProtein]: [
@@ -444,7 +444,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[0][0].foodInfo.content,
         outcomeType: OutcomeType.Health,
         outcomeDesc: "Protein",
-        link: "https://www.greenbrownblue.com/food-and-health-explained/plant-based-proteins/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/plant-based-proteins/"
       },
       {
         "outcome": "Tofu is an affordable source of protein and has a low climate footprint; however imported tofu must be packaged and transported.",
@@ -458,7 +458,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[0][1].foodInfo.content,
         outcomeDesc: "Tofu",
         outcomeType: OutcomeType.Environment,
-        link: "https://www.greenbrownblue.com/food-and-environment-explained/soybean-impact/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/soybean-impact/"
       },
       {
         "outcome": "Eggs are a good source of protein and nutrition, but expensive to purchase for whole family.",
@@ -472,7 +472,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[0][2].foodInfo.content,
         outcomeType: OutcomeType.Environment,
         outcomeDesc: "Eggs",
-        link: "https://www.greenbrownblue.com/food-and-environment-explained/egg-environmental-impact/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/egg-environmental-impact/"
       }
     ],
     [IndonesiaQuestions.DinnerGrains]: [
@@ -488,7 +488,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[1][0].foodInfo.content,
         outcomeDesc: "Rice and methane",
         outcomeType: OutcomeType.Climate,
-        link: "https://www.greenbrownblue.com/food-and-climate-explained/rice-climate-footprint/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-climate-explained/rice-climate-footprint/"
       },
       {
         "outcome": "Processed noodles are low in fiber, protein and micronutrients. High consumption of staples come at the expense of nutrient diversity.",
@@ -502,7 +502,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[1][1].foodInfo.content,
         outcomeType: OutcomeType.Health,
         outcomeDesc: "Noodles",
-        link: "https://www.greenbrownblue.com/food-and-health-explained/instant-noodles-vs-spaghetti/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/instant-noodles-vs-spaghetti/"
       }
     ],
     [IndonesiaQuestions.DinnerVeggies]: [
@@ -518,7 +518,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[2][0].foodInfo.content,
         outcomeDesc: "Traditional foods",
         outcomeType: OutcomeType.Culture,
-        link: "https://www.greenbrownblue.com/food-and-culture-explained/indonesia-imported-processed-foods/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-culture-explained/indonesia-imported-processed-foods/"
       },
       {
         "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
@@ -532,7 +532,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[2][1].foodInfo.content,
         outcomeType: OutcomeType.Health,
         outcomeDesc: "Fruits and vegetables",
-        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-fruits/"
       },
       {
         "outcome": "Cassava leaves are highly nutritious and complement a balanced meal. It is a locally grown, inexpensive vegetable.",
@@ -546,7 +546,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[2][2].foodInfo.content,
         outcomeDesc: "Agrobiodiversity",
         outcomeType: OutcomeType.Environment,
-        link: "https://www.greenbrownblue.com/food-and-environment-explained/diversifying-diets/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-environment-explained/diversifying-diets/"
       },
       {
         "outcome": "Petai is indiginous to Indonesia and contain protein, vitamins and fiber.",
@@ -573,7 +573,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[2][4].foodInfo.content,
         outcomeDesc: "Fruits and vegetables",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-fruits/"
       },
       {
         "outcome": "Vegetables provide micronutrients and complement a balanced meal with enough protein.",
@@ -587,7 +587,7 @@ namespace Private {
         icon: IndonesiaWulandariPlateData.getItems()[2][5].foodInfo.content,
         outcomeDesc: "Fruits and vegetables",
         outcomeType: OutcomeType.Health,
-        link: "https://www.greenbrownblue.com/food-and-health-explained/vegetables-fruits/"
+        link: "https://greenbrownblue.kinsta.cloud/food-and-health-explained/vegetables-fruits/"
       }
     ]
   };
