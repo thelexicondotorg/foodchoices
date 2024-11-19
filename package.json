@@ -7,8 +7,8 @@
   "scripts": {
     "start": "node backend/server.js",
     "watch": "webpack --config=webpack/webpack.config.dev.js --watch",
-    "build:dev": "webpack --config=webpack/webpack.config.dev.js",
-    "build:prod": "webpack --config=webpack/webpack.config.prod.js"
+    "build:dev": "set NODE_OPTIONS=--openssl-legacy-provider && webpack --config=webpack/webpack.config.dev.js",
+    "build:prod": "set NODE_OPTIONS=--openssl-legacy-provider && webpack --config=webpack/webpack.config.prod.js"
   },
   "dependencies": {
     "@google-cloud/datastore": "^4.3.0",
